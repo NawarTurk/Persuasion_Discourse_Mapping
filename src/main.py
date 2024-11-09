@@ -1,0 +1,9 @@
+
+import os
+from utils.extract_partially_annotated_dataset import extract_partially_annotated_dataset
+from utils.populate_mock_DR import populate_mock_DR
+
+
+
+extract_partially_annotated_dataset()
+populate_mock_DR()
