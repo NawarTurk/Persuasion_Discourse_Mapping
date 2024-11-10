@@ -13,7 +13,7 @@ print([model['id'] for model in models['data']])
 
 '''
 
-key = "..."
+key = "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"
 
 openai.api_key = key
 
@@ -30,20 +30,20 @@ def get_discourse_relation(paragraph, prompt_template):
     return result
 
 
-### TEST ###
-prompt_template = """Analyze the following paragraph and identify its primary discourse relation.
-Choose the most relevant relation from this list:
-- Temporal: Indicates a time sequence (e.g., "then," "after").
-- Contingency: Shows causation or conditions (e.g., "because," "if").
-- Comparison: Highlights contrast or similarity (e.g., "however," "but").
-- Expansion: Adds additional, related information (e.g., "and," "also").
+# ### TEST ###
+# prompt_template = """Analyze the following paragraph and identify its primary discourse relation.
+# Choose the most relevant relation from this list:
+# - Temporal: Indicates a time sequence (e.g., "then," "after").
+# - Contingency: Shows causation or conditions (e.g., "because," "if").
+# - Comparison: Highlights contrast or similarity (e.g., "however," "but").
+# - Expansion: Adds additional, related information (e.g., "and," "also").
 
-Paragraph:
-"{paragraph}"
+# Paragraph:
+# "{paragraph}"
 
-Provide the discourse relation as a single label: Temporal, Contingency, Comparison, or Expansion.
-"""
+# Provide the discourse relation as a single label: Temporal, Contingency, Comparison, or Expansion.
+# """
 
-paragraph = "The company announced record profits this quarter; however, the CEO warned that economic uncertainty could impact future growth."
+# paragraph = "The company announced record profits this quarter; however, the CEO warned that economic uncertainty could impact future growth."
 
-print(get_discourse_relation(paragraph, prompt_template))
+# print(get_discourse_relation(paragraph, prompt_template))
