@@ -31,21 +31,21 @@
     "token_id": "5",
     "text": "The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have. In the tower, five men and women pull rhythmically on ropes attached to the same five bells that first sounded here in 1614.",
     "actual_DR_level2": "Synchronous",
-    "predicted_DR_level2": "Conjunction",
+    "predicted_DR_level2": "Synchronous",
     "test_token": "y"
   },
   "6": {
     "token_id": "6",
     "text": " A buffet breakfast was held in the museum, where food and drinks are banned to everyday visitors. Then, in the guests’ honor, the speedway hauled out four drivers, crews and even the official Indianapolis 500 announcer for a 10-lap exhibition race. ",
     "actual_DR_level2": "Asynchronous",
-    "predicted_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Concession",
     "test_token": "y"
   },
   "7": {
     "token_id": "7",
     "text": "Back downtown, the execs squeezed in a few meetings at the hotel before boarding the buses again.",
     "actual_DR_level2": "Asynchronous",
-    "predicted_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Conjunction",
     "test_token": "y"
   },
   "8": {
@@ -59,7 +59,7 @@
     "token_id": "9",
     "text": "The Artist has his routine. He spends his days sketching passers-by, or trying to. At night he returns to the condemned building he calls home.",
     "actual_DR_level2": "Asynchronous",
-    "predicted_DR_level2": "Synchronous",
+    "predicted_DR_level2": "Conjunction",
     "test_token": "y"
   },
   "10": {
@@ -115,7 +115,7 @@
     "token_id": "17",
     "text": "Now, though, enormous costs for earthquake relief will pile on top of outstanding costs for hurricane relief. “That obviously means that we won’t have enough for all of the emergencies that are now facing us, . . . ,” Mr. Fitzwater said. ",
     "actual_DR_level2": "Cause",
-    "predicted_DR_level2": "Cause",
+    "predicted_DR_level2": "Cause+SpeechAct",
     "test_token": "y"
   },
   "18": {
@@ -171,14 +171,14 @@
     "token_id": "25",
     "text": "There were no {sell} lists and the calendar is lightening up a bit. There’s light at the end of the tunnel for municipalities. ",
     "actual_DR_level2": "Cause+Belief",
-    "predicted_DR_level2": "Conjunction",
+    "predicted_DR_level2": "Cause",
     "test_token": "y"
   },
   "26": {
     "token_id": "26",
     "text": "“Maybe I’m a little stuffy, but I wouldn’t sell them,” sniffs Bob Machon, owner of Papa’s Sports Cards in Menlo Park, California.",
     "actual_DR_level2": "Cause+SpeechAct",
-    "predicted_DR_level2": "Manner",
+    "predicted_DR_level2": "Cause+SpeechAct",
     "test_token": "y"
   },
   "27": {

@@ -1,9 +1,9 @@
 import openai
+import config
 
 '''
 Name: openai
 Version: 0.28.0
-
 
 models = openai.Model.list()
 print([model['id'] for model in models['data']])
@@ -13,11 +13,11 @@ print([model['id'] for model in models['data']])
 
 '''
 
-key = "..."
+openai.api_key = config.OPENAI_API_KEY
+model_name = config.MODEL_NAME
 
-openai.api_key = key
 
-def get_gpt4_discourse_label(paragraph, prompt_template):
+def gpt_prompt_handler(paragraph, prompt_template):
     prompt = prompt_template.format(paragraph=paragraph)
 
     response = openai.ChatCompletion.create(
@@ -28,22 +28,3 @@ def get_gpt4_discourse_label(paragraph, prompt_template):
     result = response['choices'][0]['message']['content'].strip()
 
     return result
-
-
-# ### TEST ###
-# prompt_template = """Analyze the following paragraph and identify its primary discourse relation.
-# Choose the most relevant relation from this list:
-# - Temporal: Indicates a time sequence (e.g., "then," "after").
-# - Contingency: Shows causation or conditions (e.g., "because," "if").
-# - Comparison: Highlights contrast or similarity (e.g., "however," "but").
-# - Expansion: Adds additional, related information (e.g., "and," "also").
-
-# Paragraph:
-# "{paragraph}"
-
-# Provide the discourse relation as a single label: Temporal, Contingency, Comparison, or Expansion.
-# """
-
-# paragraph = "The company announced record profits this quarter; however, the CEO warned that economic uncertainty could impact future growth."
-
-# print(get_discourse_relation(paragraph, prompt_template))
