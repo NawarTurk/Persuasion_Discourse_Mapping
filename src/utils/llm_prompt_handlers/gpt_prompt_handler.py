@@ -13,11 +13,11 @@ print([model['id'] for model in models['data']])
 
 '''
 
-key = "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"
+key = "..."
 
 openai.api_key = key
 
-def get_discourse_relation(paragraph, prompt_template):
+def get_gpt4_discourse_label(paragraph, prompt_template):
     prompt = prompt_template.format(paragraph=paragraph)
 
     response = openai.ChatCompletion.create(

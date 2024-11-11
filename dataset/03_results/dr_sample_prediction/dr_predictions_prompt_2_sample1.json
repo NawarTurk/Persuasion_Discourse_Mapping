@@ -1,0 +1,240 @@
+{
+  "1": {
+    "token_id": "1",
+    "text": "Knowing a tasty – and free – meal when they eat one, the executives gave the chefs a standing ovation.",
+    "actual_DR_level2": "Synchronous",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "2": {
+    "token_id": "2",
+    "text": "The company is operating under Chapter 11 of the federal Bankruptcy Code, giving it court protection from creditors’ lawsuits while it attempts to work out a plan to pay its debts. ",
+    "actual_DR_level2": "Synchronous",
+    "predicted_DR_level2": "Purpose",
+    "test_token": "y"
+  },
+  "3": {
+    "token_id": "3",
+    "text": "Then, in late-afternoon trading, hundred-thousand-share buy orders for UAL hit the market, including a 200,000-share order through Bear Stearns that seemed to spark UAL’s late price surge. Almost simultaneously, PaineWebber began a very visible buy program for dozens of stocks.",
+    "actual_DR_level2": "Synchronous",
+    "predicted_DR_level2": "Synchronous",
+    "test_token": "y"
+  },
+  "4": {
+    "token_id": "4",
+    "text": "But as the fright began to spread through the S&P pit, the big brokerage firms came in and bought futures aggressively.",
+    "actual_DR_level2": "Synchronous",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "5": {
+    "token_id": "5",
+    "text": "The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have. In the tower, five men and women pull rhythmically on ropes attached to the same five bells that first sounded here in 1614.",
+    "actual_DR_level2": "Synchronous",
+    "predicted_DR_level2": "Conjunction",
+    "test_token": "y"
+  },
+  "6": {
+    "token_id": "6",
+    "text": " A buffet breakfast was held in the museum, where food and drinks are banned to everyday visitors. Then, in the guests’ honor, the speedway hauled out four drivers, crews and even the official Indianapolis 500 announcer for a 10-lap exhibition race. ",
+    "actual_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Asynchronous",
+    "test_token": "y"
+  },
+  "7": {
+    "token_id": "7",
+    "text": "Back downtown, the execs squeezed in a few meetings at the hotel before boarding the buses again.",
+    "actual_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Asynchronous",
+    "test_token": "y"
+  },
+  "8": {
+    "token_id": "8",
+    "text": "Output will be gradually increased until it reaches about 11,000 barrels a day.",
+    "actual_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Purpose",
+    "test_token": "y"
+  },
+  "9": {
+    "token_id": "9",
+    "text": "The Artist has his routine. He spends his days sketching passers-by, or trying to. At night he returns to the condemned building he calls home.",
+    "actual_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Synchronous",
+    "test_token": "y"
+  },
+  "10": {
+    "token_id": "10",
+    "text": "William Gates and Paul Allen in 1975 developed an early language-housekeeper system for PCs, and Gates became an industry billionaire six years after IBM adapted one of these versions in 1981.",
+    "actual_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "11": {
+    "token_id": "11",
+    "text": "John D. Carney, 45, was named to succeed Mr. Hatch as president of Eastern Edison. Previously he was vice president of Eastern Edison. ",
+    "actual_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Instantiation",
+    "test_token": "y"
+  },
+  "12": {
+    "token_id": "12",
+    "text": "Pressed on the matter, he is more specific",
+    "actual_DR_level2": "Asynchronous",
+    "predicted_DR_level2": "Instantiation",
+    "test_token": "y"
+  },
+  "13": {
+    "token_id": "13",
+    "text": "Runways at San Francisco weren’t damaged, but traffic was being limited yesterday to 27 arrivals and 27 departures an hour – down from 33 to 45 an hour normally – mainly because the noise level in the control tower was overwhelming without the windows, an FAA spokeswoman said.",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "14": {
+    "token_id": "14",
+    "text": "But service on the line is expected to resume by noon today.  “We had no serious damage on the railroad,” said a Southern Pacific spokesman. ",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Cause+SpeechAct",
+    "test_token": "y"
+  },
+  "15": {
+    "token_id": "15",
+    "text": "y 11:59 p.m. tonight, President Bush must order $16 billion of automatic, across-the-board cuts in gov- ernment spending to comply with the Gramm-Rudman budget law. The cuts are necessary because Congress and the administration have failed to reach agreement on a deficit-cutting bill.",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "16": {
+    "token_id": "16",
+    "text": "The bill would then declare that the debt is equity and therefore isn’t deductible.",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Equivalence",
+    "test_token": "y"
+  },
+  "17": {
+    "token_id": "17",
+    "text": "Now, though, enormous costs for earthquake relief will pile on top of outstanding costs for hurricane relief. “That obviously means that we won’t have enough for all of the emergencies that are now facing us, . . . ,” Mr. Fitzwater said. ",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "18": {
+    "token_id": "18",
+    "text": "“We are going to explode lower,” says the flamboyant market seer, ...Anyone telling you to buy stocks in this market is technically irresponsible. ",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Cause+SpeechAct",
+    "test_token": "y"
+  },
+  "19": {
+    "token_id": "19",
+    "text": "that Banco Exterior may have waited too long to diversify from its traditional export-related activities.",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Condition",
+    "test_token": "y"
+  },
+  "20": {
+    "token_id": "20",
+    "text": "Friday’s stock market sell-off came too late for many investors to act. ",
+    "actual_DR_level2": "Cause",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "21": {
+    "token_id": "21",
+    "text": "With this sort of sentiment common, it’s natural for investors to seek out “defensive” investment.",
+    "actual_DR_level2": "Cause+Belief",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "22": {
+    "token_id": "22",
+    "text": "The nations of southern Africa know a lot about managing elephants; their herds are thriv- ing.",
+    "actual_DR_level2": "Cause+Belief",
+    "predicted_DR_level2": "Conjunction",
+    "test_token": "y"
+  },
+  "23": {
+    "token_id": "23",
+    "text": "And until last Friday, it seemed those efforts were starting to pay off. “Some of those folks were coming back,” says Leslie Quick Jr., chairman, of discount brokers Quick & Reilly Group Inc.",
+    "actual_DR_level2": "Cause+Belief",
+    "predicted_DR_level2": "Cause+SpeechAct",
+    "test_token": "y"
+  },
+  "24": {
+    "token_id": "24",
+    "text": "Kellogg suspended work on a $1 billion cereal plant, indicating a pessimistic outlook by the cereal maker, which has been losing market share.",
+    "actual_DR_level2": "Cause+Belief",
+    "predicted_DR_level2": "Cause",
+    "test_token": "y"
+  },
+  "25": {
+    "token_id": "25",
+    "text": "There were no {sell} lists and the calendar is lightening up a bit. There’s light at the end of the tunnel for municipalities. ",
+    "actual_DR_level2": "Cause+Belief",
+    "predicted_DR_level2": "Conjunction",
+    "test_token": "y"
+  },
+  "26": {
+    "token_id": "26",
+    "text": "“Maybe I’m a little stuffy, but I wouldn’t sell them,” sniffs Bob Machon, owner of Papa’s Sports Cards in Menlo Park, California.",
+    "actual_DR_level2": "Cause+SpeechAct",
+    "predicted_DR_level2": "Manner",
+    "test_token": "y"
+  },
+  "27": {
+    "token_id": "27",
+    "text": "I’ve seen a great many moviestar film portraits, and this one is outstanding.",
+    "actual_DR_level2": "Cause+SpeechAct",
+    "predicted_DR_level2": "Equivalence",
+    "test_token": "y"
+  },
+  "28": {
+    "token_id": "28",
+    "text": "Surviving scandal has become a rite of political passage at a time when a glut of scandal has blunted this town’s sensibility. Let the president demand strict new ethics rules.",
+    "actual_DR_level2": "Cause+SpeechAct",
+    "predicted_DR_level2": "Purpose",
+    "test_token": "y"
+  },
+  "29": {
+    "token_id": "29",
+    "text": "Call Jim Wright‘s office in downtown Fort Worth, Texas, these days and the receptionist still answers the phone, “Speaker Wright‘s office.”",
+    "actual_DR_level2": "Condition",
+    "predicted_DR_level2": "Conjunction",
+    "test_token": "y"
+  },
+  "30": {
+    "token_id": "30",
+    "text": "but he’s still yelling: “I find myself explaining anything to Teddy Kennedy,  you’ll be chasing stolen cars in Anchorage”",
+    "actual_DR_level2": "Condition",
+    "predicted_DR_level2": "Cause+SpeechAct",
+    "test_token": "y"
+  },
+  "31": {
+    "token_id": "31",
+    "text": "But some bond market analysts said that could quickly change if property casualty insurance companies scramble to sell portions of their municipal portfolios to raise cash to pay damage claims.",
+    "actual_DR_level2": "Condition",
+    "predicted_DR_level2": "Condition",
+    "test_token": "y"
+  },
+  "32": {
+    "token_id": "32",
+    "text": "Trade and Industry Secretary Nicholas Ridley told the House of Commons yesterday that he will relinquish the government’s so-called golden share in the company] as long as Jaguar shareholders agree.",
+    "actual_DR_level2": "Condition",
+    "predicted_DR_level2": "Condition",
+    "test_token": "y"
+  },
+  "33": {
+    "token_id": "33",
+    "text": "Had the contest gone a full seven games, ABC could have reaped an extra $10 million in ad sales on the seventh game alone.",
+    "actual_DR_level2": "Condition",
+    "predicted_DR_level2": "Condition",
+    "test_token": "y"
+  },
+  "34": {
+    "token_id": "34",
+    "text": "At the same time, though, it must become more structured to better manage its growth.",
+    "actual_DR_level2": "Condition",
+    "predicted_DR_level2": "Purpose",
+    "test_token": "y"
+  }
+}
