@@ -5,6 +5,7 @@ from prompts.prompt_templates import get_prompt
 from utils.llm_prompt_handlers.gpt_prompt_handler import gpt_prompt_handler
 from utils.llm_prompt_handlers.gemini_prompt_handler import gemini_prompt_handler
 from utils.llm_prompt_handlers.claude_prompt_handler import claude_prompt_handler
+from datetime import datetime
 
 import config
 
@@ -31,7 +32,8 @@ else:
 def populate_dr_predictions():
     print(f"\n\nStarting DR predictions for samples with prompt '{prompt_key} and parser {parser.__name__}'...")
 
-    output_file = os.path.join(dataset_path, "03_results", "dr_sample_prediction", f"dr_predictions_{prompt_key}_sample1_{parser.__name__}.json")
+    date = datetime.now().strftime('%A_%m_%d_%H')
+    output_file = os.path.join(dataset_path, "03_results", "prompt_model_DR_tests", f"{prompt_key}_{model_name}_{date}.json")
 
     with open(input_file, 'r', encoding='utf-8') as jsonfile:
         dr_data_samples = json.load(jsonfile)

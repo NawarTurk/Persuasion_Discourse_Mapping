@@ -1,0 +1,56 @@
+{
+  "1": {
+    "token_id": "1",
+    "text": "Knowing a tasty – and free – meal when they eat one, the executives gave the chefs a standing ovation.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "cause",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "2": {
+    "token_id": "2",
+    "text": "The company is operating under Chapter 11 of the federal Bankruptcy Code, giving it court protection from creditors’ lawsuits while it attempts to work out a plan to pay its debts. ",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "purpose",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "3": {
+    "token_id": "3",
+    "text": "For Ms. Cunningham the architectural discombobulation matched the discrepancy she felt living in the AnaMor Towers as a little girl.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "similarity",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "4": {
+    "token_id": "4",
+    "text": "Then, in late-afternoon trading, hundred-thousand-share buy orders for UAL hit the market, including a 200,000-share order through Bear Stearns that seemed to spark UAL’s late price surge. Almost simultaneously, PaineWebber began a very visible buy program for dozens of stocks.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "synchronous",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "5": {
+    "token_id": "5",
+    "text": "But as the fright began to spread through the S&P pit, the big brokerage firms came in and bought futures aggressively.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "cause",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "6": {
+    "token_id": "6",
+    "text": "Turned loose in Shane Longman’s trading room, the yuppie dealers do little right.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "conjunction",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  }
+}
