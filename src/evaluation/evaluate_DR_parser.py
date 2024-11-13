@@ -3,7 +3,7 @@ import os
 import json
 from utils.pt_dr_getters import get_DR_id_by_name
 import warnings
-from sklearn.metrics import f1_score, classification_report
+from sklearn.metrics import f1_score, classification_report, accuracy_score
 from sklearn.exceptions import UndefinedMetricWarning
 
 
@@ -27,6 +27,8 @@ def evaluate_DR_parser_with_f1():
                 f1_macro = f1_score(dr_true, dr_pred, average='macro')
                 f1_micro = f1_score(dr_true, dr_pred, average='micro')
                 f1_weighted = f1_score(dr_true, dr_pred, average='weighted')
+                accuracy = accuracy_score(dr_true, dr_pred)
+
 
                 report = classification_report(dr_true, dr_pred, digits=3)
 
@@ -34,6 +36,7 @@ def evaluate_DR_parser_with_f1():
                 output_content += f"F1 Macro: {f1_macro:.3f}\n"
                 output_content += f"F1 Micro: {f1_micro:.3f}\n"
                 output_content += f"F1 Weighted: {f1_weighted:.3f}\n\n"
+                output_content += f"Accuracy: {accuracy:.3f}\n\n"
                 output_content += "Classification Report:\n"
                 output_content += report
 

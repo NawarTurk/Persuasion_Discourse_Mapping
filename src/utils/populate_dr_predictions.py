@@ -17,16 +17,19 @@ delay = config.PROCESSING_DELAY_SECONDS
 
 if parser_id == 1:
     parser = gpt_prompt_handler
+    model_name = config.OPENAI_MODEL_NAME
 elif parser_id == 2:
     parser = gemini_prompt_handler
+    model_name = config.GEMINI_MODEL_NAME
 elif parser_id == 3:
     parser = claude_prompt_handler
+    model_name = config.CLAUDE_MODEL_NAME
 else:
     print("Wrong parser id in config... ")
 
 
 def populate_dr_predictions():
-    print(f"\n\nStarting DR predictions for samples with prompt '{prompt_key} and parser {parser.__name__}'...")  # Start print
+    print(f"\n\nStarting DR predictions for samples with prompt '{prompt_key} and parser {parser.__name__}'...")
 
     output_file = os.path.join(dataset_path, "03_results", "dr_sample_prediction", f"dr_predictions_{prompt_key}_sample1_{parser.__name__}.json")
 
@@ -35,12 +38,17 @@ def populate_dr_predictions():
     
     prompt_template = get_prompt(prompt_key)
 
+    print('\nParser: ', parser.__name__, 'Model Name: ', model_name)
+
     for sample_id, sample in dr_data_samples.items():
-        paragrapgh = sample['text']
-        print(sample_id)
-        dr_prediction = parser(paragrapgh, prompt_template)
-        print('the prediction is ...')
-        print(dr_prediction)
+        paragraph = sample['text']
+
+        print('\nSample #: ', sample_id)
+        actual_DR_level2 = sample['actual_DR_level2']
+        print('The actual DR label is: '.ljust(30), actual_DR_level2.rjust(20))
+
+        dr_prediction = parser(paragraph, prompt_template).lower()
+        print('The prediction is: '.ljust(30), dr_prediction.rjust(20), '\n')
         sample['predicted_DR_level2'] = dr_prediction
 
         time.sleep(delay)

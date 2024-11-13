@@ -9,6 +9,5 @@ genai.configure(api_key=api_key)
 def gemini_prompt_handler(paragraph, prompt_template):
     prompt = prompt_template.format(paragraph=paragraph)
     model = genai.GenerativeModel(model_name)
-    print(model_name)
-    response = model.generate_content('what gemini model i can use for api calls   just lisy me hem i know there is gemini-1.5-flash  wahtelse')
+    response = model.generate_content(prompt)
     return (response.text)
