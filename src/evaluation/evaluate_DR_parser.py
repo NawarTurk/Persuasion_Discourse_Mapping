@@ -10,7 +10,7 @@ from sklearn.exceptions import UndefinedMetricWarning
 
 warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 
-dataset_path = os.path.join("..", "dataset", "03_results", "dr_sample_prediction")
+dataset_path = os.path.join("..", "dataset", "03_results", "prompt_model_DR_tests")
 
 def evaluate_DR_parser_with_f1(): 
     for filename in os.listdir(dataset_path):

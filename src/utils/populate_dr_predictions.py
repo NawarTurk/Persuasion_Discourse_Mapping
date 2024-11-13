@@ -1,10 +1,10 @@
 import json
 import os
 import time
-from prompts.prompt_templates import get_prompt
 from utils.llm_prompt_handlers.gpt_prompt_handler import gpt_prompt_handler
 from utils.llm_prompt_handlers.gemini_prompt_handler import gemini_prompt_handler
 from utils.llm_prompt_handlers.claude_prompt_handler import claude_prompt_handler
+from prompts.prompt_template_getter import get_prompt_template
 from datetime import datetime
 
 import config
@@ -30,7 +30,8 @@ else:
 
 
 def populate_dr_predictions():
-    print(f"\n\nStarting DR predictions for samples with prompt '{prompt_key} and parser {parser.__name__}'...")
+    print(f"\n\nStarting DR predictions for the PDTB sample data")
+    print(f'using {parser.__name__} parser, Model Name: , {model_name}')
 
     date = datetime.now().strftime('%A_%m_%d_%H')
     output_file = os.path.join(dataset_path, "03_results", "prompt_model_DR_tests", f"{prompt_key}_{model_name}_{date}.json")
@@ -38,9 +39,11 @@ def populate_dr_predictions():
     with open(input_file, 'r', encoding='utf-8') as jsonfile:
         dr_data_samples = json.load(jsonfile)
     
-    prompt_template = get_prompt(prompt_key)
+    prompt_template = get_prompt_template(prompt_key)
 
-    print('\nParser: ', parser.__name__, 'Model Name: ', model_name)
+    print("\n______The Prompt Template_____")
+    print(prompt_template)
+    print("______________________________\n")
 
     for sample_id, sample in dr_data_samples.items():
         paragraph = sample['text']

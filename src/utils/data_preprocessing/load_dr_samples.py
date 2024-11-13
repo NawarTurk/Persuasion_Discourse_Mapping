@@ -11,7 +11,7 @@ def load_dr_data_from_csv():
     data_dict = {}
     sample_index = 1
 
-    print("Starting to load data from CSV file...")
+    print("\nStarting to load data from CSV file...")
 
     with open(file_path, mode='r', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
