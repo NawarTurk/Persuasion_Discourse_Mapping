@@ -14,7 +14,7 @@ print([model['id'] for model in models['data']])
 '''
 
 openai.api_key = config.OPENAI_API_KEY
-model_name = config.MODEL_NAME
+model_name = config.OPENAI_MODEL_NAME
 
 
 def gpt_prompt_handler(paragraph, prompt_template):

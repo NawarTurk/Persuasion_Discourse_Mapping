@@ -10,8 +10,10 @@ import config
 
 dataset_path = os.path.join("..","dataset")
 input_file = os.path.join(dataset_path, "02_processed_data", "dr_actual_labels_sample1.json")
+
 prompt_key = config.PROMPT_KEY
 parser_id = config.PARSER_ID
+delay = config.PROCESSING_DELAY_SECONDS
 
 if parser_id == 1:
     parser = gpt_prompt_handler
@@ -23,7 +25,7 @@ else:
     print("Wrong parser id in config... ")
 
 
-def populate_dr_predictions(delay =3):
+def populate_dr_predictions():
     print(f"\n\nStarting DR predictions for samples with prompt '{prompt_key} and parser {parser.__name__}'...")  # Start print
 
     output_file = os.path.join(dataset_path, "03_results", "dr_sample_prediction", f"dr_predictions_{prompt_key}_sample1_{parser.__name__}.json")
