@@ -397,7 +397,7 @@
   },
   "45": {
     "token_id": "45",
-    "text": "Trade and Industry Secretary Nicholas Ridley told the House of Commons yesterday that he will relinquish the government’s so-called golden share in the company] as long as Jaguar shareholders agree.",
+    "text": "Trade and Industry Secretary Nicholas Ridley told the House of Commons yesterday that he will relinquish the government’s so-called golden share in the company as long as Jaguar shareholders agree.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "condition",
     "predicted_DR_level2": null,
@@ -955,7 +955,7 @@
   },
   "107": {
     "token_id": "107",
-    "text": "And regional offices were “egregiously overstaffed,” he claims. One office had 19 people doing the work of three, . . .\n108,Expansion.Level-of-detail.Arg1-as-detail,Expansion,Level-of-detail,Arg1-as-detail,y,Many modern scriptwriters seem to be incapable of writing drama",
+    "text": "And regional offices were “egregiously overstaffed,” he claims. One office had 19 people doing the work of three, . . . ",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "instantiation",
     "predicted_DR_level2": null,
@@ -963,6 +963,15 @@
     "actual_DR_level3": "arg2-as-instance"
   },
   "108": {
+    "token_id": "108",
+    "text": "Many modern scriptwriters seem to be incapable of writing drama, or anything else, without foul-mouthed cursing. Sex and violence are routinely included even when they are irrelevant to the script, and high-tech special effects are continually substituted for good plot and character development. In short, we have a movie and television industry that is either incapable or petrified of making a movie unless it carries a PG-13 or R rating. ",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "level-of-detail",
+    "predicted_DR_level2": null,
+    "test_token": "y",
+    "actual_DR_level3": "arg1-as-detail"
+  },
+  "109": {
     "token_id": "109",
     "text": "...expanding the monthly reports on program trading to cover specific days or even hours of heavy program trading and who was doing it.",
     "actual_DR_level1": "expansion",
@@ -971,7 +980,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-detail"
   },
-  "109": {
+  "110": {
     "token_id": "110",
     "text": "A Lorillard spokewoman said, “This is an old story. Were talking about years ago before anyone heard of asbestos having any questionable properties.”",
     "actual_DR_level1": "expansion",
@@ -980,7 +989,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-detail"
   },
-  "110": {
+  "111": {
     "token_id": "111",
     "text": "First came his predictable fusillade: He charged the Coalition of the Left and Progress had sold out its leftist tenets by collaborating in a right-wing plot . . . .",
     "actual_DR_level1": "expansion",
@@ -989,7 +998,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-detail"
   },
-  "111": {
+  "112": {
     "token_id": "112",
     "text": "He now runs Policy Communications in Washington, consulting to media companies.",
     "actual_DR_level1": "expansion",
@@ -998,7 +1007,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-detail"
   },
-  "112": {
+  "113": {
     "token_id": "113",
     "text": "An enormous turtle has succeeded where the government has failed: He has made speaking Filipino respectable.",
     "actual_DR_level1": "expansion",
@@ -1007,7 +1016,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-detail"
   },
-  "113": {
+  "114": {
     "token_id": "114",
     "text": "McCaw is offering $125 a share for 22 million LIN shares, thereby challenging LIN’s proposal to spin off its television properties, pay shareholders a $20-a-share special dividend and combine its cellular-telephone operations with BellSouth’s cellular business.",
     "actual_DR_level1": "expansion",
@@ -1016,16 +1025,16 @@
     "test_token": "y",
     "actual_DR_level3": "arg1-as-manner"
   },
-  "114": {
+  "115": {
     "token_id": "115",
-    "text": "Long-debated proposals to simplify the more than 150 civil penalties (Implicit=thereby) and make them fairer and easier to administer are in the House tax b",
+    "text": "Long-debated proposals to simplify the more than 150 civil penalties and make them fairer and easier to administer are in the House tax b",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "manner",
     "predicted_DR_level2": null,
     "test_token": "y",
     "actual_DR_level3": "arg1-as-manner"
   },
-  "115": {
+  "116": {
     "token_id": "116",
     "text": "Taking a cue from California, more politicians will launch their campaigns by backing initiatives, says David Magleby of Brigham Young University.",
     "actual_DR_level1": "expansion",
@@ -1034,7 +1043,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-manner"
   },
-  "116": {
+  "117": {
     "token_id": "117",
     "text": "The first hybrid corn seeds produced using this mechanical approach were introduced in the 1930s and they yielded as much as 20% more corn than naturally pollinated plants.",
     "actual_DR_level1": "expansion",
@@ -1043,7 +1052,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-manner"
   },
-  "117": {
+  "118": {
     "token_id": "118",
     "text": " In China, a great number of workers are engaged in pulling out the male organs of rice plants using tweezers.",
     "actual_DR_level1": "expansion",
@@ -1052,7 +1061,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-manner"
   },
-  "118": {
+  "119": {
     "token_id": "119",
     "text": "Without P&G’s backing, Noxell might not have been able to spend the estimated $5 million to $7 million needed to accomplish that without scrimping on its existing brands.",
     "actual_DR_level1": "expansion",
@@ -1061,7 +1070,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-manner"
   },
-  "119": {
+  "120": {
     "token_id": "120",
     "text": "Eliminate arbitrage and liquidity will decline instead of rising, creating more volatility instead of less.",
     "actual_DR_level1": "expansion",
@@ -1070,7 +1079,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg1-as-subst"
   },
-  "120": {
+  "121": {
     "token_id": "121",
     "text": "Rather than sell 39-cents-a-pound Delicious, maybe we can sell 79-cents-a-pound Fujis,” says Chuck Tryon, . . . ",
     "actual_DR_level1": "expansion",
@@ -1079,7 +1088,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg1-as-subst"
   },
-  "121": {
+  "122": {
     "token_id": "122",
     "text": "Eliminate arbitrage and liquidity will decline instead of rising, creating more volatility instead of less.",
     "actual_DR_level1": "expansion",
@@ -1088,7 +1097,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg1-as-subst"
   },
-  "122": {
+  "123": {
     "token_id": "123",
     "text": "Intervention, he added, is useful only to smooth disorderly markets, not to fundamentally influence the dollar’s value. ",
     "actual_DR_level1": "expansion",
@@ -1097,7 +1106,7 @@
     "test_token": "y",
     "actual_DR_level3": "arg1-as-subst"
   },
-  "123": {
+  "124": {
     "token_id": "124",
     "text": "He could develop the beach through a trust, but instead is trying have his grandson become a naturalized Mexican so his family gains direct control.",
     "actual_DR_level1": "expansion",
@@ -1106,16 +1115,16 @@
     "test_token": "y",
     "actual_DR_level3": "arg2-as-subst"
   },
-  "124": {
+  "125": {
     "token_id": "125",
-    "text": "Nor are any of these inefficient monoliths likely to be allowed to go bankrupt. Rather, the brunt of the slowdown will be felt in the fast-growing private and semi-private ”township” enterprises, ...[",
+    "text": "Nor are any of these inefficient monoliths likely to be allowed to go bankrupt. Rather, the brunt of the slowdown will be felt in the fast-growing private and semi-private ”township” enterprises, ...",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "substitution",
     "predicted_DR_level2": null,
     "test_token": "y",
     "actual_DR_level3": "arg2-as-subst"
   },
-  "125": {
+  "126": {
     "token_id": "126",
     "text": "However, StatesWest isn’t abandoning its pursuit of the much-larger Mesa. StatesWest, which has a 7.25% stake in Mesa, said it may purchase more Mesa stock or make a tender offer directly to Mesa shareholders.",
     "actual_DR_level1": "expansion",
