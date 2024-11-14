@@ -46,6 +46,7 @@ def evaluate_DR_parser_with_f1():
                 with open(output_file, 'w', encoding='utf-8') as outfile:
                     outfile.write(output_content)
 
+                print('\n-----------------')
                 print(f"Saved F1 scores and report for {filename} to {output_filename}")
 
 

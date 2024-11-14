@@ -30,8 +30,8 @@ else:
 
 
 def populate_dr_predictions():
-    print(f"\n\nStarting DR predictions for the PDTB sample data")
-    print(f'using {parser.__name__} parser, Model Name: , {model_name}')
+    print(f"\n\n###### Starting DR predictions for the PDTB sample data ######\n")
+    print(f'using {parser.__name__} parser. \nModel Name: , {model_name}')
 
     date = datetime.now().strftime('%A_%m_%d_%H')
     output_file = os.path.join(dataset_path, "03_results", "prompt_model_DR_tests", f"{prompt_key}_{model_name}_{date}.json")

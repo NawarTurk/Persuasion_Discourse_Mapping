@@ -1,0 +1,71 @@
+Analyze the following paragraph and identify the most appropriate PDTB Level 2 discourse relation label from the list below. Use the definitions and examples provided to guide your decision. Only return the label with no additional explanation.
+
+**Paragraph:** {paragraph}
+
+**Available Labels with Definitions and Examples:**
+
+1. Synchronous: Temporal overlap between events.
+   - Example: "While the cake was baking, she prepared the icing."
+
+2. Asynchronous: One event precedes another.
+   - Example: "First, he packed his bags. Then, he left for the airport."
+
+3. Cause: Causal influence without a conditional relation.
+   - Example: "The roads were icy, thus causing the accident."
+
+4. Cause+Belief: Evidence provided to induce belief.
+   - Example: "The footprints in the snow led her to conclude someone had been there."
+
+5. Cause+SpeechAct: Reason provided for a speech act.
+   - Example: "Seeing her distress, he opted to assure her that everything would be OK."
+
+6. Condition: An unrealized situation if realized would lead to another.
+   - Example: "If you study hard, you will pass the exam."
+
+7. Condition+SpeechAct: Consequent is an implicit speech act.
+   - Example: "If you call him, maybe he'll explain it better."
+
+8. Negative-Condition: If a situation doesn’t occur, leads to another.
+   - Example: "Unless the rain stops, we can't play outside."
+
+9. Negative-Condition+SpeechAct: Consequent is an implicit speech act.
+   - Note: While not annotated in PDTB-3, it could be: "Unless you clear this up, I don't think he will respond."
+
+10. Purpose: Action undertaken to achieve a goal.
+    - Example: "She saved money to buy a new car."
+
+11. Concession: Cancellation or denial of an expected causal relation.
+    - Example: "Although it was raining, they decided to go hiking."
+
+12. Concession+SpeechAct: Cancellation of speech act.
+    - Example: "Even though you said you're busy, I still expect you to attend the meeting."
+
+13. Contrast: Highlighting differences between arguments.
+    - Example: "She prefers tea, while he likes coffee."
+
+14. Similarity: Highlighting similarities between arguments.
+    - Example: "Just as he enjoys reading, so does she."
+
+15. Conjunction: Both arguments contribute similarly to another situation.
+    - Example: "She went to the store, and he cleaned the house."
+
+16. Disjunction: Arguments presented as alternatives.
+    - Example: "You can either go for a walk or stay at home."
+
+17. Equivalence: Different perspectives on the same situation.
+    - Example: "His refusal was no different from hers."
+
+18. Exception: Indicating instances where a situation doesn’t hold.
+    - Example: "Everyone completed the project, except John."
+
+19. Instantiation: Describes specific instances of a general situation.
+    - Example: "Many birds migrate south; for instance, geese and swans."
+
+20. Level-of-Detail: Same situation described in different detail levels.
+    - Example: "The party was fun. There was music, dancing, and great food."
+
+21. Manner: Describes how an action is performed.
+    - Example: "She sang beautifully, as an angel would."
+
+22. Substitution: Exclusive alternatives presented, one ruled out.
+    - Example: "Instead of walking, she chose to ride the bike."
