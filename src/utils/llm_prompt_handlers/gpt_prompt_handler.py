@@ -19,10 +19,10 @@ model_name = config.OPENAI_MODEL_NAME
 
 def gpt_prompt_handler(paragraph, prompt_template):
     prompt = prompt_template.format(paragraph=paragraph)
-
+    print(model_name)
     response = openai.ChatCompletion.create(
-        model="gpt-4-turbo",
-        messages=[{"role": "user", "content": prompt}]
+        model = model_name,
+        messages = [{"role": "user", "content": prompt}]
     )
 
     result = response['choices'][0]['message']['content'].strip()

@@ -1,0 +1,91 @@
+Analyze the following paragraph and identify the most suitable PDTB Level 2 discourse relation label from this list:
+
+- Synchronous: This tag is used when there is some degree of temporal overlap between the events described by the arguments. All forms of overlap are included.
+
+- Asynchronous: This tag is used when one event is described as preceding the other.
+  - Sub-senses:
+    - Precedence: is used when the event described by Arg1 precedesthat described by Arg2 (i.e., Arg1 << Arg2).
+    - Succession: is used when the event described by Arg2 precedes that described by Arg1 (i.e., Arg2 << Arg1).
+
+- Cause: This tag is used when the situations described in Arg1 and Arg2 are causally influenced but are not in a conditional relation.
+  - Sub-senses:
+    - Reason: is used when Arg2 gives the reason, explanation or justification, while Arg1 gives its effect.
+    - Result: is used when is used when Arg1 gives the reason, explanation or justification, while Arg2 gives its effect.
+    - NegResult: is used when Arg1 gives the reason, explanation or justification that prevents the effect mentioned in Arg2.
+
+- Cause+Belief: This tag is used when evidence is provided to cause the hearer to believe a claim. The belief is implicit.
+  - Sub-senses:
+    - Reason+Belief: is used when Arg2 gives the evidence justifying the claim given in Arg1.
+    - Result+Belief:  is used when Arg1 gives the evidence justifying the claim given in Arg2.
+
+- Cause+SpeechAct: This tag is used when a reason is provided for the speaker uttering a speech act. The speech act is implicit.
+  - Sub-senses:
+    - Reason+SpeechAct: is used when Arg2 is the reason for the speaker uttering the speech act in Arg1.
+    - Result+SpeechAct: is used when Arg1 is the reason for the speaker uttering the speech act in Arg2.
+
+- Condition: This tag is used when one argument presents a situation as unrealized (the antecedent), which (when realized) would lead to the situation described by the other arg (the consequent). There are distinct senses for interpreting the arguments in terms of their semantics or the speech acts they convey. The default is their semantics.
+  - Sub-senses:
+    - Arg1-as-Cond: is used when Arg1 describes the antecedent and Arg2, the consequent.
+    - Arg2-as-Cond: is used when Arg2 describes the antecedent and Arg1, the consequent.
+
+- Condition+SpeechAct: This tag is used when the consequent is an implicit speech act. So far, all cases of Condition+SA are Arg2-as-cond, so Arg1 is the implicit SA.
+
+- Negative-Condition: This tag is used when one argument (the antecedent) describes a situation presented as unrealized, which if it doesn’t occur, would lead to the situation described by the other argument (the consequent). There are distinct senses for interpreting the arguments in terms of semantics or speech acts, with the default being semantics.
+  - Sub-senses:
+    - Arg1-as-NegCond: is used when Arg1 describes the antecedent and Arg2, the consequent.
+    - Arg2-as-NegCond: is used when Arg2 describes the antecedent (aka condition) and Arg1, the consequent.
+
+- Negative-Condition+SpeechAct: This tag is used when the consequent is an implicit speech act. While none of the tokens in the PDTB-3 have been annotated with this sense, it is included in the hierarchy for completeness.
+
+- Purpose: This tag is used when one argument presents an action that an AGENT undertakes with the purpose of the GOAL conveyed by the other argument being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal.
+  - Sub-senses:
+    - Arg1-as-Goal: is used when Arg1 describes the goal and Arg2 de- scribes the action undertaken to achieve it.
+    - Arg2-as-Goal: is used when Arg2 describes the goal and Arg1 de- scribes the action undertaken to achieve it.
+
+- Concession: This tag is used when an expected causal relation is cancelled or denied by the situation described in one of the arguments.
+  - Sub-senses:
+    - Arg1-as-Denier: is used when it is Arg2 that raises an expectation of some consequence, and Arg1 that denies it.
+    - Arg2-as-Denier: is used when it is Arg1 that raises an expectation of some consequence, while it is Arg2 denies it.
+
+- Concession+SpeechAct: This tag is used when the speech act (SA) associated with one argument is cancelled or denied by the other argument or its SA. The only sub-type for which tokens have been identified is Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct, where it is the SA associated with Arg1 that is cancelled or denied by Arg2 or its associated SA.
+
+- Contrast: This tag is used when at least two differences between Arg1 and Arg2 are highlighted.
+
+- Similarity: This tag is used when one or more similarities between Arg1 and Arg2 are highlighted with respect to what each argument predicates as a whole or to some entities it mentions.
+
+- Conjunction: This tag is used when both arguments bear the same relation to some other situation evoked in the discourse. It indicates that the two arguments make the same contribution with respect to that situation, or contribute to it together. It differs from most other relations in that the arguments don’t directly relate to each other, but to this other situation.
+
+- Disjunction: This tag is used when the two arguments are presented as alternatives, with either one or both holding. As with Conjunction, Disjunction is used when both its arguments bear the same relation to some other situation evoked in the discourse, making a similar contribution with respect to that situation. While the arguments also relate to each other as alternatives (with one or both holding), they also both relate in the same way to this other situation.
+
+- Equivalence: This tag is used when both arguments are taken to describe the same situation, but from different perspectives.
+
+- Exception: This tag is used when one argument evokes a set of circumstances in which the described situation holds, and the other argument indicates one or more instances where it doesn’t.
+  - Sub-senses:
+    - Arg1-as-Except: is used when Arg1 indicates the exception(s).
+    - Arg2-as-Except:  is used when Arg2 indicates the exception(s).
+
+- Instantiation: This tag is used when one argument describes a situation as holding in a set of circumstances, while the other argument describes one or more of those circumstances.
+  - Sub-senses:
+    - Arg1-as-Instance: is used when Arg1 provides one or more in- stances of the circumstances described by Arg2.
+    - Arg2-as-Instance: is used when Arg2 provides one or more in- stances of the circumstances described by Arg1.
+
+- Level-of-Detail: This tag is used when both arguments describe the same situation, but in less or more detail.
+  - Sub-senses:
+    - Arg1-as-Detail: is used when Arg1 describes in more detail, the situation in Arg2. That is, Arg2 is more general.
+    - Arg2-as-Detail: is used when Arg2 describes in more detail, the situation in Arg1. That is, Arg1 is more general.
+
+
+- Manner: This tag is used when the situation described by one argument presents the manner in which the situation described by the other argument has happened or been done. Manner answers “how” questions such as “How were the children playing?”. While Manner may be the only relation that holds between two arguments, it is often the case that another sense (Purpose, Result or Condition) is taken to hold as well.
+  - Sub-senses:
+    - Arg1-as-Manner: is used when it is Arg1 that describes the manner.
+    - Arg2-as-Manner:  is used when it is Arg2 that describes the manner.
+
+- Substitution: This tag is used when arguments are presented as exclusive alternatives, with one being ruled out.
+  - Sub-senses:
+    - Arg1-as-Subst: is used when Arg1 conveys the alternative which is left after the situation associated with Arg2 is ruled out.
+    - Arg2-as-Subst: is used when Arg2 conveys the alternative which is left after the situation associated with Arg1 is ruled out.
+
+Paragraph:
+
+"{paragraph}"
+Instruction: After evaluating the paragraph, choose the most suitable Level 2 relation label from the list provided at the end: [Synchronous, Asynchronous, Cause, Cause+Belief, Cause+SpeechAct, Condition, Condition+SpeechAct, Negative-Condition, Negative-Condition+SpeechAct, Purpose, Concession, Concession+SpeechAct, Contrast, Similarity, Conjunction, Disjunction, Equivalence, Exception, Instantiation, Level-of-Detail, Manner, Substitution]. Exclude any sub-sense considerations and provide no additional explanation.

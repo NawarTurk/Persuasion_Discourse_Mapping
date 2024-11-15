@@ -4,6 +4,10 @@ import time
 from utils.llm_prompt_handlers.gpt_prompt_handler import gpt_prompt_handler
 from utils.llm_prompt_handlers.gemini_prompt_handler import gemini_prompt_handler
 from utils.llm_prompt_handlers.claude_prompt_handler import claude_prompt_handler
+from utils.llm_prompt_handlers.multi_level_gemini_prompt_handler_v1 import multi_level_gemini_prompt_handler_v1
+from utils.llm_prompt_handlers.multi_level_gemini_prompt_handler_v2 import multi_level_gemini_prompt_handler_v2
+
+
 from prompts.prompt_template_getter import get_prompt_template
 from datetime import datetime
 
@@ -25,6 +29,12 @@ elif parser_id == 2:
 elif parser_id == 3:
     parser = claude_prompt_handler
     model_name = config.CLAUDE_MODEL_NAME
+elif parser_id == 11:
+    parser = multi_level_gemini_prompt_handler_v1
+    model_name = config.GEMINI_MODEL_NAME + '_multi_level_V1'
+elif parser_id == 12:
+    parser = multi_level_gemini_prompt_handler_v2 
+    model_name = config.GEMINI_MODEL_NAME + '_multi_level_V2'
 else:
     print("Wrong parser id in config... ")
 

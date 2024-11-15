@@ -1,0 +1,71 @@
+Analyze the following paragraph and identify the most appropriate PDTB Level 2 discourse relation label from the list below. Use the definitions and examples provided to guide your decision. Only return the label with no additional explanation.
+
+**Paragraph:** {paragraph}
+
+**Available Labels with Definitions and Examples:**
+
+Synchronous: This tag is used when there is some degree of temporal overlap between the events described by the arguments. All forms of overlap are included.
+   - Example: "While the cake was baking, she prepared the icing."
+
+Asynchronous: This tag is used when one event is described as preceding the other.
+   - Example: "First, he packed his bags. Then, he left for the airport."
+
+Cause: This tag is used when the situations described in Arg1 and Arg2 are causally influenced but are not in a conditional relation.
+   - Example: "The roads were icy, thus causing the accident."
+
+Cause+Belief: This tag is used when evidence is provided to cause the hearer to believe a claim. The belief is implicit.
+   - Example: "The footprints in the snow led her to conclude someone had been there."
+
+Cause+SpeechAct: This tag is used when a reason is provided for the speaker uttering a speech act. The speech act is implicit
+   - Example: "Seeing her distress, he opted to assure her that everything would be OK."
+
+Condition: This tag is used when one argument presents a situation as unrealized (the antecedent), which (when realized) would lead to the situation described by the other arg (the consequent). There are distinct senses for interpreting the arguments in terms of their semantics or the speech acts they convey. The default is their semantics.
+   - Example: "If you study hard, you will pass the exam."
+
+Condition+SpeechAct: This tag is used when the consequent is an implicit speech act. So far, all cases of Condition+SA are Arg2-as-cond, so Arg1 is the implicit SA.
+   - Example: "If you call him, maybe he'll explain it better."
+
+Negative-Condition: This tag is used when one argument (the antecedent) describes a situation presented as unrealized, which if it doesn’t occur, would lead to the situation described by the other argument (the consequent). There are distinct senses for interpreting the arguments in terms of semantics or speech acts, with the default being semantics.
+   - Example: "Unless the rain stops, we can't play outside."
+
+Negative-Condition+SpeechAct: This tag is used when the consequent is an implicit speech act. While none of the tokens in the PDTB-3 have been annotated with this sense, it is included in the hierarchy for completeness.
+   - Note: While not annotated in PDTB-3, it could be: "Unless you clear this up, I don't think he will respond."
+
+Purpose: This tag is used when one argument presents an action that an AGENT un- dertakes with the purpose of the GOAL conveyed by the other argument being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal.
+    - Example: "She saved money to buy a new car."
+
+Concession: This tag is used when an expected causal relation is cancelled or denied by the situation described in one of the arguments.
+    - Example: "Although it was raining, they decided to go hiking."
+
+Concession+SpeechAct: This tag is used when the speech act (SA) associated with one argument is cancelled or denied by the other argument or its SA. The only sub-type for which tokens have been identified is Comparison.Concession+SpeechAct.Arg2-as-denier+SA, where it is the SA associated with Arg1 that is cancelled or denied by Arg2 or its associated SA.
+    - Example: "Even though you said you're busy, I still expect you to attend the meeting."
+
+Contrast: This tag is used when at least two differences between Arg1 and Arg2 are highlighted.
+    - Example: "She prefers tea, while he likes coffee."
+
+Similarity: This tag is used when one or more similarities between Arg1 and Arg2 are highlighted with respect to what each argument predicates as a whole or to some entities it mentions.
+    - Example: "Just as he enjoys reading, so does she."
+
+Conjunction: This tag is used when both arguments bear the same relation to some other situation evoked in the discourse. It indicates that the two arguments make the same contribution with respect to that situation, or contribute to it together. It differs from most other relations in that the arguments don’t directly relate to each other, but to this other situation.
+    - Example: "She went to the store, and he cleaned the house."
+
+Disjunction: This tag is used when the two arguments are pre- sented as alternatives, with either one or both holding. As with Conjunction, Disjunction is used when both its arguments bear the same relation to some other situation evoked in the discourse, making a similar contribution with respect to that situation. While the arguments also relate to each other as alternatives (with one or both holding), they also both relate in the same way to this other situation.
+    - Example: "You can either go for a walk or stay at home."
+
+Equivalence: This tag is used when both arguments are taken to describe the same situa- tion, but from different perspectives
+    - Example: "His refusal was no different from hers."
+
+Exception: This tag is used when one argument evokes a set of circumstances in which the described situation holds, and the other argument indicates one or more instances where it doesn’t.
+    - Example: "Everyone completed the project, except John."
+
+Instantiation: This tag is used when one argument describes a situation as holding in a set of circumstances, while the other argument describes one or more of those circumstances.
+    - Example: "Many birds migrate south; for instance, geese and swans."
+
+Level-of-Detail: This tag is used when both arguments describe the same situation, but in less or more detail.This tag is used when both arguments describe the same situation, but in less or more detail.
+    - Example: "The party was fun. There was music, dancing, and great food."
+
+Manner: This tag is used when the situation described by one argument presents the manner in which the situation described by other argument has happened or been done. Manner answers “how” questions such as “How were the children playing?”. While Manner may be the only relation that holds between two arguments, it is often the case that another sense (Purpose, Result or Condition) is taken to hold as well.
+    - Example: "She sang beautifully, as an angel would."
+
+Substitution: This tag is used when arguments are presented as exclusive alternatives, with one being ruled out.
+    - Example: "Instead of walking, she chose to ride the bike."
