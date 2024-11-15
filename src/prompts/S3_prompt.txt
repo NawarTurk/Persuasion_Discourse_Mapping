@@ -1,9 +1,12 @@
 Task: Analyze the given paragraph and determine its appropriate PDTB Level 2 discourse
 relation label from the list provided.
-Possible Labels
+
+Possible Labels:
+
 Temporal
 ⁃ Synchronous
 ⁃ Asynchronous
+
 Contingency
 • Cause
 • Cause + Belief
@@ -13,11 +16,13 @@ Contingency
 • Condition + SpeechAct
 • Negative Condition
 • Negative Condition + SpeechAct
+
 Comparison
 • Concession
 • Concession + SpeechAct
 • Contrast
 • Similarity
+
 Expansion
 • Conjunction
 • Disjunction
@@ -28,8 +33,4 @@ Expansion
 • Manner
 • Substitution
 
-Paragraph to Analyze
-
-Paragraph:
-
-Corresponding Discourse Relation Label:
+Paragraph to Analyze:

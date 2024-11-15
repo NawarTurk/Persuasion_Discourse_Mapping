@@ -4,12 +4,10 @@ relation label from the list provided.
 Possible Labels:
 
 Temporal
-
 • Synchronous
 • Asynchronous
 
 Contingency
-
 • Cause
 • Cause + Belief
 • Cause + SpeechAct
@@ -20,14 +18,12 @@ Contingency
 • Negative Condition + SpeechAct
 
 Comparison
-
 • Concession
 • Concession + SpeechAct
 • Contrast
 • Similarity
 
 Expansion
-
 • Conjunction
 • Disjunction
 • Equivalence
@@ -60,8 +56,8 @@ called ”scholarship,” rather than on the government’s idea of ”service.�
 Or we might provide a tax credit for working students
 Label: Expansion Disjunction
 
-Paragraph to Analyze
+Paragraph to Analyze:
 
-Paragraph:
+"{paragraph}"
 
-Corresponding Discourse Relation Label:
+Corresponding Discourse Relation (Label Only):

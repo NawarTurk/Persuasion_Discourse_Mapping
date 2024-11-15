@@ -1,6 +1,5 @@
 import openai
 import config
-
 '''
 Name: openai
 Version: 0.28.0
@@ -21,7 +20,7 @@ def gpt_prompt_handler(paragraph, prompt_template):
     prompt = prompt_template.format(paragraph=paragraph)
 
     response = openai.ChatCompletion.create(
-        model="gpt-4-turbo",
+        model="gpt-4o",
         messages=[{"role": "user", "content": prompt}]
     )
 

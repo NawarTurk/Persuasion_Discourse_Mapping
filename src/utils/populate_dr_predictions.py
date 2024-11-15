@@ -10,7 +10,7 @@ from datetime import datetime
 import config
 
 dataset_path = os.path.join("..","dataset")
-input_file = os.path.join(dataset_path, "02_processed_data", "dr_actual_labels_sample1.json")
+input_file = os.path.join(dataset_path, "02_processed_data", "dr_actual_labels_sample3.json")
 
 prompt_key = config.PROMPT_KEY
 parser_id = config.PARSER_ID

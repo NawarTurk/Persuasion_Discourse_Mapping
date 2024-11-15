@@ -1,14 +1,14 @@
 
 # API keys
-OPENAI_API_KEY = "API key"
+OPENAI_API_KEY = "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"
 GEMINI_API_KEY = "API key"
-CLAUDE_API_KEY = "your_claude_api_key_here"
+CLAUDE_API_KEY = "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"
 
 # Prompt 
-PROMPT_KEY = 'N3_prompt'
+PROMPT_KEY = 'S2_prompt'
 
 # Parser
-PARSER_ID = 2
+PARSER_ID = 3
 #  1 for the gpt_prompt_handler
 #  2 for the gemini_prompt_handler   
 #  3 for the claude_prompt_handler   NOT DONE YET
@@ -67,7 +67,7 @@ GEMINI_MODEL_NAME = "gemini-1.5-flash"
 # +-------------------------+-----------------------------------------------------------+
 # source: https://ai.google.dev/gemini-api/docs/models/gemini
 
-CLAUDE_MODEL_NAME = "CLAUDE model name here"
+CLAUDE_MODEL_NAME = "Claude-3.5-sonnet-20241022"
 
 
 

@@ -5,7 +5,7 @@
     "actual_DR_level1": "temporal",
     "actual_DR_level2": "synchronous",
     "predicted_DR_level2": null,
-    "test_token": "y",
+    "test_token": "n",
     "actual_DR_level3": ""
   },
   "2": {
@@ -140,7 +140,7 @@
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "cause",
     "predicted_DR_level2": null,
-    "test_token": "y",
+    "test_token": "n",
     "actual_DR_level3": "reason"
   },
   "17": {
@@ -653,7 +653,7 @@
     "actual_DR_level1": "comparison",
     "actual_DR_level2": "concession",
     "predicted_DR_level2": null,
-    "test_token": "y",
+    "test_token": "n",
     "actual_DR_level3": "arg1-as-denier"
   },
   "74": {
@@ -851,7 +851,7 @@
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "disjunction",
     "predicted_DR_level2": null,
-    "test_token": "y",
+    "test_token": "n",
     "actual_DR_level3": ""
   },
   "96": {
