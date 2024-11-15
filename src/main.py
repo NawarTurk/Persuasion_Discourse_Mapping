@@ -6,6 +6,7 @@ from utils.data_preprocessing.populate_mock_DR import populate_mock_DR
 from utils.data_preprocessing.load_dr_samples import load_dr_data_from_csv
 from utils.populate_dr_predictions import populate_dr_predictions
 from evaluation.evaluate_DR_parser import evaluate_DR_parser_with_f1
+from evaluation.evaluate_DR_parser_lvl1 import evaluate_DR_parser_with_f1_lvl1
 
 parser = argparse.ArgumentParser(description='Run parts of the script based on flags provided.')
 parser.add_argument('--preprocess', action='store_true', help='Run data preprocessing')
@@ -23,6 +24,7 @@ if args.parseDR:
 
 if args.evaluate:
     evaluate_DR_parser_with_f1()
+    evaluate_DR_parser_with_f1_lvl1()
 
 
 
