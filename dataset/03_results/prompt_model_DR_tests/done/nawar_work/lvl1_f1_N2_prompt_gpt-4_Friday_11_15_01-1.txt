@@ -1,0 +1,19 @@
+F1 Scores for N2_prompt_gpt-4_Friday_11_15_01-1.json:
+
+F1 Macro: 0.469
+F1 Micro: 0.552
+F1 Weighted: 0.518
+
+Accuracy: 0.552
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.421     0.571     0.485        14
+           2      0.595     0.825     0.691        57
+           3      0.462     0.316     0.375        19
+           4      0.571     0.229     0.327        35
+
+    accuracy                          0.552       125
+   macro avg      0.512     0.485     0.469       125
+weighted avg      0.549     0.552     0.518       125

@@ -1,0 +1,19 @@
+F1 Scores for N5_prompt_gemini-1.5-flash_multi_level_V1_Friday_11_15_02.json:
+
+F1 Macro: 0.514
+F1 Micro: 0.563
+F1 Weighted: 0.557
+
+Accuracy: 0.563
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.500     0.571     0.533        14
+           2      0.641     0.719     0.678        57
+           3      0.389     0.350     0.368        20
+           4      0.536     0.429     0.476        35
+
+    accuracy                          0.563       126
+   macro avg      0.516     0.517     0.514       126
+weighted avg      0.556     0.563     0.557       126
