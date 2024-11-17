@@ -1,0 +1,90 @@
+**Task: Identify Discourse Relation**
+
+Given a paragraph, your goal is to analyze and identify the discourse relation present. You'll refer to both Level 2 and Level 3 senses from the Penn Discourse Treebank (PDTB). Follow these steps:
+
+1. **Paragraph Analysis**: Divide the provided paragraph into two arguments, denoted as Arg1 and Arg2.
+
+2. **Level 3 Identification**: Use the definitions below to determine the specific Level 3 sub-sense relation between Arg1 and Arg2.
+
+3. **Level 2 Inference**: Based on your Level 3 identification, deduce the corresponding Level 2 label.
+
+4. **Output Requirement**: Provide a one-word output representing only the Level 2 sense. Exclude explanations.
+
+**Paragraph**: {paragraph}
+
+---
+
+**Discourse Relation Labels and Definitions**
+
+**Level 2 Senses**:
+
+- **Synchronous**: Arg1 and Arg2 events overlap temporally.
+  
+- **Asynchronous**: One event precedes the other.
+  - *Precedence*: Arg1 occurs before Arg2.
+  - *Succession*: Arg2 occurs before Arg1.
+
+- **Cause**: Causal influence without a conditional.
+  - *Reason*: Arg2 explains Arg1.
+  - *Result*: Arg1 explains Arg2.
+  - *NegResult*: Arg1 prevents Arg2's effect.
+
+- **Cause+Belief**: Evidence causes belief.
+  - *Reason+Belief*: Arg2 justifies Arg1.
+  - *Result+Belief*: Arg1 justifies Arg2.
+
+- **Cause+SpeechAct**: Reason for a speech act.
+  - *Reason+SpeechAct*: Arg2 is reason for act in Arg1.
+  - *Result+SpeechAct*: Arg1 is reason for act in Arg2.
+
+- **Condition**: Realization of one leads to another.
+  - *Arg1-as-Cond*: Arg1 antecedent, Arg2 consequent.
+  - *Arg2-as-Cond*: Arg2 antecedent, Arg1 consequent.
+
+- **Negative-Condition**: Non-realization prevents another.
+  - *Arg1-as-NegCond*: Arg1 antecedent, Arg2 consequent.
+  - *Arg2-as-NegCond*: Arg2 antecedent, Arg1 consequent.
+
+- **Purpose**: Actions with goals.
+  - *Arg1-as-Goal*: Arg1 goal, Arg2 action.
+  - *Arg2-as-Goal*: Arg2 goal, Arg1 action.
+
+- **Concession**: Cancelled expected causal relation.
+  - *Arg1-as-Denier*: Arg2 sets expectation, Arg1 denies.
+  - *Arg2-as-Denier*: Arg1 sets expectation, Arg2 denies.
+
+- **Concession+SpeechAct**: Cancelled speech act.
+
+- **Contrast**: Highlights differences.
+
+- **Similarity**: Highlights similarities.
+
+- **Conjunction**: Related to another situation.
+
+- **Disjunction**: Alternatives related to another.
+
+- **Equivalence**: Same situation, different perspectives.
+
+- **Exception**: An indicated exception.
+  - *Arg1-as-Except*: Arg1 indications exceptions.
+  - *Arg2-as-Except*: Arg2 indications exceptions.
+
+- **Instantiation**: Detailed situation description.
+  - *Arg1-as-Instance*: Arg1 provides details.
+  - *Arg2-as-Instance*: Arg2 provides details.
+
+- **Level-of-Detail**: More detailed description.
+  - *Arg1-as-Detail*: Arg1 is detailed.
+  - *Arg2-as-Detail*: Arg2 is detailed.
+
+- **Manner**: Describes manner of action.
+  - *Arg1-as-Manner*: Arg1 describes manner.
+  - *Arg2-as-Manner*: Arg2 describes manner.
+
+- **Substitution**: Exclusive alternatives.
+  - *Arg1-as-Subst*: Arg1 left after Arg2 ruled out.
+  - *Arg2-as-Subst*: Arg2 left after Arg1 ruled out.
+
+**Output Format**: [One-word Level 2 Sense]
+
+**Note**: Only the one-word Level 2 sense is required. Excluded are additional explanations or sub-sense annotations.

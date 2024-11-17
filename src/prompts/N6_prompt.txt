@@ -1,0 +1,87 @@
+You will be provided with a paragraph and a comprehensive list of potential discourse relation labels from the Penn Discourse Treebank (PDTB), including both Level 2 and Level 3 definitions. Your task is to:
+
+1. **Divide the Paragraph:** Break the paragraph into two distinct arguments, Arg1 and Arg2, based on the discourse connection.
+
+2. **Identify the Level 3 Relation:** Utilize the Level 3 sub-sense definitions (provided below) to determine which specific relation exists between Arg1 and Arg2.
+
+3. **Infer the Level 2 Sense:** Based on the identified Level 3 relation, deduce the corresponding parent Level 2 label from the list provided.
+
+4. **Output Requirement:** Your final output must be strictly one word, representing the Level 2 sense. No explanation or sub-sense notation should be included.
+
+**Paragraph:** {paragraph}
+
+**Discourse Relation Labels:**
+
+**Level 2:**
+- Synchronous
+- Asynchronous
+- Cause
+- Cause+Belief
+- Cause+SpeechAct
+- Condition
+- Condition+SpeechAct
+- Negative-Condition
+- Negative-Condition+SpeechAct
+- Purpose
+- Concession
+- Concession+SpeechAct
+- Contrast
+- Similarity
+- Conjunction
+- Disjunction
+- Equivalence
+- Exception
+- Instantiation
+- Level-of-Detail
+- Manner
+- Substitution
+
+**Level 3 Definitions:**
+
+- **Asynchronous:**
+  - Precedence: Arg1 << Arg2
+  - Succession: Arg2 << Arg1
+
+- **Cause:**
+  - Reason: Arg2 gives explanation/effect in Arg1.
+  - Result: Arg1 gives explanation/effect in Arg2.
+  - NegResult: Arg1 prevents effect in Arg2.
+
+- **Cause+Belief:**
+  - Reason+Belief: Arg2 justifies claim in Arg1.
+  - Result+Belief: Arg1 justifies claim in Arg2.
+
+- **Cause+SpeechAct:**
+  - Reason+SpeechAct: Arg2 explains speech act in Arg1.
+  - Result+SpeechAct: Arg1 explains speech act in Arg2.
+
+- **Condition:**
+  - Arg1-as-Cond: Arg1 antecedent, Arg2 consequent.
+  - Arg2-as-Cond: Arg2 antecedent, Arg1 consequent.
+
+- **Negative-Condition:**
+  - Arg1-as-NegCond: Arg1 antecedent, Arg2 consequent.
+  - Arg2-as-NegCond: Arg2 antecedent, Arg1 consequent.
+
+- **Purpose:**
+  - Arg1-as-Goal: Arg1 goal, Arg2 action.
+  - Arg2-as-Goal: Arg2 goal, Arg1 action.
+
+- **Concession:**
+  - Arg1-as-Denier: Arg2 expectation, Arg1 denies.
+  - Arg2-as-Denier: Arg1 expectation, Arg2 denies.
+
+- **Concession+SpeechAct:** 
+  - Arg2-as-denier+SpeechAct: Arg2 denies Arg1's speech act.
+
+- **Instantiation:**
+  - Arg1-as-Instance: Arg1 details from Arg2's general.
+  - Arg2-as-Instance: Arg2 details from Arg1's general.
+
+- **Level-of-Detail:** 
+  - Arg1-as-Detail: Arg1 provides more detail on Arg2.
+  - Arg2-as-Detail: Arg2 provides more detail on Arg1.
+
+**Output Format:** [Level 2 Sense]
+
+**Note:** Ensure the output is strictly one word, reflecting only the Level 2 discourse sense derived from the analysis of the Level 3 relation. No additional explanation is required.

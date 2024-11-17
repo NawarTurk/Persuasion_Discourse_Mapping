@@ -1,0 +1,92 @@
+**Prompt:**
+
+You will be provided with a paragraph and a comprehensive list of potential discourse relation labels from the Penn Discourse Treebank (PDTB), including both Level 2 and Level 3 definitions. Your task is to:
+
+1. **Divide the Paragraph:** Break the paragraph into two distinct arguments, Arg1 and Arg2, based on the discourse connection.
+
+2. **Identify the Level 3 Relation:** Utilize the Level 3 sub-sense definitions (provided below) to determine which specific relation exists between Arg1 and Arg2.
+
+3. **Infer the Level 2 Sense:** Based on the identified Level 3 relation, deduce the corresponding parent Level 2 label from the list provided.
+
+4. **Output Requirement:** Your final output must be strictly one word, representing the Level 2 sense. No explanation or sub-sense notation should be included.
+
+**Paragraph:** {paragraph}
+
+**Discourse Relation Labels and Definitions:**
+
+**Level 2 Senses:**
+
+- **Synchronous:** Used when there is some degree of temporal overlap between the events described by the arguments.
+
+- **Asynchronous:** Used when one event precedes the other.
+  - Precedence: Arg1 precedes Arg2 (Arg1 << Arg2).
+  - Succession: Arg2 precedes Arg1 (Arg2 << Arg1).
+
+- **Cause:** Used when situations are causally influenced without being conditional.
+  - Reason: Arg2 provides reason/explanation for Arg1.
+  - Result: Arg1 provides reason/explanation for Arg2.
+  - NegResult: Arg1 prevents the effect in Arg2.
+
+- **Cause+Belief:** Evidence provided to cause belief.
+  - Reason+Belief: Arg2 justifies claim in Arg1.
+  - Result+Belief: Arg1 justifies claim in Arg2.
+
+- **Cause+SpeechAct:** Reason for speaker uttering a speech act.
+  - Reason+SpeechAct: Arg2 is reason for speech act in Arg1.
+  - Result+SpeechAct: Arg1 is reason for speech act in Arg2.
+
+- **Condition:** One situation unrealized leads to another when realized.
+  - Arg1-as-Cond: Arg1 antecedent, Arg2 consequent.
+  - Arg2-as-Cond: Arg2 antecedent, Arg1 consequent.
+
+- **Condition+SpeechAct:** The consequent is an implicit speech act, usually Arg2-as-cond.
+
+- **Negative-Condition:** Unrealized situation prevents another from occurring.
+  - Arg1-as-NegCond: Arg1 antecedent, Arg2 consequent.
+  - Arg2-as-NegCond: Arg2 antecedent, Arg1 consequent.
+
+- **Negative-Condition+SpeechAct:** Placeholder, not typically used in annotations.
+
+- **Purpose:** An action undertaken with a goal to be achieved.
+  - Arg1-as-Goal: Arg1 describes goal, Arg2 action.
+  - Arg2-as-Goal: Arg2 describes goal, Arg1 action.
+
+- **Concession:** An expected causal relation is cancelled.
+  - Arg1-as-Denier: Arg2 raises expectation, Arg1 denies.
+  - Arg2-as-Denier: Arg1 raises expectation, Arg2 denies.
+
+- **Concession+SpeechAct:** SA in one argument cancelled by other, typically Arg2-as-denier+SA.
+
+- **Contrast:** Highlights differences between Arg1 and Arg2.
+
+- **Similarity:** Highlights similarities between Arg1 and Arg2.
+
+- **Conjunction:** Both arguments relate to another situation together.
+
+- **Disjunction:** Arguments as alternatives, both relate similarly to another situation.
+
+- **Equivalence:** Both describe the same situation from different perspectives.
+
+- **Exception:** One argument indicates where a situation doesn't hold.
+  - Arg1-as-Except: Arg1 indicates exceptions.
+  - Arg2-as-Except: Arg2 indicates exceptions.
+
+- **Instantiation:** One argument describes a situation in more detail.
+  - Arg1-as-Instance: Arg1 provides instance(s) from Arg2's description.
+  - Arg2-as-Instance: Arg2 provides instance(s) from Arg1's description.
+
+- **Level-of-Detail:** One describes the situation in more detail.
+  - Arg1-as-Detail: Arg1 offers more detail on Arg2.
+  - Arg2-as-Detail: Arg2 offers more detail on Arg1.
+
+- **Manner:** Describes the manner of how another argument's situation is done.
+  - Arg1-as-Manner: Arg1 describes the manner.
+  - Arg2-as-Manner: Arg2 describes the manner.
+
+- **Substitution:** Exclusive alternatives with one ruled out.
+  - Arg1-as-Subst: Arg1 alternative left after Arg2 is ruled out.
+  - Arg2-as-Subst: Arg2 alternative left after Arg1 is ruled out.
+
+**Output Format:** [Level 2 Sense]
+
+**Note:** Ensure the output is strictly one word, reflecting only the Level 2 discourse sense derived from the analysis of the Level 3 relation. No additional explanation is required.

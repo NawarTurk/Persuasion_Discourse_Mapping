@@ -1,0 +1,122 @@
+**Task Overview:**
+
+You will receive a paragraph (inserted below) along with a list of discourse relation labels from the Penn Discourse Treebank (PDTB). Your task is to:
+
+1. **Segment the Paragraph:** Divide the paragraph into two parts, Arg1 and Arg2, based on their discourse connection.
+   
+2. **Identify the Level 3 Relation:** Use the provided Level 3 definitions to determine the relation between Arg1 and Arg2.
+
+3. **Infer the Level 2 Sense:** Based on the identified Level 3 relation, determine the corresponding Level 2 label.
+
+**Paragraph:**
+
+{paragraph}
+**IMPORTANT NOTE:** For the paragraph provided, your output must consist solely of a single word that indicates the Level 2 discourse sense derived from the Level 3 analysis. Any deviation from this requirement will be incorrect.
+
+**Example Analysis (for demonstration purposes):**
+
+*"Jane studied hard for the exam. Consequently, she scored high marks."*
+
+- Arg1: "Jane studied hard for the exam."
+- Arg2: "Consequently, she scored high marks."
+- Level 3 Relation: Result (Arg1 provides the cause for Arg2.)
+- Level 2 Sense: Cause
+
+**Output:** Cause
+
+**Discourse Relation Labels:**
+
+**Level 2:**
+
+- Synchronous
+- Asynchronous
+- Cause
+- Cause+Belief
+- Cause+SpeechAct
+- Condition
+- Condition+SpeechAct
+- Negative-Condition
+- Negative-Condition+SpeechAct
+- Purpose
+- Concession
+- Concession+SpeechAct
+- Contrast
+- Similarity
+- Conjunction
+- Disjunction
+- Equivalence
+- Exception
+- Instantiation
+- Level-of-Detail
+- Manner
+- Substitution
+
+**Level 3 Definitions and Examples:**
+
+- **Asynchronous:**
+  - Precedence: Arg1 precedes Arg2.
+    - Example: "The guests left the party. Shortly after, the hosts began cleaning up."
+  - Succession: Arg2 precedes Arg1.
+    - Example: "First, the sun set. Then, the stars appeared in the sky."
+
+- **Cause:**
+  - Reason: Arg2 explains or causes Arg1.
+    - Example: "She was shivering because it was cold outside."
+  - Result: Arg1 explains or causes Arg2.
+    - Example: "He forgot his umbrella, so he got wet in the rain."
+  - NegResult: Arg1 prevents the effect in Arg2.
+    - Example: "She wore a raincoat, preventing her from getting soaked."
+
+- **Cause+Belief:**
+  - Reason+Belief: Arg2 justifies the claim in Arg1.
+    - Example: "He didn't believe her story since she often lied."
+  - Result+Belief: Arg1 justifies the claim in Arg2.
+    - Example: "He trusts her advice because it turned out to be right before."
+
+- **Cause+SpeechAct:**
+  - Reason+SpeechAct: Arg2 explains the speech act in Arg1.
+    - Example: "I suggest we leave now due to the incoming storm."
+  - Result+SpeechAct: Arg1 explains the speech act in Arg2.
+    - Example: "She apologized because she realized she was wrong."
+
+- **Condition:**
+  - Arg1-as-Cond: Arg1 is the condition, Arg2 is the result.
+    - Example: "If it rains, the event will be moved indoors."
+  - Arg2-as-Cond: Arg2 is the condition, Arg1 is the result.
+    - Example: "The crops will thrive, provided there is enough sunlight."
+
+- **Negative-Condition:**
+  - Arg1-as-NegCond: Arg1 is the negative condition for Arg2.
+    - Example: "Unless you study, you might not pass the test."
+  - Arg2-as-NegCond: Arg2 is the negative condition for Arg1.
+    - Example: "You won't learn it if you don't practice regularly."
+
+- **Purpose:**
+  - Arg1-as-Goal: Arg1 is the goal, Arg2 is the action.
+    - Example: "She exercised daily to improve her health."
+  - Arg2-as-Goal: Arg2 is the goal, Arg1 is the action.
+    - Example: "To save for a vacation, he started a side job."
+
+- **Concession:**
+  - Arg1-as-Denier: Arg2 sets an expectation, Arg1 denies it.
+    - Example: "It was raining heavily, yet they continued their hike."
+  - Arg2-as-Denier: Arg1 sets an expectation, Arg2 denies it.
+    - Example: "Though he was exhausted, he completed the marathon."
+
+- **Concession+SpeechAct:** 
+  - Arg2-as-denier+SpeechAct: Arg2 denies Arg1's speech act.
+    - Example: "Despite your complaints, I must insist on the original plan."
+
+- **Instantiation:**
+  - Arg1-as-Instance: Arg1 details Arg2's general statement.
+    - Example: "There are many forms of art, such as painting, sculpture, and music."
+  - Arg2-as-Instance: Arg2 details Arg1's general statement.
+    - Example: "Technologies have advanced rapidly; for example, smartphones now have facial recognition."
+
+- **Level-of-Detail:** 
+  - Arg1-as-Detail: Arg1 provides more detail on Arg2.
+    - Example: "The report was thorough, detailing each incident."
+  - Arg2-as-Detail: Arg2 provides more detail on Arg1.
+    - Example: "He described his day, mentioning the meeting that took place at noon."
+
+**IMPORTANT NOTE:** For the paragraph provided, your output must consist solely of a single word that indicates the Level 2 discourse sense derived from the Level 3 analysis. Any deviation from this requirement will be incorrect.

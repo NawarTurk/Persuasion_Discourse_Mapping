@@ -1,0 +1,87 @@
+You will be given a paragraph along with a comprehensive list of potential discourse relation labels from the Penn Discourse Treebank (PDTB), including both Level 2 and Level 3 definitions. Your task is to:
+
+1. **Segment the Paragraph:** Break down the paragraph into two separate arguments, Arg1 and Arg2, according to the discourse connection.
+
+2. **Determine the Level 3 Relation:** Use the Level 3 sub-sense definitions provided to identify the specific relation between Arg1 and Arg2.
+
+3. **Deduce the Level 2 Sense:** Based on the identified Level 3 relation, determine the corresponding parent Level 2 label from the list provided.
+
+4. **Output Format:** Provide a single word representing the Level 2 sense. Ensure no additional explanations or sub-sense notations are included.
+
+**Paragraph:** {paragraph}
+
+**Discourse Relation Labels:**
+
+**Level 2:**
+- Synchronous
+- Asynchronous
+- Cause
+- Cause+Belief
+- Cause+SpeechAct
+- Condition
+- Condition+SpeechAct
+- Negative-Condition
+- Negative-Condition+SpeechAct
+- Purpose
+- Concession
+- Concession+SpeechAct
+- Contrast
+- Similarity
+- Conjunction
+- Disjunction
+- Equivalence
+- Exception
+- Instantiation
+- Level-of-Detail
+- Manner
+- Substitution
+
+**Level 3 Definitions:**
+
+- **Asynchronous:**
+  - Precedence: Arg1 precedes Arg2.
+  - Succession: Arg2 precedes Arg1.
+
+- **Cause:**
+  - Reason: Arg2 explains or causes Arg1.
+  - Result: Arg1 explains or causes Arg2.
+  - NegResult: Arg1 prevents the effect in Arg2.
+
+- **Cause+Belief:**
+  - Reason+Belief: Arg2 justifies the claim in Arg1.
+  - Result+Belief: Arg1 justifies the claim in Arg2.
+
+- **Cause+SpeechAct:**
+  - Reason+SpeechAct: Arg2 explains the speech act in Arg1.
+  - Result+SpeechAct: Arg1 explains the speech act in Arg2.
+
+- **Condition:**
+  - Arg1-as-Cond: Arg1 is the condition, Arg2 is the result.
+  - Arg2-as-Cond: Arg2 is the condition, Arg1 is the result.
+
+- **Negative-Condition:**
+  - Arg1-as-NegCond: Arg1 is the condition, Arg2 is the result.
+  - Arg2-as-NegCond: Arg2 is the condition, Arg1 is the result.
+
+- **Purpose:**
+  - Arg1-as-Goal: Arg1 is the goal, Arg2 is the action.
+  - Arg2-as-Goal: Arg2 is the goal, Arg1 is the action.
+
+- **Concession:**
+  - Arg1-as-Denier: Arg2 sets an expectation, Arg1 denies it.
+  - Arg2-as-Denier: Arg1 sets an expectation, Arg2 denies it.
+
+- **Concession+SpeechAct:** 
+  - Arg2-as-denier+SpeechAct: Arg2 denies the speech act in Arg1.
+
+- **Instantiation:**
+  - Arg1-as-Instance: Arg1 gives specific details based on Arg2's general statement.
+  - Arg2-as-Instance: Arg2 provides specific details based on Arg1's general statement.
+
+- **Level-of-Detail:** 
+  - Arg1-as-Detail: Arg1 offers more detail about Arg2.
+  - Arg2-as-Detail: Arg2 offers more detail about Arg1.
+
+**Output Requirement:** One word indicating the Level 2 sense.
+
+**Note:** The output should only be the Level 2 discourse sense, with no further explanation.
