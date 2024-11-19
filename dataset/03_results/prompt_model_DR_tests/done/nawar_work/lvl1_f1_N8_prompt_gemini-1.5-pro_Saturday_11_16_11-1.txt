@@ -1,0 +1,19 @@
+F1 Scores for N8_prompt_gemini-1.5-pro_Saturday_11_16_11-1.json:
+
+F1 Macro: 0.607
+F1 Micro: 0.656
+F1 Weighted: 0.627
+
+Accuracy: 0.656
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.667     0.571     0.615        14
+           2      0.667     0.893     0.763        56
+           3      0.609     0.700     0.651        20
+           4      0.667     0.286     0.400        35
+
+    accuracy                          0.656       125
+   macro avg      0.652     0.613     0.607       125
+weighted avg      0.657     0.656     0.627       125
