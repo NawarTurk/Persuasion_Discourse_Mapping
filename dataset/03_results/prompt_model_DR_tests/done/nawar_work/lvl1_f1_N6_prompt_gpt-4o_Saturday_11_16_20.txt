@@ -1,0 +1,19 @@
+F1 Scores for N6_prompt_gpt-4o_Saturday_11_16_20.json:
+
+F1 Macro: 0.481
+F1 Micro: 0.524
+F1 Weighted: 0.529
+
+Accuracy: 0.524
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.714     0.357     0.476        14
+           2      0.771     0.649     0.705        57
+           3      0.276     0.800     0.410        20
+           4      0.615     0.229     0.333        35
+
+    accuracy                          0.524       126
+   macro avg      0.594     0.509     0.481       126
+weighted avg      0.643     0.524     0.529       126
