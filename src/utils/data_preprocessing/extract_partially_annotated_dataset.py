@@ -3,9 +3,9 @@ import os
 from utils.pt_dr_getters import get_PT_id_by_name
 
 dataset_path = os.path.join("..","dataset")  # improve the way we are handling the different paths
-PRlabel_file_path=os.path.join(dataset_path,  "01_raw_data", "persuasion_techniques","PR_labels.txt")
+PTlabel_file_path=os.path.join(dataset_path,  "01_raw_data", "persuasion_techniques","PT_labels.txt")
 articles_path=os.path.join(dataset_path,"01_raw_data", "persuasion_techniques", "articles")
-output_json_path=os.path.join(dataset_path, "02_processed_data", "partially_annotated_dataset.json")
+output_json_path=os.path.join(dataset_path, "02_processed_data", "persuasion_techniques", "semeval_PT_annotated_dataset.json")
 
 def extract_partially_annotated_dataset():
     def get_para_text(article_num, paragraph_num):
@@ -14,11 +14,11 @@ def extract_partially_annotated_dataset():
             para_index = int(paragraph_num) - 1
             return article_paragraphs[para_index].strip()
         
-    print(f"\n\nStarting extraction process...\nReading from PR label file: {PRlabel_file_path}\nArticles path: {articles_path}")
+    print(f"\n\nStarting extraction process...\nReading from PT label file: {PTlabel_file_path}\nArticles path: {articles_path}")
       
     partially_annotated_dataset = {}
     i = 0
-    with open(PRlabel_file_path, 'r') as infile:
+    with open(PTlabel_file_path, 'r') as infile:
         for line in infile:
             article_num, paragraph_num, *PT_techniques = line.strip().split('\t')
             if PT_techniques:

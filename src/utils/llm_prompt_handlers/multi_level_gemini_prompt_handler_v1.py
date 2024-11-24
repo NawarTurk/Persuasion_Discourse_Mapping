@@ -1,11 +1,5 @@
-import google.generativeai as genai
-import config
 from utils.llm_prompt_handlers.gemini_prompt_handler import gemini_prompt_handler
 
-api_key = config.GEMINI_API_KEY
-model_name = config.GEMINI_MODEL_NAME
-
-genai.configure(api_key=api_key)
 def multi_level_gemini_prompt_handler_v1(paragraph, foo):
     # First-level prediction prompt template
     level_1_template = """

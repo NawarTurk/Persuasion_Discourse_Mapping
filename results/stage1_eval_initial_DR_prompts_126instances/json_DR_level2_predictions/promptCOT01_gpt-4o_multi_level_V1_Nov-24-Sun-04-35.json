@@ -1,0 +1,218 @@
+{
+  "3": {
+    "token_id": "3",
+    "text": "For Ms. Cunningham the architectural discombobulation matched the discrepancy she felt living in the AnaMor Towers as a little girl.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "6": {
+    "token_id": "6",
+    "text": "Turned loose in Shane Longman’s trading room, the yuppie dealers do little right.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "synchronous",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "11": {
+    "token_id": "11",
+    "text": "The Artist has his routine. He spends his days sketching passers-by, or trying to. At night he returns to the condemned building he calls home.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "asynchronous",
+    "predicted_DR_level2": "asynchronous",
+    "test_token": "y",
+    "actual_DR_level3": "precedence"
+  },
+  "12": {
+    "token_id": "12",
+    "text": "William Gates and Paul Allen in 1975 developed an early language-housekeeper system for PCs, and Gates became an industry billionaire six years after IBM adapted one of these versions in 1981.",
+    "actual_DR_level1": "temporal",
+    "actual_DR_level2": "asynchronous",
+    "predicted_DR_level2": "asynchronous",
+    "test_token": "y",
+    "actual_DR_level3": "succession"
+  },
+  "19": {
+    "token_id": "19",
+    "text": "The Nicaraguan president, citing attacks by the U.S.-backed rebels, suspended a 19-month-old cease-fire . . .",
+    "actual_DR_level1": "contingency",
+    "actual_DR_level2": "cause",
+    "predicted_DR_level2": "cause",
+    "test_token": "y",
+    "actual_DR_level3": "reason"
+  },
+  "20": {
+    "token_id": "20",
+    "text": "But service on the line is expected to resume by noon today.  “We had no serious damage on the railroad,” said a Southern Pacific spokesman. ",
+    "actual_DR_level1": "contingency",
+    "actual_DR_level2": "cause",
+    "predicted_DR_level2": "asynchronous",
+    "test_token": "y",
+    "actual_DR_level3": "reason"
+  },
+  "36": {
+    "token_id": "36",
+    "text": "Kellogg suspended work on a $1 billion cereal plant, indicating a pessimistic outlook by the cereal maker, which has been losing market share.",
+    "actual_DR_level1": "contingency",
+    "actual_DR_level2": "cause+belief",
+    "predicted_DR_level2": "cause",
+    "test_token": "y",
+    "actual_DR_level3": "result"
+  },
+  "39": {
+    "token_id": "39",
+    "text": "I’ve seen a great many moviestar film portraits, and this one is outstanding.",
+    "actual_DR_level1": "contingency",
+    "actual_DR_level2": "cause+speechact",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "result"
+  },
+  "52": {
+    "token_id": "52",
+    "text": ". . . which, unlike utilities, aren’t regulated and therefore don’t need government approval to construct new plants.",
+    "actual_DR_level1": "contingency",
+    "actual_DR_level2": "condition",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-cond"
+  },
+  "67": {
+    "token_id": "67",
+    "text": "Do you really need this much money to put up these investments?",
+    "actual_DR_level1": "contingency",
+    "actual_DR_level2": "purpose",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-goal"
+  },
+  "69": {
+    "token_id": "69",
+    "text": "The two companies have been discussing a transaction under which Fresenius would buy Delmed stock for cash to bring its beneficial ownership to between 70% and 80% of Delmed’s fully diluted common stock. ",
+    "actual_DR_level1": "contingency",
+    "actual_DR_level2": "purpose",
+    "predicted_DR_level2": "instantiation",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-goal"
+  },
+  "82": {
+    "token_id": "82",
+    "text": "He lived in Peking, or should I say Beijing, for 20 years.",
+    "actual_DR_level1": "comparison",
+    "actual_DR_level2": "concession+speechact",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-denier+sa"
+  },
+  "84": {
+    "token_id": "84",
+    "text": "After all, gold prices usually soar when inflation is high. Utility stocks, on the other hand, thrive on disinflation . . .",
+    "actual_DR_level1": "comparison",
+    "actual_DR_level2": "contrast",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "85": {
+    "token_id": "85",
+    "text": "Mr. Edelman said the decision ”has nothing to do with Marty Ackerman.” Mr. Ackerman contended that it was a direct response to his efforts to gain control of Datapoint.",
+    "actual_DR_level1": "comparison",
+    "actual_DR_level2": "contrast",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "88": {
+    "token_id": "88",
+    "text": "...that even after Monday’s 10% decline, the Straits Times index is up 24% this year, so investors who bailed out generally did so profitably. Similarly, Kuala Lumpur’s composite index yesterday ended 27.5% above its 1988 close.",
+    "actual_DR_level1": "comparison",
+    "actual_DR_level2": "similarity",
+    "predicted_DR_level2": "similarity",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "96": {
+    "token_id": "96",
+    "text": "If we want to support students, we might adopt the idea used in other countries of offering more scholarships based on something called “scholarship,” rather than on the government’s idea of “service.”.",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "disjunction",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": ""
+  },
+  "106": {
+    "token_id": "106",
+    "text": "The computers were crude by today’s standards. Apple II owners, for example, had to use their television sets as screens and stored data on audiocassettes. ",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "instantiation",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-instance"
+  },
+  "107": {
+    "token_id": "107",
+    "text": "And regional offices were “egregiously overstaffed,” he claims. One office had 19 people doing the work of three, . . . ",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "instantiation",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-instance"
+  },
+  "113": {
+    "token_id": "113",
+    "text": "An enormous turtle has succeeded where the government has failed: He has made speaking Filipino respectable.",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "level-of-detail",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-detail"
+  },
+  "120": {
+    "token_id": "120",
+    "text": "Eliminate arbitrage and liquidity will decline instead of rising, creating more volatility instead of less.",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "substitution",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg1-as-subst"
+  },
+  "121": {
+    "token_id": "121",
+    "text": "Rather than sell 39-cents-a-pound Delicious, maybe we can sell 79-cents-a-pound Fujis,” says Chuck Tryon, . . . ",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "substitution",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg1-as-subst"
+  },
+  "122": {
+    "token_id": "122",
+    "text": "Eliminate arbitrage and liquidity will decline instead of rising, creating more volatility instead of less.",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "substitution",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg1-as-subst"
+  },
+  "123": {
+    "token_id": "123",
+    "text": "Intervention, he added, is useful only to smooth disorderly markets, not to fundamentally influence the dollar’s value. ",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "substitution",
+    "predicted_DR_level2": "purpose",
+    "test_token": "y",
+    "actual_DR_level3": "arg1-as-subst"
+  },
+  "125": {
+    "token_id": "125",
+    "text": "Nor are any of these inefficient monoliths likely to be allowed to go bankrupt. Rather, the brunt of the slowdown will be felt in the fast-growing private and semi-private ”township” enterprises, ...",
+    "actual_DR_level1": "expansion",
+    "actual_DR_level2": "substitution",
+    "predicted_DR_level2": "contrast",
+    "test_token": "y",
+    "actual_DR_level3": "arg2-as-subst"
+  }
+}

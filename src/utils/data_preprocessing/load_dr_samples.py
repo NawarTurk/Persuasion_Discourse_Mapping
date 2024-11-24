@@ -3,8 +3,8 @@ import json
 import os
 
 dataset_path = os.path.join("..","dataset")
-file_path = os.path.join(dataset_path, "01_raw_data", "discourse_relations", "sample_one", "PDTB3_example_paragraphs_with_labels.csv")
-save_path = os.path.join(dataset_path, "02_processed_data", "dr_actual_labels_sample1.json")
+file_path = os.path.join(dataset_path, "01_raw_data", "discourse_relations", "sample_one", "PDTB3_example_paragraphs_with_labels_126instances.csv")
+save_path = os.path.join(dataset_path, "02_processed_data", "discourse_relations", "DR_labeled_sample1_126instances.json")
 
 def load_dr_data_from_csv():
     
