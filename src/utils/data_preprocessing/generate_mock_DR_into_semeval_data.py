@@ -1,14 +1,14 @@
 import os
 import json
 import random
-from utils.pt_dr_getters import DR_relations_level2, get_DR_relation_by_id
+from utils.helpers.pt_dr_getters import DR_relations_level2, get_DR_relation_by_id
 
 
 dataset_path = os.path.join("..","dataset")
 partial_annotated_dataset_with_text = os.path.join(dataset_path, "02_processed_data", "persuasion_techniques", "semeval_PT_annotated_dataset.json")
 output_path = os.path.join(dataset_path, "mock_data", "complete_dataset_with_mock_DR.json")
 
-def populate_mock_DR():
+def generate_mock_DR_into_semeval_data():
     print("\n\nStarting to populate mock discourse relations into the dataset...")
     with open(partial_annotated_dataset_with_text) as json_file:
         dataset= json.load(json_file)

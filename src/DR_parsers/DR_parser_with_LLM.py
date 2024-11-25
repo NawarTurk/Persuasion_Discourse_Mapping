@@ -65,7 +65,7 @@ output_file = os.path.join(results, "stage1_eval_initial_DR_prompts_126instances
 
 
 
-def populate_dr_predictions():
+def parser_DR_with_LLM():
     print(f"\n\n###### Starting DR predictions for the PDTB sample data ######\n")
     print(f'using {parser.__name__} parser. \nModel Name: , {model_name}')
 

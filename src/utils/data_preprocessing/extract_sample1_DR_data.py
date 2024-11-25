@@ -6,7 +6,7 @@ dataset_path = os.path.join("..","dataset")
 file_path = os.path.join(dataset_path, "01_raw_data", "discourse_relations", "sample_one", "PDTB3_example_paragraphs_with_labels_126instances.csv")
 save_path = os.path.join(dataset_path, "02_processed_data", "discourse_relations", "DR_labeled_sample1_126instances.json")
 
-def load_dr_data_from_csv():
+def extract_sample1_DR_data():
     
     data_dict = {}
     sample_index = 1

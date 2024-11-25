@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-from utils.pt_dr_getters import get_DR_id_by_name
+from utils.helpers.pt_dr_getters import get_DR_id_by_name
 import warnings
 from sklearn.metrics import f1_score, classification_report, accuracy_score
 from sklearn.exceptions import UndefinedMetricWarning

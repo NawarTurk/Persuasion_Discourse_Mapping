@@ -2,11 +2,11 @@ import os
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
-from utils.pt_dr_getters import get_DR_id_by_name
+from utils.helpers.pt_dr_getters import get_DR_id_by_name
 import warnings
 from sklearn.metrics import f1_score, classification_report, accuracy_score
 from sklearn.exceptions import UndefinedMetricWarning
-from utils.get_level1_DR import get_level1_DR
+from utils.helpers.get_level1_DR import get_level1_DR
 
 warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 

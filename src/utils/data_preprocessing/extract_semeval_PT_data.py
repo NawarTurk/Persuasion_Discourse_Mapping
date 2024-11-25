@@ -1,13 +1,13 @@
 import json
 import os
-from utils.pt_dr_getters import get_PT_id_by_name
+from utils.helpers.pt_dr_getters import get_PT_id_by_name
 
 dataset_path = os.path.join("..","dataset")  # improve the way we are handling the different paths
 PTlabel_file_path=os.path.join(dataset_path,  "01_raw_data", "persuasion_techniques","PT_labels.txt")
 articles_path=os.path.join(dataset_path,"01_raw_data", "persuasion_techniques", "articles")
 output_json_path=os.path.join(dataset_path, "02_processed_data", "persuasion_techniques", "semeval_PT_annotated_dataset.json")
 
-def extract_partially_annotated_dataset():
+def extract_semeval_PT_data():
     def get_para_text(article_num, paragraph_num):
         with open(os.path.join(articles_path, f'article{article_num}.txt'), 'r') as article:
             article_paragraphs = article.readlines()
