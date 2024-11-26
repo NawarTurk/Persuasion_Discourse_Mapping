@@ -1,14 +1,14 @@
 {
   "1": {
-    "prompt_id": "promptCOT01",
+    "prompt_id": "promptN12",
     "model": "gpt-4o",
     "level": "level1",
-    "f1_macro": 0.338,
-    "f1_micro": 0.333,
-    "f1_weighted": 0.275,
-    "accuracy": 0.333,
-    "faulty_predictions_numb": 102,
-    "adjusted_accuracy": 0.063
+    "f1_macro": 0.477,
+    "f1_micro": 0.5,
+    "f1_weighted": 0.496,
+    "accuracy": 0.5,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.5
   },
   "2": {
     "prompt_id": "promptN01",
@@ -22,6 +22,17 @@
     "adjusted_accuracy": 0.603
   },
   "3": {
+    "prompt_id": "promptN08",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.652,
+    "f1_micro": 0.707,
+    "f1_weighted": 0.699,
+    "accuracy": 0.707,
+    "faulty_predictions_numb": 3,
+    "adjusted_accuracy": 0.69
+  },
+  "4": {
     "prompt_id": "promptN05",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -32,7 +43,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.683
   },
-  "4": {
+  "5": {
     "prompt_id": "promptN02",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -43,7 +54,29 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.69
   },
-  "5": {
+  "6": {
+    "prompt_id": "promptN04",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.601,
+    "f1_micro": 0.667,
+    "f1_weighted": 0.636,
+    "accuracy": 0.667,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.667
+  },
+  "7": {
+    "prompt_id": "promptN09",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.6,
+    "f1_micro": 0.65,
+    "f1_weighted": 0.642,
+    "accuracy": 0.65,
+    "faulty_predictions_numb": 3,
+    "adjusted_accuracy": 0.635
+  },
+  "8": {
     "prompt_id": "promptN08",
     "model": "gpt-4o",
     "level": "level1",
@@ -54,7 +87,29 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.516
   },
-  "6": {
+  "9": {
+    "prompt_id": "promptN06",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.647,
+    "f1_micro": 0.694,
+    "f1_weighted": 0.686,
+    "accuracy": 0.694,
+    "faulty_predictions_numb": 2,
+    "adjusted_accuracy": 0.683
+  },
+  "10": {
+    "prompt_id": "promptN10",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.597,
+    "f1_micro": 0.659,
+    "f1_weighted": 0.632,
+    "accuracy": 0.659,
+    "faulty_predictions_numb": 3,
+    "adjusted_accuracy": 0.643
+  },
+  "11": {
     "prompt_id": "promptN07",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -65,7 +120,18 @@
     "faulty_predictions_numb": 2,
     "adjusted_accuracy": 0.627
   },
-  "7": {
+  "12": {
+    "prompt_id": "promptN07",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.652,
+    "f1_micro": 0.69,
+    "f1_weighted": 0.681,
+    "accuracy": 0.69,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.69
+  },
+  "13": {
     "prompt_id": "promptN05",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -76,7 +142,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.667
   },
-  "8": {
+  "14": {
     "prompt_id": "promptN10",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -87,7 +153,7 @@
     "faulty_predictions_numb": 4,
     "adjusted_accuracy": 0.619
   },
-  "9": {
+  "15": {
     "prompt_id": "promptN06",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -98,7 +164,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.69
   },
-  "10": {
+  "16": {
     "prompt_id": "promptN07",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -109,7 +175,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.675
   },
-  "11": {
+  "17": {
     "prompt_id": "promptN03",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -120,7 +186,18 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.651
   },
-  "12": {
+  "18": {
+    "prompt_id": "promptN04",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.57,
+    "f1_micro": 0.635,
+    "f1_weighted": 0.623,
+    "accuracy": 0.635,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.635
+  },
+  "19": {
     "prompt_id": "promptN01",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -131,18 +208,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.643
   },
-  "13": {
-    "prompt_id": "promptCOT02",
-    "model": "claude-3-5-sonnet-20241022",
+  "20": {
+    "prompt_id": "promptN08",
+    "model": "gemini-1.5-pro",
     "level": "level1",
-    "f1_macro": 0.496,
-    "f1_micro": 0.524,
-    "f1_weighted": 0.535,
-    "accuracy": 0.524,
-    "faulty_predictions_numb": 0,
-    "adjusted_accuracy": 0.524
+    "f1_macro": 0.656,
+    "f1_micro": 0.696,
+    "f1_weighted": 0.687,
+    "accuracy": 0.696,
+    "faulty_predictions_numb": 1,
+    "adjusted_accuracy": 0.69
   },
-  "14": {
+  "21": {
     "prompt_id": "promptN03",
     "model": "gpt-4o",
     "level": "level1",
@@ -153,18 +230,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.619
   },
-  "15": {
-    "prompt_id": "promptCOT01",
-    "model": "claude-3-5-sonnet-20241022",
-    "level": "level1",
-    "f1_macro": 0.497,
-    "f1_micro": 0.516,
-    "f1_weighted": 0.522,
-    "accuracy": 0.516,
-    "faulty_predictions_numb": 0,
-    "adjusted_accuracy": 0.516
-  },
-  "16": {
+  "22": {
     "prompt_id": "promptN09",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -175,7 +241,18 @@
     "faulty_predictions_numb": 6,
     "adjusted_accuracy": 0.683
   },
-  "17": {
+  "23": {
+    "prompt_id": "promptN12",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.51,
+    "f1_micro": 0.563,
+    "f1_weighted": 0.561,
+    "accuracy": 0.563,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.563
+  },
+  "24": {
     "prompt_id": "promptN04",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -186,7 +263,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.675
   },
-  "18": {
+  "25": {
     "prompt_id": "promptN07",
     "model": "gpt-4o",
     "level": "level1",
@@ -197,7 +274,18 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.556
   },
-  "19": {
+  "26": {
+    "prompt_id": "promptN11",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.497,
+    "f1_micro": 0.516,
+    "f1_weighted": 0.522,
+    "accuracy": 0.516,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.516
+  },
+  "27": {
     "prompt_id": "promptN05",
     "model": "gpt-4o",
     "level": "level1",
@@ -208,7 +296,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.603
   },
-  "20": {
+  "28": {
+    "prompt_id": "promptN01",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.615,
+    "f1_micro": 0.651,
+    "f1_weighted": 0.647,
+    "accuracy": 0.651,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.651
+  },
+  "29": {
     "prompt_id": "promptN08",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -219,7 +318,51 @@
     "faulty_predictions_numb": 5,
     "adjusted_accuracy": 0.667
   },
-  "21": {
+  "30": {
+    "prompt_id": "promptN03",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.608,
+    "f1_micro": 0.659,
+    "f1_weighted": 0.645,
+    "accuracy": 0.659,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.659
+  },
+  "31": {
+    "prompt_id": "promptN12",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.496,
+    "f1_micro": 0.524,
+    "f1_weighted": 0.535,
+    "accuracy": 0.524,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.524
+  },
+  "32": {
+    "prompt_id": "promptN03",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.607,
+    "f1_micro": 0.664,
+    "f1_weighted": 0.644,
+    "accuracy": 0.664,
+    "faulty_predictions_numb": 1,
+    "adjusted_accuracy": 0.659
+  },
+  "33": {
+    "prompt_id": "promptN12",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.516,
+    "f1_micro": 0.571,
+    "f1_weighted": 0.569,
+    "accuracy": 0.571,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.571
+  },
+  "34": {
     "prompt_id": "promptN04",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -230,29 +373,62 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.675
   },
-  "22": {
-    "prompt_id": "promptCOT01",
+  "35": {
+    "prompt_id": "promptN06",
     "model": "gemini-1.5-pro",
     "level": "level1",
-    "f1_macro": 0.524,
-    "f1_micro": 0.563,
-    "f1_weighted": 0.558,
-    "accuracy": 0.563,
+    "f1_macro": 0.619,
+    "f1_micro": 0.675,
+    "f1_weighted": 0.662,
+    "accuracy": 0.675,
     "faulty_predictions_numb": 0,
-    "adjusted_accuracy": 0.563
+    "adjusted_accuracy": 0.675
   },
-  "23": {
-    "prompt_id": "promptCOT02",
+  "36": {
+    "prompt_id": "promptN01",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.596,
+    "f1_micro": 0.656,
+    "f1_weighted": 0.652,
+    "accuracy": 0.656,
+    "faulty_predictions_numb": 1,
+    "adjusted_accuracy": 0.651
+  },
+  "37": {
+    "prompt_id": "promptN02",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.605,
+    "f1_micro": 0.656,
+    "f1_weighted": 0.643,
+    "accuracy": 0.656,
+    "faulty_predictions_numb": 1,
+    "adjusted_accuracy": 0.651
+  },
+  "38": {
+    "prompt_id": "promptN11",
     "model": "gpt-4o",
     "level": "level1",
-    "f1_macro": 0.477,
-    "f1_micro": 0.5,
-    "f1_weighted": 0.496,
-    "accuracy": 0.5,
-    "faulty_predictions_numb": 0,
-    "adjusted_accuracy": 0.5
+    "f1_macro": 0.338,
+    "f1_micro": 0.333,
+    "f1_weighted": 0.275,
+    "accuracy": 0.333,
+    "faulty_predictions_numb": 102,
+    "adjusted_accuracy": 0.063
   },
-  "24": {
+  "39": {
+    "prompt_id": "promptN11",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.549,
+    "f1_micro": 0.595,
+    "f1_weighted": 0.587,
+    "accuracy": 0.595,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.595
+  },
+  "40": {
     "prompt_id": "promptN06",
     "model": "gpt-4o",
     "level": "level1",
@@ -263,7 +439,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.524
   },
-  "25": {
+  "41": {
     "prompt_id": "promptN05",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -274,7 +450,7 @@
     "faulty_predictions_numb": 3,
     "adjusted_accuracy": 0.706
   },
-  "26": {
+  "42": {
     "prompt_id": "promptN10",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -285,7 +461,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.651
   },
-  "27": {
+  "43": {
     "prompt_id": "promptN02",
     "model": "gpt-4o",
     "level": "level1",
@@ -296,7 +472,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.627
   },
-  "28": {
+  "44": {
     "prompt_id": "promptN08",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -307,7 +483,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.675
   },
-  "29": {
+  "45": {
     "prompt_id": "promptN09",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -318,18 +494,7 @@
     "faulty_predictions_numb": 2,
     "adjusted_accuracy": 0.659
   },
-  "30": {
-    "prompt_id": "promptCOT02",
-    "model": "gemini-1.5-pro",
-    "level": "level1",
-    "f1_macro": 0.516,
-    "f1_micro": 0.571,
-    "f1_weighted": 0.569,
-    "accuracy": 0.571,
-    "faulty_predictions_numb": 0,
-    "adjusted_accuracy": 0.571
-  },
-  "31": {
+  "46": {
     "prompt_id": "promptN02",
     "model": "gemini-1.5-pro",
     "level": "level1",
@@ -340,7 +505,18 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.659
   },
-  "32": {
+  "47": {
+    "prompt_id": "promptN02",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.644,
+    "f1_micro": 0.698,
+    "f1_weighted": 0.691,
+    "accuracy": 0.698,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.698
+  },
+  "48": {
     "prompt_id": "promptN04",
     "model": "gpt-4o",
     "level": "level1",
@@ -351,7 +527,29 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.659
   },
-  "33": {
+  "49": {
+    "prompt_id": "promptN09",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.626,
+    "f1_micro": 0.683,
+    "f1_weighted": 0.663,
+    "accuracy": 0.683,
+    "faulty_predictions_numb": 3,
+    "adjusted_accuracy": 0.667
+  },
+  "50": {
+    "prompt_id": "promptN11",
+    "model": "gemini-1.5-pro",
+    "level": "level1",
+    "f1_macro": 0.524,
+    "f1_micro": 0.563,
+    "f1_weighted": 0.558,
+    "accuracy": 0.563,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.563
+  },
+  "51": {
     "prompt_id": "promptN10",
     "model": "gpt-4o",
     "level": "level1",
@@ -362,7 +560,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.468
   },
-  "34": {
+  "52": {
     "prompt_id": "promptN06",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -373,7 +571,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.659
   },
-  "35": {
+  "53": {
     "prompt_id": "promptN09",
     "model": "gpt-4o",
     "level": "level1",
@@ -384,7 +582,18 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.571
   },
-  "36": {
+  "54": {
+    "prompt_id": "promptN07",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level1",
+    "f1_macro": 0.621,
+    "f1_micro": 0.667,
+    "f1_weighted": 0.659,
+    "accuracy": 0.667,
+    "faulty_predictions_numb": 3,
+    "adjusted_accuracy": 0.651
+  },
+  "55": {
     "prompt_id": "promptN03",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level1",
@@ -395,7 +604,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.643
   },
-  "37": {
+  "56": {
     "prompt_id": "promptN01",
     "model": "gemini-1.5-pro",
     "level": "level1",

@@ -1,0 +1,19 @@
+F1 Scores for promptN07_claude-3-5-sonnet-20241022_Nov-26-Tue-01-40.json:
+
+F1 Macro: 0.621
+F1 Micro: 0.667
+F1 Weighted: 0.659
+
+Accuracy: 0.667
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.533     0.615     0.571        13
+           2      0.742     0.821     0.780        56
+           3      0.565     0.650     0.605        20
+           4      0.652     0.441     0.526        34
+
+    accuracy                          0.667       123
+   macro avg      0.623     0.632     0.621       123
+weighted avg      0.666     0.667     0.659       123
