@@ -9,7 +9,7 @@ output_json_path=os.path.join(dataset_path, "02_processed_data", "persuasion_tec
 
 def extract_semeval_PT_data():
     def get_para_text(article_num, paragraph_num):
-        with open(os.path.join(articles_path, f'article{article_num}.txt'), 'r') as article:
+        with open(os.path.join(articles_path, f'article{article_num}.txt'), 'r', encoding='utf-8') as article:
             article_paragraphs = article.readlines()
             para_index = int(paragraph_num) - 1
             return article_paragraphs[para_index].strip()
@@ -34,8 +34,8 @@ def extract_semeval_PT_data():
                     }
                     i += 1
 
-    with open(output_json_path, 'w') as json_file:
-        json.dump(partially_annotated_dataset, json_file, indent=2)
+    with open(output_json_path, 'w', encoding= 'utf-8') as json_file:
+        json.dump(partially_annotated_dataset, json_file, indent=2, ensure_ascii=False)
 
     print(f"\nExtraction complete. Processed {i-1} annotations.")
     print(f"Output saved to: {output_json_path}")
