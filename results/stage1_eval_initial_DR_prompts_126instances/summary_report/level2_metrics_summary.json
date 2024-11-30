@@ -22,6 +22,17 @@
     "adjusted_accuracy": 0.333
   },
   "3": {
+    "prompt_id": "promptN06",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.204,
+    "f1_micro": 0.294,
+    "f1_weighted": 0.261,
+    "accuracy": 0.294,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.294
+  },
+  "4": {
     "prompt_id": "promptN08",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -32,7 +43,7 @@
     "faulty_predictions_numb": 3,
     "adjusted_accuracy": 0.452
   },
-  "4": {
+  "5": {
     "prompt_id": "promptN05",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -43,7 +54,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.429
   },
-  "5": {
+  "6": {
     "prompt_id": "promptN02",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -54,7 +65,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.452
   },
-  "6": {
+  "7": {
+    "prompt_id": "promptN09",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.169,
+    "f1_micro": 0.31,
+    "f1_weighted": 0.237,
+    "accuracy": 0.31,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.31
+  },
+  "8": {
     "prompt_id": "promptN04",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -65,7 +87,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.429
   },
-  "7": {
+  "9": {
     "prompt_id": "promptN09",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -76,7 +98,7 @@
     "faulty_predictions_numb": 3,
     "adjusted_accuracy": 0.444
   },
-  "8": {
+  "10": {
     "prompt_id": "promptN08",
     "model": "gpt-4o",
     "level": "level2",
@@ -87,7 +109,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.262
   },
-  "9": {
+  "11": {
     "prompt_id": "promptN06",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -98,7 +120,18 @@
     "faulty_predictions_numb": 2,
     "adjusted_accuracy": 0.444
   },
-  "10": {
+  "12": {
+    "prompt_id": "promptN12",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.22,
+    "f1_micro": 0.317,
+    "f1_weighted": 0.276,
+    "accuracy": 0.317,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.317
+  },
+  "13": {
     "prompt_id": "promptN10",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -109,7 +142,7 @@
     "faulty_predictions_numb": 3,
     "adjusted_accuracy": 0.381
   },
-  "11": {
+  "14": {
     "prompt_id": "promptN07",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -120,7 +153,40 @@
     "faulty_predictions_numb": 2,
     "adjusted_accuracy": 0.421
   },
-  "12": {
+  "15": {
+    "prompt_id": "promptN05",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level2",
+    "f1_macro": 0.398,
+    "f1_micro": 0.492,
+    "f1_weighted": 0.465,
+    "accuracy": 0.492,
+    "faulty_predictions_numb": 2,
+    "adjusted_accuracy": 0.484
+  },
+  "16": {
+    "prompt_id": "promptN04",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.283,
+    "f1_micro": 0.389,
+    "f1_weighted": 0.363,
+    "accuracy": 0.389,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.389
+  },
+  "17": {
+    "prompt_id": "promptN10",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level2",
+    "f1_macro": 0.315,
+    "f1_micro": 0.433,
+    "f1_weighted": 0.39,
+    "accuracy": 0.433,
+    "faulty_predictions_numb": 6,
+    "adjusted_accuracy": 0.413
+  },
+  "18": {
     "prompt_id": "promptN07",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -131,7 +197,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.468
   },
-  "13": {
+  "19": {
     "prompt_id": "promptN05",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -142,7 +208,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.413
   },
-  "14": {
+  "20": {
     "prompt_id": "promptN10",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -153,7 +219,7 @@
     "faulty_predictions_numb": 4,
     "adjusted_accuracy": 0.421
   },
-  "15": {
+  "21": {
     "prompt_id": "promptN06",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -164,7 +230,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.484
   },
-  "16": {
+  "22": {
     "prompt_id": "promptN07",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -175,7 +241,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.476
   },
-  "17": {
+  "23": {
     "prompt_id": "promptN03",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -186,7 +252,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.437
   },
-  "18": {
+  "24": {
     "prompt_id": "promptN04",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -197,7 +263,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.421
   },
-  "19": {
+  "25": {
     "prompt_id": "promptN01",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -208,7 +274,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.452
   },
-  "20": {
+  "26": {
+    "prompt_id": "promptN03",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.299,
+    "f1_micro": 0.397,
+    "f1_weighted": 0.383,
+    "accuracy": 0.397,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.397
+  },
+  "27": {
     "prompt_id": "promptN08",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -219,7 +296,18 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.437
   },
-  "21": {
+  "28": {
+    "prompt_id": "promptN12",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level2",
+    "f1_macro": 0.276,
+    "f1_micro": 0.365,
+    "f1_weighted": 0.326,
+    "accuracy": 0.365,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.365
+  },
+  "29": {
     "prompt_id": "promptN03",
     "model": "gpt-4o",
     "level": "level2",
@@ -230,7 +318,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.389
   },
-  "22": {
+  "30": {
     "prompt_id": "promptN09",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -241,7 +329,7 @@
     "faulty_predictions_numb": 6,
     "adjusted_accuracy": 0.429
   },
-  "23": {
+  "31": {
     "prompt_id": "promptN12",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -252,7 +340,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.357
   },
-  "24": {
+  "32": {
     "prompt_id": "promptN04",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -263,7 +351,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.429
   },
-  "25": {
+  "33": {
+    "prompt_id": "promptN05",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.292,
+    "f1_micro": 0.373,
+    "f1_weighted": 0.353,
+    "accuracy": 0.373,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.373
+  },
+  "34": {
     "prompt_id": "promptN07",
     "model": "gpt-4o",
     "level": "level2",
@@ -274,7 +373,18 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.325
   },
-  "26": {
+  "35": {
+    "prompt_id": "promptN07",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.179,
+    "f1_micro": 0.312,
+    "f1_weighted": 0.261,
+    "accuracy": 0.312,
+    "faulty_predictions_numb": 1,
+    "adjusted_accuracy": 0.31
+  },
+  "36": {
     "prompt_id": "promptN11",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -285,7 +395,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.365
   },
-  "27": {
+  "37": {
+    "prompt_id": "promptN08",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.149,
+    "f1_micro": 0.302,
+    "f1_weighted": 0.226,
+    "accuracy": 0.302,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.302
+  },
+  "38": {
     "prompt_id": "promptN05",
     "model": "gpt-4o",
     "level": "level2",
@@ -296,7 +417,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.357
   },
-  "28": {
+  "39": {
     "prompt_id": "promptN01",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -307,7 +428,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.46
   },
-  "29": {
+  "40": {
     "prompt_id": "promptN08",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -318,7 +439,18 @@
     "faulty_predictions_numb": 5,
     "adjusted_accuracy": 0.452
   },
-  "30": {
+  "41": {
+    "prompt_id": "promptN02",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.283,
+    "f1_micro": 0.373,
+    "f1_weighted": 0.358,
+    "accuracy": 0.373,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.373
+  },
+  "42": {
     "prompt_id": "promptN03",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -329,7 +461,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.452
   },
-  "31": {
+  "43": {
     "prompt_id": "promptN12",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -340,7 +472,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.357
   },
-  "32": {
+  "44": {
     "prompt_id": "promptN03",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -351,7 +483,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.444
   },
-  "33": {
+  "45": {
     "prompt_id": "promptN12",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -362,7 +494,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.349
   },
-  "34": {
+  "46": {
+    "prompt_id": "promptN11",
+    "model": "claude-3-5-sonnet-20241022",
+    "level": "level2",
+    "f1_macro": 0.241,
+    "f1_micro": 0.357,
+    "f1_weighted": 0.316,
+    "accuracy": 0.357,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.357
+  },
+  "47": {
     "prompt_id": "promptN04",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -373,7 +516,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.444
   },
-  "35": {
+  "48": {
     "prompt_id": "promptN06",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -384,7 +527,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.468
   },
-  "36": {
+  "49": {
     "prompt_id": "promptN01",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -395,7 +538,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.365
   },
-  "37": {
+  "50": {
     "prompt_id": "promptN02",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -406,7 +549,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.397
   },
-  "38": {
+  "51": {
     "prompt_id": "promptN11",
     "model": "gpt-4o",
     "level": "level2",
@@ -417,7 +560,18 @@
     "faulty_predictions_numb": 102,
     "adjusted_accuracy": 0.048
   },
-  "39": {
+  "52": {
+    "prompt_id": "promptN10",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.132,
+    "f1_micro": 0.254,
+    "f1_weighted": 0.202,
+    "accuracy": 0.254,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.254
+  },
+  "53": {
     "prompt_id": "promptN11",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -428,7 +582,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.365
   },
-  "40": {
+  "54": {
     "prompt_id": "promptN06",
     "model": "gpt-4o",
     "level": "level2",
@@ -439,7 +593,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.357
   },
-  "41": {
+  "55": {
     "prompt_id": "promptN05",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -450,7 +604,7 @@
     "faulty_predictions_numb": 3,
     "adjusted_accuracy": 0.476
   },
-  "42": {
+  "56": {
     "prompt_id": "promptN10",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -461,7 +615,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.397
   },
-  "43": {
+  "57": {
     "prompt_id": "promptN02",
     "model": "gpt-4o",
     "level": "level2",
@@ -472,7 +626,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.365
   },
-  "44": {
+  "58": {
     "prompt_id": "promptN08",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -483,7 +637,18 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.413
   },
-  "45": {
+  "59": {
+    "prompt_id": "promptN11",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.105,
+    "f1_micro": 0.231,
+    "f1_weighted": 0.163,
+    "accuracy": 0.231,
+    "faulty_predictions_numb": 100,
+    "adjusted_accuracy": 0.048
+  },
+  "60": {
     "prompt_id": "promptN09",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -494,7 +659,7 @@
     "faulty_predictions_numb": 2,
     "adjusted_accuracy": 0.421
   },
-  "46": {
+  "61": {
     "prompt_id": "promptN02",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -505,7 +670,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.413
   },
-  "47": {
+  "62": {
     "prompt_id": "promptN02",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -516,7 +681,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.444
   },
-  "48": {
+  "63": {
     "prompt_id": "promptN04",
     "model": "gpt-4o",
     "level": "level2",
@@ -527,7 +692,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.405
   },
-  "49": {
+  "64": {
     "prompt_id": "promptN09",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -538,7 +703,7 @@
     "faulty_predictions_numb": 3,
     "adjusted_accuracy": 0.405
   },
-  "50": {
+  "65": {
     "prompt_id": "promptN11",
     "model": "gemini-1.5-pro",
     "level": "level2",
@@ -549,7 +714,18 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.349
   },
-  "51": {
+  "66": {
+    "prompt_id": "promptN01",
+    "model": "gpt-4o",
+    "level": "level2",
+    "f1_macro": 0.271,
+    "f1_micro": 0.349,
+    "f1_weighted": 0.331,
+    "accuracy": 0.349,
+    "faulty_predictions_numb": 0,
+    "adjusted_accuracy": 0.349
+  },
+  "67": {
     "prompt_id": "promptN10",
     "model": "gpt-4o",
     "level": "level2",
@@ -560,7 +736,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.246
   },
-  "52": {
+  "68": {
     "prompt_id": "promptN06",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -571,7 +747,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.444
   },
-  "53": {
+  "69": {
     "prompt_id": "promptN09",
     "model": "gpt-4o",
     "level": "level2",
@@ -582,7 +758,7 @@
     "faulty_predictions_numb": 1,
     "adjusted_accuracy": 0.302
   },
-  "54": {
+  "70": {
     "prompt_id": "promptN07",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -593,7 +769,7 @@
     "faulty_predictions_numb": 3,
     "adjusted_accuracy": 0.421
   },
-  "55": {
+  "71": {
     "prompt_id": "promptN03",
     "model": "claude-3-5-sonnet-20241022",
     "level": "level2",
@@ -604,7 +780,7 @@
     "faulty_predictions_numb": 0,
     "adjusted_accuracy": 0.444
   },
-  "56": {
+  "72": {
     "prompt_id": "promptN01",
     "model": "gemini-1.5-pro",
     "level": "level2",
