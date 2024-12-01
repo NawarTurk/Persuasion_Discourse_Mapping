@@ -104,7 +104,7 @@ def evaluate_DR_parser_with_f1():
     # Sort the DataFrame by the numeric_id
     df = df.sort_values('numeric_id')
 
-    # Plotting
+    
     plt.figure(figsize=(12, 8))
 
     # Plot each model as a separate line
@@ -112,25 +112,30 @@ def evaluate_DR_parser_with_f1():
         subset = df[df['model'] == model]
         plt.plot(subset['prompt_id'], subset['adjusted_accuracy'], marker='o', label=model)
 
+        # Annotate each point with the adjusted accuracy value
         for i, row in subset.iterrows():
-            plt.text(row['prompt_id'], row['adjusted_accuracy'], f"{row['adjusted_accuracy']:.2f}",
-                    fontsize=8, ha='center', va='bottom')
-
+            # Conditional positioning for annotations
+            if row['adjusted_accuracy'] < 0.4:
+                vertical_alignment = 'top'
+                vertical_offset = -0.03
+            else:
+                vertical_alignment = 'bottom'
+                vertical_offset = 0.03
+            
+            plt.text(row['prompt_id'], row['adjusted_accuracy'] + vertical_offset,
+                    f"{row['adjusted_accuracy']:.2f}", fontsize=8, ha='center', va=vertical_alignment)
 
     # Customizing the plot
-    plt.title('Model Accuracy by Prompt ID - Level2')
     plt.xlabel('Prompt ID')
     plt.ylabel('Accuracy')
-    plt.legend(title='Model', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.legend(title='Model', loc='upper right')
     plt.grid(True)
     plt.xticks(rotation=45)  # Rotate x-axis labels for readability
     plt.tight_layout()  # Adjust layout to prevent label clipping
-
+    plt.ylim(0, 0.6)
     plt.savefig(plot_output_path, format='png', dpi=300)
     plt.show()
 
+
+
     
-
-
-
- 
