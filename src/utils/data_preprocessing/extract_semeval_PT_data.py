@@ -29,7 +29,10 @@ def extract_semeval_PT_data():
                     'text': get_para_text(article_num, paragraph_num),
                     'PT_id': get_PT_id_by_name(PT),
                     'PT': PT,
+                    'predicted_DR': '',
+                    'parser': '',
                     'DR_id': 0,
+                    ''
                     'DR': ''
                     }
                     i += 1
