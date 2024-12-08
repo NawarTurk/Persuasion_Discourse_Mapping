@@ -1,0 +1,469 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import json
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.metrics.pairwise import cosine_similarity
+from mpl_toolkits.mplot3d import Axes3D
+import argparse
+
+
+def calculate_pt_pt_cosine_similarity_from_ppmi(filtered_ppmi):
+    """
+    Calculate cosine similarity for PT-PT (Persuasion Techniques) using filtered_ppmi DataFrame.
+
+    Parameters:
+    - filtered_ppmi: DataFrame where rows are PTs and columns are DRs.
+
+    Returns:
+    - cosine_sim_matrix: DataFrame containing PT-PT cosine similarity.
+    """
+    # Compute cosine similarity for filtered PTs
+    cosine_sim = cosine_similarity(filtered_ppmi)
+
+    # Convert to a DataFrame for better readability
+    cosine_sim_matrix = pd.DataFrame(
+        cosine_sim,
+        index=filtered_ppmi.index,
+        columns=filtered_ppmi.index
+    )
+
+    return cosine_sim_matrix
+
+
+def cluster_and_plot_3d(filtered_ppmi, n_clusters=3):
+    """
+    Perform KMeans clustering on PTs based on their PPMI vectors and plot in 3D.
+
+    Parameters:
+    - filtered_ppmi: DataFrame with PTs as rows and DRs as columns.
+    - n_clusters: Number of clusters for KMeans.
+    """
+    from sklearn.cluster import KMeans
+    from sklearn.decomposition import PCA
+    from mpl_toolkits.mplot3d import Axes3D  # Necessary for 3D plotting
+
+    # Ensure the DataFrame does not contain all-zero columns
+    filtered_ppmi = filtered_ppmi.loc[:, (filtered_ppmi != 0).any(axis=0)]
+
+    # Perform KMeans clustering
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    kmeans.fit(filtered_ppmi)
+    labels = kmeans.labels_
+
+    # Perform PCA to reduce to 3 dimensions
+    pca = PCA(n_components=3)
+    components = pca.fit_transform(filtered_ppmi)
+
+    # Create a 3D scatter plot
+    fig = plt.figure(figsize=(10, 7))
+    ax = fig.add_subplot(111, projection='3d')
+
+    scatter = ax.scatter(components[:, 0], components[:, 1], components[:, 2],
+                         c=labels, cmap='viridis', s=100)
+
+    # Annotate each point with the PT label
+    for i, pt in enumerate(filtered_ppmi.index):
+        ax.text(components[i, 0], components[i, 1], components[i, 2], pt)
+
+    ax.set_title("3D Clustering of PTs based on PPMI Vectors")
+    ax.set_xlabel("PC1")
+    ax.set_ylabel("PC2")
+    ax.set_zlabel("PC3")
+
+    plt.show()
+
+
+def get_data_from_file():
+    file_path = "../../dataset/mock_data/semeval_PT_dataset_1_dr_parsed.json"
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    return data
+
+def extract_data_frequencies(data):
+    dr_freq_dict = {}
+    pt_freq_dict = {}
+    cooccurrence_freq_dict = {}
+
+    for key, item in data.items():
+        dr = item["DR"]
+        pt = item["PT"]
+
+        dr_freq_dict[dr] = dr_freq_dict[dr] + 1 if dr in dr_freq_dict else 1
+        pt_freq_dict[pt] = pt_freq_dict[pt] + 1 if pt in pt_freq_dict else 1
+        cooccurrence_freq_dict[(dr, pt)] = cooccurrence_freq_dict[(dr, pt)] + 1 if (dr, pt) in cooccurrence_freq_dict else 1
+
+    print(dr_freq_dict)
+
+    return dr_freq_dict, pt_freq_dict, cooccurrence_freq_dict
+
+def calculate_probabilities(dr_freq_dict, pt_freq_dict, cooccurrence_freq_dict, total_count):
+
+    dr_prob = {}
+    pt_prob = {}
+    joint_prob = {}
+
+    for dr, count in dr_freq_dict.items():
+        dr_prob[dr] = count / total_count
+
+    for pt, count in pt_freq_dict.items():
+        pt_prob[pt] = count / total_count
+
+    for (dr, pt), count in cooccurrence_freq_dict.items():
+        joint_prob[(dr, pt)] = count / total_count
+
+    return dr_prob, pt_prob, joint_prob
+
+def calculate_conditional_pmi(dr_prob, pt_prob, joint_prob):
+
+    c_pmi = {}
+    for (dr, pt), p_joint in joint_prob.items():
+        p_dr_given_pt = p_joint / pt_prob[pt]
+        c_pmi[(dr, pt)] = np.log2(p_dr_given_pt / dr_prob[dr])
+    return c_pmi
+
+def calculate_ppmi(dr_prob, pt_prob, joint_prob):
+
+    ppmi = {}
+    for (dr, pt), p_joint in joint_prob.items():
+        pmi = np.log2(p_joint / (pt_prob[pt] * dr_prob[dr]))
+        ppmi[(dr, pt)] = max(pmi, 0)
+    return ppmi
+
+def naive_bayes(dr_freq_dict, pt_freq_dict, cooccurrence_freq_dict):
+
+    nb_prob = {}
+    for (dr, pt), count in cooccurrence_freq_dict.items():
+        nb_prob[(dr, pt)] = count / pt_freq_dict[pt]
+    return nb_prob
+
+#made with chatgpt
+def plot_heatmap(ppmi, dr_list, pt_list):
+    # Create a DataFrame for the PPMI values
+    ppmi_matrix = pd.DataFrame(0, index=dr_list, columns=pt_list)
+
+    # Fill the DataFrame with PPMI values
+    for (dr, pt), value in ppmi.items():
+        ppmi_matrix.loc[dr, pt] = value
+
+    # Plot the heatmap
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(ppmi_matrix, annot=True, fmt=".2f", cmap="Blues", cbar_kws={'label': 'PPMI'})
+    plt.title("Heatmap of PPMI Values (DR vs PT)")
+    plt.xlabel("Persuasion Techniques (PT)")
+    plt.ylabel("Discourse Relations (DR)")
+    plt.xticks(rotation=45, ha="right")
+    plt.tight_layout()
+    plt.show()
+
+
+#made with chatgpt
+def plot_cooccurrence_bar_chart(cooccurrence_freq_dict, output_path="cooccurrence_bar_chart.png"):
+    # Convert co-occurrence dictionary to a DataFrame for easier plotting
+    cooccurrence_df = pd.DataFrame([
+        {"DR": dr, "PT": pt, "Frequency": freq}
+        for (dr, pt), freq in cooccurrence_freq_dict.items()
+    ])
+
+    # Sort by frequency for better visualization
+    cooccurrence_df = cooccurrence_df.sort_values(by="Frequency", ascending=False)
+
+    # Combine DR and PT into a single label
+    cooccurrence_df["DR_PT"] = cooccurrence_df["DR"] + " | " + cooccurrence_df["PT"]
+
+    # Create a bar chart
+    plt.figure(figsize=(15, len(cooccurrence_df) * 0.3))  # Adjust figure height dynamically
+    sns.barplot(
+        data=cooccurrence_df,
+        x="Frequency",
+        y="DR_PT",
+        palette="Blues_d"
+    )
+    plt.title("Frequency of Co-Occurrence (DR | PT)", fontsize=16)
+    plt.xlabel("Frequency", fontsize=12)
+    plt.ylabel("DR | PT Pair", fontsize=12)
+
+    # Adjust y-axis tick labels
+    plt.gca().yaxis.set_tick_params(labelsize=10)  # Set font size for labels
+    plt.gca().tick_params(axis='y', which='major', pad=10)  # Add padding to y-axis labels
+
+    # Use tight layout to prevent label clipping
+    plt.tight_layout()
+
+    # Save the figure as an image
+    plt.savefig(output_path, dpi=300, bbox_inches="tight")  # High DPI for clarity
+
+    # Show the chart
+    plt.show()
+
+def create_ppmi_vectors(ppmi, dr_list, pt_list):
+
+    ppmi_vectors = pd.DataFrame(0, index=dr_list, columns=pt_list)
+
+    for (dr, pt), value in ppmi.items():
+        ppmi_vectors.loc[dr, pt] = value
+
+    return ppmi_vectors
+
+
+def compute_cosine_similarity(ppmi_vectors):
+
+    # Calculate pairwise cosine similarity
+    similarity_matrix = cosine_similarity(ppmi_vectors)
+
+    # Convert to a DataFrame for easier handling and labeling
+    similarity_df = pd.DataFrame(
+        similarity_matrix,
+        index=ppmi_vectors.index,  # DR labels
+        columns=ppmi_vectors.index  # DR labels
+    )
+    return similarity_df
+
+def plot_cosine_similarity_heatmap(similarity_df):
+
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(
+        similarity_df,
+        cmap="coolwarm",  # Diverging color map for similarity
+        annot=False,  # Turn off annotations for better readability
+        cbar_kws={'label': 'Cosine Similarity'},
+        xticklabels=True,
+        yticklabels=True
+    )
+    plt.title("Cosine Similarity Heatmap of PPMI Vectors", fontsize=16)
+    plt.xlabel("Discourse Relations (DR)", fontsize=12)
+    plt.ylabel("Discourse Relations (DR)", fontsize=12)
+    plt.xticks(rotation=45, ha="right", fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.tight_layout()
+    plt.show()
+
+def compute_pt_given_dr(joint_prob, dr_prob):
+
+    pt_given_dr = {}
+
+    for (dr, pt), joint_p in joint_prob.items():
+        pt_given_dr[(dr, pt)] = joint_p / dr_prob[dr]
+
+    return pt_given_dr
+
+def plot_heatmap_filtered(ppmi, dr_list, pt_list):
+    """
+    Plot a heatmap of PPMI values.
+
+    Parameters:
+    - ppmi: Dictionary with PPMI values {(DR, PT): value}.
+    - dr_list: List of Discourse Relations (DRs).
+    - pt_list: Filtered list of Persuasion Techniques (PTs).
+    """
+    # Create a DataFrame for the PPMI values
+    ppmi_matrix = pd.DataFrame(0, index=dr_list, columns=pt_list)
+
+    # Fill the DataFrame with PPMI values
+    for (dr, pt), value in ppmi.items():
+        if pt in pt_list:  # Only include filtered PTs
+            ppmi_matrix.loc[dr, pt] = value
+
+    # Plot the heatmap
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(ppmi_matrix, annot=True, fmt=".2f", cmap="coolwarm", cbar_kws={'label': 'PPMI'})
+    plt.title("Heatmap of PPMI Values (Filtered PTs)", fontsize=16)
+    plt.xlabel("Persuasion Techniques (PT)", fontsize=12)
+    plt.ylabel("Discourse Relations (DR)", fontsize=12)
+    plt.xticks(rotation=45, ha="right", fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.tight_layout()
+    plt.show()
+
+
+def calculate_pt_pt_cosine_similarity(ppmi_vectors, filtered_pts):
+    """
+    Calculate cosine similarity for PT-PT (Persuasion Techniques) after filtering.
+
+    Parameters:
+    - ppmi_vectors: DataFrame where rows are DRs and columns are PTs.
+    - filtered_pts: List of filtered PTs with frequency >= 20.
+
+    Returns:
+    - cosine_sim_matrix: DataFrame containing PT-PT cosine similarity.
+    """
+    # Transpose the PPMI matrix to have PTs as rows and filter the PTs
+    filtered_ppmi = ppmi_vectors[filtered_pts].T
+
+    # Compute cosine similarity for filtered PTs
+    cosine_sim = cosine_similarity(filtered_ppmi)
+
+    # Convert to a DataFrame for better readability
+    cosine_sim_matrix = pd.DataFrame(
+        cosine_sim,
+        index=filtered_ppmi.index,
+        columns=filtered_ppmi.index
+    )
+
+    return cosine_sim_matrix
+
+
+def plot_pt_pt_cosine_heatmap(cosine_sim_matrix):
+    """
+    Plot a heatmap of PT-PT cosine similarity.
+
+    Parameters:
+    - cosine_sim_matrix: DataFrame containing PT-PT cosine similarity.
+    """
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(cosine_sim_matrix, annot=True, fmt=".2f", cmap="coolwarm", cbar_kws={'label': 'Cosine Similarity'})
+    plt.title("Filtered Heatmap of PT-PT Cosine Similarity", fontsize=16)
+    plt.xlabel("Persuasion Techniques (PT)", fontsize=12)
+    plt.ylabel("Persuasion Techniques (PT)", fontsize=12)
+    plt.xticks(rotation=45, ha="right", fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.tight_layout()
+    plt.show()
+
+def find_top_drs_by_pt_given_dr(pt_freq_dict, joint_prob, dr_prob, top_pt_count=4, top_dr_count=3):
+    """
+    Find the top DRs for the top PTs based on P(PT | DR).
+
+    Parameters:
+    - pt_freq_dict: Dictionary with PT frequencies.
+    - joint_prob: Dictionary with joint probabilities P(DR, PT).
+    - dr_prob: Dictionary with DR probabilities P(DR).
+    - top_pt_count: Number of top PTs to consider.
+    - top_dr_count: Number of top DRs for each PT.
+
+    Returns:
+    - result: Dictionary where keys are PTs and values are lists of top DRs based on P(PT|DR).
+    """
+    # Step 1: Get the top N most occurring PTs
+    top_pts = sorted(pt_freq_dict.items(), key=lambda x: x[1], reverse=True)[:top_pt_count]
+
+    result = {}
+
+    # Step 2: For each top PT, calculate P(PT | DR) and find the top DRs
+    for pt, _ in top_pts:
+        pt_given_dr = {}
+
+        # Compute P(PT | DR) for the current PT
+        for (dr, pt_), joint_p in joint_prob.items():
+            if pt_ == pt:  # Only include this PT
+                pt_given_dr[dr] = joint_p / dr_prob[dr]
+
+        # Sort DRs by P(PT | DR) and select the top N
+        top_drs = sorted(pt_given_dr.items(), key=lambda x: x[1], reverse=True)[:top_dr_count]
+
+        # Add to result
+        result[pt] = top_drs
+
+    return result
+
+def calculate_pt_pt_cosine_similarity_final(ppmi_vectors, filtered_drs, filtered_pts):
+    """
+    Calculate cosine similarity for PT-PT (Persuasion Techniques) after filtering both DRs and PTs.
+
+    Parameters:
+    - ppmi_vectors: DataFrame where rows are DRs and columns are PTs.
+    - filtered_drs: List of filtered DRs with frequency >= threshold.
+    - filtered_pts: List of filtered PTs with frequency >= threshold.
+
+    Returns:
+    - cosine_sim_matrix: DataFrame containing PT-PT cosine similarity.
+    """
+    # Filter the PPMI matrix to include only filtered DRs and PTs
+    filtered_ppmi = ppmi_vectors.loc[filtered_drs, filtered_pts].T
+
+    print(filtered_ppmi)
+
+    # Compute cosine similarity for filtered PTs
+    cosine_sim = cosine_similarity(filtered_ppmi)
+
+    # Convert to a DataFrame for better readability
+    cosine_sim_matrix = pd.DataFrame(
+        cosine_sim,
+        index=filtered_ppmi.index,
+        columns=filtered_ppmi.index
+    )
+
+    return cosine_sim_matrix
+
+def plot_filtered_ppmi_heatmap_final(ppmi, filtered_drs, filtered_pts):
+    """
+    Plot a filtered heatmap of PPMI values based on pre-filtered DRs and PTs.
+    Parameters:
+    - ppmi: Dictionary with PPMI values {(DR, PT): value}.
+    - filtered_drs: List of filtered Discourse Relations (DRs).
+    - filtered_pts: List of filtered Persuasion Techniques (PTs).
+    """
+    # Create a DataFrame for the filtered PPMI values
+    ppmi_matrix = pd.DataFrame(0, index=filtered_drs, columns=filtered_pts)
+
+    # Fill the DataFrame with PPMI values
+    for (dr, pt), value in ppmi.items():
+        if dr in filtered_drs and pt in filtered_pts:
+            ppmi_matrix.loc[dr, pt] = value
+
+    print(ppmi_matrix)
+
+    # Plot the heatmap
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(ppmi_matrix, annot=True, fmt=".2f", cmap="coolwarm", cbar_kws={'label': 'PPMI'})
+    plt.title("Filtered Heatmap of PPMI Values", fontsize=16)
+    plt.xlabel("Persuasion Techniques (PT)", fontsize=12)
+    plt.ylabel("Discourse Relations (DR)", fontsize=12)
+    plt.xticks(rotation=45, ha="right", fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.tight_layout()
+    plt.show()
+
+
+def main():
+
+    parser = argparse.ArgumentParser(description="Input file name, number of clusters and if verbose")
+    parser.add_argument("input_file_name", type=str, help="Input file name")
+    parser.add_argument("number of clusters", type=str, help="Number of Clusters")
+    parser.add_argument("if verbose", type=bool, help="If verbose")
+
+    args = parser.parse_args()
+
+    input_file = args.input_file_name
+    nb_clusters = args.num_clusters
+
+    data = get_data_from_file()
+
+    dr_freq_dict, pt_freq_dict, cooccurrence_freq_dict = extract_data_frequencies(data)
+    total_count = sum(cooccurrence_freq_dict.values())
+
+    dr_prob, pt_prob, joint_prob = calculate_probabilities(dr_freq_dict, pt_freq_dict, cooccurrence_freq_dict, total_count)
+
+    c_pmi = calculate_conditional_pmi(dr_prob, pt_prob, joint_prob)
+    ppmi = calculate_ppmi(dr_prob, pt_prob, joint_prob)
+    nb_prob = naive_bayes(dr_freq_dict, pt_freq_dict, cooccurrence_freq_dict)
+
+    dr_list = sorted(dr_freq_dict.keys())
+    pt_list = sorted(pt_freq_dict.keys())
+
+    ppmi_vectors = create_ppmi_vectors(ppmi, dr_freq_dict.keys(), pt_freq_dict.keys())
+    cosine_similarity_df = compute_cosine_similarity(ppmi_vectors)
+    pt_given_dr = compute_pt_given_dr(joint_prob, dr_prob)
+
+    filtered_pts = []
+    for pt, freq in pt_freq_dict.items():
+        if freq > 15:
+            filtered_pts.append(pt)
+
+    filtered_drs = []
+    for dr, freq in dr_freq_dict.items():
+        if freq > 10:
+            filtered_drs.append(dr)
+
+    plot_filtered_ppmi_heatmap_final(ppmi, filtered_drs, filtered_pts)
+
+    pt_pt_cosine_sim = calculate_pt_pt_cosine_similarity_final(ppmi_vectors, filtered_drs, filtered_pts)
+    plot_pt_pt_cosine_heatmap(pt_pt_cosine_sim)
+
+    filtered_ppmi = ppmi_vectors.loc[filtered_drs, filtered_pts].T
+    cluster_and_plot_3d(filtered_ppmi, n_clusters=5)
+
+if __name__ == "__main__":
+    main()
