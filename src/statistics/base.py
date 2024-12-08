@@ -101,9 +101,10 @@ def main():
         fisher_p_df_list.append(fisher_p_df)
         combined_p_df_list.append(combined_p_df)
 
-    #
-    # combined_ppmi_and_statistical_association(fisher_p_df, ppmi_df)
-    # # combined_ppmi_and_statistical_association(combined_p_df, ppmi_df)
+
+    combined_df = combined_ppmi_and_statistical_association(fisher_p_df_list, ppmi_df_list)
+    plot_significant_pairs_heatmap(combined_df)
+    # combined_ppmi_and_statistical_association(combined_p_df_list, ppmi_df_list)
     #
     # # fisher_pivot_df = fisher_p_df.pivot(index="DR", columns="PT", values="P-Value")
     # # print(fisher_pivot_df)

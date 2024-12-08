@@ -18,8 +18,7 @@ def cluster_and_plot_3d(filtered_ppmi, n_clusters):
     fig = plt.figure(figsize=(10, 7))
     ax = fig.add_subplot(111, projection='3d')
 
-    scatter = ax.scatter(components[:, 0], components[:, 1], components[:, 2],
-                         c=labels, cmap='viridis', s=100)
+    scatter = ax.scatter(components[:, 0], components[:, 1], components[:, 2], c=labels, cmap='viridis', s=100)
 
     for i, pt in enumerate(filtered_ppmi.index):
         ax.text(components[i, 0], components[i, 1], components[i, 2], pt)

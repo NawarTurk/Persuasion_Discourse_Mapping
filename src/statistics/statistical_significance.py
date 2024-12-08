@@ -98,20 +98,36 @@ def statistical_association_test(dr_freq_dict, pt_freq_dict, cooccurrence_freq_d
 
     return fisher_exact_dict, chi2_or_fisher_exact_dict
 
-def combined_ppmi_and_statistical_association(statistical_association_df, ppmi_df):
+def combined_ppmi_and_statistical_association(statistical_association_df_list, ppmi_df_list):
 
     significant_pairs = {}
 
-    for _, row in statistical_association_df.iterrows():
+    for i in range(len(statistical_association_df_list)):
 
-        pt, dr, p_value = row["PT"], row["DR"], row["P-Value"]
+        for _, row in statistical_association_df_list[i].iterrows():
+            pt, dr, p_value = row["PT"], row["DR"], row["P-Value"]
 
-        if (ppmi_df.loc[dr, pt] >= 1) and  (p_value < 0.05):
-            significant_pairs[(pt, dr)] = 1
+            if (ppmi_df_list[i].loc[dr, pt] >= 1) and (p_value < 0.05):
+                if (pt, dr) not in significant_pairs:
+                    significant_pairs[(pt, dr)] = {}
+                significant_pairs[(pt, dr)][i] = 'X'
 
-    print(significant_pairs)
+    all_pairs = [(pt, dr) for pt, dr in significant_pairs.keys()]
 
-    return significant_pairs
+    #used chatgpt for this
+    all_indices = sorted({idx for pair_dict in significant_pairs.values() for idx in pair_dict})
+
+    result_df = pd.DataFrame(index=all_pairs, columns=all_indices, data="")
+
+    result_df.index = pd.MultiIndex.from_tuples(result_df.index, names=["PT", "DR"])
+
+    for (pt, dr), idx_dict in significant_pairs.items():
+        for idx in idx_dict:
+            result_df.loc[(pt, dr), idx] = 'X'
+
+    print(result_df)
+
+    return result_df
 
 def dict_to_df(fisher_exact_dict, chi2_or_fisher_exact_dict):
 
