@@ -8,7 +8,7 @@ from probabilities import *
 from tools import *
 from datetime import datetime
 
-
+os.environ["PYTHONWARNINGS"] = "ignore"
 
 def main():
 
