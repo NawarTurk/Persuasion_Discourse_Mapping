@@ -1,0 +1,19 @@
+F1 Scores for promptN12_gpt-4o_multi_level_v2_t2.json:
+
+F1 Macro: 0.486
+F1 Micro: 0.524
+F1 Weighted: 0.529
+
+Accuracy: 0.524
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.500     0.500     0.500        14
+           2      0.698     0.649     0.673        57
+           3      0.303     0.500     0.377        20
+           4      0.462     0.343     0.393        35
+
+    accuracy                          0.524       126
+   macro avg      0.491     0.498     0.486       126
+weighted avg      0.548     0.524     0.529       126

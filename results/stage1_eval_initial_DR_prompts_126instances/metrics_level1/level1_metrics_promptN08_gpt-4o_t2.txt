@@ -1,0 +1,19 @@
+F1 Scores for promptN08_gpt-4o_t2.json:
+
+F1 Macro: 0.471
+F1 Micro: 0.532
+F1 Weighted: 0.502
+
+Accuracy: 0.532
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.700     0.500     0.583        14
+           2      0.724     0.737     0.730        57
+           3      0.306     0.750     0.435        20
+           4      0.333     0.086     0.136        35
+
+    accuracy                          0.532       126
+   macro avg      0.516     0.518     0.471       126
+weighted avg      0.547     0.532     0.502       126
