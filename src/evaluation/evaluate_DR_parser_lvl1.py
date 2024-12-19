@@ -2,7 +2,6 @@ import os
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
-from utils.helpers.pt_dr_getters import get_DR_id_by_name
 import warnings
 from sklearn.metrics import f1_score, classification_report, accuracy_score
 from sklearn.exceptions import UndefinedMetricWarning
@@ -12,9 +11,10 @@ warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 
 dataset_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "json_DR_level2_predictions")
 output_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "metrics_level1")
-summary_report_json_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level1_metrics_summary.json")
 summary_report_xlsx_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level1_metrics_summary.xlsx")
-plot_output_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level1_model_accuracy_by_prompt.png")
+summary_avg_report_xlsx_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level1_avg_metrics_summary.xlsx")
+plot_output_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level1_model_f1_macro_by_prompt.png")
+plot_avg_output_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level1_model_avg_f1_macro_by_prompt.png")
 
 def get_level1_id(level1_name):
     # Define a dictionary to map level-1 categories to numbers
@@ -29,6 +29,7 @@ def get_level1_id(level1_name):
 
 def evaluate_DR_parser_with_f1_lvl1(): 
     summary_report = {}
+    avg_f1_values = {}
 
     for filename in os.listdir(dataset_path):
 
@@ -86,12 +87,27 @@ def evaluate_DR_parser_with_f1_lvl1():
                     'adjusted_accuracy': adjusted_accuracy
                 }
 
-    with open(summary_report_json_path, 'w') as jsonfile:
-        json.dump(summary_report, jsonfile, indent = 2)
+                key = f'{model_name}-{prompt_id}'
+                if key not in avg_f1_values:
+                    avg_f1_values[key] = {
+                        'f1_macro_values': [],
+                        'accuracy_values': []
+                    }
+                avg_f1_values[key]['f1_macro_values'].append(f1_macro)
+                avg_f1_values[key]['accuracy_values'].append(accuracy)
+                avg_f1_values[key]['prompt_id'] = prompt_id
+                avg_f1_values[key]['model'] = model_name
+
+    for key, value in avg_f1_values.items():
+        value['average_f1_macro'] = sum(value['f1_macro_values'])/len(value['f1_macro_values'])
+        value['average_accuracy'] = sum(value['accuracy_values'])/len(value['accuracy_values'])
+
 
 
     df = pd.DataFrame.from_dict(summary_report, orient= 'index')
-    df.to_excel(summary_report_xlsx_path, index=False)
+    df_avg = pd.DataFrame.from_dict(avg_f1_values, orient = 'index')
+
+
 
 
     # Add a numeric ID column to the DataFrame
@@ -99,53 +115,50 @@ def evaluate_DR_parser_with_f1_lvl1():
         if 'N' in prompt_id:
             # Extract the number after 'N' and return as integer
             return int(prompt_id.replace('promptN', ''))
-        elif 'S' in prompt_id:
-            return 50 + int(prompt_id.replace('promptS', ''))
-        elif 'COT' in prompt_id:
-            # Extract the number after 'COT', offset by 50
-            return 100 + int(prompt_id.replace('promptCOT', ''))
-        else:
-            # Default case for unexpected formats
-            return 150
 
     # Apply the function to create the numeric_id column
     df['numeric_id'] = df['prompt_id'].apply(assign_numeric_id)
+    df_avg['numeric_id'] = df_avg['prompt_id'].apply(assign_numeric_id)
 
     # Sort the DataFrame by the numeric_id
     df = df.sort_values('numeric_id')
+    df_avg = df_avg.sort_values('numeric_id')
 
+    df.to_excel(summary_report_xlsx_path, index=False)
+    df_avg.to_excel(summary_avg_report_xlsx_path, index=False)
+    
     # Plotting
     plt.figure(figsize=(12, 8))
 
      # Plot each model as a separate line
     for model in df['model'].unique():
         subset = df[df['model'] == model]
-        plt.plot(subset['prompt_id'], subset['adjusted_accuracy'], marker='o', label=model)
-
-        # Annotate each point with the adjusted accuracy value
-        for i, row in subset.iterrows():
-            # Conditional positioning for annotations
-            if row['adjusted_accuracy'] < 0.4:
-                vertical_alignment = 'top'
-                vertical_offset = -0.03
-            else:
-                vertical_alignment = 'bottom'
-                vertical_offset = 0.03
-            
-            plt.text(row['prompt_id'], row['adjusted_accuracy'] + vertical_offset,
-                    f"{row['adjusted_accuracy']:.2f}", fontsize=8, ha='center', va=vertical_alignment)
+        plt.plot(subset['prompt_id'], subset['f1_macro'], marker='o', label=model)
 
     # Customizing the plot
     plt.xlabel('Prompt ID')
-    plt.ylabel('Accuracy')
+    plt.ylabel('F1 Macro')
     plt.legend(title='Model', loc='upper right')
     plt.grid(True)
     plt.xticks(rotation=45)  # Rotate x-axis labels for readability
     plt.tight_layout()  # Adjust layout to prevent label clipping
-    plt.ylim(0, 1)
+    plt.ylim(0, 0.8)
     plt.savefig(plot_output_path, format='png', dpi=300)
     plt.show()
 
+    plt.figure(figsize=(12, 8))
+    for model in df_avg['model'].unique():
+        subset = df_avg[df_avg['model'] == model]
+        plt.plot(subset['prompt_id'], subset['average_f1_macro'], marker= 'o', label =model)
+    plt.xlabel('Prompt ID')
+    plt.ylabel('Avg F1 Macro')
+    plt.legend(title = 'Model', loc='upper right')
+    plt.grid(True)
+    plt.ylim(0, 0.8)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(f'{plot_avg_output_path}', format ='png', dpi=300)
+    plt.show()
 
 
     
