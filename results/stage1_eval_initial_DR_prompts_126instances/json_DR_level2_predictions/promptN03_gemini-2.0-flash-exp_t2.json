@@ -13,7 +13,7 @@
     "text": "The company is operating under Chapter 11 of the federal Bankruptcy Code, giving it court protection from creditors’ lawsuits while it attempts to work out a plan to pay its debts. ",
     "actual_DR_level1": "temporal",
     "actual_DR_level2": "synchronous",
-    "predicted_DR_level2": "cause",
+    "predicted_DR_level2": "purpose",
     "test_token": "y",
     "actual_DR_level3": ""
   },
@@ -67,7 +67,7 @@
     "text": " A buffet breakfast was held in the museum, where food and drinks are banned to everyday visitors. Then, in the guests’ honor, the speedway hauled out four drivers, crews and even the official Indianapolis 500 announcer for a 10-lap exhibition race. ",
     "actual_DR_level1": "temporal",
     "actual_DR_level2": "asynchronous",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "asynchronous",
     "test_token": "y",
     "actual_DR_level3": "precedence"
   },
@@ -76,7 +76,7 @@
     "text": "Back downtown, the execs squeezed in a few meetings at the hotel before boarding the buses again.",
     "actual_DR_level1": "temporal",
     "actual_DR_level2": "asynchronous",
-    "predicted_DR_level2": "synchronous",
+    "predicted_DR_level2": "asynchronous",
     "test_token": "y",
     "actual_DR_level3": "precedence"
   },
@@ -103,7 +103,7 @@
     "text": "William Gates and Paul Allen in 1975 developed an early language-housekeeper system for PCs, and Gates became an industry billionaire six years after IBM adapted one of these versions in 1981.",
     "actual_DR_level1": "temporal",
     "actual_DR_level2": "asynchronous",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "asynchronous",
     "test_token": "y",
     "actual_DR_level3": "succession"
   },
@@ -112,7 +112,7 @@
     "text": "John D. Carney, 45, was named to succeed Mr. Hatch as president of Eastern Edison. Previously he was vice president of Eastern Edison. ",
     "actual_DR_level1": "temporal",
     "actual_DR_level2": "asynchronous",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "asynchronous",
     "test_token": "y",
     "actual_DR_level3": "succession"
   },
@@ -157,7 +157,7 @@
     "text": "Some dealers said the Treasury’s intent is to help government bond dealers gauge investor demand for the securities, given uncertainties about when the auction will occur.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "cause",
-    "predicted_DR_level2": "cause",
+    "predicted_DR_level2": "purpose",
     "test_token": "y",
     "actual_DR_level3": "reason"
   },
@@ -265,18 +265,9 @@
     "text": "“We are going to explode lower,” says the flamboyant market seer, ...Anyone telling you to buy stocks in this market is technically irresponsible. ",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "cause",
-    "predicted_DR_level2": "cause+speechact",
-    "test_token": "y",
-    "actual_DR_level3": "result"
-  },
-  "31": {
-    "token_id": "31",
-    "text": "that Banco Exterior may have waited too long to diversify from its traditional export-related activities.",
-    "actual_DR_level1": "contingency",
-    "actual_DR_level2": "cause",
     "predicted_DR_level2": "cause+belief",
     "test_token": "y",
-    "actual_DR_level3": "negresult"
+    "actual_DR_level3": "result"
   },
   "32": {
     "token_id": "32",
@@ -310,7 +301,7 @@
     "text": "And until last Friday, it seemed those efforts were starting to pay off. “Some of those folks were coming back,” says Leslie Quick Jr., chairman, of discount brokers Quick & Reilly Group Inc.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "cause+belief",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "instantiation",
     "test_token": "y",
     "actual_DR_level3": "reason"
   },
@@ -337,7 +328,7 @@
     "text": "“Maybe I’m a little stuffy, but I wouldn’t sell them,” sniffs Bob Machon, owner of Papa’s Sports Cards in Menlo Park, California.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "cause+speechact",
-    "predicted_DR_level2": "concession+speechact",
+    "predicted_DR_level2": "cause+speechact",
     "test_token": "y",
     "actual_DR_level3": "reason"
   },
@@ -346,7 +337,7 @@
     "text": "I’ve seen a great many moviestar film portraits, and this one is outstanding.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "cause+speechact",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "cause+belief",
     "test_token": "y",
     "actual_DR_level3": "result"
   },
@@ -355,7 +346,7 @@
     "text": "Surviving scandal has become a rite of political passage at a time when a glut of scandal has blunted this town’s sensibility. Let the president demand strict new ethics rules.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "cause+speechact",
-    "predicted_DR_level2": "purpose",
+    "predicted_DR_level2": "cause",
     "test_token": "y",
     "actual_DR_level3": "result"
   },
@@ -373,7 +364,7 @@
     "text": "but he’s still yelling: “I find myself explaining anything to Teddy Kennedy,  you’ll be chasing stolen cars in Anchorage”",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "condition",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "condition",
     "test_token": "y",
     "actual_DR_level3": "arg1-as-cond"
   },
@@ -454,7 +445,7 @@
     "text": "On the other hand, had it existed then, Cray Computer would have incurred a $20.5 million loss.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "condition",
-    "predicted_DR_level2": "negative-condition",
+    "predicted_DR_level2": "condition",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-cond"
   },
@@ -463,7 +454,7 @@
     "text": ". . . which, unlike utilities, aren’t regulated and therefore don’t need government approval to construct new plants.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "condition",
-    "predicted_DR_level2": "contrast",
+    "predicted_DR_level2": "cause",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-cond"
   },
@@ -517,7 +508,7 @@
     "text": "But a Soviet bank here would be crippled unless Moscow found a way to settle the $188 million debt, which was lent to the country’s short-lived democratic Kerensky government before the Communists seized power in 1917.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "negative-condition",
-    "predicted_DR_level2": "condition",
+    "predicted_DR_level2": "negative-condition",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-negcond"
   },
@@ -535,7 +526,7 @@
     "text": "Sandoz said it expects a ”substantial increase” in consolidated profit for the full year, barring major currency rate change.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "negative-condition",
-    "predicted_DR_level2": "condition",
+    "predicted_DR_level2": "negative-condition",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-negcond"
   },
@@ -553,7 +544,7 @@
     "text": "it expects a “substantial increase” in consolidated profit for the full year, barring major currency rate changes.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "negative-condition",
-    "predicted_DR_level2": "condition",
+    "predicted_DR_level2": "negative-condition",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-negcond"
   },
@@ -580,7 +571,7 @@
     "text": "There are the strict monetarists, who believe that floating exchange rates free an economy to stabilize its price level by stabilizing the monetary aggregate.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "purpose",
-    "predicted_DR_level2": "cause+belief",
+    "predicted_DR_level2": "instantiation",
     "test_token": "y",
     "actual_DR_level3": "arg1-as-goal"
   },
@@ -598,7 +589,7 @@
     "text": "Do you really need this much money to put up these investments?",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "purpose",
-    "predicted_DR_level2": "purpose",
+    "predicted_DR_level2": "cause+speechact",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-goal"
   },
@@ -634,7 +625,7 @@
     "text": "I think they should close down the futures exchange and then we could get back to investing.",
     "actual_DR_level1": "contingency",
     "actual_DR_level2": "purpose",
-    "predicted_DR_level2": "cause+belief",
+    "predicted_DR_level2": "asynchronous",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-goal"
   },
@@ -670,7 +661,7 @@
     "text": "It’s as if investors, the past few days, are betting that something is going to go wrong – even if they don’t know what.",
     "actual_DR_level1": "comparison",
     "actual_DR_level2": "concession",
-    "predicted_DR_level2": "condition",
+    "predicted_DR_level2": "cause+belief",
     "test_token": "y",
     "actual_DR_level3": "arg1-as-denier"
   },
@@ -805,7 +796,7 @@
     "text": "Builders get away with using sand and financiers junk . . . ",
     "actual_DR_level1": "comparison",
     "actual_DR_level2": "similarity",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "contrast",
     "test_token": "y",
     "actual_DR_level3": ""
   },
@@ -832,7 +823,7 @@
     "text": "Chemical named James Kennedy, . . . , to assume Mr. Edelson’s duties and to be trading manager for derivative products, including swaps and interest-rate options ",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "conjunction",
-    "predicted_DR_level2": "purpose",
+    "predicted_DR_level2": "conjunction",
     "test_token": "y",
     "actual_DR_level3": ""
   },
@@ -841,7 +832,7 @@
     "text": "Hugely popular, it is far more flexible than straight whole life. I can adjust the amount of insurance I want against the amount going into investment",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "conjunction",
-    "predicted_DR_level2": "contrast",
+    "predicted_DR_level2": "conjunction",
     "test_token": "y",
     "actual_DR_level3": ""
   },
@@ -877,7 +868,7 @@
     "text": " But the battle is more than Justin bargained for. ”I had no idea I was getting in so deep,” says Mr. Kaye, who founded Justin in 1982.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "equivalence",
-    "predicted_DR_level2": "cause+speechact",
+    "predicted_DR_level2": "cause+belief",
     "test_token": "y",
     "actual_DR_level3": ""
   },
@@ -886,7 +877,7 @@
     "text": "Twenty-five years ago the poet Richard Wilbur modernized this 17th-century comedy merely by avoiding ”the zounds sort of thing,” as he wrote in his introduction. Otherwise, the scene remained Celimene’s house in 1666.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "exception",
-    "predicted_DR_level2": "manner",
+    "predicted_DR_level2": "contrast",
     "test_token": "y",
     "actual_DR_level3": "arg1-as-excpt"
   },
@@ -931,7 +922,7 @@
     "text": "Swiveling in his chair, Mr. Straszheim replies that the new outlook, though still weak, doesn’t justify calling a recession right now. “It’s all in this handout you don’t want to look at. We could still have a recession” at some point. One of Mr. Straszheim’s recurring themes is that the state of the economy isn’t a simple black or white. ",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "instantiation",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "level-of-detail",
     "test_token": "y",
     "actual_DR_level3": "arg1-as-instance"
   },
@@ -940,7 +931,7 @@
     "text": "In October doctors were debating the product’s safety, some claiming it caused infections.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "instantiation",
-    "predicted_DR_level2": "cause",
+    "predicted_DR_level2": "conjunction",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-instance"
   },
@@ -994,7 +985,7 @@
     "text": "First came his predictable fusillade: He charged the Coalition of the Left and Progress had sold out its leftist tenets by collaborating in a right-wing plot . . . .",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "level-of-detail",
-    "predicted_DR_level2": "instantiation",
+    "predicted_DR_level2": "asynchronous",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-detail"
   },
@@ -1039,7 +1030,7 @@
     "text": "Taking a cue from California, more politicians will launch their campaigns by backing initiatives, says David Magleby of Brigham Young University.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "manner",
-    "predicted_DR_level2": "instantiation",
+    "predicted_DR_level2": "cause",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-manner"
   },
@@ -1048,7 +1039,7 @@
     "text": "The first hybrid corn seeds produced using this mechanical approach were introduced in the 1930s and they yielded as much as 20% more corn than naturally pollinated plants.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "manner",
-    "predicted_DR_level2": "cause",
+    "predicted_DR_level2": "conjunction",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-manner"
   },
@@ -1075,7 +1066,7 @@
     "text": "Eliminate arbitrage and liquidity will decline instead of rising, creating more volatility instead of less.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "substitution",
-    "predicted_DR_level2": "contrast",
+    "predicted_DR_level2": "substitution",
     "test_token": "y",
     "actual_DR_level3": "arg1-as-subst"
   },
@@ -1093,7 +1084,7 @@
     "text": "Eliminate arbitrage and liquidity will decline instead of rising, creating more volatility instead of less.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "substitution",
-    "predicted_DR_level2": "conjunction",
+    "predicted_DR_level2": "substitution",
     "test_token": "y",
     "actual_DR_level3": "arg1-as-subst"
   },
@@ -1111,7 +1102,7 @@
     "text": "He could develop the beach through a trust, but instead is trying have his grandson become a naturalized Mexican so his family gains direct control.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "substitution",
-    "predicted_DR_level2": "contrast",
+    "predicted_DR_level2": "substitution",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-subst"
   },
@@ -1120,7 +1111,7 @@
     "text": "Nor are any of these inefficient monoliths likely to be allowed to go bankrupt. Rather, the brunt of the slowdown will be felt in the fast-growing private and semi-private ”township” enterprises, ...",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "substitution",
-    "predicted_DR_level2": "contrast",
+    "predicted_DR_level2": "substitution",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-subst"
   },
@@ -1129,7 +1120,7 @@
     "text": "However, StatesWest isn’t abandoning its pursuit of the much-larger Mesa. StatesWest, which has a 7.25% stake in Mesa, said it may purchase more Mesa stock or make a tender offer directly to Mesa shareholders.",
     "actual_DR_level1": "expansion",
     "actual_DR_level2": "substitution",
-    "predicted_DR_level2": "contrast",
+    "predicted_DR_level2": "concession",
     "test_token": "y",
     "actual_DR_level3": "arg2-as-subst"
   }

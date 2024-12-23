@@ -1,0 +1,19 @@
+F1 Scores for promptN12_gemini-2.0-flash-exp_multi_level_v2_t2.json:
+
+F1 Macro: 0.575
+F1 Micro: 0.635
+F1 Weighted: 0.626
+
+Accuracy: 0.635
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.750     0.429     0.545        14
+           2      0.701     0.825     0.758        57
+           3      0.450     0.450     0.450        20
+           4      0.581     0.514     0.545        35
+
+    accuracy                          0.635       126
+   macro avg      0.621     0.554     0.575       126
+weighted avg      0.633     0.635     0.626       126
