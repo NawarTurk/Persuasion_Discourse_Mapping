@@ -25,11 +25,14 @@ def create_filtered_ppmi_df(ppmi, pt_freq_dict, dr_freq_dict, pt_filter_nb, dr_f
     filtered_pts = []
     for pt, freq in pt_freq_dict.items():
         if freq > pt_filter_nb:
+            print(freq)
             filtered_pts.append(pt)
 
     filtered_drs = []
     for dr, freq in dr_freq_dict.items():
         if freq > dr_filter_nb:
+            print(freq)
+
             filtered_drs.append(dr)
 
     ppmi_filtered_df = pd.DataFrame(0.0, index=filtered_drs, columns=filtered_pts)
@@ -41,9 +44,10 @@ def create_filtered_ppmi_df(ppmi, pt_freq_dict, dr_freq_dict, pt_filter_nb, dr_f
     return ppmi_filtered_df
 
 def compute_cosine_similarity(ppmi_vectors):
+    # print(ppmi_vectors)
 
     similarity_matrix = cosine_similarity(ppmi_vectors)
-
+    # print(similarity_matrix)
     similarity_df = pd.DataFrame(
         similarity_matrix,
         index=ppmi_vectors.index,

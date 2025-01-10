@@ -2,9 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+import json
 #used chatgpt to format
 def plot_pt_dr_ppmi_heatmap(ppmi, i):
+    print(ppmi)
 
     plt.figure(figsize=(12, 8))
     sns.heatmap(ppmi, annot=True, fmt=".2f", cmap="coolwarm", cbar_kws={'label': 'PPMI'})
