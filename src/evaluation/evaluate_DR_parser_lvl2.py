@@ -14,7 +14,13 @@ dataset_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126
 output_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "metrics_level2")
 summary_report_xlsx_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level2_metrics_summary.xlsx")
 summary_avg_report_xlsx_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level2_avg_metrics_summary.xlsx")
+summary_avg_prompt_aggregated_report_xlsx_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level2_metrics_summary_aggregated_by_prompt.xlsx")
+summary_avg_model_aggregated_report_xlsx_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level2_metrics_summary_aggregated_by_model.xlsx")
+
+
 average_f1_scores_level2_per_parser = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "average_f1_scores_level2_per_parser.json")
+
+
 plot_output_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level2_model_f1_macro_by_prompt.png")
 plot_avg_output_path = os.path.join("..", "results", "stage1_eval_initial_DR_prompts_126instances", "summary_report", "level2_model_avg_f1_macro_by_prompt.png")
 
@@ -89,12 +95,15 @@ def evaluate_DR_parser_with_f1():
                 if key not in avg_f1_values:
                     avg_f1_values[key] = {
                         'f1_macro_values': [],
-                        'accuracy_values': []
+                        'accuracy_values': [],
+                        'faulty_predictions_numb': []
                     }
-                avg_f1_values[key]['f1_macro_values'].append(f1_macro)
-                avg_f1_values[key]['accuracy_values'].append(accuracy)
+                avg_f1_values[key]['f1_macro_values'].append(round(f1_macro,3))
+                avg_f1_values[key]['accuracy_values'].append(round(adjusted_accuracy,3))
                 avg_f1_values[key]['prompt_id'] = prompt_id 
                 avg_f1_values[key]['model'] = model_name 
+                avg_f1_values[key]['faulty_predictions_numb'].append(numb_faulty_results)
+
 
                     ###
                 report_dict = classification_report(dr_true, dr_pred, digits=3, output_dict=True)
@@ -119,20 +128,45 @@ def evaluate_DR_parser_with_f1():
     for key, value in avg_f1_values.items():
         value['average_f1_macro'] = sum(value['f1_macro_values'])/len(value['f1_macro_values'])
         value['average_accuracy'] = sum(value['accuracy_values'])/len(value['accuracy_values'])
+        value['faulty_predictions_numb'] = sum(value['faulty_predictions_numb'])/len(value['faulty_predictions_numb'])
+
 
     df = pd.DataFrame.from_dict(summary_report, orient = 'index')
     df_avg = pd.DataFrame.from_dict(avg_f1_values, orient = 'index')
     # Apply the function to create the numeric_id column
     df['numeric_id'] = df['prompt_id'].apply(assign_numeric_id)
     df_avg['numeric_id'] = df_avg['prompt_id'].apply(assign_numeric_id)
+   
     # Sort the DataFrame by the numeric_id
     df = df.sort_values('numeric_id')
     df_avg = df_avg.sort_values('numeric_id')
     df.to_excel(summary_report_xlsx_path, index=False)
     df_avg.to_excel(summary_avg_report_xlsx_path, index =False)
 
+    prompt_aggregated = df_avg.groupby('prompt_id').agg({
+        'average_f1_macro': 'mean',
+        'average_accuracy': 'mean',
+        'faulty_predictions_numb': 'mean'
+    }).reset_index()
+    prompt_aggregated.to_excel(summary_avg_prompt_aggregated_report_xlsx_path, index=False)
+
+    model_aggregated = df_avg.groupby('model').agg({
+        'average_f1_macro': ['mean', 'max', 'min'],
+        'average_accuracy': 'mean',
+        'faulty_predictions_numb': 'mean',
+        'faulty_predictions_numb': 'mean'
+    }).reset_index()
+    model_aggregated.columns = ['_'.join(col).strip('_') for col in model_aggregated.columns.values]
+    model_aggregated.to_excel(summary_avg_model_aggregated_report_xlsx_path, index=False)
+
+
+
     with open(average_f1_scores_level2_per_parser, 'w') as f:
         json.dump(global_class_f1_scores, f, indent=4)
+
+    
+
+    
 
 
     plt.figure(figsize=(12, 8))
@@ -142,12 +176,12 @@ def evaluate_DR_parser_with_f1():
         plt.plot(subset['prompt_id'], subset['f1_macro'], marker='o', label=model)
     # Customizing the plot
     plt.xlabel('Prompt ID')
-    plt.ylabel('F1 Macro')
+    plt.ylabel('Macro F1 Score')
     plt.legend(title='Model', loc='upper right')
     plt.grid(True)
     plt.xticks(rotation=45)  # Rotate x-axis labels for readability
     plt.tight_layout()  # Adjust layout to prevent label clipping
-    plt.ylim(0, 0.8)
+    plt.ylim(0.1, 0.5)
     plt.savefig(plot_output_path, format='png', dpi=300)
     # plt.show()
 
@@ -156,10 +190,10 @@ def evaluate_DR_parser_with_f1():
         subset = df_avg[df_avg['model'] == model]
         plt.plot(subset['prompt_id'], subset['average_f1_macro'], marker='o', label=model)
     plt.xlabel('Prompt ID')
-    plt.ylabel('Avg F1 Macro')
+    plt.ylabel('Average Macro F1 Score')
     plt.legend(title='Model', loc='upper right')
     plt.grid(True)
-    plt.ylim(0,0.8)
+    plt.ylim(0.1,0.5)
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(f'{plot_avg_output_path}', format ='png', dpi=300)

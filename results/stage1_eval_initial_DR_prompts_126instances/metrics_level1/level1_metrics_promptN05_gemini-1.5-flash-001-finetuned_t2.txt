@@ -1,0 +1,19 @@
+F1 Scores for promptN05_gemini-1.5-flash-001-finetuned_t2.json:
+
+F1 Macro: 0.576
+F1 Micro: 0.603
+F1 Weighted: 0.610
+
+Accuracy: 0.603
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1      0.391     0.643     0.486        14
+           2      0.729     0.614     0.667        57
+           3      0.550     0.550     0.550        20
+           4      0.600     0.600     0.600        35
+
+    accuracy                          0.603       126
+   macro avg      0.568     0.602     0.576       126
+weighted avg      0.627     0.603     0.610       126

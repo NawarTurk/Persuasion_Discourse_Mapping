@@ -149,7 +149,7 @@ def evaluate_DR_parser_with_f1_lvl1():
         plt.plot(subset['prompt_id'], subset['f1_macro'], marker='o', label=model)
     # Customizing the plot
     plt.xlabel('Prompt ID')
-    plt.ylabel('F1 Macro')
+    plt.ylabel('Macro F1 Score')
     plt.legend(title='Model', loc='upper right')
     plt.grid(True)
     plt.xticks(rotation=45)  # Rotate x-axis labels for readability
@@ -163,7 +163,7 @@ def evaluate_DR_parser_with_f1_lvl1():
         subset = df_avg[df_avg['model'] == model]
         plt.plot(subset['prompt_id'], subset['average_f1_macro'], marker= 'o', label =model)
     plt.xlabel('Prompt ID')
-    plt.ylabel('Avg F1 Macro')
+    plt.ylabel('Average Macro F1 Score')
     plt.legend(title = 'Model', loc='upper right')
     plt.grid(True)
     plt.ylim(0, 0.8)
