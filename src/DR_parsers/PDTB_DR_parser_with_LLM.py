@@ -15,7 +15,8 @@ prompt_template = get_prompt_template(prompt_key)
 date = datetime.now().strftime('%b-%d-%a-%H-%M')
 dataset_path = os.path.join("..","dataset")
 input_file = os.path.join(dataset_path, "02_processed_data", "discourse_relations", "DR_labeled_sample1_126instances.json") 
-output_file = os.path.join("..","results", "stage1_eval_initial_DR_prompts_126instances", "json_DR_level2_predictions", f"{prompt_key}_{model_name}_{date}.json")
+# output_file = os.path.join("..","results", "stage1_eval_initial_DR_prompts_126instances", "json_DR_level2_predictions", f"{prompt_key}_{model_name}_t2.json")
+output_file = os.path.join("..","results", "stage1_eval_initial_DR_prompts_126instances", "json_DR_level2_predictions", f"{prompt_key}_finetuning_t2.json")
 
 
 def parser_DR_with_LLM():

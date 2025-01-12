@@ -77,7 +77,7 @@ def get_DR_relation_by_id(DR_id):
         print(f"Discourse relation with ID {DR_id} not found.")
         return None
     
-def get_DR_id_by_name(DR_name):
+def get_level2_DR_id_by_name(DR_name):
     for id, relation in DR_relations_level2.items():
         if relation['name'].lower() == DR_name.lower():
             return id
