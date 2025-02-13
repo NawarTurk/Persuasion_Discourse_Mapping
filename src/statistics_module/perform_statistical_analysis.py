@@ -25,8 +25,12 @@ def perform_statistical_analysis():
 
 
     global_significance_table = pd.DataFrame()  # Initialize an empty DataFrame for tracking significant results globally
-    global_significance_pairs_dict = defaultdict(lambda: {'p_value': None, 'odds_ratio': None, 'P_DR_given_PT': None, 'pooling_techniques': []})
+    global_significance_pairs_dict = defaultdict(lambda: {'p_value': None, 'odds_ratio': None, 'P_DR_given_PT': None, 'pooling_techniques': [], 'P_DR_given_PT': []})
     global_cos_similarity_df = pd.DataFrame()
+
+    ppmi_global_table = pd.DataFrame()  
+    ppmi_count_global_table = pd.DataFrame()   
+
 
     for json_file in json_files:
         json_file = json_file[:-5]
@@ -83,6 +87,30 @@ def perform_statistical_analysis():
                     ppmi_value = 0
                 ppmi_table.loc[pt, dr] = ppmi_value
 
+                # update the golbal ppmi table
+                if ppmi_global_table.empty:
+                    # First insertion - create table with both pt and dr
+                    ppmi_global_table = pd.DataFrame(index=[pt], columns=[dr])
+                    ppmi_count_global_table = pd.DataFrame(index=[pt], columns=[dr])
+                    ppmi_global_table.loc[pt, dr] = ppmi_value
+                    ppmi_count_global_table.loc[pt, dr] = 1
+                else:
+                    if pt not in ppmi_global_table.index:
+                        ppmi_global_table.loc[pt] = pd.Series(0.0, index=ppmi_global_table.columns)
+                        ppmi_count_global_table.loc[pt] = pd.Series(0.0, index=ppmi_count_global_table.columns)
+                    if dr not in ppmi_global_table.columns:
+                        ppmi_global_table[dr] = pd.Series(0.0, index=ppmi_global_table.index)
+                        ppmi_count_global_table[dr] = pd.Series(0.0, index=ppmi_count_global_table.index)
+
+                current_global_ppmi_avg = ppmi_global_table.loc[pt, dr]
+                current_global_ppmi_count = ppmi_count_global_table.loc[pt, dr]
+
+                ppmi_global_table.loc[pt,dr] = ((current_global_ppmi_avg*current_global_ppmi_count) + ppmi_value)/(current_global_ppmi_count+1)
+                ppmi_count_global_table.loc[pt, dr] += 1
+
+
+        ppmi_table = ppmi_table.round(2)
+
         
 
         # PT-DR PPMI heatmaps ______________________________________________________check all titlews
@@ -120,7 +148,7 @@ def perform_statistical_analysis():
                     'DR': dr,
                     'Odds_Ratio': odds_ratio,
                     'P_Value': p_value,
-                    'P_DR_given_PT': P_DR_given_PT
+                    'P_DR_given_PT': float(P_DR_given_PT)
                 })
 
                 table_str = (
@@ -133,7 +161,7 @@ def perform_statistical_analysis():
                 with open(path, 'a') as f:
                     f.write(f'{table_str}\n')
 
-        # The three metric dataframes
+        # The three metric dataframes (p value, odds ratio, conditional probability)
         p_values_df = pd.DataFrame(index=freq_table.index[:-1], columns=freq_table.columns[:-1])   # Exclude Row_Sum and Col_Sum
         OR_values_df  = pd.DataFrame(index=freq_table.index[:-1], columns=freq_table.columns[:-1])   # Exclude Row_Sum and Col_Sum
         conditional_probability_df = pd.DataFrame(index=freq_table.index[:-1], columns=freq_table.columns[:-1])
@@ -147,17 +175,21 @@ def perform_statistical_analysis():
         pt_labels = ppmi_table.index
         pt_cos_similarity = cosine_similarity(pt_vectors)
         pt_cos_similarity_df = pd.DataFrame(pt_cos_similarity, index=pt_labels, columns=pt_labels)
+        pt_cos_similarity_df = pt_cos_similarity_df.round(2)
+
 
         # PT-PT cos similarity heatmaps
         plt.figure(figsize=(12,10))
         plt.title(f"Cosine Similarity Between PTs ({json_file})")
         sns.heatmap(pt_cos_similarity_df, annot=True, cmap='Greens', cbar=True)
         plt.tight_layout()
-        path = os.path.join(stat_result_path, 'cosine_similarities', f'heatmap_pt_cosine_sim_{json_file}.png')
+        path = os.path.join(stat_result_path, 'pt_pt_cosine_similarities', f'heatmap_pt_cosine_sim_{json_file}.png')
         plt.savefig(path)
         plt.close()  
         
         # Contributing to global calculations
+        # * global_significance_pairs_dict
+        # * global_cos_similarity_df
         for result in all_metric_results:
             pt, dr = result['PT'], result['DR']
             p_value, odds_ratio, P_DR_given_PT =  result['P_Value'], result['Odds_Ratio'], result['P_DR_given_PT']
@@ -166,30 +198,29 @@ def perform_statistical_analysis():
             conditional_probability_df.loc[pt, dr] = P_DR_given_PT
             if result['P_Value'] <= p_value_threshold and result['Odds_Ratio'] > OR_threshold and P_DR_given_PT >= conditional_probability_threshold:
                 key = (pt, dr)
-                global_significance_pairs_dict[key]['p_value'] = p_value
-                global_significance_pairs_dict[key]['Odds_Ratio'] = odds_ratio
-                global_significance_pairs_dict[key]['P_DR_given_PT'] = P_DR_given_PT
-                if json_file not in global_significance_pairs_dict[key]['pooling_techniques']:
-                    global_significance_pairs_dict[key]['pooling_techniques'].append(json_file)
+                # global_significance_pairs_dict[key]['p_value'] = p_value
+                # global_significance_pairs_dict[key]['Odds_Ratio'] = odds_ratio
+                global_significance_pairs_dict[key]['P_DR_given_PT'].append(P_DR_given_PT)
+                global_significance_pairs_dict[key]['pooling_techniques'].append(json_file)
 
         for index in pt_cos_similarity_df.index:
             for col in pt_cos_similarity_df.columns:
                 value = pt_cos_similarity_df.at[index, col]
                 if value >= cos_sim_threshold and index != col:
-                    pair = f'{index}||{col}'
+                    pair = f"{min(index, col)}||{max(index, col)}"
                     global_cos_similarity_df.loc[pair, json_file] = '+'
-
+        global_cos_similarity_df.sort_index()
 
 
         # save frequencey table
         path = os.path.join(stat_result_path, 'pt_dr_freq_tables', f'freq_table_{json_file}.xlsx')
         freq_table.to_excel(path)  
 
-        # save PT DR PPMI table
+        # save PT DR PPMI tables
         path = os.path.join(stat_result_path, 'pt_dr_ppmi_tables', f'ppmi_table_{json_file}.xlsx')
         ppmi_table.to_excel(path)  
 
-        path = os.path.join(stat_result_path, 'cosine_similarities', f'pt_cosine_sim_{json_file}.xlsx')
+        path = os.path.join(stat_result_path, 'pt_pt_cosine_similarities', f'pt_cosine_sim_{json_file}.xlsx')
         pt_cos_similarity_df.to_excel(path)
 
         path = os.path.join(stat_result_path, 'significant_association_analysis', 'fisher_p_value',f'fisher_p_value_{json_file}.xlsx')
@@ -212,18 +243,30 @@ def perform_statistical_analysis():
 # _________
 
     global_significance_pairs_list = [
-        {'pt': key[0],'dr': key[1], 'pooling_techniques': value['pooling_techniques']} for key, value in global_significance_pairs_dict.items()
+        {'pt': key[0],'dr': key[1], 'pooling_techniques': value['pooling_techniques'], 'P_DR_given_PT': value['P_DR_given_PT']} for key, value in global_significance_pairs_dict.items()
     ]
     global_significance_pairs_df = pd.DataFrame(global_significance_pairs_list)
     global_significance_pairs_df['pooling_techniques_count'] = global_significance_pairs_df['pooling_techniques'].apply(len)
+    global_significance_pairs_df['P_DR_given_PT_average1'] = global_significance_pairs_df['P_DR_given_PT'].apply(
+        lambda x: round(np.mean(x),2) if len(x) > 0 else 0
+        )
+
     global_significance_pairs_df = global_significance_pairs_df.sort_values(by='pooling_techniques_count', ascending=False)
+
+
 
     # Filling global cosine similarity table
     # Loop through the columns (files) in the global DataFrame
+
+    global_cos_similarity_df = global_cos_similarity_df.sort_index(axis=1)
+    global_cos_similarity_df = global_cos_similarity_df.sort_index(axis=0)
     global_cos_similarity_filled_df = global_cos_similarity_df.copy()
+    print(global_cos_similarity_df.index) # ___________________________________
+    print(global_cos_similarity_filled_df.index) # ___________________________________
+
     for file in global_cos_similarity_df.columns:
         # Construct the path to the precomputed cosine similarity file
-        cos_sim_path = os.path.join(stat_result_path, 'cosine_similarities', f'pt_cosine_sim_{file}.xlsx')
+        cos_sim_path = os.path.join(stat_result_path, 'pt_pt_cosine_similarities', f'pt_cosine_sim_{file}.xlsx')
         
         # Check if the file exists before proceeding
         if os.path.exists(cos_sim_path):
@@ -241,6 +284,7 @@ def perform_statistical_analysis():
                         # Fill the global DataFrame with the cosine similarity value
                         global_cos_similarity_filled_df.loc[pair, file] = pt_cos_similarity_df.loc[pt1, pt2]           
     global_cos_similarity_filled_df = global_cos_similarity_filled_df.fillna(-0.1)
+    global_cos_similarity_filled_df.sort_index()
 
 
     # Save the global table
@@ -252,6 +296,10 @@ def perform_statistical_analysis():
     output_path = os.path.join(stat_result_path, 'global_significant_result_pair_list.xlsx')
     global_significance_pairs_df.to_excel(output_path, index=False)
 
+
+    output_path = os.path.join(stat_result_path, 'pt_dr_ppmi_tables', 'global_ppmi_table.xlsx')
+    ppmi_global_table.round(2).to_excel(output_path)
+
     global_cos_similarity_df = global_cos_similarity_df.sort_index(axis=1)
     global_cos_similarity_df = global_cos_similarity_df.sort_index(axis=0)
     output_path = os.path.join(stat_result_path, 'global_cos_sim.xlsx')
@@ -259,16 +307,63 @@ def perform_statistical_analysis():
 
     # Save the updated global_cos_similarity_df
     output_path = os.path.join(stat_result_path, 'global_cos_sim_filled.xlsx')
+    global_cos_similarity_filled_df.sort_index(axis=1)
+    global_cos_similarity_filled_df.sort_index(axis=0)
     global_cos_similarity_filled_df.to_excel(output_path)
 
-    # Global PT-PT cos similarity heatmaps
+
+
+    # Create and save global PPMI heatmap
+    ppmi_global_table = ppmi_global_table.astype(float)
     plt.figure(figsize=(12,10))
-    plt.title(f"Global Cosine Similarity Between PTs ({json_file})")
-    sns.heatmap(global_cos_similarity_filled_df, annot=True, cmap='Greens', cbar=True, vmin=cos_sim_threshold)
+    plt.title("Global Average PPMI Across Datasets")
+    sns.heatmap(ppmi_global_table.round(2), 
+                annot=True, 
+                cmap='Greens', 
+                cbar=True,
+                fmt='.2f',
+                annot_kws={"fontsize": 10})
     plt.tight_layout()
-    path = os.path.join(stat_result_path, 'heatmap_global_cos_similarity_df.png')
+    
+    # Save as PNG
+    path = os.path.join(stat_result_path, 'pt_dr_ppmi_tables', 'global_ppmi_heatmap.png')
     plt.savefig(path)
-    plt.close()  
+    plt.close()
+
+
+
+    # Create a copy of the data where values below threshold are set to NaN
+    colored_data = global_cos_similarity_filled_df.copy()
+    colored_data[colored_data <= cos_sim_threshold] = np.nan
+    plt.figure(figsize=(12, 10))
+    # plt.title("Global Cosine Similarity Between PTs (Selective Color Scale)")
+    # Force showing all annotations by setting annot parameter
+    sns.heatmap(
+        colored_data,  # Use the NaN version for coloring
+        annot=True,    # Force annotations
+        annot_kws={"fontsize": 10},
+        fmt=".2f",
+        cmap="Greens",
+        cbar=True,
+        vmin=cos_sim_threshold,
+        linewidths=0.5
+    )
+
+    # Manually add the annotations using plt.text
+    for i in range(len(global_cos_similarity_filled_df.index)):
+        for j in range(len(global_cos_similarity_filled_df.columns)):
+            value = global_cos_similarity_filled_df.iloc[i, j]
+            if not np.isnan(value):  # Only add text if the value is not NaN
+                plt.text(j + 0.5, i + 0.5, f'{value:.2f}',
+                        ha='center', va='center',
+                        color='black',
+                        fontsize=10)
+
+    plt.tight_layout()
+    path = os.path.join(stat_result_path, "heatmap_global_cos_similarity_selective_color.png")
+    plt.savefig(path)
+    plt.close()
+
 
     # Print summary for this file
     print(f"- Frequency table saved to: {os.path.join(stat_result_path, 'pt_dr_freq_tables')}")
