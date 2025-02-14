@@ -17,15 +17,18 @@ parser, model_name = get_parser_and_model_name(parser_id)
 prompt_template = get_prompt_template(prompt_key)
     
 dataset_path = os.path.join("..","dataset")
-results_path = os.path.join('..', 'results', "stage3_DR_parsing_PT_annotated_semeval_datasets")
+results_path = os.path.join('..', 'results', "stage2_DR_parsing_PT_annotated_semeval_datasets")
 input_path = os.path.join(results_path, '01_with_hallucination', f'{pt_dataset_num}_{model_name}_{prompt_key}.json')
 
 if not os.path.isfile(input_path):
     input_path = os.path.join(dataset_path, '02_processed_data', "persuasion_techniques", 'divided_semval_PT_datasets', f'{pt_dataset_num}.json')
 
-print(input_path)
 output_file = os.path.join(results_path, '01_with_hallucination', f'{pt_dataset_num}_{model_name}_{prompt_key}.json')
 
+DR_level2 = {
+        "synchronous", "asynchronous", "cause", "cause+belief", "cause+speechact", "condition", "condition+speechact", "negative-condition", 
+        "negative-condition+speechact", "purpose", "concession", "concession+speechact", "contrast", "similarity", "conjunction", "disjunction", 
+        "equivalence", "exception", "instantiation", "level-of-detail", "manner", "substitution"}
 
 def update_progress(progress, total):   
     percent = 100 * (progress / float(total))
@@ -61,10 +64,18 @@ def semeval_datasets_DR_parser():
             for i, (_, entry) in enumerate(pt_dataset.items()):
                 if current_batch_count >= batch_size:
                     break
-                if entry['DR'] == "":
+                # if entry['DR'] == "":
+                if entry['predicted_DR'] == '':
                     paragraph = entry['text']
                     dr_prediction = parser(paragraph, prompt_template).lower()
-                    entry['DR'] = dr_prediction
+                    # entry['DR'] = dr_prediction   #  CHANGE ME
+                    entry['predicted_DR'] = dr_prediction   #  CHANGE ME
+                    entry['parser'] = f'{model_name}_{prompt_key}'
+                    if dr_prediction in DR_level2:
+                        entry['DR'] = dr_prediction
+                    else:
+                        entry['DR'] = 'NA'
+
                     current_batch_count += 1
                     total_parsed_entries += 1
                     print(f'\nText #{i} is:\n "{paragraph}')
