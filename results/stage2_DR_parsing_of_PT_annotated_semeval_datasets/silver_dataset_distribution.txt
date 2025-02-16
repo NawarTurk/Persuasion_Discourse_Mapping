@@ -1,0 +1,409 @@
+f1_weighted_dataset
+Number of instances#: 4315
+[
+    Loaded_Language                         : 630
+    Name_Calling-Labeling                   : 628
+    Repetition                              : 542
+    Doubt                                   : 516
+    Exaggeration-Minimisation               : 466
+    Appeal_to_Fear-Prejudice                : 310
+    Flag_Waving                             : 287
+    Causal_Oversimplification               : 213
+    Appeal_to_Authority                     : 154
+    Slogans                                 : 151
+    False_Dilemma-No_Choice                 : 122
+    Conversation_Killer                     : 90
+    Guilt_by_Association                    : 59
+    Red_Herring                             : 44
+    Appeal_to_Hypocrisy                     : 40
+    Obfuscation-Vagueness-Confusion         : 18
+    Whataboutism                            : 16
+    Appeal_to_Popularity                    : 15
+    Straw_Man                               : 14
+]
+[    cause                                   : 1250
+    contrast                                : 758
+    instantiation                           : 343
+    concession                              : 330
+    cause+belief                            : 262
+    asynchronous                            : 251
+    level-of-detail                         : 245
+    cause+speechact                         : 190
+    condition                               : 173
+    purpose                                 : 161
+    conjunction                             : 98
+    equivalence                             : 82
+    similarity                              : 70
+    disjunction                             : 41
+    synchronous                             : 31
+    substitution                            : 17
+    exception                               : 9
+    negative-condition                      : 2
+    negative-condition+speechact            : 1
+    condition+speechact                     : 1
+]
+
+----------------------------------
+
+pooled_agreement_2_or_more
+Number of instances#: 4315
+[
+    Loaded_Language                         : 630
+    Name_Calling-Labeling                   : 628
+    Repetition                              : 542
+    Doubt                                   : 516
+    Exaggeration-Minimisation               : 466
+    Appeal_to_Fear-Prejudice                : 310
+    Flag_Waving                             : 287
+    Causal_Oversimplification               : 213
+    Appeal_to_Authority                     : 154
+    Slogans                                 : 151
+    False_Dilemma-No_Choice                 : 122
+    Conversation_Killer                     : 90
+    Guilt_by_Association                    : 59
+    Red_Herring                             : 44
+    Appeal_to_Hypocrisy                     : 40
+    Obfuscation-Vagueness-Confusion         : 18
+    Whataboutism                            : 16
+    Appeal_to_Popularity                    : 15
+    Straw_Man                               : 14
+]
+[    cause                                   : 872
+    cause+belief                            : 653
+    contrast                                : 623
+    concession                              : 357
+    instantiation                           : 341
+    conjunction                             : 289
+    cause+speechact                         : 247
+    level-of-detail                         : 235
+    asynchronous                            : 177
+    condition                               : 157
+    purpose                                 : 143
+    equivalence                             : 64
+    similarity                              : 48
+    disjunction                             : 34
+    synchronous                             : 28
+    substitution                            : 13
+    condition+speechact                     : 12
+    manner                                  : 7
+    exception                               : 5
+    negative-condition                      : 3
+    NA                                      : 3
+    negative-condition+speechact            : 3
+    concession+speechact                    : 1
+]
+
+----------------------------------
+
+pooled_agreement_3_or_more
+Number of instances#: 4186
+[
+    Loaded_Language                         : 612
+    Name_Calling-Labeling                   : 605
+    Repetition                              : 527
+    Doubt                                   : 499
+    Exaggeration-Minimisation               : 455
+    Appeal_to_Fear-Prejudice                : 299
+    Flag_Waving                             : 281
+    Causal_Oversimplification               : 211
+    Slogans                                 : 149
+    Appeal_to_Authority                     : 144
+    False_Dilemma-No_Choice                 : 117
+    Conversation_Killer                     : 88
+    Guilt_by_Association                    : 56
+    Red_Herring                             : 43
+    Appeal_to_Hypocrisy                     : 38
+    Obfuscation-Vagueness-Confusion         : 17
+    Whataboutism                            : 16
+    Appeal_to_Popularity                    : 15
+    Straw_Man                               : 14
+]
+[    cause                                   : 854
+    cause+belief                            : 640
+    contrast                                : 615
+    concession                              : 351
+    instantiation                           : 323
+    conjunction                             : 267
+    cause+speechact                         : 240
+    level-of-detail                         : 224
+    asynchronous                            : 176
+    condition                               : 154
+    purpose                                 : 141
+    equivalence                             : 61
+    similarity                              : 47
+    disjunction                             : 31
+    synchronous                             : 26
+    substitution                            : 13
+    condition+speechact                     : 8
+    manner                                  : 5
+    exception                               : 4
+    negative-condition                      : 2
+    negative-condition+speechact            : 2
+    NA                                      : 1
+    concession+speechact                    : 1
+]
+
+----------------------------------
+
+pooled_agreement_4_or_more
+Number of instances#: 3492
+[
+    Loaded_Language                         : 506
+    Name_Calling-Labeling                   : 504
+    Repetition                              : 439
+    Doubt                                   : 420
+    Exaggeration-Minimisation               : 386
+    Appeal_to_Fear-Prejudice                : 242
+    Flag_Waving                             : 228
+    Causal_Oversimplification               : 181
+    Appeal_to_Authority                     : 119
+    Slogans                                 : 115
+    False_Dilemma-No_Choice                 : 103
+    Conversation_Killer                     : 78
+    Guilt_by_Association                    : 47
+    Red_Herring                             : 37
+    Appeal_to_Hypocrisy                     : 31
+    Obfuscation-Vagueness-Confusion         : 17
+    Whataboutism                            : 14
+    Straw_Man                               : 13
+    Appeal_to_Popularity                    : 12
+]
+[    cause                                   : 757
+    contrast                                : 557
+    cause+belief                            : 522
+    concession                              : 315
+    instantiation                           : 247
+    conjunction                             : 198
+    cause+speechact                         : 186
+    asynchronous                            : 149
+    level-of-detail                         : 146
+    condition                               : 138
+    purpose                                 : 122
+    equivalence                             : 43
+    similarity                              : 38
+    disjunction                             : 30
+    synchronous                             : 21
+    substitution                            : 12
+    exception                               : 4
+    condition+speechact                     : 4
+    manner                                  : 2
+    negative-condition                      : 1
+]
+
+----------------------------------
+
+pooled_agreement_5_or_more
+Number of instances#: 2615
+[
+    Loaded_Language                         : 373
+    Name_Calling-Labeling                   : 362
+    Repetition                              : 333
+    Doubt                                   : 309
+    Exaggeration-Minimisation               : 287
+    Appeal_to_Fear-Prejudice                : 194
+    Flag_Waving                             : 169
+    Causal_Oversimplification               : 143
+    Appeal_to_Authority                     : 88
+    Slogans                                 : 87
+    False_Dilemma-No_Choice                 : 81
+    Conversation_Killer                     : 54
+    Guilt_by_Association                    : 33
+    Red_Herring                             : 29
+    Appeal_to_Hypocrisy                     : 27
+    Obfuscation-Vagueness-Confusion         : 12
+    Straw_Man                               : 12
+    Whataboutism                            : 12
+    Appeal_to_Popularity                    : 10
+]
+[    cause                                   : 629
+    contrast                                : 466
+    cause+belief                            : 355
+    concession                              : 251
+    instantiation                           : 154
+    conjunction                             : 131
+    condition                               : 120
+    asynchronous                            : 113
+    cause+speechact                         : 112
+    purpose                                 : 107
+    level-of-detail                         : 58
+    similarity                              : 34
+    equivalence                             : 29
+    disjunction                             : 24
+    synchronous                             : 15
+    substitution                            : 11
+    exception                               : 4
+    condition+speechact                     : 2
+]
+
+----------------------------------
+
+pooled_agreement_6_or_more
+Number of instances#: 1847
+[
+    Loaded_Language                         : 263
+    Name_Calling-Labeling                   : 244
+    Repetition                              : 243
+    Doubt                                   : 225
+    Exaggeration-Minimisation               : 188
+    Appeal_to_Fear-Prejudice                : 147
+    Flag_Waving                             : 126
+    Causal_Oversimplification               : 110
+    False_Dilemma-No_Choice                 : 65
+    Slogans                                 : 58
+    Appeal_to_Authority                     : 52
+    Conversation_Killer                     : 30
+    Red_Herring                             : 23
+    Guilt_by_Association                    : 22
+    Appeal_to_Hypocrisy                     : 20
+    Straw_Man                               : 9
+    Whataboutism                            : 9
+    Obfuscation-Vagueness-Confusion         : 7
+    Appeal_to_Popularity                    : 6
+]
+[    cause                                   : 480
+    contrast                                : 361
+    cause+belief                            : 218
+    concession                              : 190
+    condition                               : 102
+    purpose                                 : 94
+    conjunction                             : 85
+    asynchronous                            : 82
+    instantiation                           : 78
+    cause+speechact                         : 61
+    similarity                              : 22
+    disjunction                             : 21
+    level-of-detail                         : 17
+    equivalence                             : 17
+    synchronous                             : 11
+    substitution                            : 4
+    exception                               : 4
+]
+
+----------------------------------
+
+pooled_agreement_7_or_more
+Number of instances#: 1237
+[
+    Loaded_Language                         : 185
+    Repetition                              : 167
+    Name_Calling-Labeling                   : 158
+    Doubt                                   : 142
+    Exaggeration-Minimisation               : 133
+    Appeal_to_Fear-Prejudice                : 105
+    Flag_Waving                             : 78
+    Causal_Oversimplification               : 69
+    False_Dilemma-No_Choice                 : 43
+    Slogans                                 : 39
+    Appeal_to_Authority                     : 34
+    Red_Herring                             : 19
+    Conversation_Killer                     : 17
+    Guilt_by_Association                    : 13
+    Appeal_to_Hypocrisy                     : 12
+    Obfuscation-Vagueness-Confusion         : 7
+    Straw_Man                               : 6
+    Whataboutism                            : 6
+    Appeal_to_Popularity                    : 4
+]
+[    cause                                   : 349
+    contrast                                : 270
+    concession                              : 139
+    cause+belief                            : 108
+    condition                               : 73
+    purpose                                 : 72
+    asynchronous                            : 51
+    conjunction                             : 48
+    instantiation                           : 45
+    cause+speechact                         : 23
+    disjunction                             : 18
+    equivalence                             : 14
+    similarity                              : 13
+    synchronous                             : 7
+    level-of-detail                         : 4
+    exception                               : 3
+]
+
+----------------------------------
+
+pooled_agreement_8_or_more
+Number of instances#: 744
+[
+    Repetition                              : 103
+    Loaded_Language                         : 101
+    Name_Calling-Labeling                   : 89
+    Doubt                                   : 85
+    Exaggeration-Minimisation               : 82
+    Appeal_to_Fear-Prejudice                : 69
+    Flag_Waving                             : 51
+    Causal_Oversimplification               : 35
+    Slogans                                 : 28
+    False_Dilemma-No_Choice                 : 26
+    Appeal_to_Authority                     : 18
+    Red_Herring                             : 14
+    Conversation_Killer                     : 13
+    Guilt_by_Association                    : 9
+    Appeal_to_Hypocrisy                     : 8
+    Whataboutism                            : 4
+    Straw_Man                               : 4
+    Appeal_to_Popularity                    : 3
+    Obfuscation-Vagueness-Confusion         : 2
+]
+[    cause                                   : 215
+    contrast                                : 184
+    concession                              : 89
+    purpose                                 : 49
+    condition                               : 44
+    asynchronous                            : 36
+    conjunction                             : 27
+    instantiation                           : 27
+    cause+belief                            : 24
+    disjunction                             : 15
+    equivalence                             : 9
+    similarity                              : 8
+    cause+speechact                         : 7
+    synchronous                             : 7
+    exception                               : 3
+]
+
+----------------------------------
+
+pooled_agreement_9_or_more
+Number of instances#: 372
+[
+    Repetition                              : 57
+    Loaded_Language                         : 52
+    Name_Calling-Labeling                   : 50
+    Exaggeration-Minimisation               : 37
+    Appeal_to_Fear-Prejudice                : 34
+    Doubt                                   : 29
+    Flag_Waving                             : 24
+    False_Dilemma-No_Choice                 : 19
+    Causal_Oversimplification               : 17
+    Slogans                                 : 13
+    Red_Herring                             : 9
+    Appeal_to_Authority                     : 7
+    Guilt_by_Association                    : 7
+    Conversation_Killer                     : 6
+    Appeal_to_Hypocrisy                     : 4
+    Straw_Man                               : 3
+    Appeal_to_Popularity                    : 2
+    Whataboutism                            : 2
+]
+[    cause                                   : 110
+    contrast                                : 89
+    concession                              : 41
+    purpose                                 : 30
+    condition                               : 25
+    asynchronous                            : 21
+    conjunction                             : 13
+    disjunction                             : 13
+    instantiation                           : 13
+    synchronous                             : 5
+    equivalence                             : 4
+    exception                               : 3
+    similarity                              : 3
+    cause+belief                            : 1
+    cause+speechact                         : 1
+]
+
+----------------------------------
+
