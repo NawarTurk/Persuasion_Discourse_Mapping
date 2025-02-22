@@ -17,11 +17,12 @@ parser, model_name = get_parser_and_model_name(parser_id)
 prompt_template = get_prompt_template(prompt_key)
     
 dataset_path = os.path.join("..","dataset")
-results_path = os.path.join('..', 'results', "stage2_DR_parsing_PT_annotated_semeval_datasets")
+results_path = os.path.join('..', 'results', "stage2_DR_parsing_of_PT_annotated_semeval_datasets")
 input_path = os.path.join(results_path, '01_with_hallucination', f'{pt_dataset_num}_{model_name}_{prompt_key}.json')
 
 if not os.path.isfile(input_path):
-    input_path = os.path.join(dataset_path, '02_processed_data', "persuasion_techniques", 'divided_semval_PT_datasets', f'{pt_dataset_num}.json')
+    print(' im hrer')
+    input_path = os.path.join(dataset_path, '02_processed_data', "persuasion_techniques", f'{pt_dataset_num}.json')
 
 output_file = os.path.join(results_path, '01_with_hallucination', f'{pt_dataset_num}_{model_name}_{prompt_key}.json')
 
@@ -64,12 +65,10 @@ def semeval_datasets_DR_parser():
             for i, (_, entry) in enumerate(pt_dataset.items()):
                 if current_batch_count >= batch_size:
                     break
-                # if entry['DR'] == "":
                 if entry['predicted_DR'] == '':
                     paragraph = entry['text']
                     dr_prediction = parser(paragraph, prompt_template).lower()
-                    # entry['DR'] = dr_prediction   #  CHANGE ME
-                    entry['predicted_DR'] = dr_prediction   #  CHANGE ME
+                    entry['predicted_DR'] = dr_prediction   
                     entry['parser'] = f'{model_name}_{prompt_key}'
                     if dr_prediction in DR_level2:
                         entry['DR'] = dr_prediction
@@ -83,10 +82,9 @@ def semeval_datasets_DR_parser():
                     print(f'wait time for {api_call_delay} seconds .....')
                     update_progress(total_parsed_entries, len(pt_dataset))
                     time.sleep(api_call_delay)
-
             with open(output_file, 'w', encoding='utf-8') as jsonfile:
                 json.dump(pt_dataset, jsonfile, indent=2, ensure_ascii=False)
-                print(f'\n{batch_size} instances were saved ...')
+            print(f'\n{current_batch_count} instances were saved ...')
 
         except Exception as e:
             logging.error(f"Error: {e}")
