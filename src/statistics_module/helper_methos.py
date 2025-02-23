@@ -3,14 +3,19 @@ import pandas as pd
 import seaborn as sns
 import os
 from collections import Counter
+import numpy as np
+
 
 stat_result_path = os.path.join('..', 'results', 'stage3_statistical_analysis')
 
 
 
 
-def draw_pt_dr_association_heatmap(global_significance_pairs_df):
+def draw_pt_dr_association_heatmap(global_significance_pairs_dict):
     output_path = os.path.join('..', 'results', 'stage3_statistical_analysis','pt_dr_association_heatmap')
+    
+    
+    
     dr_mapping = {
         'cause': 'Cause',
         'contrast': 'Contrast',
@@ -36,6 +41,19 @@ def draw_pt_dr_association_heatmap(global_significance_pairs_df):
         'Name_Calling-labeling': 'Name Calling/Labeling',
         'Repetition': 'Repetition'
     }
+
+
+    global_significance_pairs_list = [
+        {'pt': key[0],'dr': key[1], 'pooling_techniques': value['pooling_techniques'], 'P_DR_given_PT': value['P_DR_given_PT']} for key, value in global_significance_pairs_dict.items()
+    ]
+    global_significance_pairs_df = pd.DataFrame(global_significance_pairs_list)
+    global_significance_pairs_df['pooling_techniques_count'] = global_significance_pairs_df['pooling_techniques'].apply(len)
+    global_significance_pairs_df['P_DR_given_PT_average1'] = global_significance_pairs_df['P_DR_given_PT'].apply(
+        lambda x: round(np.mean(x),2) if len(x) > 0 else 0
+        )
+
+    global_significance_pairs_df = global_significance_pairs_df.sort_values(by='pooling_techniques_count', ascending=False)
+   
 
     # Create a copy for the heatmap
     heatmap_df = global_significance_pairs_df.copy()
@@ -153,7 +171,14 @@ def save_sorted_global_sig_table(global_significance_table):
     output_path = os.path.join(stat_result_path, 'global_significant_result_table.xlsx')
     global_significance_table.to_excel(output_path)
 
-
+def save_pt_dr_ppmi_heatmap(ppmi_table, json_file):
+        plt.figure(figsize=(12,10))
+        plt.title(f"PT DR PPMI ({json_file})")
+        sns.heatmap(ppmi_table, annot=True, cmap='Greens', cbar=True)
+        plt.tight_layout()
+        path = os.path.join(stat_result_path, 'pt_dr_ppmi_tables', f'ppmi_heatmap_{json_file}.png')
+        plt.savefig(path)
+        plt.close()  
 
 def create_global_ppmi_heatmap(ppmi_global_table):
 
