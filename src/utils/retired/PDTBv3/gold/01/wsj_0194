@@ -1,0 +1,31 @@
+Explicit|62..64||||||as|Contingency.Cause.Reason||||||9..60||||||65..147|||||||||||62..64|PDTB2::wsj_0194::62..64::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||151..289||||||291..429|||||||||||291|PDTB2::wsj_0194::291::SAME|
+Explicit|365..370||||||while|Comparison.Contrast||||||291..363||||||371..429|||||||||||365..370|PDTB2::wsj_0194::365..370::SAME|
+Explicit|455..459||||||also|Expansion.Conjunction||||||365..429||||||431..454;460..522|||||||||||455..459|PDTB2::wsj_0194::455..459::SAME|
+EntRel||||||||||||||431..522||||||524..571|||||||||||524|PDTB2::wsj_0194::524::SAME|
+Explicit|755..762||||||however|Comparison.Concession.Arg2-as-denier||||||683..753||||||764..803|||||||||||755..762|PDTB2::wsj_0194::755..762::SAME|
+Explicit|805..807||||||as|Contingency.Cause.Reason||||||755..803||||||808..911|||||||||||805..807|PDTB2::wsj_0194::805..807::SAME|
+AltLex|871..882|||||||Contingency.Cause.Result||||||805..869||||||871..911|||||||||ARGM-ADV|sell|871..882|PDTB3|
+Explicit|956..962||||||though|Comparison.Contrast|||||755..803|805..911||||||915..954;964..1094|||||||||||956..962|PDTB2::wsj_0194::956..962::SAME|
+Implicit|||||||in particular|Expansion.Instantiation.Arg2-as-instance||||||964..1094||||||1149..1248|||||1096..1148||||||1149|PDTB2::wsj_0194::1149::CHANGED|
+Explicit|1250..1258||||||moreover|Expansion.Conjunction||||||1149..1248|||||1096..1148|1260..1368|||||||||||1250..1258|PDTB2::wsj_0194::1250..1258::SAME|
+Explicit|1301..1304||||||and|Expansion.Conjunction||||||1250..1299||||||1305..1368|||||||||||1301..1304|PDTB2::wsj_0194::1301..1304::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1561..1627||||||1629..1748|||||1750..1763||||||1629|PDTB2::wsj_0194::1629::SAME|
+Explicit|1765..1770||||||still|Comparison.Concession.Arg2-as-denier|||||1629..1763|1561..1627||||||1772..1890;1931..1962|||||||||||1765..1770|PDTB2::wsj_0194::1765..1770::CHANGED|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1765..1817||||||1819..1990|||||||||ARGM-ADV|fare|1819|PDTB3|
+Explicit|2090..2092||||||as|Temporal.Synchronous||||||1994..2088||||||2093..2205|||||||||||2090..2092|PDTB2::wsj_0194::2090..2092::SAME|
+Explicit|2241..2245||||||also|Expansion.Conjunction||||||2090..2205||||||2207..2240;2246..2329|||||||||||2241..2245|PDTB2::wsj_0194::2241..2245::SAME|
+Explicit|2520..2524|||||2508..2515|also|Expansion.Conjunction||||||2403..2506|||||2333..2402|2516..2519;2525..2670|||||||||||2520..2524|PDTB2::wsj_0194::2520..2524::SAME|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||2674..2765||||||2767..2884|||||||||||2767|PDTB2::wsj_0194::2767::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||2767..2884||||||2886..3003|||||||||||2886|PDTB2::wsj_0194::2886::SAME|
+Explicit|2948..2956||||||although|Comparison.Concession.Arg2-as-denier||||||2886..2946||||||2957..3003|||||||||||2948..2956|PDTB2::wsj_0194::2948..2956::CHANGED|
+Implicit|||||||accordingly|Contingency.Cause.Result||||||2886..2946||||||3005..3092|||||||||||3005|PDTB2::wsj_0194::3005::SAME|
+Explicit|3148..3151||||||and|Expansion.Conjunction||||||3136..3147||||||3152..3167|||||||||||3148..3151|PDTB3|
+EntRel||||||||||||||3096..3167||||||3169..3340|||||||||||3169|PDTB2::wsj_0194::3169::SAME|
+Explicit|3250..3253||||||and|Expansion.Conjunction||||||3199..3249||||||3254..3340|||||||||||3250..3253|PDTB3|
+EntRel||||||||||||||3169..3340||||||3342..3421|||||||||||3342|PDTB2::wsj_0194::3342::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||3510..3545||||||3546..3601|||||||||||3546|PDTB3|LINK1
+Explicit|3546..3549||||||and|Expansion.Conjunction||||||3510..3545||||||3550..3601|||||||||||3546..3549|PDTB3|LINK1
+Implicit|||||||in addition|Expansion.Conjunction||||||3481..3601||||||3603..3701|||||||||||3603|PDTB2::wsj_0194::3603::SAME|
+Explicit|3658..3660|||||3622..3633|if|Contingency.Condition.Arg2-as-cond||||||3634..3657||||||3661..3701|||||||||||3658..3660|PDTB2::wsj_0194::3658..3660::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||3705..3813||||||3815..3865|||||||||||3815|PDTB2::wsj_0194::3815::SAME|

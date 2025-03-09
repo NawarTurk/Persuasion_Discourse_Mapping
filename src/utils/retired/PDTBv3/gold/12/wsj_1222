@@ -1,0 +1,17 @@
+Explicit|240..242||||||so|Contingency.Cause.Result||||||131..238||||||243..340|||||||||||240..242|PDTB2::wsj_1222::240..242::SAME|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||344..411||||||413..542|||||||||||413|PDTB2::wsj_1222::413::CHANGED|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||546..625||||||627..672|||||||||||627|PDTB2::wsj_1222::627::SAME|
+EntRel||||||||||||||627..672||||||674..765|||||||||||674|PDTB2::wsj_1222::674::SAME|
+Explicit|844..852;867..870||||||not only but|Expansion.Conjunction||||||853..866||||||871..919|||||||||||844..870|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||770..801;839..919||||||921..1039|||||||||||921|PDTB2::wsj_1222::921::SAME|
+Explicit|966..969||||||and|Expansion.Conjunction||||||931..965||||||970..1039|||||||||||966..969|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||1043..1195||||||1198..1244|||||1247..1291||||||1198|PDTB2::wsj_1222::1198::SAME|
+Implicit||||||1247..1291|instead|Expansion.Substitution.Arg2-as-subst||||||1198..1244||||||1294..1379|||||||||||1294|PDTB2::wsj_1222::1294::SAME|
+Implicit|||||||in other words|Expansion.Equivalence||||||1294..1379||||||1387..1433|||||||||||1387|PDTB2::wsj_1222::1387::SAME|
+Explicit|1412..1415||||||and|Contingency.Purpose.Arg2-as-goal||||||1407..1411||||||1416..1433|||||||||||1412..1415|PDTB3|
+Explicit|1533..1540||||||however|Comparison.Concession.Arg2-as-denier||||||1294..1433|||||1247..1291|1438..1531|||||||||||1533..1540|PDTB2::wsj_1222::1533..1540::CHANGED|
+Explicit|1542..1553||||||for example|Expansion.Instantiation.Arg2-as-instance||||||1438..1540||||||1555..1639|||||||||||1542..1553|PDTB2::wsj_1222::1542..1553::CHANGED|
+Explicit|1662..1669||||||however|Comparison.Concession.Arg2-as-denier||||||1438..1639||||||1671..1760|||||1642..1645;1646..1660||||||1662..1669|PDTB2::wsj_1222::1662..1669::CHANGED|
+Implicit|||||||because|Contingency.Cause.Reason||||||1765..1864||||||1866..1987|||||1990..2091||||||1866|PDTB2::wsj_1222::1866::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1883..1926||||||1927..1962|||||||||ARGM-PNC|pass|1927|PDTB3|
+Explicit|2093..2096||||||but|Comparison.Contrast||||||1542..1639;1765..1780;1830..1864||||||2097..2155|||||2157..2174||||||2093..2096|PDTB2::wsj_1222::2093..2096::SAME|

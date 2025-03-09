@@ -1,0 +1,17 @@
+Implicit|||||||as|Contingency.Cause.Reason||||||142..196||||||198..271|||||||||||198|PDTB2::wsj_1306::198::SAME|
+Implicit||||||273..288|since|Contingency.Cause.Reason||||||235..271|||||198..234|289..362|||||||||||289|PDTB2::wsj_1306::289::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||415..533||||||535..578|||||||||||535|PDTB2::wsj_1306::535::SAME|
+AltLex|580..587|||||||Contingency.Cause.Result||||||535..578||||||580..669|||||||||ARGM-PRD|be|580..587|PDTB3|
+Implicit|||||||thus|Contingency.Cause.Result||||||684..816|||||673..683|819..863|||||950..999||||||819|PDTB2::wsj_1306::819::SAME|
+Explicit|864..871|||||950..999|because|Contingency.Cause.Reason||||||819..863||||||872..947|||||||||||864..871|PDTB2::wsj_1306::864..871::SAME|
+Explicit|1081..1084||||||but|Comparison.Concession.Arg2-as-denier||||||1060..1078||||||1085..1123|||||||||||1081..1084|PDTB3|
+Implicit||||||1158..1165|although|Comparison.Concession.Arg2-as-denier||||||1081..1123|||||1003..1046|1126..1155|||||||||||1126|PDTB2::wsj_1306::1126::CHANGED|
+Explicit|1167..1170|||||1158..1165|but|Comparison.Concession.Arg2-as-denier||||||1126..1155||||||1172..1245|||||||||||1167..1170|PDTB2::wsj_1306::1167..1170::CHANGED|
+Explicit|1674..1684|||||1582..1592|after|Temporal.Asynchronous.Succession||||||1593..1673||||||1685..1744|||||||||||1674..1684|PDTB2::wsj_1306::1674..1684::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||1593..1744|||||1582..1592|1746..1776;1787..1812|||||1778..1785||||||1746|PDTB2::wsj_1306::1746::SAME|
+Implicit|||||||if they are|Contingency.Condition.Arg2-as-cond||||||1746..1776||||||1787..1812|||||||||ARGM-PNC|need|1787|PDTB3|
+Explicit|1816..1819||||||but|Comparison.Contrast||||||1582..1744|||||1568..1581|1820..1871|||||||||||1816..1819|PDTB2::wsj_1306::1816..1819::SAME|
+Implicit|||||||for example|Expansion.Instantiation.Arg2-as-instance||||||1816..1871||||||1873..2013|||||||||||1873|PDTB2::wsj_1306::1873::CHANGED|
+Explicit|1945..1948||||||and|Expansion.Conjunction||||||1902..1944||||||1949..2013|||||||||||1945..1948|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1873..2107||||||2109..2190|||||||||||2109|PDTB2::wsj_1306::2109::SAME|
+Explicit|2280..2288|||||2194..2234|although|Comparison.Concession.Arg2-as-denier||||||2235..2278||||||2290..2325|||||||||||2280..2288|PDTB2::wsj_1306::2280..2288::CHANGED|

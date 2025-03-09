@@ -1,0 +1,10 @@
+Explicit|429..436||||||because|Contingency.Cause.Reason||||||373..428||||||437..506|||||||||ARGM-CAU|be|429..436|PDTB2::wsj_0669::429..436::CHANGED|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||429..463||||||464..506|||||||||ARGM-PRP|spend|464|PDTB3|
+Explicit|511..521||||||because of|Contingency.Cause.Reason||||||373..428||||||507..510;522..552|||||||||||511..521|PDTB3|
+Explicit|507..510||||||and|Expansion.Conjunction||||||429..506||||||511..552|||||||||||507..510|PDTB3|
+Implicit|||||||so as|Contingency.Purpose.Arg2-as-goal||||||608..657||||||658..706|||||||||ARGM-MNR|boost|658|PDTB3|
+Implicit||||||719..732|in comparison|Comparison.Contrast||||||556..578;595..706|||||580..593|708..717;734..878|||||||||||708|PDTB2::wsj_0669::708::SAME|
+Explicit|786..789||||||and|Expansion.Conjunction||||||741..784||||||790..878|||||||||||786..789|PDTB3|
+Explicit|880..883||||||but|Comparison.Contrast||||||708..717;734..878|||||719..732|884..891;903..994|||||893..901||||||880..883|PDTB2::wsj_0669::880..883::SAME|
+Implicit||||||1212..1227|consequently|Contingency.Cause.Result||||||999..1022;1035..1132|||||1025..1032|1135..1210|||||||||||1135|PDTB2::wsj_0669::1135::SAME|
+Explicit|1229..1232||||||but|Comparison.Concession.Arg2-as-denier||||||1215..1227||||||1233..1264|||||||||||1229..1232|PDTB3|

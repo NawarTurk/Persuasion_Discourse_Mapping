@@ -1,0 +1,15 @@
+EntRel||||||||||||||164..483||||||485..575|||||||||||485|PDTB2::wsj_2313::485::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||579..696||||||698..764|||||||||||698|PDTB3|LINK1
+Explicit|698..701||||||and|Expansion.Conjunction||||||579..696||||||702..764|||||||||||698..701|PDTB2::wsj_2313::698..701::CHANGED|LINK1
+Explicit|849..852|||||957..1032|but|Comparison.Contrast||||||798..847||||||853..918|||||||||||849..852|PDTB2::wsj_2313::849..852::CHANGED|
+AltLex|920..939|||||957..1032||Contingency.Cause.Result||||||864..918||||||920..955|||||||||||920..939|PDTB3|
+Implicit||||||1249..1264|instead|Expansion.Substitution.Arg2-as-subst||||||1037..1141||||||1143..1246|||||||||||1143|PDTB2::wsj_2313::1143::SAME|
+Explicit|1186..1190|||||1249..1264|then|Temporal.Asynchronous.Precedence||||||1143..1180||||||1182..1185;1191..1246|||||||||||1186..1190|PDTB2::wsj_2313::1186..1190::SAME|LINK2
+Explicit|1182..1185|||||1249..1264|and|Expansion.Conjunction||||||1143..1180||||||1186..1246|||||||||||1182..1185|PDTB2::wsj_2313::1182..1185::SAME|LINK2
+Explicit|1191..1195|||||1249..1264|once|Temporal.Asynchronous.Succession||||||1182..1190;1235..1246||||||1196..1233|||||||||||1191..1195|PDTB2::wsj_2313::1191..1195::SAME|
+Implicit|||||||on the other hand|Comparison.Contrast||||||1143..1246|||||1249..1264|1290..1332|||||1273..1289||||ARGM-ADV|say|1290|PDTB3|
+Implicit||||||1249..1332|in fact|Expansion.Level-of-detail.Arg2-as-detail||||||1143..1246||||||1335..1381|||||||||||1335|PDTB2::wsj_2313::1335::SAME|
+Explicit|1386..1388|||||1555..1570|by|Contingency.Cause.Reason|Expansion.Manner.Arg2-as-manner|||||1419..1553||||||1389..1417|||||||||ARGM-MNR|take|1386..1388|PDTB3|
+Explicit|1493..1498|||||1555..1570|while|Temporal.Synchronous||||||1419..1491||||||1499..1553|||||||||||1493..1498|PDTB2::wsj_2313::1493..1498::SAME|
+Implicit|||||||indeed|Expansion.Level-of-detail.Arg2-as-detail||||||1386..1553|||||1555..1570|1572..1729|||||||||||1572|PDTB2::wsj_2313::1572::SAME|
+Explicit|1623..1631||||||although|Comparison.Concession.Arg1-as-denier||||||1572..1621||||||1632..1729|||||||||||1623..1631|PDTB2::wsj_2313::1623..1631::CHANGED|

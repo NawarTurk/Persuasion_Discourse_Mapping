@@ -1,0 +1,12 @@
+Implicit||||||9..24|therefore|Contingency.Cause.Result||||||44..90||||||91..94;100..144|||||95..99||||||91|PDTB3|LINK1
+Explicit|91..94|||||9..24|and|Expansion.Conjunction||||||44..90||||||95..144|||||||||||91..94|PDTB3|LINK1
+Explicit|295..297|||||213..289|if|Contingency.Condition.Arg2-as-cond||||||290..294;355..445||||||298..353|||||||||||295..297|PDTB2::wsj_1750::295..297::SAME|
+Explicit|462..466||||||also|Expansion.Conjunction||||||148..445||||||447..461;467..545|||||||||||462..466|PDTB2::wsj_1750::462..466::SAME|
+Explicit|624..635||||||in addition|Expansion.Conjunction||||||148..445||||||637..760|||||||||||624..635|PDTB2::wsj_1750::624..635::SAME|
+Explicit|677..681|||||637..652|also|Expansion.Conjunction||||||213..445|||||148..212|653..675;682..760|||||||||||677..681|PDTB2::wsj_1750::677..681::SAME|
+Implicit|||||||therefore|Contingency.Cause.Result||||||686..710||||||711..714;720..760|||||715..719||||||711|PDTB3|LINK2
+Explicit|711..714||||||and|Expansion.Conjunction||||||686..710||||||715..760|||||||||||711..714|PDTB3|LINK2
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||653..710|||||637..652|762..826|||||||||||762|PDTB2::wsj_1750::762::SAME|
+Explicit|828..835||||||however|Comparison.Concession.Arg2-as-denier||||||653..760|||||637..652|853..932|||||837..852||||||828..835|PDTB2::wsj_1750::828..835::CHANGED|
+Explicit|977..984||||||because|Contingency.Cause.Reason||||||936..976||||||985..1122|||||||||||977..984|PDTB2::wsj_1750::977..984::SAME|
+EntRel||||||||||||||936..1122||||||1124..1199|||||||||||1124|PDTB2::wsj_1750::1124::SAME|

@@ -1,0 +1,17 @@
+Explicit|9..11||||||as|Temporal.Synchronous||||||136..275||||||12..134|||||||||||9..11|PDTB2::wsj_1878::9..11::SAME|
+Explicit|468..473||||||while|Temporal.Synchronous|Comparison.Contrast|||||657..750||||||474..560|||||||||||468..473|PDTB2::wsj_1878::468..473::CHANGED|
+Explicit|632..636||||||when|Temporal.Synchronous||||||564..631||||||637..653|||||||||||632..636|PDTB2::wsj_1878::632..636::SAME|
+Explicit|845..847|||||826..842|so|Contingency.Cause.Result||||||755..823||||||848..938|||||||||||845..847|PDTB2::wsj_1878::845..847::SAME|
+Explicit|848..854|||||826..842|before|Temporal.Asynchronous.Precedence||||||845..847;893..938||||||855..891|||||||||||848..854|PDTB2::wsj_1878::848..854::SAME|
+Explicit|1064..1067||||||but|Comparison.Contrast||||||943..1060||||||1068..1189|||||||||||1064..1067|PDTB2::wsj_1878::1064..1067::SAME|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||1103..1189||||||1191..1317|||||||||||1191|PDTB2::wsj_1878::1191::CHANGED|
+Explicit|1361..1364|||||1388..1460|and|Expansion.Conjunction||||||1322..1359||||||1365..1385|||||||||||1361..1364|PDTB3|
+Implicit|||||||meanwhile|Temporal.Synchronous||||||1544..1587|||||1464..1543|1608..1711|||||1590..1607||||||1608|PDTB2::wsj_1878::1608::SAME|
+Implicit||||||1716..1778|as a result|Contingency.Cause.Result||||||1779..1830||||||1832..1854|||||||||||1832|PDTB2::wsj_1878::1832::SAME|
+EntRel||||||||||||||1832..1854||||||1856..1871|||||||||||1856|PDTB2::wsj_1878::1856::SAME|
+EntRel||||||||||||||1856..1871||||||1873..1973|||||||||||1873|PDTB2::wsj_1878::1873::SAME|
+Explicit|1936..1939||||||but|Comparison.Concession.Arg2-as-denier||||||1910..1934||||||1940..1973|||||||||||1936..1939|PDTB3|
+Explicit|2020..2023||||||and|Expansion.Conjunction||||||1982..2019||||||2024..2067|||||||||||2020..2023|PDTB3|
+Implicit|||||||so|Contingency.Cause.Result||||||2071..2137||||||2139..2160;2171..2335|||||2162..2170||||||2139|PDTB2::wsj_1878::2139::SAME|
+EntRel||||||||||||||2139..2335||||||2337..2403|||||||||||2337|PDTB2::wsj_1878::2337::SAME|
+Explicit|2448..2453|||||2509..2533|since|Contingency.Cause.Reason||||||2408..2447||||||2454..2506|||||||||||2448..2453|PDTB2::wsj_1878::2448..2453::SAME|

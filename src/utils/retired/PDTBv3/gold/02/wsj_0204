@@ -1,0 +1,11 @@
+Implicit|||||||moreover|Expansion.Conjunction||||||369..482||||||484..566|||||||||||484|PDTB3|
+Explicit|484..487||||||for|Contingency.Condition.Arg2-as-cond||||||530..566||||||488..528|||||||||ARGM-PNC|approve|484..487|PDTB3|
+EntRel||||||||||||||484..566||||||568..620|||||||||||568|PDTB2::wsj_0204::568::SAME|
+Implicit|||||||as a result of being|Contingency.Cause.Reason||||||671..692;789..821||||||694..787|||||||||ARGM-PRD|reach|694|PDTB3|
+Explicit|749..752||||||and|Expansion.Conjunction||||||709..748||||||753..787|||||||||||749..752|PDTB3|
+Explicit|963..967||||||also|Expansion.Conjunction||||||825..961||||||968..1103|||||||||||963..967|PDTB2::wsj_0204::963..967::SAME|
+EntRel||||||||||||||963..1103||||||1105..1215|||||||||||1105|PDTB2::wsj_0204::1105::SAME|
+Explicit|1159..1163||||||with|Expansion.Conjunction||||||1105..1157||||||1164..1215|||||||||ARGM-ADV|invest|1159..1163|PDTB3|
+Explicit|1377..1381||||||also|Expansion.Conjunction||||||1219..1366||||||1368..1376;1382..1494|||||||||||1377..1381|PDTB2::wsj_0204::1377..1381::SAME|
+Explicit|1611..1613||||||or|Expansion.Disjunction||||||1551..1610||||||1615..1672|||||||||||1611..1613|PDTB3|
+Explicit|1615..1617||||||if|Contingency.Condition.Arg2-as-cond||||||1611..1613;1645..1672||||||1618..1643|||||||||||1615..1617|PDTB2::wsj_0204::1615..1617::SAME|

@@ -1,0 +1,7 @@
+Implicit||||||165..259|because|Contingency.Cause.Reason||||||119..162||||||262..426|||||||||||262|PDTB2::wsj_0780::262::SAME|
+Explicit|360..362|||||165..259|if|Contingency.Condition.Arg2-as-cond||||||262..358||||||363..426|||||||||||360..362|PDTB2::wsj_0780::360..362::SAME|
+Explicit|473..479||||||before|Temporal.Asynchronous.Precedence||||||431..472||||||480..559|||||||||||473..479|PDTB2::wsj_0780::473..479::SAME|
+EntRel||||||||||||||431..559||||||561..651|||||||||||561|PDTB2::wsj_0780::561::SAME|
+Explicit|786..793|||||1019..1026|however|Comparison.Concession.Arg2-as-denier||||||686..783|||||655..685|795..1017|||||||||||786..793|PDTB2::wsj_0780::786..793::CHANGED|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||1030..1163||||||1166..1249|||||1252..1259||||||1166|PDTB2::wsj_0780::1166::SAME|
+Explicit|1226..1228|||||1252..1259|by|Contingency.Condition.Arg2-as-cond|Expansion.Manner.Arg2-as-manner|||||1166..1224||||||1229..1249|||||||||ARGM-MNR|achieve|1226..1228|PDTB3|

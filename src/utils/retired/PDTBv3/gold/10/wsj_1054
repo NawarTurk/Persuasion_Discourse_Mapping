@@ -1,0 +1,9 @@
+Implicit|||||||and|Expansion.Conjunction||||||29..38||||||40..49|||||||||||40|PDTB3|
+Explicit|95..98||||||for|Contingency.Cause.Reason||||||28..91||||||99..164|||||||||||95..98|PDTB3|
+Explicit|252..255||||||and|Expansion.Conjunction||||||207..250||||||256..320|||||||||||252..255|PDTB2::wsj_1054::252..255::SAME|
+Explicit|256..258||||||as|Temporal.Synchronous||||||252..255;271..320||||||259..270|||||||||||256..258|PDTB2::wsj_1054::256..258::SAME|
+Implicit|||||||consequently|Contingency.Cause.Result||||||207..320||||||323..399|||||||||||323|PDTB3|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||331..340||||||341..368|||||||||||341|PDTB3|LINK1
+Explicit|341..344||||||and|Expansion.Conjunction||||||331..340||||||345..368|||||||||||341..344|PDTB3|LINK1
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||323..368||||||371..390;402..442|||||392..399||||||371|PDTB3|
+Implicit||||||392..399|in fact|Expansion.Level-of-detail.Arg2-as-detail||||||371..389||||||402..441|||||||||||402|PDTB2::wsj_1054::402::SAME|

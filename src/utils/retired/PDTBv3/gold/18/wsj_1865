@@ -1,0 +1,18 @@
+Explicit|101..104||||||and|Expansion.Conjunction||||||31..99||||||105..201|||||||||||101..104|PDTB3|
+EntRel||||||||||||||205..355||||||357..426|||||||||||357|PDTB2::wsj_1865::357::SAME|
+Implicit|||||||by contrast|Comparison.Contrast||||||430..520||||||522..590|||||||||||522|PDTB2::wsj_1865::522::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||522..590||||||592..664|||||||||||592|PDTB2::wsj_1865::592::SAME|
+Explicit|727..730|||||791..823|and|Expansion.Conjunction||||||669..725||||||731..788|||||||||||727..730|PDTB2::wsj_1865::727..730::SAME|
+Implicit||||||971..978|therefore|Contingency.Cause.Result||||||727..788|||||791..823|825..968|||||||||||825|PDTB2::wsj_1865::825::SAME|
+Explicit|872..875||||||and|Expansion.Conjunction||||||841..871||||||876..896|||||||||||872..875|PDTB3|
+EntRel||||||||||||||982..1169||||||1171..1268|||||||||||1171|PDTB2::wsj_1865::1171::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||1272..1334||||||1343..1484|||||1336..1342||||ARGM-ADV|downgrade|1343|PDTB3|
+Explicit|1557..1561||||||then|Temporal.Asynchronous.Precedence||||||1272..1484||||||1486..1556;1562..1666|||||||||||1557..1561|PDTB2::wsj_1865::1557..1561::SAME|LINK1
+Implicit|||||||however|Comparison.Contrast||||||1336..1484||||||1486..1666|||||||||||1486|PDTB2::wsj_1865::1486::CHANGED|LINK1
+Implicit|||||||therefore|Contingency.Cause.Result||||||1579..1618||||||1620..1666|||||||||||1620|PDTB3|LINK2
+Explicit|1620..1623||||||and|Expansion.Conjunction||||||1579..1618||||||1624..1666|||||||||||1620..1623|PDTB3|LINK2
+Implicit||||||1879..1886|specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1752..1795|||||1670..1751|1798..1877|||||||||||1798|PDTB2::wsj_1865::1798::SAME|
+Explicit|1855..1857||||||or|Expansion.Disjunction||||||1842..1854||||||1858..1877|||||||||||1855..1857|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||1891..1922||||||1923..1946|||||||||ARGM-PRP|step|1923|PDTB3|
+Explicit|1948..1951|||||2036..2049|but|Comparison.Concession.Arg2-as-denier||||||1891..1946||||||1952..2033|||||||||||1948..1951|PDTB2::wsj_1865::1948..1951::CHANGED|
+Explicit|1952..1956|||||2036..2049|when|Contingency.Condition.Arg2-as-cond||||||1948..1951;1976..2033||||||1957..1974|||||||||||1952..1956|PDTB2::wsj_1865::1952..1956::SAME|

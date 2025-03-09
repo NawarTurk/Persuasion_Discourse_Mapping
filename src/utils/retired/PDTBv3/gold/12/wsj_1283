@@ -1,0 +1,15 @@
+AltLex|232..239|||||317..401||Contingency.Cause.Result||||||157..230||||||232..315|||||||||ARGM-ADV|continue|232..239|PDTB3|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||157..401||||||403..451|||||||||||403|PDTB2::wsj_1283::403::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||455..556||||||558..612|||||||||||558|PDTB2::wsj_1283::558::SAME|
+Explicit|663..677|||||769..821|because|Contingency.Cause.Reason||||||616..662||||||678..767|||||||||||663..677|PDTB2::wsj_1283::663..677::SAME|
+Explicit|749..751||||||as|Comparison.Similarity||||||663..748||||||752..767|||||||||ARGM-ADV|rebound|749..751|PDTB3|
+Implicit||||||823..835;899..903|so|Contingency.Cause.Result||||||616..767|||||769..821|904..1010|||||||||||904|PDTB2::wsj_1283::904::SAME|
+Implicit||||||1249..1256|because|Contingency.Cause.Reason||||||1163..1247|||||1014..1047;1158..1162|1257..1328|||||||||||1257|PDTB2::wsj_1283::1257::SAME|
+Implicit|||||||on the other hand|Comparison.Contrast||||||1343..1420|||||1332..1342|1422..1476|||||||||||1422|PDTB2::wsj_1283::1422::SAME|
+EntRel||||||||||||||1422..1476||||||1478..1663|||||||||||1478|PDTB2::wsj_1283::1478::SAME|
+Explicit|1545..1548||||||but|Comparison.Concession.Arg2-as-denier||||||1478..1543||||||1549..1663|||||||||||1545..1548|PDTB2::wsj_1283::1545..1548::CHANGED|
+Explicit|1751..1756|||||1667..1682|until|Temporal.Asynchronous.Precedence||||||1683..1750||||||1757..1789|||||||||||1751..1756|PDTB2::wsj_1283::1751..1756::SAME|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||1683..1789|||||1667..1682|1791..1871|||||1873..1880||||||1791|PDTB2::wsj_1283::1791::SAME|
+Explicit|1882..1885||||||and|Expansion.Conjunction||||||1791..1871|||||1873..1880|1886..1978|||||||||||1882..1885|PDTB2::wsj_1283::1882..1885::SAME|
+AltLex|2164..2189|||||||Contingency.Cause.Reason||||||1982..2150||||||2152..2293|||||||||||2164..2189|PDTB2::wsj_1283::2164..2189::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||2297..2568||||||2570..2705|||||||||||2570|PDTB2::wsj_1283::2570::SAME|

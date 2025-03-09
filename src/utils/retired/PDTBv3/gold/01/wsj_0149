@@ -1,0 +1,31 @@
+Implicit|||||||because|Contingency.Cause.Reason||||||9..126||||||136..196|||||||||ARGM-ADV|seek|136|PDTB3|
+Explicit|200..208||||||although|Comparison.Concession.Arg1-as-denier||||||286..411||||||244..284|||||231..243||||||200..208|PDTB2::wsj_0149::200..208::SAME|
+Explicit|522..525||||||but|Comparison.Concession.Arg2-as-denier||||||415..520||||||526..660|||||||||||522..525|PDTB2::wsj_0149::522..525::CHANGED|
+Explicit|651..655||||||then|Temporal.Asynchronous.Precedence|||||522..563|564..606||||||608..613;646..650;656..660|||||||||||651..655|PDTB2::wsj_0149::651..655::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||687..722||||||723..800|||||||||||723|PDTB3|LINK1
+Explicit|723..726||||||and|Expansion.Conjunction||||||687..722||||||727..800|||||||||||723..726|PDTB3|LINK1
+Implicit|||||||rather|Expansion.Substitution.Arg2-as-subst||||||737..800|||||723..736|803..847|||||850..874||||||803|PDTB2::wsj_0149::803::CHANGED|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||905..1053|||||878..904|1055..1068;1084..1161|||||1070..1082||||||1055|PDTB2::wsj_0149::1055::SAME|
+Explicit|1228..1235||||||without|Expansion.Manner.Arg2-as-manner||||||1165..1227||||||1236..1262|||||||||ARGM-ADV|buy|1228..1235|PDTB3|
+Explicit|1263..1269||||||before|Temporal.Asynchronous.Precedence||||||1165..1262||||||1270..1350|||||||||||1263..1269|PDTB2::wsj_0149::1263..1269::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1165..1350||||||1352..1528|||||||||||1352|PDTB2::wsj_0149::1352::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1361..1435||||||1437..1528|||||||||||1437|PDTB3|LINK2
+Explicit|1437..1440||||||and|Expansion.Conjunction||||||1361..1435||||||1441..1528|||||||||||1437..1440|PDTB3|LINK2
+Explicit|1467..1472||||||after|Temporal.Asynchronous.Succession||||||1437..1466||||||1473..1528|||||||||||1467..1472|PDTB2::wsj_0149::1467..1472::SAME|
+Explicit|1604..1608|||||1532..1551|thus|Contingency.Cause.Result||||||1561..1598||||||1600..1603;1609..1696|||||||||||1604..1608|PDTB2::wsj_0149::1604..1608::CHANGED|LINK3
+Explicit|1600..1603||||||and|Expansion.Conjunction||||||1561..1598||||||1604..1696|||||||||||1600..1603|PDTB3|LINK3
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1634..1657||||||1658..1696|||||||||ARGM-PRP|file|1658|PDTB3|
+Explicit|1698..1701||||||but|Comparison.Concession.Arg2-as-denier||||||1532..1696||||||1702..1779|||||||||||1698..1701|PDTB2::wsj_0149::1698..1701::CHANGED|
+Implicit|||||||as a result|Contingency.Cause.Result||||||1883..1919||||||1920..1994|||||||||||1920|PDTB3|LINK4
+Explicit|1920..1923||||||and|Expansion.Conjunction||||||1883..1919||||||1924..1994|||||||||||1920..1923|PDTB3|LINK4
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||1783..1994||||||1996..2073|||||||||||1996|PDTB2::wsj_0149::1996::SAME|
+Explicit|2101..2106||||||after|Temporal.Asynchronous.Succession||||||2077..2100||||||2107..2134|||||||||||2101..2106|PDTB2::wsj_0149::2101..2106::SAME|
+EntRel||||||||||||||2077..2134||||||2136..2217|||||||||||2136|PDTB2::wsj_0149::2136::SAME|
+EntRel||||||||||||||2136..2217||||||2219..2308|||||||||||2219|PDTB2::wsj_0149::2219::SAME|
+Implicit|||||||meanwhile|Temporal.Synchronous||||||2219..2308||||||2310..2362|||||||||||2310|PDTB2::wsj_0149::2310::SAME|
+Explicit|2340..2343||||||but|Comparison.Concession.Arg2-as-denier||||||2319..2339||||||2344..2362|||||||||||2340..2343|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||2366..2402||||||2411..2529|||||2404..2410||||S-ADV|be|2411|PDTB3|
+Implicit||||||2411..2426|in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||2427..2461||||||2462..2529|||||||||ARGM-PRP|make|2462|PDTB3|
+Implicit|||||||earlier|Temporal.Asynchronous.Succession||||||2533..2601||||||2603..2705|||||||||||2603|PDTB2::wsj_0149::2603::SAME|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||2603..2705||||||2707..2791|||||||||||2707|PDTB2::wsj_0149::2707::SAME|
+Explicit|2795..2798||||||but|Comparison.Concession.Arg2-as-denier||||||2558..2601|||||2533..2557|2799..2979|||||||||||2795..2798|PDTB2::wsj_0149::2795..2798::CHANGED|

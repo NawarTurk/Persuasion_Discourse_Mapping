@@ -1,0 +1,20 @@
+EntRel||||||||||||||9..164||||||166..195|||||||||||166|PDTB2::wsj_0793::166::SAME|
+Explicit|197..204||||||instead|Expansion.Substitution.Arg2-as-subst||||||166..195||||||206..279|||||||||||197..204|PDTB2::wsj_0793::197..204::CHANGED|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||197..279||||||281..331|||||||||||281|PDTB3|
+Implicit|||||||as a result|Contingency.Cause.Result||||||197..331||||||333..399|||||||||||333|PDTB2::wsj_0793::333::SAME|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||403..738||||||740..900|||||||||||740|PDTB2::wsj_0793::740::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||740..794||||||796..832|||||||||||796|PDTB3|
+Explicit|833..836||||||and|Expansion.Conjunction||||||796..832||||||837..900|||||||||||833..836|PDTB2::wsj_0793::833..836::CHANGED|
+Explicit|902..909||||||however|Comparison.Concession.Arg2-as-denier||||||740..900||||||911..1038|||||||||||902..909|PDTB2::wsj_0793::902..909::CHANGED|
+Explicit|1147..1152||||||while|Comparison.Contrast||||||1042..1145||||||1153..1233|||||||||||1147..1152|PDTB2::wsj_0793::1147..1152::SAME|
+Implicit|||||||since|Contingency.Cause.Reason||||||1042..1233||||||1236..1326|||||||||||1236|PDTB2::wsj_0793::1236::SAME|
+Implicit|||||||rather|Expansion.Substitution.Arg2-as-subst||||||1236..1326||||||1328..1416|||||||||||1328|PDTB2::wsj_0793::1328::SAME|
+Explicit|1522..1527||||||after|Temporal.Asynchronous.Succession||||||1420..1521||||||1528..1644|||||||||||1522..1527|PDTB2::wsj_0793::1522..1527::SAME|
+EntRel||||||||||||||1420..1644||||||1646..1701|||||||||||1646|PDTB2::wsj_0793::1646::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||1646..1701||||||1703..1763|||||||||||1703|PDTB2::wsj_0793::1703::SAME|
+Explicit|1739..1742||||||and|Expansion.Conjunction||||||1703..1738||||||1743..1763|||||||||||1739..1742|PDTB2::wsj_0793::1739..1742::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||1703..1763||||||1765..1891|||||||||||1765|PDTB2::wsj_0793::1765::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1895..1938||||||1940..2565|||||||||||1940|PDTB2::wsj_0793::1940::SAME|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||1945..2081||||||2082..2565|||||||||||2082|PDTB3|LINK1
+Explicit|2082..2085||||||and|Expansion.Conjunction||||||1945..2081||||||2086..2565|||||||||||2082..2085|PDTB3|LINK1
+Explicit|2359..2362||||||and|Expansion.Conjunction||||||2347..2358||||||2363..2386|||||||||||2359..2362|PDTB3|

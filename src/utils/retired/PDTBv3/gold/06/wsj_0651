@@ -1,0 +1,8 @@
+Explicit|145..161||||||at the same time|Temporal.Synchronous||||||9..141||||||163..263;|||||||||||145..161|PDTB3|
+Explicit|270..274||||||also|Expansion.Conjunction||||||145..263||||||265..269;275..418|||||||||||270..274|PDTB2::wsj_0651::270..274::SAME|
+EntRel||||||||||||||422..591||||||593..658|||||||||||593|PDTB2::wsj_0651::593::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||593..658||||||660..822|||||||||||660|PDTB2::wsj_0651::660::SAME|
+EntRel||||||||||||||660..737||||||739..822|||||||||ARGM-ADV|have|739|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||660..822||||||824..977|||||||||||824|PDTB2::wsj_0651::824::SAME|
+Explicit|859..861|||||660..681|if|Contingency.Condition.Arg2-as-cond||||||824..858||||||862..977|||||||||||859..861|PDTB2::wsj_0651::859..861::SAME|
+Explicit|934..941||||||without|Expansion.Manner.Arg2-as-manner||||||859..933||||||942..977|||||||||ARGM-ADV|acquire|934..941|PDTB3|

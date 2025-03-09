@@ -1,0 +1,10 @@
+Implicit|||||||because of|Contingency.Cause.Reason||||||40..136|||||9..39|145..203|||||138..144||||ARGM-ADV|say|145|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||40..136|||||9..39|221..293|||||205..220||||||221|PDTB2::wsj_2375::221::SAME|
+Explicit|294..297||||||and|Expansion.Conjunction||||||224..293||||||298..360|||||||||||294..297|PDTB3|
+EntRel||||||||||||||205..360||||||362..420|||||||||||362|PDTB2::wsj_2375::362::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||362..420||||||422..543|||||||||||422|PDTB2::wsj_2375::422::CHANGED|
+EntRel||||||||||||||422..543||||||545..618|||||||||||545|PDTB2::wsj_2375::545::SAME|
+AltLex|912..944|||||||Contingency.Cause.Reason||||||705..814|||||669..704|840..944|||||816..839||||||912..944|PDTB2::wsj_2375::912..944::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||840..944|||||816..839|953..1043|||||946..952||||ARGM-ADV|say|953|PDTB3|
+Implicit|||||||consequently|Contingency.Cause.Result||||||946..1043||||||1046..1108|||||1111..1148||||||1046|PDTB2::wsj_2375::1046::SAME|
+Implicit||||||1111..1148|but|Comparison.Concession.Arg2-as-denier||||||1046..1108||||||1159..1198|||||1151..1158||||||1159|PDTB2::wsj_2375::1159::CHANGED|

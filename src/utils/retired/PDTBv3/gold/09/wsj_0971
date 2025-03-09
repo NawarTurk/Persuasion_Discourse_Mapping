@@ -1,0 +1,29 @@
+Explicit|86..89||||||but|Comparison.Concession.Arg2-as-denier||||||9..82||||||90..367|||||||||||86..89|PDTB2::wsj_0971::86..89::CHANGED|
+Implicit|||||||as a result|Contingency.Cause.Result||||||156..171||||||173..230|||||||||ARGM-ADV|cause|173|PDTB3|
+Implicit|||||||consequently|Contingency.Cause.Result||||||86..230||||||232..367|||||||||||232|PDTB2::wsj_0971::232::SAME|
+Explicit|282..285||||||and|Expansion.Conjunction||||||242..281||||||286..367|||||||||||282..285|PDTB3|
+AltLex|322..331|||||||Contingency.Cause.Result||||||282..320||||||322..367|||||||||ARGM-PRD|cake|322..331|PDTB3|
+Explicit|403..411||||||although|Comparison.Concession.Arg1-as-denier||||||371..401;439..518||||||412..437|||||||||||403..411|PDTB2::wsj_0971::403..411::SAME|
+Explicit|520..523||||||but|Comparison.Contrast||||||371..518||||||524..596|||||||||||520..523|PDTB2::wsj_0971::520..523::SAME|
+Implicit||||||805..812|in particular|Expansion.Level-of-detail.Arg2-as-detail||||||601..644|||||647..682|684..803|||||||||||684|PDTB2::wsj_0971::684::SAME|
+Explicit|721..728|||||805..812|because|Contingency.Cause.Reason||||||684..720||||||729..748||||||750..803|||||721..728|PDTB2::wsj_0971::721..728::SAME|
+Explicit|750..753|||||805..812|and|Comparison.Contrast||||||684..748||||||754..803|||||||||||750..753|PDTB2::wsj_0971::750..753::CHANGED|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||842..922|||||816..841|925..969|||||972..1020||||||925|PDTB2::wsj_0971::925::SAME|
+Implicit||||||972..1020|and|Expansion.Conjunction||||||925..945||||||947..969|||||||||||947|PDTB2::wsj_0971::947::SAME|
+Implicit||||||972..1020|so|Contingency.Cause+Belief.Reason+Belief||||||925..969||||||1023..1048|||||||||||1023|PDTB2::wsj_0971::1023::CHANGED|
+Explicit|1178..1181||||||but|Comparison.Concession.Arg2-as-denier||||||1074..1176|||||1053..1073|1182..1197||||||1199..1297|||||1178..1181|PDTB2::wsj_0971::1178..1181::CHANGED|
+Implicit|||||||because|Contingency.Cause.Reason||||||1178..1197||||||1213..1297|||||1199..1212||||ARGM-ADV|decline|1213|PDTB3|
+Explicit|1301..1303||||||so|Contingency.Cause.Result||||||1208..1297||||||1304..1347|||||||||||1301..1303|PDTB2::wsj_0971::1301..1303::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1392..1570||||||1572..1664|||||||||||1572|PDTB2::wsj_0971::1572::SAME|
+Implicit|||||||by|Expansion.Manner.Arg2-as-manner||||||1572..1586;1614..1664||||||1588..1612|||||||||ARGM-PRD|cause|1588|PDTB3|
+Explicit|1638..1641||||||and|Expansion.Conjunction||||||1614..1637||||||1642..1664|||||||||||1638..1641|PDTB3|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1572..1664||||||1666..1823|||||||||||1666|PDTB2::wsj_0971::1666::SAME|
+Explicit|1666..1671||||||after|Temporal.Asynchronous.Succession||||||1707..1757||||||1672..1705|||||||||ARGM-TMP|pour|1666..1671|PDTB3|
+Explicit|1854..1858||||||then|Temporal.Asynchronous.Precedence||||||1825..1838||||||1840..1853;1859..1868|||||||||||1854..1858|PDTB2::wsj_0971::1854..1858::SAME|
+Explicit|1967..1970||||||and|Expansion.Conjunction||||||1872..1965||||||1971..2021|||||||||||1967..1970|PDTB2::wsj_0971::1967..1970::SAME|
+Explicit|1971..1976||||||while|Comparison.Concession.Arg1-as-denier||||||1967..1970;1999..2021||||||1977..1997|||||||||||1971..1976|PDTB2::wsj_0971::1971..1976::SAME|
+Explicit|2023..2030||||||in fact|Comparison.Contrast|||||1971..1997|1967..1970;1999..2021||||||2032..2168|||||||||||2023..2030|PDTB2::wsj_0971::2023..2030::SAME|
+Explicit|2078..2081||||||and|Expansion.Level-of-detail.Arg2-as-detail||||||2032..2076||||||2082..2168|||||||||||2078..2081|PDTB2::wsj_0971::2078..2081::CHANGED|
+Implicit||||||2260..2275|because|Contingency.Cause.Reason||||||2023..2168||||||2170..2258;2277..2325|||||||||||2170|PDTB2::wsj_0971::2170::SAME|
+Explicit|2170..2178;2223..2226||||||not only but|Comparison.Concession.Arg2-as-denier||||||2179..2221||||||2227..2258;2277..2325|||||2260..2275||||||2170..2226|PDTB2::wsj_0971::2223..2226::CHANGED|
+Explicit|2227..2231|||||2260..2275|when|Temporal.Synchronous||||||2223..2226;2277..2325||||||2232..2258|||||||||||2227..2231|PDTB2::wsj_0971::2227..2231::SAME|

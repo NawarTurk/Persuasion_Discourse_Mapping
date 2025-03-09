@@ -1,0 +1,9 @@
+AltLex|79..89|||||||Contingency.Cause.Reason||||||9..77||||||79..153|||||||||ARGM-ADV|report|79..89|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||157..283||||||285..377|||||||||||285|PDTB2::wsj_0189::285::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||381..504||||||506..596|||||||||||506|PDTB2::wsj_0189::506::SAME|
+EntRel||||||||||||||506..596||||||598..665|||||||||||598|PDTB2::wsj_0189::598::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||682..876|||||669..681|878..895;963..1002|||||1004..1020||||||878|PDTB2::wsj_0189::878::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||1024..1163||||||1209..1265|||||||||||1209|PDTB2::wsj_0189::1209::SAME|
+Explicit|1347..1351||||||also|Expansion.Conjunction||||||1269..1341||||||1343..1346;1352..1375|||||||||||1347..1351|PDTB2::wsj_0189::1347..1351::SAME|LINK1
+Explicit|1343..1346||||||but|Comparison.Concession.Arg2-as-denier||||||1289..1341||||||1347..1375|||||||||||1343..1346|PDTB3|LINK1
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1269..1341||||||1377..1475|||||||||||1377|PDTB2::wsj_0189::1377::SAME|

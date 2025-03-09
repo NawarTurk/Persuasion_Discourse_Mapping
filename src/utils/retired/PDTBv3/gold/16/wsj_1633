@@ -1,0 +1,8 @@
+AltLex|100..110|||||||Contingency.Cause.Result||||||9..98||||||100..148|||||||||ARGM-ADV|elect|100..110|PDTB3|
+Explicit|279..282||||||and|Expansion.Conjunction||||||152..277||||||283..353|||||||||||279..282|PDTB2::wsj_1633::279..282::SAME|
+Explicit|357..367||||||separately|Expansion.Conjunction|||||100..148|9..98||||||383..524|||||369..382||||||357..367|PDTB2::wsj_1633::357..367::SAME|
+Implicit|||||||in contrast|Comparison.Contrast||||||383..524|||||369..382|526..691|||||||||||526|PDTB2::wsj_1633::526::CHANGED|
+Explicit|593..608||||||because|Contingency.Cause.Reason||||||526..592||||||609..691|||||||||||593..608|PDTB2::wsj_1633::593..608::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||526..691||||||693..847|||||||||||693|PDTB2::wsj_1633::693::SAME|
+Explicit|746..750||||||with|Expansion.Level-of-detail.Arg2-as-detail||||||693..744||||||751..847|||||||||ARGM-ADV|rise|746..750|PDTB3|
+Implicit|||||||while|Expansion.Conjunction||||||851..998||||||1000..1049|||||||||||1000|PDTB2::wsj_1633::1000::SAME|

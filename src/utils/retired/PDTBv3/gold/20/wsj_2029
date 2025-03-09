@@ -1,0 +1,18 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||9..24||||||25..142|||||||||ARGM-PRP|write|25|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||9..142||||||145..382|||||||||||145|PDTB2::wsj_2029::145::SAME|
+Explicit|262..264|||||176..188|if|Contingency.Condition.Arg2-as-cond||||||191..261||||||265..294|||||||||||262..264|PDTB2::wsj_2029::262..264::SAME|
+Explicit|318..321||||||and|Expansion.Conjunction||||||299..316||||||322..382|||||||||||318..321|PDTB2::wsj_2029::318..321::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||299..382||||||384..523|||||||||||384|PDTB2::wsj_2029::384::SAME|
+Explicit|403..406||||||and|Expansion.Conjunction||||||386..402||||||407..523|||||||||||403..406|PDTB3|
+EntRel||||||||||||||384..523||||||525..664|||||||||||525|PDTB2::wsj_2029::525::SAME|
+Explicit|610..613||||||but|Comparison.Concession.Arg2-as-denier||||||525..606||||||614..664|||||||||||610..613|PDTB2::wsj_2029::610..613::CHANGED|
+EntRel||||||||||||||610..664||||||666..696|||||||||||666|PDTB2::wsj_2029::666::SAME|
+Implicit|||||||that is|Expansion.Equivalence||||||666..696||||||708..837|||||698..707||||||708|PDTB2::wsj_2029::708::SAME|
+EntRel||||||||||||||698..837||||||839..1068|||||||||||839|PDTB2::wsj_2029::839::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||839..988||||||991..1326|||||||||||991|PDTB3|
+AltLex|1036..1043|||||||Contingency.Purpose.Arg2-as-goal||||||991..1035||||||1036..1068|||||||||ARGM-ADV|be|1036..1043|PDTB3|
+EntRel||||||||||||||991..1068||||||1070..1222|||||||||||1070|PDTB2::wsj_2029::1070::SAME|
+EntRel||||||||||||||1070..1222||||||1224..1326|||||||||||1224|PDTB2::wsj_2029::1224::SAME|
+Explicit|1289..1291|||||1224..1230|if|Contingency.Condition.Arg2-as-cond||||||1231..1288||||||1292..1326|||||||||||1289..1291|PDTB2::wsj_2029::1289..1291::SAME|
+Explicit|1476..1483||||||however|Comparison.Concession.Arg2-as-denier||||||1331..1463||||||1465..1474;1485..1567|||||||||||1476..1483|PDTB2::wsj_2029::1476..1483::CHANGED|
+Explicit|1508..1510||||||if|Contingency.Condition.Arg2-as-cond||||||1465..1507||||||1511..1567|||||||||||1508..1510|PDTB2::wsj_2029::1508..1510::SAME|

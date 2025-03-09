@@ -1,0 +1,15 @@
+Explicit|126..129||||||but|Comparison.Concession.Arg2-as-denier||||||9..124||||||130..171|||||||||||126..129|PDTB2::wsj_1062::126..129::CHANGED|
+Explicit|274..281|||||195..219|so that|Contingency.Purpose.Arg2-as-goal||||||220..273||||||282..431|||||||||ARGM-PNC|endorse|274..281|PDTB2::wsj_1062::274..281::CHANGED|
+Explicit|435..438||||||but|Comparison.Concession.Arg2-as-denier||||||175..431||||||439..689|||||||||||435..438|PDTB2::wsj_1062::435..438::CHANGED|
+Explicit|439..447||||||now that|Contingency.Cause.Reason||||||435..438;546..689|||||525..545|448..523|||||||||||439..447|PDTB2::wsj_1062::439..447::SAME|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||583..652|||||562..582|692..776|||||779..816||||||692|PDTB2::wsj_1062::692::CHANGED|
+Explicit|692..694;716..720|||||779..816|if then|Contingency.Condition.Arg2-as-cond||||||695..714||||||721..776|||||||||||692..720|PDTB2::wsj_1062::692..694;716..720::SAME|
+Explicit|837..843||||||though|Comparison.Concession.Arg2-as-denier||||||546..652|||||525..545|820..835;845..943|||||||||||837..843|PDTB2::wsj_1062::837..843::CHANGED|
+Implicit|||||||in particular|Expansion.Instantiation.Arg2-as-instance||||||820..943||||||1040..1113|||||945..1037||||||1040|PDTB2::wsj_1062::1040::CHANGED|
+Explicit|1117..1126||||||meanwhile|Temporal.Synchronous|||||945..1113|820..943||||||1128..1205|||||||||||1117..1126|PDTB2::wsj_1062::1117..1126::CHANGED|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1117..1205||||||1228..1380|||||1207..1227||||||1228|PDTB2::wsj_1062::1228::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||1237..1315||||||1317..1380|||||||||ARGM-PNC|hold|1317|PDTB3|
+EntRel||||||||||||||1384..1490||||||1492..1726|||||||||||1492|PDTB2::wsj_1062::1492::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1544..1632||||||1633..1726|||||||||ARGM-PNC|give|1633|PDTB3|
+EntRel||||||||||||||1492..1726||||||1728..1836|||||||||||1728|PDTB2::wsj_1062::1728::SAME|
+EntRel||||||||||||||1728..1836||||||1838..1886|||||||||||1838|PDTB2::wsj_1062::1838::SAME|

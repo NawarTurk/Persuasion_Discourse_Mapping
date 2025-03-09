@@ -1,0 +1,9 @@
+EntRel||||||||||||||9..165||||||167..299|||||||||||167|PDTB2::wsj_1234::167::SAME|
+Implicit|||||||previously|Temporal.Asynchronous.Succession||||||167..299||||||301..521|||||||||||301|PDTB2::wsj_1234::301::SAME|
+Explicit|485..489||||||then|Temporal.Asynchronous.Precedence||||||389..478||||||481..484;490..521|||||||||||485..489|PDTB2::wsj_1234::485..489::SAME|
+EntRel||||||||||||||301..521||||||523..709|||||||||||523|PDTB2::wsj_1234::523::SAME|
+Explicit|635..638||||||and|Expansion.Conjunction||||||548..634||||||639..709|||||||||||635..638|PDTB3|
+EntRel||||||||||||||523..709||||||711..827|||||||||||711|PDTB2::wsj_1234::711::SAME|
+Explicit|767..770|||||711..725|but|Comparison.Concession.Arg2-as-denier||||||726..765||||||771..827|||||||||||767..770|PDTB2::wsj_1234::767..770::CHANGED|
+Explicit|814..816||||||or|Expansion.Conjunction||||||806..813||||||817..827|||||||||||814..816|PDTB3|
+EntRel||||||||||||||711..827||||||830..890|||||||||||830|PDTB2::wsj_1234::830::SAME|

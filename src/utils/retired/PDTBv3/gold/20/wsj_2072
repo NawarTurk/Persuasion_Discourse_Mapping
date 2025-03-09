@@ -1,0 +1,8 @@
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||51..252||||||254..396|||||||||||254|PDTB2::wsj_2072::254::SAME|
+EntRel||||||||||||||400..521||||||524..627|||||||||||524|PDTB2::wsj_2072::524::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||524..580||||||582..627|||||||||||582|PDTB3|
+Explicit|756..763||||||instead|Expansion.Substitution.Arg2-as-subst||||||632..754||||||764..798|||||||||||756..763|PDTB2::wsj_2072::756..763::SAME|
+Implicit|||||||meanwhile|Temporal.Synchronous||||||756..798||||||800..854|||||||||||800|PDTB2::wsj_2072::800::SAME|
+EntRel||||||||||||||800..854||||||857..919|||||||||||857|PDTB2::wsj_2072::857::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||857..889||||||891..903|||||||||||891|PDTB2::wsj_2072::891::CHANGED|
+Explicit|904..907||||||and|Comparison.Contrast||||||891..903||||||908..919|||||||||||904..907|PDTB2::wsj_2072::904..907::CHANGED|

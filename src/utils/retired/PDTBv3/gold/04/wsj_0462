@@ -1,0 +1,18 @@
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||40..114||||||115..118;124..184|||||119..123||||||115|PDTB3|LINK1
+Explicit|115..118||||||and|Expansion.Conjunction||||||29..114||||||119..184|||||||||||115..118|PDTB3|LINK1
+Explicit|366..369||||||and|Expansion.Conjunction||||||332..365||||||370..393|||||||||||366..369|PDTB3|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||440..600||||||602..757|||||||||||602|PDTB2::wsj_0462::602::CHANGED|
+Implicit|||||||while|Comparison.Concession.Arg1-as-denier||||||602..627;700..757||||||629..698|||||||||ARGM-ADV|decline|629|PDTB3|
+Explicit|761..764||||||but|Comparison.Concession.Arg2-as-denier||||||602..757||||||765..924|||||||||||761..764|PDTB2::wsj_0462::761..764::CHANGED|
+EntRel||||||||||||||761..924||||||926..1108|||||||||||926|PDTB2::wsj_0462::926::SAME|
+Explicit|977..979||||||as|Temporal.Asynchronous.Succession|Contingency.Cause.Reason|||||926..976||||||980..1062|||||||||||977..979|PDTB2::wsj_0462::977..979::SAME|
+Explicit|1067..1069||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||926..976||||||1063..1066;1070..1108|||||||||||1067..1069|PDTB2::wsj_0462::1067..1069::SAME|
+Explicit|1063..1066||||||and|Expansion.Conjunction||||||977..1062||||||1067..1108|||||||||||1063..1066|PDTB2::wsj_0462::1063..1066::SAME|
+EntRel||||||||||||||1369..1526||||||1528..1638|||||||||||1528|PDTB2::wsj_0462::1528::SAME|
+Explicit|1556..1560||||||when|Temporal.Asynchronous.Succession|Contingency.Cause.Reason|||||1528..1555||||||1561..1638|||||||||||1556..1560|PDTB2::wsj_0462::1556..1560::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1805..1832||||||1833..1858|||||||||||1833|PDTB3|LINK2
+Explicit|1833..1836||||||and|Expansion.Conjunction||||||1805..1832||||||1837..1858|||||||||||1833..1836|PDTB3|LINK2
+Explicit|1930..1933||||||and|Expansion.Conjunction||||||1903..1929||||||1934..2021|||||||||||1930..1933|PDTB3|
+Explicit|2113..2116||||||and|Expansion.Conjunction||||||2025..2111||||||2142..2179|||||2117..2141||||||2113..2116|PDTB2::wsj_0462::2113..2116::SAME|
+Explicit|2181..2184||||||but|Comparison.Concession.Arg2-as-denier||||||2025..2179||||||2185..2283|||||||||||2181..2184|PDTB2::wsj_0462::2181..2184::CHANGED|
+Implicit|||||||if it is|Contingency.Condition.Arg2-as-cond||||||2208..2251||||||2252..2283|||||||||ARGM-PRP|lower|2252|PDTB3|

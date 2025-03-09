@@ -1,0 +1,9 @@
+Explicit|208..215|||||146..181|because|Contingency.Cause.Reason||||||182..207||||||217..261|||||||||||208..215|PDTB2::wsj_2159::208..215::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||208..261||||||282..475|||||264..281||||||282|PDTB2::wsj_2159::282::SAME|
+Explicit|384..387||||||and|Expansion.Conjunction||||||350..383||||||388..475|||||||||||384..387|PDTB3|
+Implicit|||||||as a result|Contingency.Cause.Result||||||282..475|||||264..281|478..543|||||546..574||||||478|PDTB2::wsj_2159::478::SAME|
+EntRel||||||||||||||478..574||||||576..617|||||||||||576|PDTB2::wsj_2159::576::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||812..914|||||794..811|917..994|||||997..1027||||||917|PDTB2::wsj_2159::917::SAME|
+Implicit||||||1029..1036|also|Expansion.Conjunction||||||917..994|||||997..1027|1037..1134|||||||||||1037|PDTB2::wsj_2159::1037::SAME|
+Implicit|||||||meanwhile|Expansion.Conjunction||||||1029..1134||||||1137..1423|||||||||||1137|PDTB2::wsj_2159::1137::SAME|
+Explicit|1158..1163|||||1367..1423|since|Temporal.Asynchronous.Succession||||||1137..1157;1187..1364||||||1164..1186|||||||||||1158..1163|PDTB2::wsj_2159::1158..1163::SAME|

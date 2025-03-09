@@ -1,0 +1,14 @@
+Implicit|||||||and|Expansion.Conjunction||||||39..109|||||9..38|111..187|||||||||||111|PDTB2::wsj_0299::111::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||111..172||||||173..187|||||||||ARGM-PRP|price|173|PDTB3|
+EntRel||||||||||||||111..187||||||189..323|||||||||||189|PDTB2::wsj_0299::189::SAME|
+Explicit|283..286||||||and|Expansion.Conjunction||||||241..282||||||287..323|||||||||||283..286|PDTB3|
+EntRel||||||||||||||189..323||||||325..408|||||||||||325|PDTB2::wsj_0299::325::SAME|
+Explicit|398..408||||||thereafter|Temporal.Asynchronous.Precedence||||||325..362||||||364..397|||||||||||398..408|PDTB2::wsj_0299::398..408::SAME|LINK1
+Explicit|364..368||||||with|Expansion.Conjunction||||||325..362||||||369..408|||||||||||364..368|PDTB3|LINK1
+EntRel||||||||||||||325..408||||||410..518|||||||||||410|PDTB2::wsj_0299::410::SAME|
+EntRel||||||||||||||410..518||||||520..558|||||||||||520|PDTB2::wsj_0299::520::SAME|
+EntRel||||||||||||||520..558||||||560..732|||||||||||560|PDTB2::wsj_0299::560::SAME|
+Explicit|696..700||||||then|Temporal.Asynchronous.Precedence||||||560..683||||||685..695;701..732|||||||||||696..700|PDTB2::wsj_0299::696..700::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||560..732||||||734..771|||||||||||734|PDTB2::wsj_0299::734::SAME|
+EntRel||||||||||||||734..771||||||773..945|||||||||||773|PDTB2::wsj_0299::773::SAME|
+EntRel||||||||||||||773..945||||||947..999|||||||||||947|PDTB2::wsj_0299::947::SAME|

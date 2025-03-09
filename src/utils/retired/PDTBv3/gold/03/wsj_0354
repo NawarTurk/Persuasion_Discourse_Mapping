@@ -1,0 +1,17 @@
+EntRel||||||||||||||9..159||||||161..202|||||||||||161|PDTB2::wsj_0354::161::SAME|
+EntRel||||||||||||||206..360||||||362..478|||||||||||362|PDTB2::wsj_0354::362::SAME|
+EntRel||||||||||||||362..478||||||480..645|||||||||||480|PDTB2::wsj_0354::480::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||754..886||||||912..1021|||||888..911||||||912|PDTB2::wsj_0354::912::SAME|
+Implicit||||||888..911|in contrast|Comparison.Contrast||||||912..965||||||966..1021|||||||||||966|PDTB3|LINK1
+Explicit|966..969|||||888..911|and|Expansion.Conjunction||||||912..965||||||970..1021|||||||||||966..969|PDTB2::wsj_0354::966..969::CHANGED|LINK1
+EntRel||||||||||||||888..1021||||||1023..1112|||||||||||1023|PDTB2::wsj_0354::1023::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1116..1140;1153..1368|||||1142..1152|1370..1438|||||||||||1370|PDTB2::wsj_0354::1370::SAME|
+EntRel||||||||||||||1442..1592||||||1594..1694|||||||||||1594|PDTB2::wsj_0354::1594::SAME|
+Explicit|1633..1635||||||by|Contingency.Cause.Reason|Expansion.Manner.Arg2-as-manner|||||1594..1632||||||1636..1694|||||||||ARGM-MNR|profit|1633..1635|PDTB3|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1698..1849||||||1892..2018|||||1851..1891||||||1892|PDTB2::wsj_0354::1892::CHANGED|
+Explicit|1897..1903|||||1851..1891|unless|Contingency.Negative-condition.Arg2-as-negCond||||||1892..1896;1922..2018||||||1904..1920|||||||||||1897..1903|PDTB2::wsj_0354::1897..1903::CHANGED|
+Implicit||||||1851..1891|therefore|Contingency.Cause.Result||||||1922..1963||||||1964..2018|||||||||||1964|PDTB3|LINK2
+Explicit|1964..1967|||||1851..1891|and|Expansion.Conjunction||||||1922..1963||||||1968..2018|||||||||||1964..1967|PDTB2::wsj_0354::1964..1967::CHANGED|LINK2
+Implicit|||||||also|Expansion.Conjunction||||||1851..2018||||||2021..2139|||||||||||2021|PDTB2::wsj_0354::2021::SAME|
+Explicit|2021..2026|||||2123..2139|until|Temporal.Asynchronous.Precedence||||||2055..2121||||||2027..2053|||||||||||2021..2026|PDTB2::wsj_0354::2021..2026::SAME|
+Explicit|2175..2182||||||however|Comparison.Concession.Arg2-as-denier||||||2021..2121|||||2123..2139|2141..2173;2184..2333|||||2302..2333||||||2175..2182|PDTB2::wsj_0354::2175..2182::SAME|

@@ -1,0 +1,8 @@
+Implicit|||||||as a result of|Contingency.Cause.Reason||||||278..320|||||205..249;273..277|251..271|||||||||ARGM-ADV|say|251|PDTB3|
+Implicit|||||||while|Expansion.Conjunction||||||205..320||||||322..413|||||||||||322|PDTB2::wsj_1738::322::SAME|
+EntRel||||||||||||||417..623||||||625..739|||||||||||625|PDTB2::wsj_1738::625::SAME|
+Explicit|710..712||||||in|Contingency.Condition.Arg2-as-cond||||||672..709||||||713..739|||||||||ARGM-ADV|ignore|710..712|PDTB3|
+Explicit|776..783|||||743..770|because|Contingency.Cause.Reason||||||771..775;899..960||||||784..897|||||||||||776..783|PDTB2::wsj_1738::776..783::SAME|
+Explicit|853..856||||||and|Expansion.Conjunction||||||839..852||||||857..897|||||||||||853..856|PDTB3|
+AltLex|1257..1265|||||||Contingency.Cause.Result||||||1158..1255||||||1257..1332|||||||||ARGM-PRD|file|1257..1265|PDTB3|
+Explicit|1292..1297||||||while|Temporal.Synchronous||||||1269..1291||||||1298..1332|||||||||||1292..1297|PDTB2::wsj_1738::1292..1297::SAME|

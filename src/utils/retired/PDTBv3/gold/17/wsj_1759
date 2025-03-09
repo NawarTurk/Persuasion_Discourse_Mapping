@@ -1,0 +1,13 @@
+Implicit|||||||therefore|Contingency.Cause.Result||||||35..86||||||87..141|||||||||||87|PDTB3|LINK1
+Explicit|87..90||||||and|Expansion.Conjunction||||||35..86||||||91..141|||||||||||87..90|PDTB3|LINK1
+EntRel||||||||||||||203..298||||||300..395|||||||||||300|PDTB2::wsj_1759::300::SAME|
+EntRel||||||||||||||300..395||||||397..623|||||||||||397|PDTB2::wsj_1759::397::SAME|
+Explicit|737..740||||||and|Expansion.Conjunction||||||664..735||||||741..816|||||||||||737..740|PDTB3|
+EntRel||||||||||||||627..816||||||818..920|||||||||||818|PDTB2::wsj_1759::818::SAME|
+EntRel||||||||||||||818..920||||||922..1010|||||||||||922|PDTB2::wsj_1759::922::SAME|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||1014..1137||||||1139..1206;1221..1355|||||1208..1219||||||1139|PDTB2::wsj_1759::1139::CHANGED|
+Explicit|1221..1224|||||1208..1219|but|Comparison.Concession.Arg2-as-denier||||||1139..1206||||||1225..1355|||||||||||1221..1224|PDTB2::wsj_1759::1221..1224::CHANGED|
+Explicit|1510..1517||||||however|Comparison.Concession.Arg2-as-denier||||||1359..1508||||||1519..1698|||||||||||1510..1517|PDTB2::wsj_1759::1510..1517::SAME|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||1702..1813||||||1815..1912|||||||||||1815|PDTB2::wsj_1759::1815::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1815..1912||||||1914..1977|||||||||||1914|PDTB2::wsj_1759::1914::CHANGED|
+AltLexC|1951..1957|||||||Comparison.Similarity||||||1914..1949||||||1951..1977|||||||||ARGM-ADV|decline|1951..1957|PDTB3|

@@ -1,0 +1,19 @@
+EntRel||||||||||||||175..255||||||257..383|||||||||||257|PDTB2::wsj_1332::257::SAME|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||257..304||||||306..383|||||||||ARGM-ADV|specify|306|PDTB3|
+Implicit|||||||by comparison|Comparison.Contrast||||||388..577||||||579..611|||||||||||579|PDTB2::wsj_1332::579::SAME|
+Explicit|724..727||||||and|Expansion.Conjunction||||||691..723||||||728..782|||||||||||724..727|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||679..782||||||784..890|||||||||||784|PDTB2::wsj_1332::784::SAME|
+EntRel||||||||||||||894..952||||||954..1062|||||||||||954|PDTB2::wsj_1332::954::SAME|
+Implicit|||||||at the time|Temporal.Synchronous||||||954..1062||||||1064..1157|||||||||||1064|PDTB2::wsj_1332::1064::SAME|
+EntRel||||||||||||||1064..1157||||||1159..1307|||||||||||1159|PDTB2::wsj_1332::1159::SAME|
+Explicit|1159..1163||||||when|Temporal.Synchronous||||||1178..1307||||||1164..1176|||||||||||1159..1163|PDTB2::wsj_1332::1159..1163::SAME|
+Explicit|1312..1318||||||though|Comparison.Concession.Arg1-as-denier||||||1416..1469||||||1319..1414|||||||||||1312..1318|PDTB2::wsj_1332::1312..1318::CHANGED|
+Explicit|1443..1448||||||since|Temporal.Asynchronous.Succession||||||1416..1442||||||1449..1469|||||||||||1443..1448|PDTB2::wsj_1332::1443..1448::SAME|
+Implicit|||||||for example|Expansion.Instantiation.Arg2-as-instance||||||1312..1469||||||1471..1627|||||||||||1471|PDTB2::wsj_1332::1471::CHANGED|
+Explicit|1641..1645||||||also|Expansion.Conjunction||||||1471..1627||||||1631..1640;1646..1662|||||||||||1641..1645|PDTB2::wsj_1332::1641..1645::SAME|
+Explicit|1664..1687||||||because|Contingency.Cause.Reason||||||1631..1662||||||1688..1734|||||||||||1664..1687|PDTB2::wsj_1332::1664..1687::SAME|
+EntRel||||||||||||||1631..1734||||||1736..1970|||||||||||1736|PDTB2::wsj_1332::1736::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||1736..1798||||||1800..1906||||||1907..1970|||||1800|PDTB3|LINK1
+Explicit|1800..1803||||||and|Expansion.Conjunction||||||1736..1798||||||1804..1906||||||1907..1970|||||1800..1803|PDTB2::wsj_1332::1800..1803::CHANGED|LINK1
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||1886..1906||||||1907..1925|||||||||||1907|PDTB3|
+Explicit|1926..1932||||||before|Temporal.Asynchronous.Precedence||||||1886..1925||||||1933..1970|||||||||ARGM-PRP|buy|1926..1932|PDTB2::wsj_1332::1926..1932::SAME|

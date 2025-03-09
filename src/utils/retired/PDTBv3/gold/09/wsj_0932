@@ -1,0 +1,10 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||184..204||||||205..247|||||||||ARGM-PRP|make|205|PDTB3|
+EntRel||||||||||||||147..247||||||249..439|||||||||||249|PDTB2::wsj_0932::249::SAME|
+Implicit|||||||at the same time|Temporal.Synchronous||||||249..439||||||441..532|||||||||||441|PDTB2::wsj_0932::441::CHANGED|
+EntRel||||||||||||||441..532||||||534..583|||||||||||534|PDTB2::wsj_0932::534::SAME|
+Explicit|862..866||||||then|Temporal.Asynchronous.Precedence||||||767..855||||||857..861;867..938|||||||||||862..866|PDTB2::wsj_0932::862..866::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||873..900||||||902..938|||||||||ARGM-ADV|donate|902|PDTB3|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||857..938||||||940..1004|||||||||||940|PDTB2::wsj_0932::940::CHANGED|
+Explicit|940..942||||||if|Contingency.Condition.Arg2-as-cond||||||986..1004||||||943..984|||||||||||940..942|PDTB2::wsj_0932::940..942::SAME|
+AltLex|1079..1092|||||||Comparison.Contrast||||||1008..1078||||||1093..1188|||||||||||1079..1092|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1008..1188||||||1190..1274|||||||||||1190|PDTB2::wsj_0932::1190::SAME|

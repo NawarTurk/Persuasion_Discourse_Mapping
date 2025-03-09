@@ -1,0 +1,15 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||69..92||||||93..195|||||||||ARGM-PNC|form|93|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||289..405||||||407..537|||||||||||407|PDTB2::wsj_1561::407::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||541..564;580..628|||||566..578|640..783|||||630..639||||||640|PDTB2::wsj_1561::640::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||in fact|Expansion.Level-of-detail.Arg2-as-detail|||788..813|||||816..889|906..937|||||892..905||||||906|PDTB2::wsj_1561::906::SAME|
+Explicit|953..960||||||however|Comparison.Concession.Arg2-as-denier|||||541..564;580..628|788..813|||||816..889|962..1103|||||940..951||||||953..960|PDTB2::wsj_1561::953..960::CHANGED|
+Explicit|1059..1069|||||940..960|instead of|Expansion.Substitution.Arg1-as-subst||||||962..1057||||||1070..1103|||||||||ARGM-ADV|boost|1059..1069|PDTB3|
+AltLex|1105..1130|||||||Contingency.Cause.Result||||||962..1057|||||940..951|1105..1169|||||||||||1105..1130|PDTB2::wsj_1561::1105..1130::SAME|
+Implicit|||||||thus|Contingency.Cause.Result||||||1173..1285||||||1287..1436|||||||||ARGM-PRD|be|1287|PDTB3|
+Explicit|1440..1446||||||indeed|Expansion.Level-of-detail.Arg2-as-detail|||||1287..1436|1173..1285||||||1457..1592|||||1448..1456||||||1440..1446|PDTB2::wsj_1561::1440..1446::SAME|
+EntRel||||||||||||||1440..1592||||||1594..1771|||||||||||1594|PDTB2::wsj_1561::1594::SAME|
+Explicit|1724..1729|||||1630..1642|while|Temporal.Synchronous|Comparison.Contrast|||||1594..1628;1643..1722||||||1730..1771|||||||||||1724..1729|PDTB2::wsj_1561::1724..1729::CHANGED|
+Explicit|2060..2063||||||but|Comparison.Concession.Arg2-as-denier||||||1976..2058||||||2064..2131|||||||||||2060..2063|PDTB2::wsj_1561::2060..2063::CHANGED|
+Explicit|2133..2141||||||moreover|Expansion.Conjunction||||||1976..2131||||||2143..2215|||||||||||2133..2141|PDTB2::wsj_1561::2133..2141::SAME|
+Explicit|2370..2374||||||also|Expansion.Conjunction||||||9..195||||||2353..2369;2375..2432|||||||||||2370..2374|PDTB2::wsj_1561::2370..2374::SAME|
+EntRel||||||||||||||2353..2495||||||2497..2627|||||||||||2497|PDTB2::wsj_1561::2497::SAME|

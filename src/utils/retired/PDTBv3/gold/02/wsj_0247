@@ -1,0 +1,18 @@
+Explicit|114..117||||||and|Expansion.Conjunction||||||61..113||||||118..186|||||||||||114..117|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||190..364||||||366..459|||||||||||366|PDTB2::wsj_0247::372..379::CHANGED|
+Implicit|||||||as a result|Contingency.Cause.Result||||||559..636||||||638..699|||||||||ARGM-ADV|trade|638|PDTB3|
+Explicit|717..726||||||meanwhile|Temporal.Synchronous||||||480..699|||||463..479|703..715;728..872|||||||||||717..726|PDTB2::wsj_0247::717..726::CHANGED|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||703..872||||||874..1029|||||||||||874|PDTB2::wsj_0247::874::SAME|
+Explicit|961..964||||||but|Comparison.Contrast||||||936..960||||||965..1029|||||||||||961..964|PDTB3|
+EntRel||||||||||||||874..1029||||||1031..1091|||||||||||1031|PDTB2::wsj_0247::1031::SAME|
+Explicit|1073..1078||||||while|Expansion.Conjunction||||||1031..1071||||||1079..1091|||||||||||1073..1078|PDTB2::wsj_0247::1073..1078::SAME|
+Explicit|1281..1285||||||also|Expansion.Conjunction||||||1095..1125;1195..1262||||||1264..1280;1286..1370|||||||||||1281..1285|PDTB2::wsj_0247::1281..1285::SAME|
+NoRel||||||||||||||1264..1370||||||1372..1457|||||||||||1372|PDTB3|
+Explicit|1513..1516||||||but|Comparison.Concession.Arg2-as-denier||||||1461..1511||||||1517..1565|||||||||||1513..1516|PDTB2::wsj_0247::1513..1516::CHANGED|
+Explicit|1720..1723||||||and|Expansion.Conjunction||||||1692..1719||||||1724..1764|||||||||||1720..1723|PDTB3|
+Explicit|1797..1801||||||also|Expansion.Conjunction||||||1688..1764||||||1768..1796;1802..1825|||||||||||1797..1801|PDTB2::wsj_0247::1797..1801::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||1768..1825||||||1827..1830;1883..1945|||||1831..1882||||||1827|PDTB3|LINK1
+Explicit|1827..1830||||||and|Expansion.Conjunction||||||1768..1825||||||1883..1945|||||1831..1882||||||1827..1830|PDTB2::wsj_0247::1827..1830::SAME|LINK1
+Explicit|1947..1959||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||1883..1945|||||1831..1882|1961..2080|||||||||||1947..1959|PDTB2::wsj_0247::1947..1959::CHANGED|
+Explicit|2454..2456||||||by|Expansion.Manner.Arg2-as-manner||||||2315..2452||||||2457..2511|||||||||ARGM-MNR|raise|2454..2456|PDTB3|
+EntRel||||||||||||||2315..2509;2510..2511||||||2513..2627|||||||||||2513|PDTB2::wsj_0247::2513::SAME|

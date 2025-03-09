@@ -1,0 +1,8 @@
+Implicit||||||9..74|in order|Contingency.Purpose.Arg2-as-goal||||||75..132||||||134..200|||||||||ARGM-PNC|join|134|PDTB3|
+EntRel||||||||||||||204..337||||||339..484|||||||||||339|PDTB2::wsj_2426::339::SAME|
+EntRel||||||||||||||339..484||||||486..645|||||||||||486|PDTB2::wsj_2426::486::SAME|
+Explicit|518..522|||||486..499|also|Expansion.Conjunction||||||204..337||||||500..517;523..645|||||||||||518..522|PDTB2::wsj_2426::518..522::SAME|
+Explicit|765..768||||||and|Expansion.Conjunction||||||694..764||||||769..799|||||||||||765..768|PDTB2::wsj_2426::765..768::CHANGED|
+Implicit|||||||while|Comparison.Contrast||||||765..799||||||801..961|||||||||||801|PDTB2::wsj_2426::801::SAME|
+Explicit|843..846||||||and|Expansion.Conjunction||||||815..842||||||847..896|||||||||||843..846|PDTB3|
+AltLexC|925..961|||||||Contingency.Condition.Arg2-as-cond||||||801..924||||||925..961|||||||||ARGM-ADV|build|925..961|PDTB3|

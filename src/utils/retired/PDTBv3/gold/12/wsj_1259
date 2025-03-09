@@ -1,0 +1,9 @@
+EntRel||||||||||||||9..210||||||212..318|||||||||||212|PDTB2::wsj_1259::212::SAME|
+Implicit|||||||by|Expansion.Manner.Arg2-as-manner||||||212..276||||||277..318|||||||||ARGM-MNR|conduct|277|PDTB3|
+Implicit|||||||while|Expansion.Conjunction||||||322..449||||||451..566|||||||||||451|PDTB2::wsj_1259::451::SAME|
+EntRel||||||||||||||451..566||||||568..655|||||||||||568|PDTB2::wsj_1259::568::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||568..622||||||623..655|||||||||ARGM-PNC|weight|623|PDTB3|
+Explicit|705..707||||||if|Contingency.Condition.Arg2-as-cond||||||700..704;797..906||||||708..795|||||||||||705..707|PDTB2::wsj_1259::705..707::SAME|
+Implicit|||||||by|Expansion.Manner.Arg2-as-manner||||||705..766||||||767..795|||||||||ARGM-MNR|survey|767|PDTB3|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||659..906||||||908..1012|||||||||||908|PDTB2::wsj_1259::908::CHANGED|
+Explicit|1014..1025||||||in addition|Expansion.Conjunction||||||659..1012||||||1027..1153|||||||||||1014..1025|PDTB2::wsj_1259::1014..1025::SAME|

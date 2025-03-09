@@ -1,0 +1,18 @@
+EntRel||||||||||||||173..264||||||266..380|||||||||||266|PDTB2::wsj_2023::266::SAME|
+EntRel||||||||||||||384..587||||||589..635|||||||||||589|PDTB2::wsj_2023::589::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||639..693||||||695..914|||||||||||695|PDTB2::wsj_2023::695::SAME|
+Explicit|761..764||||||and|Expansion.Conjunction||||||698..760||||||765..914|||||||||||761..764|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1078..1126||||||1128..1189|||||||||||1128|PDTB2::wsj_2023::1128::CHANGED|
+AltLex|1191..1202|||||||Temporal.Synchronous||||||1128..1189||||||1191..1250|||||||||||1191..1202|PDTB2::wsj_2023::1191..1202::SAME|
+Implicit|||||||by comparison|Comparison.Contrast||||||1191..1250||||||1252..1308|||||||||||1252|PDTB2::wsj_2023::1252::SAME|
+Explicit|1383..1386||||||and|Contingency.Purpose.Arg2-as-goal||||||1346..1382||||||1387..1508|||||||||||1383..1386|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||1312..1508|||||1510..1547|1549..1726|||||||||||1549|PDTB2::wsj_2023::1549::SAME|
+AltLex|1610..1617|||||||Contingency.Cause.Result||||||1549..1608||||||1610..1641|||||||||ARGM-ADV|fail|1610..1617|PDTB3|
+Implicit|||||||for that reason|Contingency.Cause.Result||||||1549..1641||||||1643..1726|||||||||||1643|PDTB3|LINK1
+Explicit|1643..1646||||||and|Expansion.Conjunction||||||1549..1641||||||1647..1726|||||||||||1643..1646|PDTB2::wsj_2023::1643..1646::CHANGED|LINK1
+EntRel||||||||||||||1850..1896||||||1898..2017|||||||||||1898|PDTB2::wsj_2023::1898::SAME|
+Implicit|||||||meanwhile|Expansion.Conjunction||||||1898..2017||||||2019..2099|||||||||||2019|PDTB2::wsj_2023::2019::SAME|
+EntRel||||||||||||||2103..2181||||||2183..2306|||||||||||2183|PDTB2::wsj_2023::2183::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||2183..2306||||||2308..2436|||||||||||2308|PDTB2::wsj_2023::2308::SAME|
+Explicit|2353..2357||||||with|Expansion.Level-of-detail.Arg2-as-detail||||||2308..2351||||||2358..2436|||||||||ARGM-ADV|split|2353..2357|PDTB3|
+EntRel||||||||||||||2544..2815||||||2817..2903|||||||||||2817|PDTB2::wsj_2023::2817::SAME|

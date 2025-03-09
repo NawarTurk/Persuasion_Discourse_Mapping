@@ -1,0 +1,18 @@
+Explicit|288..291||||||and|Expansion.Conjunction||||||269..287||||||292..407|||||||||||288..291|PDTB3|
+Implicit|||||||thus|Contingency.Cause.Result||thereby|Expansion.Manner.Arg1-as-manner|||316..344||||||346..407|||||||||ARGM-ADV|lose|346|PDTB3|
+Explicit|595..598||||||and|Expansion.Conjunction||||||563..594||||||599..657|||||||||||595..598|PDTB3|
+Implicit|||||||at the time|Temporal.Synchronous||||||411..657||||||659..767|||||||||||659|PDTB2::wsj_1165::659::SAME|
+Explicit|771..778||||||however|Comparison.Concession.Arg2-as-denier|||||659..767|411..657||||||780..898|||||||||||771..778|PDTB2::wsj_1165::771..778::CHANGED|
+Explicit|900..909||||||meanwhile|Temporal.Synchronous|Comparison.Contrast|||||771..898||||||911..973|||||||||||900..909|PDTB2::wsj_1165::900..909::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||900..973||||||975..1128|||||||||||975|PDTB2::wsj_1165::975::SAME|
+Implicit|||||||overall|Expansion.Conjunction||||||975..1128||||||1130..1165|||||||||||1130|PDTB2::wsj_1165::1130::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1182..1282|||||1169..1181|1292..1364|||||1284..1291||||||1292|PDTB2::wsj_1165::1292::SAME|
+Explicit|1322..1326|||||1284..1291|with|Expansion.Conjunction||||||1292..1320||||||1327..1364|||||||||||1322..1326|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1292..1364|||||1284..1291|1374..1505|||||1366..1373||||||1374|PDTB2::wsj_1165::1374::SAME|
+Explicit|1450..1453|||||1366..1373|but|Comparison.Concession.Arg2-as-denier||||||1374..1448||||||1454..1505|||||||||||1450..1453|PDTB2::wsj_1165::1450..1453::CHANGED|
+EntRel||||||||||||||1509..1628||||||1630..1794|||||||||||1630|PDTB2::wsj_1165::1630::SAME|
+Explicit|1796..1799||||||but|Comparison.Concession.Arg2-as-denier||||||1630..1794||||||1813..2036|||||1800..1812||||||1796..1799|PDTB2::wsj_1165::1796..1799::CHANGED|
+Implicit|||||||furthermore|Expansion.Conjunction||||||1813..2036|||||1796..1812|2046..2166|||||2038..2045||||||2046|PDTB2::wsj_1165::2046::SAME|
+Explicit|2168..2171||||||and|Expansion.Conjunction||||||2046..2166|||||2038..2045|2186..2284|||||2172..2185||||||2168..2171|PDTB2::wsj_1165::2168..2171::SAME|
+Explicit|2313..2317||||||also|Expansion.Conjunction||||||900..973||||||2304..2312;2318..2471|||||2288..2303||||||2313..2317|PDTB2::wsj_1165::2313..2317::SAME|
+Implicit|||||||on the whole|Expansion.Conjunction||||||2304..2471|||||2288..2303|2473..2649|||||||||||2473|PDTB2::wsj_1165::2473::SAME|

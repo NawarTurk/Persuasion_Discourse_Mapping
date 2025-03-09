@@ -1,0 +1,14 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||318..324||||||325..388|||||||||ARGM-PRP|call|325|PDTB3|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||193..278|||||280..296|390..443;456..488|||||445..453||||||390|PDTB2::wsj_1690::390::CHANGED|
+EntRel||||||||||||||493..664||||||666..791|||||||||||666|PDTB2::wsj_1690::666::SAME|
+Explicit|813..820||||||however|Comparison.Concession.Arg2-as-denier||||||688..791|||||666..687|822..885|||||796..811||||||813..820|PDTB2::wsj_1690::813..820::CHANGED|
+Implicit||||||796..820|and|Expansion.Conjunction||||||822..885||||||887..914|||||||||||887|PDTB2::wsj_1690::887::SAME|
+Implicit||||||796..820|and|Expansion.Conjunction||||||887..914||||||916..991|||||||||||916|PDTB2::wsj_1690::916::CHANGED|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1083..1112||||||1113..1141|||||||||ARGM-PRP|build|1113|PDTB3|
+Explicit|1143..1146||||||but|Comparison.Concession.Arg2-as-denier||||||996..1141||||||1147..1282|||||||||||1143..1146|PDTB2::wsj_1690::1143..1146::CHANGED|
+Explicit|1309..1313||||||also|Expansion.Conjunction||||||1143..1282||||||1284..1308;1314..1405|||||||||||1309..1313|PDTB2::wsj_1690::1309..1313::SAME|
+EntRel||||||||||||||1749..1839||||||1632..1747|||||||||ARGM-ADV|write|1632|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1526..1630|||||1466..1525|1770..1839|||||1749..1767||||||1770|PDTB2::wsj_1690::1770::SAME|
+Explicit|1971..1975||||||also|Expansion.Conjunction||||||1844..1966||||||1968..1970;1976..2174|||||||||||1971..1975|PDTB2::wsj_1690::1971..1975::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||1982..2174|||||1968..1981|2176..2356|||||||||||2176|PDTB2::wsj_1690::2176::SAME|
+Explicit|2253..2256|||||2348..2356|and|Expansion.Conjunction||||||2176..2251||||||2257..2346|||||||||||2253..2256|PDTB2::wsj_1690::2253..2256::SAME|

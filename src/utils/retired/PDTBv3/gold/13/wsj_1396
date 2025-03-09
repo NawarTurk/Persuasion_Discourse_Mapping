@@ -1,0 +1,21 @@
+AltLex|107..115|||||||Contingency.Cause.Result||||||9..105||||||107..175|||||||||ARGM-ADV|convict|107..115|PDTB3|
+Explicit|227..234||||||because|Contingency.Cause.Reason||||||179..226||||||235..361|||||||||||227..234|PDTB2::wsj_1396::227..234::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||283..292||||||293..316|||||||||||293|PDTB3|LINK1
+Explicit|293..296||||||and|Expansion.Conjunction||||||283..292||||||297..316|||||||||||293..296|PDTB3|LINK1
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||317..361||||||363..510|||||||||||363|PDTB2::wsj_1396::363::SAME|
+EntRel||||||||||||||363..510||||||512..598|||||||||||512|PDTB2::wsj_1396::512::SAME|
+EntRel||||||||||||||602..753||||||755..847|||||||||||755|PDTB2::wsj_1396::755::SAME|
+Implicit|||||||although|Comparison.Concession.Arg2-as-denier||||||755..847||||||849..1001|||||||||||849|PDTB2::wsj_1396::849::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||849..1001||||||1003..1047|||||||||||1003|PDTB2::wsj_1396::1003::SAME|
+Explicit|1051..1059||||||although|Comparison.Concession.Arg1-as-denier||||||1103..1222||||||1060..1101|||||||||||1051..1059|PDTB2::wsj_1396::1051..1059::CHANGED|
+Explicit|1224..1231||||||instead|Expansion.Substitution.Arg2-as-subst||||||1161..1222|||||1103..1160|1245..1412|||||1233..1244||||||1224..1231|PDTB2::wsj_1396::1224..1231::SAME|
+Explicit|1448..1451||||||and|Expansion.Conjunction||||||1429..1447||||||1452..1504|||||||||||1448..1451|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1452..1504||||||1506..1535|||||||||||1506|PDTB3|LINK2
+Explicit|1506..1510||||||then|Temporal.Asynchronous.Precedence||||||1452..1504||||||1511..1535|||||||||||1506..1510|PDTB2::wsj_1396::1506..1510::CHANGED|LINK2
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1416..1535||||||1537..1624|||||||||||1537|PDTB2::wsj_1396::1537::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||1629..1717|||||1720..1737|1739..1753;1763..1799|||||1755..1762||||||1739|PDTB2::wsj_1396::1739::SAME|
+Explicit|1879..1882||||||and|Expansion.Conjunction||||||1816..1878||||||1883..1937|||||||||||1879..1882|PDTB3|
+EntRel||||||||||||||1803..1937||||||1939..2090|||||||||||1939|PDTB2::wsj_1396::1939::SAME|
+Explicit|1939..1944||||||while|Comparison.Contrast||||||2032..2090||||||1945..2030|||||||||||1939..1944|PDTB2::wsj_1396::1939..1944::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||2094..2267||||||2269..2401|||||||||ARGM-ADV|issue|2269|PDTB3|
+Explicit|2335..2338||||||but|Comparison.Concession.Arg2-as-denier||||||2277..2332|||||2269..2276|2348..2401|||||2339..2345||||||2335..2338|PDTB3|

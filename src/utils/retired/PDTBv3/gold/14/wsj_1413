@@ -1,0 +1,10 @@
+AltLex|338..346|||||||Contingency.Cause.Result||||||172..336||||||338..424|||||||||ARGM-ADV|raise|338..346|PDTB3|
+Explicit|428..430||||||if|Contingency.Condition.Arg2-as-cond||||||485..630||||||431..483|||||||||||428..430|PDTB2::wsj_1413::428..430::SAME|
+Implicit||||||595..630|in order|Contingency.Condition.Arg2-as-cond||||||485..575||||||576..593|||||||||ARGM-PNC|need|576|PDTB3|
+Implicit|||||||so|Contingency.Cause.Result||||||634..707||||||710..807|||||810..879||||||710|PDTB2::wsj_1413::710::CHANGED|
+Implicit||||||810..879|however|Comparison.Concession.Arg2-as-denier||||||710..807||||||920..1009|||||||||||920|PDTB2::wsj_1413::920::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1023..1099||||||1126..1213|||||||||||1126|PDTB2::wsj_1413::1101::CHANGED|
+Explicit|1387..1389||||||by|Contingency.Purpose.Arg1-as-goal|Expansion.Manner.Arg2-as-manner|||||1346..1385||||||1390..1465|||||||||ARGM-MNR|impose|1387..1389|PDTB3|
+Implicit|||||||so|Contingency.Cause.Result||||||1217..1465||||||1467..1532|||||1535..1552||||||1467|PDTB2::wsj_1413::1467::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1556..1669||||||1671..1785|||||||||||1671|PDTB2::wsj_1413::1671::CHANGED|
+Explicit|1722..1726||||||once|Temporal.Asynchronous.Succession||||||1694..1721||||||1727..1785|||||||||||1722..1726|PDTB2::wsj_1413::1722..1726::SAME|

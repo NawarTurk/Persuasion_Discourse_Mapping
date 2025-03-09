@@ -1,0 +1,15 @@
+Explicit|145..148||||||and|Expansion.Conjunction||||||41..143||||||149..173|||||||||||145..148|PDTB3|
+Explicit|181..185||||||also|Expansion.Conjunction||||||9..173||||||177..180;186..388|||||||||||181..185|PDTB2::wsj_1951::181..185::SAME|
+Implicit|||||||before|Temporal.Asynchronous.Succession||||||191..388|||||177..190|390..393;462..595|||||||||||390|PDTB2::wsj_1951::390::SAME|
+AltLex|775..786|||||||Temporal.Synchronous||||||715..773||||||775..873|||||||||||775..786|PDTB3|
+Explicit|839..842||||||and|Expansion.Conjunction||||||808..838||||||843..873|||||||||||839..842|PDTB3|
+EntRel||||||||||||||775..873||||||875..993|||||||||||875|PDTB2::wsj_1951::875::SAME|
+Explicit|897..901|||||875..893|also|Expansion.Conjunction||||||620..713|||||599..619|894..896;902..993|||||||||||897..901|PDTB2::wsj_1951::897..901::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||875..993||||||995..1083|||||||||||995|PDTB2::wsj_1951::995::SAME|
+Explicit|1138..1142||||||also|Expansion.Conjunction||||||240..388|||||191..239|1143..1366|||||||||||1138..1142|PDTB2::wsj_1951::1138..1142::SAME|
+Explicit|1378..1382||||||also|Expansion.Conjunction||||||1138..1366||||||1368..1377;1383..1419|||||||||||1378..1382|PDTB2::wsj_1951::1378..1382::SAME|
+EntRel||||||||||||||1368..1419||||||1421..1480|||||||||||1421|PDTB2::wsj_1951::1421::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1421..1480||||||1482..1590|||||||||||1482|PDTB2::wsj_1951::1482::SAME|
+AltLexC|1556..1562|||||||Comparison.Similarity||||||1482..1554||||||1556..1590|||||||||ARGM-ADV|plead|1556..1562|PDTB3|
+EntRel||||||||||||||1594..1668||||||1670..1831|||||||||||1670|PDTB2::wsj_1951::1670::SAME|
+Implicit|||||||in particular|Expansion.Instantiation.Arg2-as-instance||||||1679..1831|||||1670..1678|1862..1982|||||1833..1861||||||1862|PDTB2::wsj_1951::1862::CHANGED|

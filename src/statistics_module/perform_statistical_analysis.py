@@ -1,14 +1,12 @@
 import os
-from collections import Counter
 import pandas as pd
 import json
 import numpy as np
 from scipy.stats import fisher_exact
-import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import defaultdict
 
-from statistics_module.helper_methos import draw_pt_dr_association_heatmap, create_freq_table, create_global_ppmi_heatmap, save_sorted_global_sig_table
+from statistics_module.helper_methos import draw_pt_dr_association_heatmap, create_freq_table, create_global_ppmi_heatmap, save_sorted_global_sig_table, save_pt_dr_ppmi_heatmap
 
 
 def perform_statistical_analysis():
@@ -86,15 +84,8 @@ def perform_statistical_analysis():
         ppmi_table = ppmi_table.round(2)
 
         
-
-        # PT-DR PPMI heatmaps ______________________________________________________check all titlews
-        plt.figure(figsize=(12,10))
-        plt.title(f"PT DR PPMI ({json_file})")
-        sns.heatmap(ppmi_table, annot=True, cmap='Greens', cbar=True)
-        plt.tight_layout()
-        path = os.path.join(stat_result_path, 'pt_dr_ppmi_tables', f'ppmi_heatmap_{json_file}.png')
-        plt.savefig(path)
-        plt.close()  
+        save_pt_dr_ppmi_heatmap(ppmi_table, json_file)
+    
 
         path = os.path.join(contingency_path, f'contingency_tables_{json_file}.txt')
         with open(path, 'a') as f:
@@ -191,26 +182,8 @@ def perform_statistical_analysis():
         positively_associated_pairs_df.to_excel(path)
 
 
-# _________
-
-    global_significance_pairs_list = [
-        {'pt': key[0],'dr': key[1], 'pooling_techniques': value['pooling_techniques'], 'P_DR_given_PT': value['P_DR_given_PT']} for key, value in global_significance_pairs_dict.items()
-    ]
-    global_significance_pairs_df = pd.DataFrame(global_significance_pairs_list)
-    global_significance_pairs_df['pooling_techniques_count'] = global_significance_pairs_df['pooling_techniques'].apply(len)
-    global_significance_pairs_df['P_DR_given_PT_average1'] = global_significance_pairs_df['P_DR_given_PT'].apply(
-        lambda x: round(np.mean(x),2) if len(x) > 0 else 0
-        )
-
-    global_significance_pairs_df = global_significance_pairs_df.sort_values(by='pooling_techniques_count', ascending=False)
-    output_path = os.path.join(stat_result_path, 'global_significant_result_pair_list.xlsx')
-    global_significance_pairs_df.to_excel(output_path, index=False)
-
-
-
-
     save_sorted_global_sig_table(global_significance_table)
-    draw_pt_dr_association_heatmap(global_significance_pairs_df)
+    draw_pt_dr_association_heatmap(global_significance_pairs_dict)
     create_global_ppmi_heatmap(ppmi_global_table)
   
 

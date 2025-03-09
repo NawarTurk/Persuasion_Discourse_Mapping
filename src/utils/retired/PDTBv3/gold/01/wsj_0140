@@ -1,0 +1,8 @@
+Explicit|443..446||||||and|Expansion.Conjunction||||||377..441||||||447..516|||||||||||443..446|PDTB3|
+EntRel||||||||||||||520..677||||||679..819|||||||||||679|PDTB2::wsj_0140::679::SAME|
+Implicit|||||||subsequently|Temporal.Asynchronous.Precedence||||||714..758||||||759..819|||||||||||759|PDTB3|LINK1
+Explicit|759..762||||||and|Expansion.Conjunction||||||714..758||||||763..819|||||||||||759..762|PDTB3|LINK1
+EntRel||||||||||||||679..819||||||822..961|||||||||||822|PDTB2::wsj_0140::822::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||822..911||||||912..961|||||||||||912|PDTB3|LINK2
+Explicit|912..915|||||679..695|and|Expansion.Conjunction||||||822..911||||||916..961|||||||||||912..915|PDTB2::wsj_0140::912..915::SAME|LINK2
+EntRel||||||||||||||822..961||||||964..1002|||||||||||964|PDTB2::wsj_0140::964::SAME|

@@ -1,0 +1,16 @@
+Implicit|||||||as a result|Contingency.Cause.Result||||||51..157||||||159..185|||||||||||159|PDTB3|LINK1
+Explicit|159..162||||||and|Expansion.Conjunction||||||51..157||||||163..185|||||||||||159..162|PDTB3|LINK1
+Implicit|||||||as|Contingency.Cause.Reason||||||189..339||||||341..546|||||||||||341|PDTB2::wsj_0279::341::SAME|
+Implicit||||||411..471|in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||472..516||||||517..546|||||||||ARGM-PRP|cover|517|PDTB3|
+Implicit||||||633..666|as|Contingency.Cause.Reason||||||551..630||||||669..723|||||||||||669|PDTB2::wsj_0279::669::SAME|
+Explicit|824..826||||||or|Expansion.Conjunction||||||779..822||||||827..908|||||||||||824..826|PDTB3|
+EntRel||||||||||||||728..908||||||910..1065|||||||||||910|PDTB2::wsj_0279::910::SAME|
+Explicit|1219..1222|||||1069..1130|and|Expansion.Conjunction||||||1133..1217||||||1223..1311|||||||||||1219..1222|PDTB2::wsj_0279::1219..1222::SAME|
+EntRel||||||||||||||1219..1311||||||1314..1404|||||||||||1314|PDTB2::wsj_0279::1314::SAME|
+Explicit|1749..1760||||||for example|Expansion.Instantiation.Arg2-as-instance|||||1408..1663|1667..1723||||||1727..1747;1762..1850|||||1762..1771|1852..1886|||||1749..1760|PDTB2::wsj_0279::1749..1760::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||1772..1850||||||1852..1886|||||||||||1852|PDTB3|LINK2
+Explicit|1852..1856|||||1762..1771|then|Temporal.Asynchronous.Precedence||||||1772..1850||||||1857..1886|||||||||||1852..1856|PDTB2::wsj_0279::1852..1856::CHANGED|LINK2
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1727..1850|||||1762..1771|1888..2095|||||2097..2121||||||1888|PDTB2::wsj_0279::1888::SAME|
+Explicit|2140..2144||||||also|Expansion.Conjunction||||||1888..2121||||||2125..2139;2145..2411|||||||||||2140..2144|PDTB2::wsj_0279::2140..2144::SAME|
+EntRel||||||||||||||2125..2411||||||2413..2618|||||||||||2413|PDTB2::wsj_0279::2413::SAME|
+Explicit|2524..2529||||||after|Temporal.Asynchronous.Succession||||||2413..2523||||||2530..2618|||||||||||2524..2529|PDTB2::wsj_0279::2524..2529::SAME|

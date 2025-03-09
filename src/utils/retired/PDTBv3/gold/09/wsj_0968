@@ -1,0 +1,18 @@
+Implicit|||||||in|Contingency.Purpose.Arg2-as-goal||||||112..243|||||9..41;107..111|43..105|||||||||ARGM-ADV|say|43|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||112..188||||||189..243|||||||||ARGM-PRP|rearrange|189|PDTB3|
+Explicit|443..455||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||247..403||||||405..441;457..856|||||||||||443..455|PDTB2::wsj_0968::443..455::CHANGED|
+Implicit|||||||while|Temporal.Synchronous||in contrast|Comparison.Contrast|||405..601||||||603..717|||||||||||603|PDTB2::wsj_0968::603::CHANGED|
+Implicit|||||||while|Temporal.Synchronous||in contrast|Comparison.Contrast|||405..717||||||719..856|||||||||||719|PDTB2::wsj_0968::719::CHANGED|
+Implicit||||||1266..1330|in other words|Expansion.Level-of-detail.Arg1-as-detail||||||984..1169|||||958..983|1172..1263|||||||||||1172|PDTB2::wsj_0968::1172::SAME|
+Implicit||||||1633..1702|and|Expansion.Level-of-detail.Arg2-as-detail||||||1562..1630||||||1705..1825|||||||||||1705|PDTB2::wsj_0968::1705::SAME|
+Explicit|1898..1904||||||though|Comparison.Concession.Arg2-as-denier||||||1830..1896||||||1919..2041|||||1905..1918||||||1898..1904|PDTB2::wsj_0968::1898..1904::CHANGED|
+Explicit|2043..2048||||||still|Comparison.Concession.Arg2-as-denier||||||1919..2041|||||1898..1918|2050..2199|||||||||||2043..2048|PDTB2::wsj_0968::2043..2048::CHANGED|
+Implicit|||||||as a result|Contingency.Cause.Result||||||2065..2152||||||2154..2199|||||||||||2154|PDTB3|LINK1
+Explicit|2154..2157|||||2043..2064|and|Expansion.Conjunction||||||2065..2152||||||2158..2199|||||||||||2154..2157|PDTB2::wsj_0968::2154..2157::SAME|LINK1
+Explicit|2203..2215||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||2065..2199|||||2043..2064|2217..2325|||||||||||2203..2215|PDTB2::wsj_0968::2203..2215::CHANGED|
+Explicit|2283..2286||||||and|Expansion.Conjunction||||||2231..2282||||||2287..2325|||||||||||2283..2286|PDTB3|
+Explicit|2350..2354|||||2415..2433|also|Expansion.Conjunction||||||2203..2325||||||2327..2349;2355..2413|||||||||||2350..2354|PDTB2::wsj_0968::2350..2354::SAME|
+Implicit|||||||so|Contingency.Cause+Belief.Result+Belief||||||2327..2413|||||2415..2433|2436..2484|||||2487..2496||||||2436|PDTB2::wsj_0968::2436::CHANGED|
+Implicit|||||||furthermore|Expansion.Conjunction||||||2526..2601|||||2500..2525|2617..2815|||||2603..2616||||||2617|PDTB2::wsj_0968::2617::SAME|
+AltLex|2724..2732|||||||Contingency.Cause.Result||||||2679..2722||||||2724..2815|||||||||ARGM-ADV|put|2724..2732|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal|||||2954..2994|2883..2952|||||2848..2882|2819..2846|||||||||ARGM-PRP|say|2819|PDTB3|

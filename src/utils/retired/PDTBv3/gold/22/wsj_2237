@@ -1,0 +1,10 @@
+Explicit|101..103||||||so|Contingency.Cause.Result||||||9..99||||||104..165|||||||||||101..103|PDTB2::wsj_2237::101..103::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||101..165||||||167..314|||||||||||167|PDTB2::wsj_2237::167::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||196..252||||||253..314|||||||||ARGM-PRP|send|253|PDTB3|
+EntRel||||||||||||||167..314||||||316..384|||||||||||316|PDTB2::wsj_2237::316::SAME|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||316..384||||||387..441|||||||||||387|PDTB2::wsj_2237::387::CHANGED|
+Implicit|||||||if they were|Contingency.Condition.Arg2-as-cond||||||387..412||||||413..441|||||||||ARGM-PRD|do|413|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||387..441||||||443..653|||||||||||443|PDTB2::wsj_2237::443::SAME|
+EntRel||||||||||||||443..653||||||655..783|||||||||||655|PDTB2::wsj_2237::655::SAME|
+Explicit|661..666||||||after|Temporal.Asynchronous.Succession||||||655..660;713..783||||||667..711|||||||||||661..666|PDTB2::wsj_2237::661..666::SAME|
+Explicit|744..747||||||and|Contingency.Purpose.Arg2-as-goal||||||734..743||||||748..783|||||||||||744..747|PDTB3|

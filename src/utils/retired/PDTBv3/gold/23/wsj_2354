@@ -1,0 +1,15 @@
+Explicit|334..341|||||224..250|because|Contingency.Cause.Reason|||||267..304|251..265;306..333||||||342..446|||||||||||334..341|PDTB2::wsj_2354::334..341::SAME|
+Explicit|450..456||||||though|Comparison.Concession.Arg1-as-denier||||||506..582||||||457..504|||||||||||450..456|PDTB2::wsj_2354::450..456::CHANGED|
+Explicit|586..591||||||still|Comparison.Contrast||||||506..582||||||593..793|||||||||||586..591|PDTB2::wsj_2354::586..591::SAME|
+Explicit|670..673||||||and|Expansion.Conjunction||||||593..668||||||674..793|||||||||||670..673|PDTB2::wsj_2354::670..673::CHANGED|
+Explicit|891..894||||||and|Expansion.Conjunction||||||859..890||||||895..971|||||||||||891..894|PDTB3|
+Implicit|||||||previously|Temporal.Asynchronous.Succession||||||975..1238||||||1240..1271|||||||||||1240|PDTB2::wsj_2354::1240::SAME|
+Explicit|1509..1511|||||1519..1534|if|Contingency.Condition.Arg2-as-cond||||||1537..1615||||||1512..1516|||||||||||1509..1511|PDTB2::wsj_2354::1509..1511::SAME|
+Explicit|1618..1621||||||but|Comparison.Concession.Arg2-as-denier||||||1509..1516;1537..1615|||||1519..1534|1622..1763|||||||||||1618..1621|PDTB2::wsj_2354::1618..1621::CHANGED|
+Implicit|||||||as a result|Contingency.Cause.Result||||||1637..1703|||||1632..1636|1704..1763|||||||||||1704|PDTB3|LINK1
+Explicit|1704..1707||||||and|Expansion.Conjunction||||||1632..1703||||||1708..1763|||||||||||1704..1707|PDTB3|LINK1
+Explicit|1894..1901|||||1811..1845|because|Contingency.Cause.Reason||||||1872..1892|||||1846..1871|1902..2012|||||||||||1894..1901|PDTB2::wsj_2354::1894..1901::SAME|
+Explicit|1964..1968|||||1811..1845|when|Temporal.Synchronous||||||1894..1963||||||1969..2012|||||||||||1964..1968|PDTB2::wsj_2354::1964..1968::SAME|
+Explicit|2146..2149||||||but|Comparison.Concession.Arg2-as-denier||||||2017..2052|||||2055..2142|2150..2266|||||||||||2146..2149|PDTB2::wsj_2354::2146..2149::CHANGED|
+Implicit|||||||moreover|Expansion.Conjunction||||||2146..2266||||||2269..2451|||||||||||2269|PDTB3|
+Implicit||||||2554..2561|for instance|Expansion.Instantiation.Arg2-as-instance||||||2456..2551||||||2564..2622|||||||||||2564|PDTB2::wsj_2354::2564::CHANGED|

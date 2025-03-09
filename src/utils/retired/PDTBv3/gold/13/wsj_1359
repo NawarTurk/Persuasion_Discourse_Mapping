@@ -1,0 +1,8 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||275..293||||||294..339|||||||||ARGM-PNC|build|294|PDTB3|
+Implicit|||||||rather|Expansion.Substitution.Arg2-as-subst||||||280..339||||||340..395|||||||||||340|PDTB3|LINK1
+Explicit|340..343||||||and|Expansion.Conjunction||||||280..339||||||344..395|||||||||||340..343|PDTB3|LINK1
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1019..1041||||||1042..1084|||||||||||1042|PDTB3|LINK2
+Explicit|1042..1045||||||and|Expansion.Conjunction||||||1019..1041||||||1046..1084|||||||||||1042..1045|PDTB3|LINK2
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1042..1057||||||1058..1084|||||||||ARGM-PNC|modify|1058|PDTB3|
+Explicit|1153..1158||||||after|Temporal.Asynchronous.Succession||||||1088..1152||||||1159..1369|||||||||||1153..1158|PDTB2::wsj_1359::1153..1158::SAME|
+Explicit|1259..1263|||||1159..1230|when|Temporal.Asynchronous.Succession||||||1231..1258||||||1264..1369|||||||||||1259..1263|PDTB2::wsj_1359::1259..1263::SAME|

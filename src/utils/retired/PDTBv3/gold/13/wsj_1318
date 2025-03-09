@@ -1,0 +1,17 @@
+Explicit|343..347|||||156..202|then|Temporal.Asynchronous.Precedence||||||257..338||||||339..342;348..398|||||||||||343..347|PDTB2::wsj_1318::343..347::CHANGED|LINK1
+Explicit|339..342||||||and|Expansion.Conjunction||||||257..338||||||343..398|||||||||||339..342|PDTB3|LINK1
+Explicit|618..622||||||also|Expansion.Conjunction||||||585..612||||||614..617;623..641|||||||||||618..622|PDTB2::wsj_1318::618..622::SAME|
+Explicit|728..731||||||and|Expansion.Conjunction||||||645..726||||||732..820|||||||||||728..731|PDTB2::wsj_1318::728..731::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||897..919||||||920..958|||||||||||920|PDTB3|LINK2
+Explicit|920..923||||||and|Expansion.Conjunction||||||897..919||||||924..958|||||||||||920..923|PDTB3|LINK2
+Explicit|960..963||||||but|Comparison.Concession.Arg2-as-denier||||||856..958|||||824..855|972..1084|||||964..971||||||960..963|PDTB2::wsj_1318::960..963::CHANGED|
+Explicit|1089..1093|||||1173..1180|when|Temporal.Synchronous||||||1135..1169||||||1094..1105|||||||||||1089..1093|PDTB2::wsj_1318::1089..1093::SAME|
+Explicit|1111..1115|||||1173..1180|when|Temporal.Synchronous||||||1135..1169||||||1107..1110;1116..1133|||||||||||1111..1115|PDTB2::wsj_1318::1111..1115::SAME|
+Explicit|1107..1110|||||1173..1180|and|Expansion.Conjunction||||||1089..1105||||||1111..1133|||||||||||1107..1110|PDTB2::wsj_1318::1107..1110::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1089..1170|||||1173..1180|1189..1272|||||1182..1188||||ARGM-ADV|say|1189|PDTB3|
+Explicit|1371..1374||||||but|Comparison.Concession.Arg2-as-denier||||||1276..1369||||||1375..1475|||||||||||1371..1374|PDTB2::wsj_1318::1371..1374::CHANGED|
+Explicit|1434..1437||||||and|Expansion.Conjunction||||||1397..1433||||||1438..1475|||||||||||1434..1437|PDTB3|
+EntRel||||||||||||||1495..1587||||||1589..1670|||||||||||1589|PDTB3|
+Implicit|||||||for example|Expansion.Instantiation.Arg2-as-instance||||||1674..1832||||||1834..2027|||||||||||1834|PDTB2::wsj_1318::1834::CHANGED|
+Explicit|1975..1980||||||later|Temporal.Asynchronous.Precedence||||||1922..1955||||||1956..1974;1981..2027|||||||||||1975..1980|PDTB2::wsj_1318::1975..1980::CHANGED|LINK3
+Explicit|1956..1959||||||and|Expansion.Conjunction||||||1922..1955||||||1960..2027|||||||||||1956..1959|PDTB3|LINK3

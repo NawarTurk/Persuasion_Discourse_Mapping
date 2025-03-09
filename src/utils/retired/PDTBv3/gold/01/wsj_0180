@@ -1,0 +1,8 @@
+EntRel||||||||||||||137..273||||||275..430|||||||||||275|PDTB2::wsj_0180::275::SAME|
+Implicit|||||||now|Temporal.Asynchronous.Precedence||||||287..384||||||385..430|||||||||||385|PDTB3|LINK1
+Explicit|385..388||||||and|Expansion.Conjunction||||||287..384||||||389..430|||||||||||385..388|PDTB3|LINK1
+EntRel||||||||||||||275..430||||||432..604|||||||||||432|PDTB2::wsj_0180::432::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||608..720||||||722..842|||||844..867||||||722|PDTB2::wsj_0180::722::SAME|
+EntRel||||||||||||||722..867||||||869..1023|||||||||||869|PDTB2::wsj_0180::869::SAME|
+Explicit|971..974|||||869..886|and|Expansion.Conjunction||||||892..969||||||975..1023|||||||||||971..974|PDTB2::wsj_0180::971..974::CHANGED|
+EntRel||||||||||||||869..1023||||||1025..1171|||||||||||1025|PDTB2::wsj_0180::1025::SAME|

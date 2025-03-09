@@ -1,0 +1,17 @@
+EntRel||||||||||||||148..326||||||328..470|||||||||||328|PDTB2::wsj_1291::328::SAME|
+EntRel||||||||||||||328..470||||||472..513|||||||||||472|PDTB2::wsj_1291::472::SAME|
+NoRel||||||||||||||472..513||||||515..614|||||||||||515|PDTB2::wsj_1291::515::SAME|
+Explicit|624..628||||||also|Expansion.Conjunction||||||9..27;97..144||||||618..623;629..728|||||||||||624..628|PDTB2::wsj_1291::624..628::SAME|
+Explicit|730..741||||||in addition|Expansion.Conjunction||||||634..728|||||618..633|743..953|||||||||||730..741|PDTB2::wsj_1291::730..741::SAME|
+Explicit|873..876||||||and|Expansion.Conjunction||||||788..872||||||877..953|||||||||||873..876|PDTB3|
+EntRel||||||||||||||730..953||||||955..1055|||||||||||955|PDTB2::wsj_1291::955::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||1059..1163||||||1165..1265|||||||||||1165|PDTB2::wsj_1291::1165::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1174..1222||||||1223..1265|||||||||||1223|PDTB3|LINK1
+Explicit|1223..1226||||||and|Expansion.Conjunction||||||1174..1222||||||1227..1265|||||||||||1223..1226|PDTB3|LINK1
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1422..1535|||||1411..1421|1537..1650|||||||||||1537|PDTB2::wsj_1291::1537::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1537..1650||||||1652..1728|||||||||||1652|PDTB2::wsj_1291::1652::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1652..1678||||||1679..1728|||||||||||1679|PDTB3|LINK2
+Explicit|1679..1682||||||and|Expansion.Conjunction||||||1652..1678||||||1683..1728|||||||||||1679..1682|PDTB2::wsj_1291::1679..1682::SAME|LINK2
+Explicit|1958..1961||||||but|Comparison.Concession.Arg2-as-denier||||||1732..1956||||||1962..2048|||||||||||1958..1961|PDTB2::wsj_1291::1958..1961::SAME|
+Explicit|2004..2007|||||1962..1972|and|Expansion.Conjunction||||||1973..2003||||||2008..2048|||||||||||2004..2007|PDTB2::wsj_1291::2004..2007::SAME|
+Explicit|2131..2136||||||while|Temporal.Synchronous||||||2052..2130||||||2137..2169|||||||||||2131..2136|PDTB2::wsj_1291::2131..2136::SAME|

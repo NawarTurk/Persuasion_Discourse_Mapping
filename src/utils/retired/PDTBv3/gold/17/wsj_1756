@@ -1,0 +1,16 @@
+Explicit|136..139||||||and|Expansion.Conjunction||||||92..135||||||140..177|||||||||||136..139|PDTB3|
+Explicit|372..376||||||then|Temporal.Asynchronous.Precedence||||||49..177|||||9..48|278..281;367..371;377..441|||||||||||372..376|PDTB2::wsj_1756::372..376::SAME|
+EntRel||||||||||||||445..530||||||532..595|||||||||||532|PDTB2::wsj_1756::532::SAME|
+EntRel||||||||||||||532..595||||||597..827|||||||||||597|PDTB2::wsj_1756::597::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||831..935||||||1023..1085|||||937..1020||||||1023|PDTB2::wsj_1756::1023::SAME|
+Implicit||||||1090..1100|and|Expansion.Conjunction||||||1101..1199||||||1201..1263|||||||||||1201|PDTB2::wsj_1756::1201::SAME|
+Explicit|1424..1426||||||or|Expansion.Disjunction||||||1390..1422||||||1427..1464|||||||||||1424..1426|PDTB3|
+Explicit|1466..1472||||||unless|Contingency.Negative-condition.Arg2-as-negCond||||||1267..1464||||||1473..1518|||||||||||1466..1472|PDTB2::wsj_1756::1466..1472::CHANGED|
+Implicit||||||1090..1100|and|Expansion.Conjunction||||||1101..1518||||||1520..1642|||||||||||1520|PDTB2::wsj_1756::1520::SAME|
+Explicit|1584..1586||||||if|Contingency.Condition.Arg2-as-cond||||||1520..1583||||||1587..1642|||||||||||1584..1586|PDTB2::wsj_1756::1584..1586::SAME|
+Explicit|1831..1833||||||if|Contingency.Condition.Arg2-as-cond||||||1903..2023||||||1834..1901|||||||||||1831..1833|PDTB2::wsj_1756::1831..1833::SAME|
+Explicit|1857..1868||||||rather than|Expansion.Substitution.Arg1-as-subst||||||1841..1856||||||1869..1887|||||||||||1857..1868|PDTB3|
+Explicit|1928..1934||||||unless|Contingency.Negative-condition.Arg2-as-negCond||||||1903..1927||||||1935..1971|||||||||||1928..1934|PDTB2::wsj_1756::1928..1934::CHANGED|
+Explicit|1973..1976||||||and|Expansion.Conjunction||||||1903..1971||||||1977..2023|||||||||||1973..1976|PDTB2::wsj_1756::1973..1976::CHANGED|
+Implicit||||||1090..1100|and|Expansion.Conjunction||||||1101..2023||||||2025..2177|||||||||||2025|PDTB2::wsj_1756::2025::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||2053..2078||||||2079..2177|||||||||ARGM-PRP|sell|2079|PDTB3|

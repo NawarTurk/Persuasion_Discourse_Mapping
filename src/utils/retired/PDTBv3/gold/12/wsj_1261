@@ -1,0 +1,18 @@
+Explicit|364..375|||||145..180|in addition|Expansion.Conjunction||||||181..362||||||377..485|||||||||||364..375|PDTB2::wsj_1261::364..375::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||489..621||||||623..805|||||||||||623|PDTB2::wsj_1261::623::SAME|
+EntRel||||||||||||||623..805||||||807..895|||||||||||807|PDTB2::wsj_1261::807::SAME|
+Explicit|1058..1061||||||but|Comparison.Concession.Arg2-as-denier||||||899..1056||||||1062..1094|||||||||||1058..1061|PDTB2::wsj_1261::1058..1061::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1058..1094||||||1096..1318|||||||||||1096|PDTB2::wsj_1261::1096::CHANGED|
+Implicit|||||||for example|Expansion.Instantiation.Arg2-as-instance||||||1322..1396||||||1398..1573|||||||||||1398|PDTB2::wsj_1261::1398::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||1398..1573||||||1575..1757|||||||||||1575|PDTB2::wsj_1261::1575::SAME|
+Implicit|||||||in other words|Expansion.Equivalence||||||1829..1884|||||1761..1828|1887..2029|||||2032..2039||||||1887|PDTB2::wsj_1261::1887::SAME|
+Explicit|1910..1915|||||2032..2039|later|Temporal.Asynchronous.Precedence||||||1963..2029||||||1887..1909;1916..1961|||||||||||1910..1915|PDTB2::wsj_1261::1910..1915::SAME|
+Explicit|1916..1920||||||when|Temporal.Synchronous||||||1887..1909||||||1910..1915;1921..1961|||||||||ARGM-TMP|get|1916..1920|PDTB3|
+Explicit|1963..1966|||||2032..2039|but|Comparison.Concession.Arg2-as-denier||||||1887..1961||||||1967..2029|||||||||||1963..1966|PDTB2::wsj_1261::1963..1966::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||2133..2177||||||2179..2260|||||||||||2179|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||2179..2260||||||2262..2308|||||||||||2262|PDTB3|
+Explicit|2310..2313||||||and|Expansion.Conjunction||||||2262..2308||||||2314..2448|||||||||||2310..2313|PDTB3|
+Explicit|2580..2583|||||2562..2577|but|Comparison.Concession.Arg2-as-denier||||||2453..2559||||||2584..2607|||||||||||2580..2583|PDTB2::wsj_1261::2580..2583::CHANGED|
+Implicit||||||2562..2577|as|Expansion.Conjunction||||||2580..2607||||||2609..2685|||||||||||2609|PDTB2::wsj_1261::2609::SAME|
+Explicit|2656..2659||||||and|Expansion.Conjunction||||||2638..2655||||||2660..2685|||||||||||2656..2659|PDTB3|
+Implicit||||||2562..2577|in other words|Expansion.Equivalence||||||2609..2685||||||2689..2736|||||||||||2689|PDTB2::wsj_1261::2689::SAME|

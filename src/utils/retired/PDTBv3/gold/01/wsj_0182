@@ -1,0 +1,7 @@
+EntRel||||||||||||||9..112||||||114..137|||||||||||114|PDTB2::wsj_0182::114::SAME|
+Implicit||||||141..223|in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||224..285||||||286..353|||||||||ARGM-PRP|buy|286|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||224..353|||||141..223|355..480|||||482..498||||||355|PDTB2::wsj_0182::355::SAME|
+Explicit|614..619|||||519..532|while|Temporal.Synchronous||||||533..613||||||620..645|||||||||||614..619|PDTB2::wsj_0182::614..619::SAME|
+Implicit|||||||now|Temporal.Asynchronous.Precedence||||||675..727||||||728..780|||||||||||728|PDTB3|LINK1
+Explicit|728..731||||||and|Expansion.Conjunction||||||675..727||||||732..780|||||||||||728..731|PDTB3|LINK1
+Implicit|||||||because|Contingency.Cause.Reason||||||784..861||||||863..984|||||||||||863|PDTB2::wsj_0182::863::SAME|

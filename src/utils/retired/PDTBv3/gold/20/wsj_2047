@@ -1,0 +1,13 @@
+Implicit|||||||as|Contingency.Cause+Belief.Reason+Belief||||||9..75||||||77..101|||||||||||77|PDTB2::wsj_2047::77::SAME|
+Explicit|103..106||||||but|Comparison.Concession.Arg2-as-denier|||||77..101|9..75||||||107..176|||||||||||103..106|PDTB2::wsj_2047::103..106::CHANGED|
+Implicit|||||||consequently|Contingency.Cause.Result||||||103..176||||||178..291|||||||||||178|PDTB2::wsj_2047::178::SAME|
+Implicit||||||295..323|because|Contingency.Cause.Reason||||||324..384||||||387..478|||||||||||387|PDTB2::wsj_2047::387::SAME|
+Implicit||||||295..323|and|Expansion.Conjunction||||||387..478||||||480..524|||||||||||480|PDTB2::wsj_2047::480::SAME|
+EntRel||||||||||||||480..524||||||526..644|||||||||||526|PDTB2::wsj_2047::526::SAME|
+Explicit|577..580||||||but|Comparison.Concession.Arg2-as-denier||||||526..575||||||581..644|||||||||||577..580|PDTB2::wsj_2047::577..580::CHANGED|
+Implicit|||||||because|Contingency.Cause.Reason||||||526..644||||||646..719|||||||||||646|PDTB2::wsj_2047::646::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||723..812||||||814..936|||||||||||814|PDTB2::wsj_2047::814::SAME|
+Explicit|938..945||||||in fact|Expansion.Conjunction||||||839..936|||||814..838|947..975|||||||||||938..945|PDTB2::wsj_2047::938..945::SAME|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||938..975||||||977..1142|||||||||||977|PDTB2::wsj_2047::977::CHANGED|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||977..1142||||||1145..1181|||||||||||1145|PDTB2::wsj_2047::1145::CHANGED|
+Implicit|||||||because|Contingency.Cause+Belief.Reason+Belief||||||1145..1160||||||1162..1181|||||||||||1162|PDTB2::wsj_2047::1162::CHANGED|

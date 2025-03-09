@@ -1,0 +1,17 @@
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||488..537||||||538..582|||||||||||538|PDTB3|LINK1
+Explicit|538..545||||||without|Expansion.Manner.Arg2-as-manner||||||488..537||||||546..582|||||||||ARGM-ADV|veto|538..545|PDTB3|LINK1
+EntRel||||||||||||||427..582||||||584..648|||||||||||584|PDTB2::wsj_0198::584::SAME|
+Implicit||||||650..688|therefore|Contingency.Cause.Result||||||602..648|||||584..601|689..833|||||||||||689|PDTB2::wsj_0198::689::SAME|
+Implicit||||||689..722|in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||723..810||||||811..833|||||||||ARGM-PRP|declare|811|PDTB3|
+Explicit|837..840||||||but|Comparison.Contrast||||||650..833||||||841..1032|||||||||||837..840|PDTB2::wsj_0198::837..840::SAME|
+EntRel||||||||||||||837..1032||||||1035..1164|||||||||||1035|PDTB2::wsj_0198::1035::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1035..1104||||||1108..1164|||||||||||1108|PDTB3|
+Implicit|||||||in contrast|Comparison.Contrast||||||1108..1137||||||1138..1164|||||||||||1138|PDTB3|LINK2
+Explicit|1138..1141||||||and|Expansion.Conjunction||||||1108..1137||||||1142..1164|||||||||||1138..1141|PDTB2::wsj_0198::1138..1141::SAME|LINK2
+Explicit|1278..1286||||||moreover|Expansion.Conjunction||||||1192..1276|||||1168..1191|1298..1426|||||1288..1297||||||1278..1286|PDTB2::wsj_0198::1278..1286::SAME|
+Implicit||||||1288..1297|yet|Comparison.Concession.Arg2-as-denier||||||1298..1377||||||1379..1426|||||||||||1379|PDTB3|LINK3
+Explicit|1379..1382|||||1288..1297|and|Expansion.Conjunction||||||1298..1377||||||1383..1426|||||||||||1379..1382|PDTB2::wsj_0198::1379..1382::SAME|LINK3
+Explicit|1433..1437||||||also|Expansion.Conjunction||||||1278..1426||||||1428..1432;1438..1632|||||||||||1433..1437|PDTB2::wsj_0198::1433..1437::SAME|
+Implicit||||||1428..1442|yet|Comparison.Concession.Arg2-as-denier||||||1443..1537||||||1539..1632|||||||||||1539|PDTB3|LINK4
+Explicit|1539..1542|||||1428..1442|and|Expansion.Conjunction||||||1443..1537||||||1544..1632|||||||||||1539..1542|PDTB2::wsj_0198::1539..1542::SAME|LINK4
+Explicit|1751..1754|||||1636..1677|but|Comparison.Concession.Arg2-as-denier||||||1678..1749||||||1755..1874|||||||||||1751..1754|PDTB2::wsj_0198::1751..1754::CHANGED|

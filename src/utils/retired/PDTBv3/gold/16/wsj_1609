@@ -1,0 +1,19 @@
+AltLex|158..166|||||||Contingency.Cause.Reason||||||226..315|||||204..225|158..202|||||||||ARGM-ADV|say|158..166|PDTB3|
+Implicit|||||||meanwhile|Expansion.Conjunction||||||319..429||||||431..475|||||||||||431|PDTB2::wsj_1609::431::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||431..475||||||477..528|||||||||||477|PDTB2::wsj_1609::477::SAME|
+AltLex|679..687|||||||Contingency.Cause.Result||||||532..677||||||679..730|||||||||ARGM-ADV|add|679..687|PDTB3|
+Implicit|||||||while|Comparison.Contrast||||||532..730||||||732..832|||||||||||732|PDTB2::wsj_1609::732::SAME|
+EntRel||||||||||||||732..832||||||834..894|||||||||||834|PDTB2::wsj_1609::834::SAME|
+Implicit|||||||although|Comparison.Concession.Arg2-as-denier||||||898..1021||||||1023..1111|||||||||||1023|PDTB2::wsj_1609::1023::CHANGED|
+EntRel||||||||||||||1023..1111||||||1113..1157|||||||||||1113|PDTB2::wsj_1609::1113::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1113..1157||||||1159..1205|||||||||||1159|PDTB2::wsj_1609::1159::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1159..1180||||||1182..1206|||||||||ARGM-ADV|rise|1182|PDTB3|
+Implicit|||||||while|Expansion.Conjunction||||||1209..1341||||||1343..1453|||||||||||1343|PDTB2::wsj_1609::1343::SAME|
+Explicit|1392..1395||||||and|Expansion.Conjunction||||||1343..1390||||||1396..1453|||||||||||1392..1395|PDTB2::wsj_1609::1392..1395::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||1457..1559||||||1561..1709|||||||||||1561|PDTB2::wsj_1609::1561::SAME|
+EntRel||||||||||||||1713..1786||||||1788..1920|||||||||||1788|PDTB2::wsj_1609::1788::SAME|
+AltLex|1876..1885|||||||Contingency.Cause.Result||||||1788..1874||||||1876..1920|||||||||ARGM-ADV|have|1876..1885|PDTB3|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1788..1920||||||1922..2027|||||||||||1922|PDTB2::wsj_1609::1922::SAME|
+EntRel||||||||||||||1922..2027||||||2029..2125|||||||||||2029|PDTB2::wsj_1609::2029::SAME|
+EntRel||||||||||||||2029..2125||||||2127..2165|||||||||||2127|PDTB2::wsj_1609::2127::CHANGED|
+Implicit|||||||while|Expansion.Conjunction||||||2169..2299||||||2301..2355|||||||||||2301|PDTB2::wsj_1609::2301::SAME|

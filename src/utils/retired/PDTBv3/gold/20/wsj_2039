@@ -1,0 +1,9 @@
+Implicit|||||||as a result|Contingency.Cause.Result||||||81..119||||||120..205|||||||||ARGM-PRP|offset|120|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||375..510||||||512..561|||||||||||512|PDTB2::wsj_2039::512::SAME|
+Explicit|851..856||||||while|Temporal.Synchronous|Comparison.Contrast|||||789..849||||||857..951|||||||||||851..856|PDTB2::wsj_2039::851..856::CHANGED|
+Implicit|||||||although|Comparison.Contrast||||||789..951||||||953..1067|||||||||||953|PDTB2::wsj_2039::953::CHANGED|
+EntRel||||||||||||||953..1067||||||1069..1274|||||||||||1069|PDTB2::wsj_2039::1069::SAME|
+Explicit|1139..1142|||||1258..1274|but|Comparison.Concession.Arg2-as-denier||||||1069..1137||||||1143..1256|||||||||||1139..1142|PDTB2::wsj_2039::1139..1142::CHANGED|
+Implicit|||||||when|Contingency.Condition.Arg2-as-cond||||||1332..1424|||||1315..1331|1278..1313|||||||||ARGM-ADV|say|1278|PDTB3|
+Explicit|1376..1381|||||1315..1331|while|Temporal.Synchronous|Comparison.Contrast|||||1332..1374||||||1382..1424|||||||||||1376..1381|PDTB2::wsj_2039::1376..1381::CHANGED|
+Implicit|||||||in contrast|Comparison.Contrast||||||1332..1424|||||1315..1331|1426..1488|||||1490..1506||||||1426|PDTB2::wsj_2039::1426::CHANGED|

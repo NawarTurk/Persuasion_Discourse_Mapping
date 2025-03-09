@@ -1,0 +1,10 @@
+Implicit||||||9..48|in order|Contingency.Purpose.Arg2-as-goal||||||49..90||||||91..159|||||||||ARGM-PRP|increase|91|PDTB3|
+AltLex|160..172|||||9..48||Contingency.Cause.Result||||||49..158||||||160..258|||||||||ARGM-ADV|increase|160..172|PDTB3|
+EntRel||||||||||||||582..715||||||717..806|||||||||||717|PDTB2::wsj_2442::717::SAME|
+EntRel||||||||||||||717..806||||||808..900|||||||||||808|PDTB2::wsj_2442::808::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||920..1056|||||904..919|1058..1230|||||||||||1058|PDTB2::wsj_2442::1058::SAME|
+Explicit|1137..1140||||||and|Expansion.Conjunction||||||1067..1136||||||1141..1230|||||||||||1137..1140|PDTB2::wsj_2442::1137..1140::CHANGED|
+Explicit|1305..1308|||||1234..1249|and|Expansion.Conjunction||||||1250..1303||||||1309..1458|||||||||||1305..1308|PDTB2::wsj_2442::1305..1308::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||1366..1387||||||1388..1458|||||||||ARGM-PRP|begin|1388|PDTB3|
+Implicit|||||||consequently|Contingency.Cause.Result||||||1250..1303|||||1234..1249|1468..1528|||||1460..1467||||||1468|PDTB2::wsj_2442::1468::SAME|
+Explicit|1530..1533||||||but|Comparison.Contrast||||||1477..1528||||||1534..1616|||||||||||1530..1533|PDTB2::wsj_2442::1530..1533::CHANGED|

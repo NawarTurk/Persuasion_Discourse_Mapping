@@ -1,0 +1,9 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||9..97||||||98..211|||||||||ARGM-PNC|come|98|PDTB3|
+EntRel||||||||||||||9..211||||||213..331|||||||||||213|PDTB2::wsj_0134::213::SAME|
+Implicit|||||||for example|Expansion.Instantiation.Arg2-as-instance||||||213..331||||||333..420|||||||||||333|PDTB2::wsj_0134::333::CHANGED|
+Implicit|||||||because|Contingency.Cause.Reason||||||358..420|||||333..357|422..570|||||||||||422|PDTB2::wsj_0134::422::SAME|
+Explicit|422..429||||||however|Comparison.Concession.Arg1-as-denier||||||448..570||||||430..446|||||||||||422..429|PDTB3|
+Implicit|||||||as a result|Contingency.Cause.Result||||||481..495||||||496..570|||||||||||496|PDTB3|LINK1
+Explicit|496..499||||||and|Expansion.Conjunction||||||481..495||||||500..570|||||||||||496..499|PDTB3|LINK1
+EntRel||||||||||||||422..570||||||572..699|||||||||||572|PDTB2::wsj_0134::572::SAME|
+Implicit|||||||thus|Contingency.Cause.Result||||||572..699||||||701..800|||||||||||701|PDTB2::wsj_0134::701::SAME|

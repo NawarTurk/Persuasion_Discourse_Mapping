@@ -1,0 +1,15 @@
+Explicit|204..212|||||213..245|although|Comparison.Concession.Arg1-as-denier||||||355..465||||||246..353|||||||||||204..212|PDTB2::wsj_1706::204..212::CHANGED|
+Implicit|||||||by comparison|Comparison.Contrast||||||355..465||||||467..559|||||||||||467|PDTB2::wsj_1706::467::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||563..728|||||665..728|730..877|||||||||||730|PDTB2::wsj_1706::730::SAME|
+Explicit|808..811||||||but|Comparison.Concession.Arg2-as-denier||||||744..806|||||739..743|817..877|||||812..816||||||808..811|PDTB3|
+Implicit|||||||by comparison|Comparison.Contrast||||||817..877|||||808..816|879..992|||||||||||879|PDTB2::wsj_1706::879::SAME|
+EntRel||||||||||||||996..1056||||||1146..1206;1257..1353|||||||||||1146|PDTB2::wsj_1706::1146::CHANGED|
+Explicit|1257..1260||||||but|Comparison.Contrast||||||1146..1253||||||1261..1353|||||||||||1257..1260|PDTB2::wsj_1706::1257..1260::SAME|
+Explicit|1530..1539||||||meanwhile|Temporal.Synchronous||||||1358..1518||||||1520..1528;1541..1613|||||||||||1530..1539|PDTB2::wsj_1706::1530..1539::CHANGED|
+Explicit|1633..1640||||||however|Comparison.Concession.Arg2-as-denier||||||996..1144||||||1617..1631;1642..1738|||||||||||1633..1640|PDTB2::wsj_1706::1633..1640::CHANGED|
+Explicit|1740..1742||||||as|Contingency.Cause.Reason||||||1617..1738||||||1743..1863|||||||||||1740..1742|PDTB2::wsj_1706::1740..1742::SAME|
+AltLex|1865..1884|||||||Contingency.Cause.Result||||||1617..1738||||||1865..1900|||||||||||1865..1884|PDTB2::wsj_1706::1865..1884::SAME|
+Explicit|2205..2208||||||but|Comparison.Contrast||||||2099..2202|||||2013..2073|2209..2250;2261..2355|||||2252..2259||||||2205..2208|PDTB2::wsj_1706::2205..2208::SAME|
+Explicit|2261..2268|||||2252..2259|whereas|Comparison.Contrast||||||2205..2250||||||2269..2355|||||||||||2261..2268|PDTB2::wsj_1706::2261..2268::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||2269..2355||||||2359..2419|||||||||||2359|PDTB3|LINK1
+Explicit|2359..2362||||||and|Expansion.Conjunction||||||2269..2355||||||2363..2419|||||||||||2359..2362|PDTB2::wsj_1706::2359..2362::CHANGED|LINK1

@@ -76,27 +76,30 @@ def draw_pt_dr_association_heatmap(global_significance_pairs_dict):
         'Cause',       
         'Purpose',   
         'Contrast',
-        'Cause+Belief',    
+        'Cause+Belief',
+        'Cause+Speechact',     
         'Concession', 
         'Condition',       
-        'Cause+Speechact',     
         'Instantiation',  
         'Asynchronous',    
         'Level-of-Detail',
     ]
 
     custom_pt_order = [
+
+        'False Dilemma/No Choice',
         'Slogans',
         'Appeal to Authority',
-        'False Dilemma/No Choice',
-        'Loaded Language',
-        'Appeal to Fear/Prejudice',
+                'Appeal to Fear/Prejudice',
+        'Exaggeration/Minimisation',
+
         'Causal Oversimplification',
+
         'Flag Waving',
         'Doubt',
         'Name Calling/Labeling',
         'Repetition',
-        'Exaggeration/Minimisation',
+                                 'Loaded Language',
 
     ]
 

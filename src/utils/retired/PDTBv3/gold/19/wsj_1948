@@ -1,0 +1,17 @@
+Explicit|53..56||||||but|Comparison.Concession.Arg2-as-denier||||||9..51||||||57..107|||||||||||53..56|PDTB2::wsj_1948::53..56::CHANGED|
+Explicit|133..144||||||for example|Expansion.Instantiation.Arg2-as-instance||||||53..107||||||111..131;146..340|||||||||||133..144|PDTB2::wsj_1948::133..144::CHANGED|
+Implicit|||||||furthermore|Expansion.Conjunction||||||111..340||||||342..423|||||||||||342|PDTB2::wsj_1948::342::SAME|
+EntRel||||||||||||||342..423||||||425..553|||||||||||425|PDTB2::wsj_1948::425::SAME|
+EntRel||||||||||||||557..675||||||677..797|||||||||||677|PDTB2::wsj_1948::677::SAME|
+Explicit|677..684||||||because|Contingency.Cause.Reason||||||715..797||||||685..713|||||||||||677..684|PDTB2::wsj_1948::677..684::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||677..797||||||799..927|||||||||||799|PDTB2::wsj_1948::799::SAME|
+Explicit|850..857||||||because|Contingency.Cause.Reason||||||799..849||||||858..927|||||||||||850..857|PDTB2::wsj_1948::850..857::SAME|
+Explicit|931..940||||||meanwhile|Temporal.Synchronous|Comparison.Contrast||||342..423|111..340||||||942..1025||||||1027..1140|||||931..940|PDTB2::wsj_1948::931..940::CHANGED|
+Explicit|1142..1149||||||however|Comparison.Concession.Arg2-as-denier||||||1027..1140||||||1151..1222;1240..1306|||||||||||1142..1149|PDTB2::wsj_1948::1142..1149::CHANGED|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1310..1400||||||1403..1544|||||||||||1403|PDTB2::wsj_1948::1403::SAME|
+Explicit|1475..1478|||||1526..1544|and|Expansion.Conjunction||||||1403..1471||||||1479..1523|||||||||||1475..1478|PDTB2::wsj_1948::1475..1478::SAME|
+Explicit|1546..1553||||||however|Comparison.Concession.Arg2-as-denier||||||1403..1523|||||1526..1544|1555..1634|||||||||||1546..1553|PDTB2::wsj_1948::1546..1553::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||1820..1883||||||1885..1963|||||||||||1885|PDTB2::wsj_1948::1885::CHANGED|
+Explicit|1965..1968|||||1786..1819|and|Expansion.Conjunction||||||1885..1963||||||1969..2085|||||||||||1965..1968|PDTB2::wsj_1948::1965..1968::CHANGED|
+Implicit||||||2356..2363|because|Contingency.Cause.Reason||||||2108..2213|||||2089..2107|2216..2353|||||||||||2216|PDTB2::wsj_1948::2216::SAME|
+Explicit|2216..2228|||||2356..2363|because|Contingency.Condition+SpeechAct||||||2297..2353||||||2229..2294|||||||||||2216..2228|PDTB2::wsj_1948::2216..2228::SAME|

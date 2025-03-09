@@ -1,0 +1,20 @@
+Implicit|||||||as|Temporal.Synchronous||||||9..195||||||198..327|||||||||||198|PDTB2::wsj_1412::198::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||198..278||||||280..327|||||||||ARGM-ADV|chastise|280|PDTB3|
+Implicit|||||||but|Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct||||||198..327||||||330..358|||||||||||330|PDTB2::wsj_1412::330::CHANGED|
+NoRel||||||||||||||330..358||||||360..457|||||||||||360|PDTB3|
+EntRel||||||||||||||360..380||||||383..458|||||||||||383|PDTB3|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||360..457||||||460..491|||||||||||460|PDTB2::wsj_1412::460::CHANGED|
+Hypophora||||||||||||||460..491||||||493..588|||||||||||493|PDTB3|
+Explicit|655..662|||||592..613|because|Contingency.Cause.Reason||||||614..654||||||663..688|||||||||||655..662|PDTB2::wsj_1412::655..662::SAME|
+EntRel||||||||||||||592..688||||||690..747|||||||||||690|PDTB2::wsj_1412::690::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||690..747||||||749..785|||||||||||749|PDTB2::wsj_1412::749::CHANGED|
+Explicit|787..790||||||but|Comparison.Concession.Arg2-as-denier||||||592..688||||||791..932|||||||||||787..790|PDTB2::wsj_1412::787..790::CHANGED|
+Implicit|||||||in short|Contingency.Cause.Reason||||||787..932||||||934..1056|||||||||||934|PDTB2::wsj_1412::934::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||944..976||||||977..1056|||||||||||977|PDTB3|LINK1
+Explicit|977..980||||||and|Expansion.Conjunction||||||944..976||||||981..1056|||||||||||977..980|PDTB3|LINK1
+Implicit|||||||yet|Comparison.Concession.Arg2-as-denier||||||787..1056||||||1058..1308|||||||||||1058|PDTB2::wsj_1412::1058::CHANGED|
+Explicit|1137..1139||||||by|Contingency.Purpose.Arg1-as-goal|Expansion.Manner.Arg2-as-manner|||||1058..1136||||||1140..1308|||||||||ARGM-MNR|emphasize|1137..1139|PDTB3|
+Implicit|||||||nevertheless|Comparison.Concession.Arg2-as-denier||||||1193..1267||||||1268..1308|||||||||||1268|PDTB3|LINK2
+Explicit|1268..1275||||||without|Expansion.Manner.Arg2-as-manner||||||1211..1267||||||1276..1308|||||||||ARGM-MNR|guarantee|1268..1275|PDTB3|LINK2
+Implicit|||||||since|Contingency.Cause.Reason||||||1312..1415||||||1417..1442|||||||||||1417|PDTB2::wsj_1412::1417::SAME|
+EntRel||||||||||||||1417..1442||||||1444..1502|||||||||||1444|PDTB2::wsj_1412::1444::SAME|

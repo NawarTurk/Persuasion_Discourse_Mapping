@@ -1,0 +1,17 @@
+Explicit|211..216|||||102..205|after|Temporal.Asynchronous.Succession||||||206..210;249..352||||||217..246|||||||||||211..216|PDTB2::wsj_1155::211..216::SAME|
+Explicit|388..392||||||when|Temporal.Synchronous|Contingency.Cause.Reason|||||357..379||||||380..387;393..548|||||||||ARGM-TMP|jolt|388..392|PDTB3|
+Implicit|||||||because of|Contingency.Cause.Reason||||||388..450||||||459..548|||||452..458||||ARGM-ADV|slash|459|PDTB3|
+Explicit|621..623||||||in|Temporal.Synchronous||||||552..617||||||624..676|||||||||ARGM-MNR|make|621..623|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||552..588;621..676||||||678..789|||||||||||678|PDTB2::wsj_1155::678::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||678..789||||||791..847|||||||||||791|PDTB2::wsj_1155::791::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||851..983||||||985..1044|||||||||||985|PDTB2::wsj_1155::985::SAME|
+Explicit|1075..1080||||||after|Temporal.Asynchronous.Succession||||||1048..1074||||||1081..1104|||||||||||1075..1080|PDTB2::wsj_1155::1075..1080::SAME|
+Implicit|||||||earlier|Temporal.Asynchronous.Succession||||||1048..1104||||||1106..1195|||||||||||1106|PDTB2::wsj_1155::1106::SAME|
+Implicit|||||||in other words|Expansion.Level-of-detail.Arg1-as-detail||||||1209..1286|||||1199..1208|1322..1454|||||1288..1321||||||1322|PDTB2::wsj_1155::1322::SAME|
+Explicit|1406..1409||||||and|Expansion.Conjunction||||||1335..1404||||||1410..1454|||||||||||1406..1409|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1756..1871|||||1747..1755|1882..2008|||||1874..1881||||||1882|PDTB2::wsj_1155::1882::SAME|
+AltLex|1939..1947|||||||Contingency.Condition.Arg2-as-cond||||||1932..1937;1970..2008||||||1939..1968|||||||||S-ADV|be|1939..1947|PDTB3|
+Implicit|||||||by comparison|Comparison.Contrast||||||1882..1930|||||1874..1881|2010..2095|||||||||||2010|PDTB2::wsj_1155::2010::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||2099..2122|||||2125..2181|2183..2329;2346..2412|||||2331..2345||||||2183|PDTB2::wsj_1155::2183::SAME|
+Implicit|||||||given|Contingency.Cause.Reason||||||2346..2412|||||2331..2345|2190..2328|||||2183..2189||||ARGM-ADV|say|2190|PDTB3|
+Implicit|||||||meanwhile|Expansion.Conjunction||||||2346..2412|||||2331..2345|2434..2499|||||2415..2433||||||2434|PDTB2::wsj_1155::2434::SAME|

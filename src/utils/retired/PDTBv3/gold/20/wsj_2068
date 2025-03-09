@@ -1,0 +1,10 @@
+Implicit|||||||thereby|Expansion.Manner.Arg1-as-manner||||||32..74||||||76..120|||||||||||76|PDTB3|LINK1
+Explicit|76..79||||||and|Expansion.Conjunction||||||32..75||||||80..120|||||||||||76..79|PDTB3|LINK1
+Explicit|141..148||||||however|Comparison.Concession.Arg2-as-denier||||||9..120||||||124..139;150..350|||||||||||141..148|PDTB2::wsj_2068::141..148::CHANGED|
+Explicit|443..448||||||after|Temporal.Asynchronous.Succession||||||354..441||||||449..475|||||||||||443..448|PDTB2::wsj_2068::443..448::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||354..475||||||477..664|||||||||||477|PDTB2::wsj_2068::477::SAME|
+Explicit|477..482||||||after|Temporal.Asynchronous.Succession||||||608..664||||||483..606|||||||||||477..482|PDTB2::wsj_2068::477..482::SAME|
+Explicit|551..559|||||483..505|in order|Contingency.Purpose.Arg2-as-goal||||||506..550||||||560..606|||||||||ARGM-PNC|solicit|551..559|PDTB3|
+AltLex|839..862|||||||Contingency.Cause.Result||||||733..837|||||716..732|839..907|||||||||||839..862|PDTB2::wsj_2068::839..862::SAME|
+Explicit|922..926||||||also|Expansion.Conjunction||||||668..837||||||911..921;927..1063|||||||||||922..926|PDTB2::wsj_2068::922..926::SAME|
+EntRel||||||||||||||911..1095||||||1097..1140|||||||||||1097|PDTB2::wsj_2068::1097::SAME|

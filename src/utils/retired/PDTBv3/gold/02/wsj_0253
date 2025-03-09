@@ -1,0 +1,19 @@
+EntRel||||||||||||||9..113||||||115..192|||||||||||115|PDTB2::wsj_0253::115::SAME|
+Explicit|142..145||||||but|Comparison.Concession.Arg2-as-denier||||||115..141||||||146..192|||||||||||142..145|PDTB2::wsj_0253::142..145::CHANGED|
+Explicit|385..389||||||also|Expansion.Conjunction||||||293..373|||||196..205;288..292|376..384;390..506|||||||||||385..389|PDTB2::wsj_0253::385..389::SAME|
+Explicit|510..518||||||moreover|Expansion.Conjunction||||||376..506||||||520..599||||||601..653|||||510..518|PDTB2::wsj_0253::510..518::SAME|
+Explicit|576..579||||||and|Expansion.Conjunction||||||553..575||||||580..653|||||||||||576..579|PDTB3|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||510..653||||||655..773|||||||||||655|PDTB2::wsj_0253::655::SAME|
+Implicit|||||||or|Expansion.Disjunction||||||712..723||||||725..739|||||||||||725|PDTB3|
+Explicit|740..742||||||or|Expansion.Disjunction||||||725..739||||||743..773|||||||||||740..742|PDTB3|
+EntRel||||||||||||||777..887||||||889..941|||||||||||889|PDTB2::wsj_0253::889::SAME|
+EntRel||||||||||||||889..941||||||943..1046|||||||||||943|PDTB2::wsj_0253::943::SAME|
+Explicit|975..982||||||so that|Contingency.Purpose.Arg2-as-goal||||||943..974||||||983..1046|||||||||||975..982|PDTB2::wsj_0253::975..982::CHANGED|
+Implicit|||||||because|Contingency.Cause.Reason||||||1305..1469||||||1471..1710|||||||||||1471|PDTB2::wsj_0253::1471::SAME|
+Explicit|1540..1543||||||and|Expansion.Conjunction||||||1499..1538||||||1544..1710|||||||||||1540..1543|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1714..1831||||||1833..1915|||||||||||1833|PDTB2::wsj_0253::1833::SAME|
+Implicit|||||||by comparison|Comparison.Contrast||||||2098..2204||||||2206..2279|||||||||||2206|PDTB2::wsj_0253::2206::SAME|
+EntRel||||||||||||||2283..2429||||||2431..2457|||||||||||2431|PDTB2::wsj_0253::2431::SAME|
+Explicit|2532..2535||||||and|Expansion.Conjunction||||||2482..2531||||||2536..2563|||||||||||2532..2535|PDTB3|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||2479..2563|||||2461..2478|2565..2636|||||||||||2565|PDTB3|LINK1
+Explicit|2565..2569||||||with|Expansion.Level-of-detail.Arg2-as-detail||||||2479..2563||||||2570..2636|||||||||ARGM-ADV|close|2565..2569|PDTB3|LINK1

@@ -1,0 +1,35 @@
+Explicit|77..79||||||as|Temporal.Synchronous||||||126..254||||||80..124|||||||||||77..79|PDTB2::wsj_1924::77..79::SAME|
+Explicit|195..198||||||and|Expansion.Conjunction||||||126..193||||||199..254|||||||||||195..198|PDTB2::wsj_1924::195..198::SAME|
+Implicit|||||||but|Comparison.Contrast||||||77..193||||||256..383|||||||||||256|PDTB2::wsj_1924::256::SAME|
+EntRel||||||||||||||256..383||||||385..550|||||||||||385|PDTB2::wsj_1924::385::SAME|
+Explicit|426..429||||||and|Expansion.Conjunction||||||385..425||||||430..443|||||||||||426..429|PDTB2::wsj_1924::426..429::CHANGED|
+Implicit|||||||subsequently|Temporal.Asynchronous.Precedence||||||385..550||||||552..648|||||||||||552|PDTB2::wsj_1924::552::SAME|
+Explicit|599..602||||||and|Expansion.Conjunction||||||552..598||||||603..648|||||||||||599..602|PDTB2::wsj_1924::599..602::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||599..629||||||630..648|||||||||ARGM-PNC|mobilize|630|PDTB3|
+Implicit|||||||however|Comparison.Contrast||||||871..895;942..1037||||||1039..1047;1112..1152|||||||||||1039|PDTB2::wsj_1924::1039::SAME|
+EntRel||||||||||||||1039..1152||||||1154..1295|||||||||||1154|PDTB2::wsj_1924::1154::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||1443..1481||||||1482..1509|||||||||ARGM-PNC|adopt|1482|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1619..1670||||||1672..1712|||||||||||1672|PDTB3|
+Explicit|1713..1716||||||and|Expansion.Conjunction||||||1672..1712||||||1717..1790|||||||||||1713..1716|PDTB3|
+Implicit|||||||also|Expansion.Conjunction||||||1513..1790||||||1792..1839|||||||||||1792|PDTB2::wsj_1924::1792::SAME|
+Implicit|||||||previously|Temporal.Asynchronous.Succession||||||1792..1839||||||1841..1921|||||||||||1841|PDTB2::wsj_1924::1841::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||2067..2137||||||2140..2254|||||||||||2140|PDTB3|LINK1
+Explicit|2140..2143||||||and|Expansion.Conjunction||||||2067..2137||||||2144..2254|||||||||||2140..2143|PDTB2::wsj_1924::2140..2143::SAME|LINK1
+EntRel||||||||||||||2140..2254||||||2256..2332|||||||||||2256|PDTB2::wsj_1924::2256::SAME|
+EntRel||||||||||||||2256..2332||||||2334..2386|||||||||||2334|PDTB2::wsj_1924::2334::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||2418..2456||||||2457..2551|||||||||||2457|PDTB3|LINK2
+Explicit|2457..2460||||||and|Expansion.Conjunction||||||2418..2456||||||2461..2551|||||||||||2457..2460|PDTB3|LINK2
+Explicit|2620..2624||||||also|Expansion.Conjunction||||||2553..2614||||||2617..2619;2625..2721|||||||||||2620..2624|PDTB2::wsj_1924::2620..2624::SAME|
+AltLex|2843..2875|||||||Comparison.Contrast||||||2752..2841|||||2725..2751|2843..2889|||||||||||2843..2875|PDTB2::wsj_1924::2843..2875::SAME|
+Implicit|||||||as such|Contingency.Cause.Result||||||2862..2889||||||2890..2957|||||||||||2890|PDTB3|LINK3
+Explicit|2890..2893||||||and|Expansion.Conjunction||||||2862..2889||||||2894..2957|||||||||||2890..2893|PDTB3|LINK3
+Implicit|||||||also|Expansion.Conjunction||||||2843..2957||||||2959..3033|||||||||||2959|PDTB2::wsj_1924::2959::SAME|
+Explicit|2999..3002|||||2725..2751|but|Comparison.Contrast||||||2959..2997||||||3003..3033|||||||||||2999..3002|PDTB2::wsj_1924::2999..3002::SAME|
+Implicit|||||||since|Contingency.Cause.Reason||||||3037..3186||||||3188..3331|||||||||||3188|PDTB2::wsj_1924::3188::SAME|
+EntRel||||||||||||||3375..3484||||||3486..3543|||||||||||3486|PDTB2::wsj_1924::3486::SAME|
+EntRel||||||||||||||3486..3543||||||3545..3628|||||||||||3545|PDTB2::wsj_1924::3545::SAME|
+Explicit|3802..3805||||||but|Comparison.Contrast||||||3632..3783|||||3786..3800|3806..3968|||||||||||3802..3805|PDTB2::wsj_1924::3802..3805::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||in particular|Expansion.Level-of-detail.Arg2-as-detail|||4008..4113|||||3972..4007|4115..4292|||||||||||4115|PDTB2::wsj_1924::4115::SAME|
+Explicit|4190..4196||||||before|Temporal.Asynchronous.Precedence||||||4115..4189||||||4197..4292|||||||||||4190..4196|PDTB2::wsj_1924::4190..4196::SAME|
+EntRel||||||||||||||4296..4428||||||4430..4504|||||||||||4430|PDTB2::wsj_1924::4430::SAME|
+EntRel||||||||||||||4430..4504||||||4506..4589|||||||||||4506|PDTB2::wsj_1924::4506::SAME|

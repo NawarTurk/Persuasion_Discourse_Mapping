@@ -1,0 +1,16 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||9..131||||||133..186|||||||||ARGM-PRP|file|133|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||190..366||||||368..506|||||||||||368|PDTB2::wsj_0977::368::SAME|
+Explicit|591..595||||||also|Expansion.Conjunction||||||541..582||||||583..590;596..670|||||||||||591..595|PDTB2::wsj_0977::591..595::CHANGED|LINK1
+Explicit|583..586||||||and|Expansion.Conjunction||||||541..582||||||587..670|||||||||||583..586|PDTB3|LINK1
+EntRel||||||||||||||510..670||||||672..812|||||||||||672|PDTB2::wsj_0977::672::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||929..1040||||||1042..1144|||||||||||1042|PDTB2::wsj_0977::1042::CHANGED|
+EntRel||||||||||||||1042..1144||||||1146..1182|||||||||||1146|PDTB2::wsj_0977::1146::CHANGED|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1186..1264||||||1265..1295|||||||||ARGM-PRP|file|1265|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||1186..1295||||||1316..1428|||||1297..1315||||||1316|PDTB2::wsj_0977::1316::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1432..1503||||||1506..1653|||||1656..1675||||||1506|PDTB2::wsj_0977::1506::SAME|
+Explicit|1506..1508||||||by|Contingency.Cause.Reason||||||1532..1653||||||1509..1530|||||||||ARGM-MNR|need|1506..1508|PDTB3|
+Implicit||||||1656..1675|furthermore|Expansion.Conjunction||||||1506..1653||||||1678..1776|||||||||||1678|PDTB2::wsj_0977::1678::SAME|
+Explicit|1725..1728|||||1656..1675|but|Comparison.Contrast||||||1678..1723||||||1729..1776|||||||||||1725..1728|PDTB2::wsj_0977::1725..1728::SAME|
+Implicit|||||||although|Comparison.Concession.Arg2-as-denier||||||1781..1877||||||1879..2144|||||||||||1879|PDTB2::wsj_0977::1879::CHANGED|
+Explicit|1961..1965||||||also|Expansion.Conjunction||||||1909..1954||||||1957..1960;1966..2144|||||||||||1961..1965|PDTB2::wsj_0977::1961..1965::CHANGED|LINK2
+Explicit|1957..1960||||||but|Comparison.Concession.Arg2-as-denier||||||1909..1954||||||1961..2144|||||||||||1957..1960|PDTB3|LINK2

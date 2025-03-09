@@ -1,0 +1,18 @@
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||182..214||||||216..318|||||||||||216|PDTB3|LINK1
+Explicit|216..219||||||and|Expansion.Conjunction||||||182..214||||||220..318|||||||||||216..219|PDTB3|LINK1
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||216..261||||||262..318|||||||||ARGM-PNC|resurrect|262|PDTB3|
+Explicit|425..432||||||despite|Comparison.Concession.Arg1-as-denier||||||397..421||||||433..473|||||||||ARGM-ADV|keep|425..432|PDTB3|
+Implicit|||||||as|Temporal.Synchronous||||||373..539|||||322..372|542..706|||||||||||542|PDTB2::wsj_1266::542::SAME|
+Explicit|708..711||||||and|Expansion.Conjunction||||||542..559;601..654;684..706||||||712..769|||||||||||708..711|PDTB2::wsj_1266::708..711::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||773..898||||||900..1042|||||||||||900|PDTB2::wsj_1266::900::SAME|
+Explicit|929..932||||||and|Expansion.Conjunction||||||900..928||||||933..1042|||||||||||929..932|PDTB2::wsj_1266::929..932::SAME|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||1046..1132||||||1134..1375|||||||||||1134|PDTB2::wsj_1266::1134::CHANGED|
+Explicit|1333..1338||||||after|Temporal.Asynchronous.Succession||||||1134..1332||||||1339..1375|||||||||||1333..1338|PDTB2::wsj_1266::1333..1338::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||1333..1375||||||1377..1475|||||||||||1377|PDTB2::wsj_1266::1377::SAME|
+EntRel||||||||||||||1377..1475||||||1478..1552|||||||||||1478|PDTB2::wsj_1266::1478::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1478..1533||||||1534..1552|||||||||ARGM-PNC|fake|1534|PDTB3|
+Explicit|1610..1616;1635..1637||||||either or|Expansion.Disjunction||||||1617..1634||||||1638..1658|||||||||||1610..1637|PDTB3|
+Explicit|1844..1860||||||after|Temporal.Asynchronous.Succession|Contingency.Cause.Reason|||||1728..1842||||||1861..1911|||||||||||1844..1860|PDTB2::wsj_1266::1844..1860::SAME|
+EntRel||||||||||||||1728..1911||||||1913..2002|||||||||||1913|PDTB2::wsj_1266::1913::SAME|
+Explicit|1925..1940||||||after|Temporal.Asynchronous.Succession||||||1913..1924||||||1941..2002|||||||||||1925..1940|PDTB2::wsj_1266::1925..1940::SAME|
+EntRel||||||||||||||1913..2002||||||2004..2051|||||||||||2004|PDTB2::wsj_1266::2004::SAME|

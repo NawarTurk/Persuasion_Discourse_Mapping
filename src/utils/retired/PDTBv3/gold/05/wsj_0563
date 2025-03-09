@@ -1,0 +1,17 @@
+Explicit|79..82||||||but|Comparison.Concession.Arg2-as-denier||||||9..77||||||83..133|||||||||||79..82|PDTB2::wsj_0563::79..82::CHANGED|
+EntRel||||||||||||||137..291||||||293..327|||||||||||293|PDTB2::wsj_0563::293::SAME|
+AltLex|485..497;516..527|||||||Contingency.Cause.Result||||||347..483|||||331..346|485..497;516..697|||||499..514||||||485..527|PDTB2::wsj_0563::485..497;516..527::SAME|
+Implicit|||||||if they are|Contingency.Condition.Arg2-as-cond||||||821..989||||||990..1034|||||||||ARGM-PRP|need|990|PDTB3|
+Implicit||||||1104..1225|because|Contingency.Cause.Reason||||||1039..1101||||||1228..1392|||||||||||1228|PDTB2::wsj_0563::1228::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||1320..1392||||||1394..1435|||||||||||1394|PDTB2::wsj_0563::1394::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||1501..1551||||||1552..1580|||||||||||1552|PDTB3|LINK1
+Explicit|1552..1555||||||and|Expansion.Conjunction||||||1501..1551||||||1556..1580|||||||||||1552..1555|PDTB3|LINK1
+Explicit|1855..1858||||||but|Comparison.Concession.Arg2-as-denier||||||1584..1853||||||1859..2012|||||||||||1855..1858|PDTB2::wsj_0563::1855..1858::SAME|
+Explicit|2170..2175||||||while|Comparison.Contrast||||||2016..2168||||||2176..2230|||||||||||2170..2175|PDTB2::wsj_0563::2170..2175::SAME|
+Implicit|||||||indeed|Expansion.Conjunction||||||2016..2230||||||2342..2509|||||2232..2341||||||2342|PDTB2::wsj_0563::2342::SAME|
+EntRel||||||||||||||2513..2659||||||2662..2812|||||||||||2662|PDTB2::wsj_0563::2662::SAME|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||2709..2756||||||2757..2812|||||||||||2757|PDTB3|LINK2
+Explicit|2757..2760||||||but|Comparison.Concession.Arg2-as-denier||||||2709..2756||||||2761..2812|||||||||||2757..2760|PDTB3|LINK2
+Explicit|2826..2830||||||also|Expansion.Conjunction||||||2513..2659||||||2816..2825;2831..3210|||||||||||2826..2830|PDTB2::wsj_0563::2826..2830::SAME|
+Explicit|2978..2986||||||in order|Contingency.Purpose.Arg2-as-goal||||||2836..2977||||||2987..3095|||||||||ARGM-PNC|make|2978..2986|PDTB3|
+Explicit|3098..3101||||||and|Expansion.Conjunction||||||2836..3095|||||2831..2835|3107..3210|||||3102..3106||||||3098..3101|PDTB3|

@@ -1,0 +1,12 @@
+AltLex|64..73|||||||Contingency.Purpose.Arg2-as-goal|Expansion.Manner.Arg1-as-manner|||||39..63||||||64..142|||||||||ARGM-PNC|cast|64..73|PDTB3|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||299..346||||||347..385|||||||||||347|PDTB3|LINK1
+Explicit|347..354||||||without|Expansion.Manner.Arg2-as-manner||||||299..346||||||355..385|||||||||ARGM-MNR|kill|347..354|PDTB3|LINK1
+Implicit|||||||because|Contingency.Cause.Reason||||||146..274||||||401..476|||||387..400||||||401|PDTB2::wsj_1133::401::SAME|
+Explicit|480..483||||||but|Comparison.Concession.Arg2-as-denier||||||146..385||||||484..710|||||||||||480..483|PDTB2::wsj_1133::480..483::CHANGED|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||561..599||||||600..710|||||||||||600|PDTB3|LINK2
+Explicit|600..603||||||but|Comparison.Concession.Arg2-as-denier||||||561..599||||||604..710|||||||||||600..603|PDTB3|LINK2
+AltLex|712..759|||||||Contingency.Cause.Result||||||600..710|||||480..551|712..853|||||||||||712..759|PDTB2::wsj_1133::712::CHANGED|
+Implicit|||||||in|Expansion.Level-of-detail.Arg1-as-detail||||||857..895;962..1023||||||897..960|||||||||ARGM-ADV|say|897|PDTB3|
+Explicit|1032..1036||||||also|Expansion.Conjunction||||||857..895;962..1023||||||1025..1031;1037..1189|||||||||||1032..1036|PDTB2::wsj_1133::1032..1036::SAME|LINK3
+Explicit|1025..1028||||||but|Comparison.Concession.Arg2-as-denier||||||967..1023|||||857..895;962..966|1042..1189|||||1029..1041||||||1025..1028|PDTB2::wsj_1133::1025..1028::CHANGED|LINK3
+Explicit|1131..1138|||||1029..1041|because|Contingency.Cause.Reason||||||1042..1130||||||1139..1189|||||||||||1131..1138|PDTB2::wsj_1133::1131..1138::SAME|

@@ -1,0 +1,17 @@
+Explicit|9..14||||||after|Temporal.Asynchronous.Succession||||||82..127||||||15..80|||||||||||9..14|PDTB2::wsj_1731::9..14::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||131..241||||||243..340|||||||||||243|PDTB2::wsj_1731::243::SAME|
+Implicit|||||||as|Contingency.Cause.Reason||||||243..340||||||342..399|||||||||||342|PDTB2::wsj_1731::342::SAME|
+Explicit|534..537||||||but|Comparison.Concession.Arg2-as-denier||||||403..530||||||538..697|||||||||||534..537|PDTB2::wsj_1731::534..537::CHANGED|
+AltLex|604..615|||||534..567||Contingency.Cause.Reason||||||568..602||||||604..697|||||||||ARGM-ADV|stage|604..615|PDTB3|
+Implicit|||||||while|Temporal.Synchronous||||||981..1147||||||1149..1211|||||||||||1149|PDTB2::wsj_1731::1149::CHANGED|
+Implicit|||||||since|Contingency.Cause.Reason||||||1351..1455|||||1332..1350|1472..1532|||||1457..1471||||||1472|PDTB2::wsj_1731::1472::SAME|
+Explicit|1552..1559|||||1536..1546|because|Contingency.Cause.Reason||||||1547..1551;1715..1752||||||1560..1713|||||||||||1552..1559|PDTB2::wsj_1731::1552..1559::SAME|
+Explicit|1649..1652||||||and|Expansion.Conjunction||||||1604..1648||||||1653..1713|||||||||||1649..1652|PDTB3|
+Explicit|1774..1781||||||however|Comparison.Contrast||||||1536..1752||||||1756..1772;1783..1948|||||||||||1774..1781|PDTB2::wsj_1731::1774..1781::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1783..1845|||||1756..1781|1847..1948|||||||||ARGM-PRD|hold|1847|PDTB3|
+Explicit|2121..2128|||||2084..2093|in fact|Comparison.Concession.Arg2-as-denier||||||2013..2082|||||1952..2012|2094..2120;2129..2153|||||||||||2121..2128|PDTB2::wsj_1731::2121..2128::CHANGED|
+Implicit|||||||thus|Contingency.Cause+Belief.Result+Belief||||||2158..2196|||||2199..2213|2226..2279|||||2215..2225||||ARGM-ADV|say|2226|PDTB3|
+Implicit|||||||thus|Contingency.Cause+Belief.Result+Belief||||||2608..2672|||||2674..2779|2788..2894|||||2781..2787||||ARGM-ADV|say|2788|PDTB3|
+Implicit|||||||meanwhile|Temporal.Synchronous||||||3070..3106|||||2985..3069|3116..3239|||||3109..3115||||ARGM-PRD|call|3116|PDTB3|
+AltLex|3184..3202|||||||Contingency.Cause.Result||||||3116..3183||||||3184..3239|||||||||ARGM-ADV|remain|3184..3202|PDTB3|
+EntRel||||||||||||||3243..3340||||||3342..3383|||||||||||3342|PDTB2::wsj_1731::3342::SAME|

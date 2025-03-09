@@ -1,0 +1,30 @@
+Explicit|130..133||||||but|Comparison.Concession.Arg2-as-denier||||||9..128||||||134..172|||||||||||130..133|PDTB2::wsj_2348::130..133::CHANGED|
+AltLexC|216..222|||||||Comparison.Similarity||||||176..214||||||216..380|||||||||ARGM-ADV|sell|216..222|PDTB3|
+Explicit|314..319||||||since|Temporal.Asynchronous.Succession||||||242..312||||||320..380|||||||||||314..319|PDTB2::wsj_2348::314..319::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||384..451||||||534..621|||||||||||534|PDTB2::wsj_2348::534::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||625..698||||||700..819|||||||||||700|PDTB2::wsj_2348::700::SAME|
+Explicit|814..819||||||later|Temporal.Asynchronous.Precedence||||||625..698||||||803..813|||||||||||814..819|PDTB2::wsj_2348::814..819::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||700..801||||||803..819|||||||||ARGM-PNC|leave|803|PDTB3|
+Explicit|836..848||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||700..801||||||821..834;850..899|||||||||||836..848|PDTB2::wsj_2348::836..848::CHANGED|
+EntRel||||||||||||||821..899||||||901..1037|||||||||||901|PDTB2::wsj_2348::901::SAME|
+Explicit|1057..1061||||||also|Expansion.Conjunction||||||901..1037||||||1041..1056;1062..1151|||||||||||1057..1061|PDTB2::wsj_2348::1057..1061::SAME|
+AltLexC|1111..1117|||||||Comparison.Similarity||||||1041..1109||||||1111..1151|||||||||ARGM-ADV|lock|1111..1117|PDTB3|
+AltLex|1153..1163|||||||Temporal.Asynchronous.Precedence||||||1041..1151||||||1153..1226|||||||||||1153..1163|PDTB2::wsj_2348::1153..1163::SAME|
+Explicit|1228..1231||||||but|Comparison.Concession.Arg2-as-denier||||||1153..1226||||||1232..1295|||||||||||1228..1231|PDTB2::wsj_2348::1228..1231::CHANGED|
+Explicit|1303..1314||||||for example|Expansion.Instantiation.Arg2-as-instance||||||1228..1295||||||1297..1301;1316..1449|||||||||||1303..1314|PDTB2::wsj_2348::1303..1314::CHANGED|
+Explicit|1377..1380||||||and|Expansion.Conjunction||||||1297..1375||||||1381..1449|||||||||||1377..1380|PDTB2::wsj_2348::1377..1380::SAME|
+Explicit|1514..1522||||||in order|Contingency.Purpose.Arg2-as-goal||||||1453..1513||||||1523..1567|||||||||ARGM-PNC|target|1514..1522|PDTB3|
+Explicit|1569..1572||||||but|Comparison.Concession.Arg2-as-denier||||||1453..1513||||||1573..1628|||||||||||1569..1572|PDTB2::wsj_2348::1569..1572::CHANGED|
+Implicit|||||||in other words|Expansion.Equivalence||||||1569..1628||||||1631..1663|||||1666..1727||||||1631|PDTB2::wsj_2348::1631::SAME|
+Explicit|1729..1740||||||for example|Expansion.Instantiation.Arg2-as-instance||||||1569..1628||||||1742..1938|||||||||||1729..1740|PDTB2::wsj_2348::1729..1740::CHANGED|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1942..2001||||||2003..2068|||||||||||2003|PDTB2::wsj_2348::2003::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||2003..2102||||||2104..2200|||||||||||2104|PDTB2::wsj_2348::2104::SAME|
+EntRel||||||||||||||2104..2200||||||2202..2349|||||||||||2202|PDTB2::wsj_2348::2202::SAME|
+Explicit|2358..2362||||||also|Expansion.Conjunction||||||2003..2349||||||2353..2357;2363..2655|||||||||||2358..2362|PDTB2::wsj_2348::2358..2362::SAME|
+Implicit|||||||accordingly|Contingency.Cause.Result||||||2353..2459||||||2461..2538|||||||||||2461|PDTB2::wsj_2348::2461::SAME|
+Explicit|2550..2554||||||also|Expansion.Conjunction||||||2461..2538||||||2540..2549;2555..2608|||||||||||2550..2554|PDTB2::wsj_2348::2550..2554::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||2659..2792||||||2794..2871|||||||||||2794|PDTB2::wsj_2348::2794::SAME|
+Explicit|2881..2885||||||also|Expansion.Conjunction||||||2794..2871||||||2873..2880;2886..2967|||||||||||2881..2885|PDTB2::wsj_2348::2881..2885::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||2971..3138||||||3140..3217|||||||||||3140|PDTB2::wsj_2348::3140::SAME|
+Explicit|3227..3231||||||also|Expansion.Conjunction||||||3140..3217||||||3219..3226;3232..3316|||||||||||3227..3231|PDTB2::wsj_2348::3227..3231::SAME|
+Explicit|3265..3268||||||and|Expansion.Conjunction||||||3232..3263||||||3269..3316|||||||||||3265..3268|PDTB3|

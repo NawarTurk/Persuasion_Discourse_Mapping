@@ -1,0 +1,10 @@
+Implicit||||||9..39|specifically|Expansion.Level-of-detail.Arg2-as-detail||||||40..75||||||76..220|||||||||ARGM-ADV|file|76|PDTB3|
+Explicit|156..158||||||by|Contingency.Cause.Reason|Expansion.Manner.Arg2-as-manner|||||116..154||||||159..220|||||||||ARGM-MNR|violate|156..158|PDTB3|
+EntRel||||||||||||||224..302||||||304..498|||||||||||304|PDTB2::wsj_1462::304::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||304..498||||||500..611|||||||||||500|PDTB2::wsj_1462::500::SAME|
+Explicit|587..590||||||and|Expansion.Conjunction||||||567..586||||||591..611|||||||||||587..590|PDTB3|
+Explicit|759..764||||||after|Temporal.Asynchronous.Succession||||||616..758||||||765..802|||||||||||759..764|PDTB2::wsj_1462::759..764::SAME|
+EntRel||||||||||||||616..802||||||804..852|||||||||||804|PDTB2::wsj_1462::804::SAME|
+Implicit|||||||thus|Contingency.Cause.Result||||||893..931||||||932..1001|||||||||||932|PDTB3|LINK1
+Explicit|932..935||||||and|Expansion.Conjunction||||||893..931||||||936..1001|||||||||||932..935|PDTB3|LINK1
+Explicit|961..966|||||857..880|until|Temporal.Asynchronous.Precedence||||||932..960||||||967..1001|||||||||||961..966|PDTB2::wsj_1462::961..966::SAME|

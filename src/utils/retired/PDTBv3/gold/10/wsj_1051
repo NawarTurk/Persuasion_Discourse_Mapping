@@ -1,0 +1,11 @@
+Implicit|||||||because of|Contingency.Cause.Reason||||||81..181|||||9..21;76..80|30..74|||||23..29||||ARGM-ADV|say|30|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||185..330||||||332..382|||||||||||332|PDTB2::wsj_1051::332::SAME|
+Explicit|416..423|||||386..398|because|Contingency.Cause.Reason||||||399..415||||||424..533|||||||||||416..423|PDTB2::wsj_1051::416..423::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||399..533|||||386..398|554..671|||||535..553||||||554|PDTB2::wsj_1051::554::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||573..607||||||609..671|||||||||||609|PDTB3|LINK1
+Explicit|609..613|||||535..553|then|Temporal.Asynchronous.Precedence||||||573..607||||||614..671|||||||||||609..613|PDTB2::wsj_1051::609..613::CHANGED|LINK1
+Implicit|||||||and|Expansion.Conjunction||||||609..671|||||535..553|674..714|||||717..725||||||674|PDTB2::wsj_1051::674::SAME|
+Explicit|897..908||||||in addition|Expansion.Conjunction||||||399..533|||||386..398|927..1006|||||910..926||||||897..908|PDTB2::wsj_1051::897..908::SAME|
+EntRel||||||||||||||1010..1070||||||1072..1160|||||||||||1072|PDTB2::wsj_1051::1072::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1164..1296||||||1298..1499|||||||||||1298|PDTB2::wsj_1051::1298::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1298..1499||||||1501..1565|||||||||||1501|PDTB2::wsj_1051::1501::CHANGED|

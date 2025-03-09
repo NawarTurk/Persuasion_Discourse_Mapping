@@ -1,0 +1,16 @@
+Explicit|292..294|||||184..267|or|Expansion.Conjunction||||||268..291||||||295..328|||||||||||292..294|PDTB2::wsj_0435::292..294::CHANGED|
+Explicit|330..333||||||but|Comparison.Concession.Arg2-as-denier||||||184..328||||||334..438|||||||||||330..333|PDTB2::wsj_0435::330..333::CHANGED|
+Explicit|383..385|||||334..341|so|Contingency.Cause.Result||||||344..381||||||386..438|||||||||||383..385|PDTB2::wsj_0435::383..385::SAME|
+Explicit|1086..1088|||||892..982|if|Contingency.Condition.Arg2-as-cond||||||983..1084||||||1089..1118|||||||||||1086..1088|PDTB2::wsj_0435::1086..1088::SAME|
+Explicit|1120..1123||||||but|Comparison.Concession.Arg2-as-denier||||||892..1118||||||1124..1226|||||||||||1120..1123|PDTB2::wsj_0435::1120..1123::CHANGED|
+Explicit|1347..1349|||||1230..1263|as|Temporal.Synchronous||||||1264..1346||||||1350..1409|||||||||||1347..1349|PDTB2::wsj_0435::1347..1349::SAME|
+Explicit|1471..1475||||||with|Contingency.Cause.Reason||||||1413..1469||||||1476..1541|||||||||||1471..1475|PDTB3|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||1471..1541||||||1543..1747|||||||||||1543|PDTB2::wsj_0435::1543::CHANGED|
+Explicit|1543..1547||||||with|Contingency.Cause.Reason||||||1669..1747||||||1548..1667|||||||||ARGM-ADV|reach|1543..1547|PDTB3|
+Explicit|1752..1758|||||1912..1936|unless|Contingency.Negative-condition.Arg2-as-negCond||||||1840..1909||||||1759..1794||||||1798..1836|||||1752..1758|PDTB2::wsj_0435::1752..1758::CHANGED|
+Implicit|||||||but|Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct||||||1752..1794||||||1798..1836|||||||||ARGM-ADV|go|1798|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1752..1794;1840..1909|||||1912..1936|1938..2045|||||2138..2146||||||1938|PDTB2::wsj_0435::1938::SAME|
+AltLex|2051..2075|||||2138..2146||Contingency.Cause.Result||||||1938..2045||||||2047..2135|||||||||||2051..2075|PDTB3|LINK1
+Explicit|2047..2050|||||2138..2146|and|Expansion.Conjunction||||||1938..2045||||||2051..2135|||||||||||2047..2050|PDTB2::wsj_0435::2047..2050::SAME|LINK1
+Explicit|2215..2219||||||when|Temporal.Synchronous||||||2203..2214||||||2220..2259|||||||||||2215..2219|PDTB2::wsj_0435::2215..2219::SAME|
+Explicit|2274..2278||||||also|Expansion.Conjunction||||||2150..2259||||||2261..2273;2279..2408|||||||||||2274..2278|PDTB2::wsj_0435::2274..2278::SAME|

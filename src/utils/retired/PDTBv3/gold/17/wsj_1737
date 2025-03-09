@@ -1,0 +1,17 @@
+AltLex|481..491|||||||Temporal.Asynchronous.Succession||||||363..479||||||481..552|||||||||||481..491|PDTB2::wsj_1737::481..491::SAME|
+Explicit|822..824||||||so|Contingency.Cause.Result||||||652..820||||||825..981|||||||||||822..824|PDTB2::wsj_1737::822..824::SAME|
+Explicit|865..869||||||when|Temporal.Synchronous||||||822..864||||||870..981|||||||||||865..869|PDTB2::wsj_1737::865..869::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||822..981||||||983..1166|||||||||||983|PDTB2::wsj_1737::983::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1054..1080||||||1082..1126|||||||||||1082|PDTB3|
+Explicit|1128..1131||||||and|Expansion.Conjunction||||||1082..1126||||||1132..1166|||||||||||1128..1131|PDTB3|
+EntRel||||||||||||||1170..1196||||||1198..1289|||||||||||1198|PDTB2::wsj_1737::1198::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1198..1289||||||1291..1379|||||||||||1291|PDTB2::wsj_1737::1291::SAME|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||1198..1379||||||1382..1434|||||||||||1382|PDTB2::wsj_1737::1382::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1198..1434||||||1437..1486|||||||||||1437|PDTB2::wsj_1737::1437::SAME|
+Implicit|||||||in contrast|Comparison.Contrast||||||1437..1486||||||1489..1513|||||||||||1489|PDTB3|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||1518..1560||||||1612..1768|||||||||||1612|PDTB2::wsj_1737::1612::CHANGED|
+Explicit|1701..1704||||||and|Expansion.Conjunction||||||1632..1700||||||1705..1768|||||||||||1701..1704|PDTB2::wsj_1737::1701..1704::CHANGED|
+Implicit|||||||while|Comparison.Contrast||||||1612..1768||||||1770..1802|||||||||||1770|PDTB2::wsj_1737::1770::SAME|
+Implicit|||||||while|Comparison.Contrast||||||1770..1802||||||1804..1949|||||||||||1804|PDTB2::wsj_1737::1804::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1953..2020||||||2022..2036;2087..2137|||||||||||2022|PDTB2::wsj_1737::2022::SAME|
+Implicit|||||||as a result of|Contingency.Cause.Reason||||||2022..2036;2087..2137||||||2038..2085|||||||||ARGM-PRD|sue|2038|PDTB3|

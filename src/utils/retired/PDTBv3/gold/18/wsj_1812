@@ -1,0 +1,20 @@
+Explicit|67..70||||||and|Expansion.Conjunction||||||19..66||||||71..196|||||||||||67..70|PDTB3|
+Explicit|229..241||||||after|Temporal.Asynchronous.Succession||||||200..228||||||242..337|||||||||||229..241|PDTB2::wsj_1812::229..241::SAME|
+Implicit|||||||accordingly|Contingency.Cause.Result||||||200..337||||||339..443|||||||||||339|PDTB2::wsj_1812::339::SAME|
+Explicit|447..452||||||still|Comparison.Concession.Arg2-as-denier||||||339..443||||||454..514|||||||||||447..452|PDTB2::wsj_1812::447..452::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||447..514||||||516..607|||||||||||516|PDTB2::wsj_1812::516::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||516..607||||||609..749|||||||||||609|PDTB3|LINK1
+Explicit|609..612||||||and|Expansion.Conjunction||||||516..607||||||613..749|||||||||||609..612|PDTB2::wsj_1812::609..612::SAME|LINK1
+Explicit|670..672||||||as|Temporal.Synchronous||||||609..669||||||673..749|||||||||||670..672|PDTB2::wsj_1812::670..672::SAME|
+Explicit|753..762||||||meanwhile|Temporal.Synchronous||||||9..196||||||764..783;894..1015|||||||||||753..762|PDTB2::wsj_1812::753..762::CHANGED|
+Explicit|958..961||||||and|Expansion.Conjunction||||||913..957||||||962..1015|||||||||||958..961|PDTB3|
+Implicit|||||||while|Comparison.Contrast||||||1019..1132||||||1134..1201|||||||||||1134|PDTB2::wsj_1812::1134::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||1437..1450||||||1451..1511|||||||||||1451|PDTB3|LINK2
+Explicit|1451..1454||||||and|Expansion.Conjunction||||||1437..1450||||||1455..1511|||||||||||1451..1454|PDTB3|LINK2
+Implicit|||||||on the whole|Expansion.Level-of-detail.Arg1-as-detail||||||1415..1511|||||1514..1521|1579..1619|||||1523..1576||||||1579|PDTB2::wsj_1812::1579::SAME|
+Implicit||||||1523..1576|as|Contingency.Cause.Reason||||||1579..1619||||||1621..1718|||||||||||1621|PDTB2::wsj_1812::1621::SAME|
+Explicit|1668..1671|||||1523..1576|and|Expansion.Conjunction||||||1621..1666||||||1672..1718|||||||||||1668..1671|PDTB2::wsj_1812::1668..1671::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||1723..1837||||||1839..1893|||||||||||1839|PDTB2::wsj_1812::1839::SAME|
+Explicit|2081..2084||||||and|Expansion.Conjunction||||||2017..2080||||||2085..2139|||||||||||2081..2084|PDTB3|
+Implicit||||||1897..1964|in short|Expansion.Level-of-detail.Arg1-as-detail||||||1967..2139||||||2147..2185|||||||||||2147|PDTB2::wsj_1812::2147::SAME|
+Explicit|2165..2168||||||and|Expansion.Conjunction||||||2151..2163||||||2169..2175|||||||||||2165..2168|PDTB3|

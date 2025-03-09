@@ -1,0 +1,16 @@
+Implicit||||||9..34|in order|Contingency.Purpose.Arg2-as-goal||instead|Expansion.Substitution.Arg2-as-subst|||35..77;111..170||||||78..109|||||||||ARGM-PRP|resign|78|PDTB3|
+EntRel||||||||||||||175..310||||||312..469|||||||||||312|PDTB2::wsj_0158::312::SAME|
+EntRel||||||||||||||312..469||||||471..594|||||||||||471|PDTB2::wsj_0158::471::SAME|
+Implicit||||||578..594|instead|Expansion.Substitution.Arg2-as-subst||||||471..493||||||495..576|||||||||||495|PDTB3|LINK1
+Explicit|495..498||||||and|Expansion.Conjunction||||||471..493||||||499..576|||||578..594||||||495..498|PDTB2::wsj_0158::495..498::SAME|LINK1
+Implicit|||||||in other words|Expansion.Equivalence||||||640..710|||||624..639|713..792|||||794..802||||||713|PDTB2::wsj_0158::713::SAME|
+Explicit|807..811||||||also|Expansion.Conjunction|||||598..710|713..802||||||804..806;812..980|||||||||||807..811|PDTB2::wsj_0158::807..811::SAME|
+EntRel||||||||||||||984..1126||||||1129..1237|||||||||||1129|PDTB2::wsj_0158::1129::SAME|
+Explicit|1129..1131|||||1230..1237|if|Contingency.Condition.Arg2-as-cond||||||1172..1227||||||1132..1170|||||||||||1129..1131|PDTB2::wsj_0158::1129..1131::SAME|
+Implicit|||||||similarly|Expansion.Conjunction||||||1241..1322||||||1325..1459|||||||||||1325|PDTB2::wsj_0158::1325::SAME|
+Implicit||||||1325..1389|in other words|Expansion.Equivalence||||||1392..1459||||||1461..1567|||||||||||1461|PDTB2::wsj_0158::1461::SAME|
+Explicit|1487..1489|||||1325..1389|if|Contingency.Condition.Arg2-as-cond||||||1461..1486||||||1490..1567|||||||||||1487..1489|PDTB2::wsj_0158::1487..1489::SAME|
+EntRel||||||||||||||1461..1567||||||1570..1650|||||||||||1570|PDTB2::wsj_0158::1570::SAME|
+Implicit|||||||while|Temporal.Synchronous||in contrast|Comparison.Contrast|||1570..1650||||||1652..1809|||||||||||1652|PDTB2::wsj_0158::1652::CHANGED|
+Implicit|||||||while|Expansion.Conjunction||||||1813..1949||||||1951..2031|||||||||||1951|PDTB2::wsj_0158::1951::SAME|
+Explicit|2033..2036||||||and|Expansion.Conjunction||||||1951..2031||||||2037..2132|||||||||||2033..2036|PDTB2::wsj_0158::2033..2036::SAME|

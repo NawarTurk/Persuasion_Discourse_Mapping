@@ -1,0 +1,31 @@
+AltLex|74..81|||||||Contingency.Cause.Result||||||9..72||||||74..114|||||||||ARGM-ADV|bail|74..81|PDTB3|
+Explicit|95..98||||||and|Expansion.Conjunction||||||74..94||||||99..114|||||||||||95..98|PDTB3|
+Implicit|||||||in fact|Expansion.Conjunction||||||144..246|||||118..143|248..453|||||||||||248|PDTB2::wsj_1418::248::SAME|
+Explicit|248..253||||||while|Comparison.Concession.Arg1-as-denier||||||328..453||||||254..326|||||||||||248..253|PDTB2::wsj_1418::248..253::SAME|
+Implicit||||||519..538|specifically|Expansion.Level-of-detail.Arg2-as-detail||||||458..516||||||541..591|||||||||||541|PDTB2::wsj_1418::541::CHANGED|
+Explicit|850..853||||||but|Comparison.Contrast||||||805..848||||||854..1002|||||||||||850..853|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||897..912||||||913..1002|||||||||||913|PDTB3|LINK1
+Explicit|913..916||||||and|Expansion.Conjunction||||||897..912||||||917..1002|||||||||||913..916|PDTB3|LINK1
+EntRel||||||||||||||780..1002||||||1005..1082|||||||||||1005|PDTB2::wsj_1418::1005::SAME|
+Explicit|1087..1095||||||although|Comparison.Concession.Arg1-as-denier||||||1164..1219||||||1096..1162|||||||||||1087..1095|PDTB2::wsj_1418::1087..1095::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||1164..1219||||||1221..1383|||||||||||1221|PDTB2::wsj_1418::1221::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||1221..1383||||||1385..1509|||||||||||1385|PDTB2::wsj_1418::1385::SAME|
+Explicit|1586..1588||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||1548..1584|||||1513..1547|1589..1654|||||||||||1586..1588|PDTB2::wsj_1418::1586..1588::SAME|
+EntRel||||||||||||||1513..1654||||||1656..1720|||||||||||1656|PDTB2::wsj_1418::1656::SAME|
+Explicit|1722..1731||||||meanwhile|Temporal.Synchronous|||||1656..1720|1548..1654|||||1513..1547|1733..1803|||||||||||1722..1731|PDTB2::wsj_1418::1722..1731::CHANGED|
+Explicit|1758..1763||||||while|Temporal.Synchronous|Comparison.Contrast|||||1722..1757||||||1764..1803|||||||||||1758..1763|PDTB2::wsj_1418::1758..1763::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||1722..1803||||||1805..1862;1962..1973|||||||||||1805|PDTB2::wsj_1418::1805::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1977..2133||||||2135..2200|||||||||||2135|PDTB2::wsj_1418::2135::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||2135..2200||||||2203..2427|||||||||||2203|PDTB2::wsj_1418::2203::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||2432..2470;2498..2570||||||2572..2699|||||||||||2572|PDTB2::wsj_1418::2572::CHANGED|
+Explicit|2701..2709||||||although|Comparison.Concession.Arg2-as-denier||||||2572..2699||||||2710..2767|||||||||||2701..2709|PDTB2::wsj_1418::2701..2709::CHANGED|
+Implicit|||||||thus|Contingency.Cause.Result||||||2826..2946|||||2771..2825|2949..3023|||||||||||2949|PDTB2::wsj_1418::2949::SAME|
+Explicit|3038..3042||||||also|Expansion.Conjunction||||||2826..2884|||||2771..2825|3028..3037;3043..3161|||||||||||3038..3042|PDTB2::wsj_1418::3038..3042::SAME|
+EntRel||||||||||||||3028..3161||||||3163..3315|||||||||||3163|PDTB2::wsj_1418::3163::SAME|
+Explicit|3317..3320||||||and|Expansion.Conjunction||||||3163..3315||||||3321..3393|||||||||||3317..3320|PDTB2::wsj_1418::3317..3320::SAME|
+Implicit|||||||even though|Comparison.Concession.Arg2-as-denier||||||3317..3393||||||3395..3448|||||||||||3395|PDTB2::wsj_1418::3395::CHANGED|
+Explicit|3501..3504|||||3538..3654|but|Comparison.Contrast||||||3453..3499||||||3505..3535|||||||||||3501..3504|PDTB2::wsj_1418::3501..3504::CHANGED|
+EntRel||||||||||||||3453..3654||||||3656..3733|||||||||||3656|PDTB2::wsj_1418::3656::SAME|
+Implicit||||||3538..3654|but|Comparison.Contrast||||||3656..3733||||||3735..3784|||||||||||3735|PDTB2::wsj_1418::3735::CHANGED|
+Explicit|3926..3937||||||for example|Expansion.Instantiation.Arg2-as-instance||||||3789..3889||||||3891..3924;3939..4018|||||||||||3926..3937|PDTB2::wsj_1418::3926..3937::CHANGED|
+Explicit|4022..4024||||||as|Temporal.Synchronous||||||4078..4232||||||4025..4076|||||||||||4022..4024|PDTB2::wsj_1418::4022..4024::SAME|

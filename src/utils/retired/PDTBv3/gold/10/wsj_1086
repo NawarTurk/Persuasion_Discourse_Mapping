@@ -1,0 +1,7 @@
+EntRel||||||||||||||209..366||||||368..512|||||||||||368|PDTB2::wsj_1086::368::SAME|
+Implicit|||||||although|Comparison.Concession.Arg2-as-denier||||||516..556||||||558..661|||||||||||558|PDTB2::wsj_1086::558::SAME|
+EntRel||||||||||||||724..783||||||785..908|||||||||||785|PDTB2::wsj_1086::785::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||799..829||||||830..908|||||||||||830|PDTB3|LINK1
+Explicit|830..833||||||and|Expansion.Conjunction||||||799..829||||||834..908|||||||||||830..833|PDTB3|LINK1
+Implicit|||||||although|Comparison.Concession.Arg2-as-denier||||||912..1119||||||1135..1257|||||1121..1134||||||1135|PDTB2::wsj_1086::1135::CHANGED|
+Explicit|1178..1193|||||1121..1134|after|Temporal.Asynchronous.Succession||||||1170..1177||||||1194..1257|||||||||||1178..1193|PDTB2::wsj_1086::1178..1193::SAME|

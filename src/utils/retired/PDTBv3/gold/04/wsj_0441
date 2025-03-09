@@ -1,0 +1,15 @@
+Explicit|502..506||||||also|Expansion.Conjunction||||||9..258||||||494..501;507..617|||||||||||502..506|PDTB2::wsj_0441::502..506::SAME|
+Explicit|621..632||||||in addition|Expansion.Conjunction||||||262..373||||||647..926|||||634..646||||||621..632|PDTB2::wsj_0441::621..632::SAME|
+Explicit|766..769||||||and|Expansion.Conjunction||||||650..765||||||770..926|||||||||||766..769|PDTB3|
+Implicit|||||||consequently|Contingency.Cause.Result||||||647..926|||||621..646|928..998|||||978..998||||||928|PDTB2::wsj_0441::928::SAME|
+Implicit||||||1002..1038|and|Expansion.Conjunction||||||1041..1118||||||1120..1188|||||||||||1120|PDTB2::wsj_0441::1120::SAME|
+Implicit||||||1002..1038|and|Expansion.Conjunction||||||1120..1188||||||1190..1256|||||||||||1190|PDTB2::wsj_0441::1190::CHANGED|
+Explicit|1318..1320||||||as|Temporal.Asynchronous.Succession|Contingency.Cause.Reason|||||1261..1317||||||1321..1473|||||||||||1318..1320|PDTB2::wsj_0441::1318..1320::SAME|
+Explicit|1431..1434||||||and|Expansion.Conjunction||||||1321..1430||||||1435..1473|||||||||||1431..1434|PDTB2::wsj_0441::1431..1434::CHANGED|
+Implicit|||||||as a result|Contingency.Cause.Result||||||1261..1473||||||1475..1607|||||||||||1475|PDTB2::wsj_0441::1475::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||1475..1607||||||1609..1755|||||||||||1609|PDTB2::wsj_0441::1609::SAME|
+Explicit|1712..1714||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||1609..1711||||||1715..1755|||||||||||1712..1714|PDTB2::wsj_0441::1712..1714::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1772..1928|||||1759..1771|1939..2154|||||1931..1938||||||1939|PDTB2::wsj_0441::1939::SAME|
+Explicit|2032..2035|||||1931..1938|and|Expansion.Conjunction||||||1939..2030||||||2036..2154|||||||||||2032..2035|PDTB2::wsj_0441::2032..2035::SAME|
+Implicit||||||2159..2175|because of|Contingency.Cause.Reason||||||2176..2279|||||2282..2305|2315..2416|||||2307..2313||||ARGM-ADV|say|2315|PDTB3|
+Implicit||||||2514..2526|in fact|Expansion.Conjunction||||||2421..2511||||||2529..2596|||||||||||2529|PDTB2::wsj_0441::2529::SAME|

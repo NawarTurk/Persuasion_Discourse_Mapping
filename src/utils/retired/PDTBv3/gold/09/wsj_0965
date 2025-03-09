@@ -1,0 +1,21 @@
+Explicit|81..85||||||with|Expansion.Level-of-detail.Arg2-as-detail||||||9..80||||||86..179|||||||||ARGM-ADV|take|81..85|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||86..115||||||117..147|||||||||||117|PDTB3|
+Explicit|148..151||||||and|Expansion.Conjunction||||||117..147||||||152..179|||||||||||148..151|PDTB3|
+Implicit|||||||while|Temporal.Synchronous||in contrast|Comparison.Contrast|||183..263||||||265..480|||||||||||265|PDTB2::wsj_0965::265::CHANGED|
+Implicit|||||||while|Temporal.Synchronous||in contrast|Comparison.Contrast|||265..480||||||482..583|||||||||||482|PDTB2::wsj_0965::482::CHANGED|
+Explicit|690..695||||||after|Temporal.Asynchronous.Succession|Contingency.Cause.Reason|||||587..689||||||696..750|||||||||||690..695|PDTB2::wsj_0965::690..695::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||587..750||||||765..898|||||752..764||||||765|PDTB2::wsj_0965::765::SAME|
+Explicit|854..859||||||until|Temporal.Asynchronous.Precedence||||||828..853||||||860..898|||||||||||854..859|PDTB2::wsj_0965::854..859::SAME|
+Explicit|902..910||||||although|Comparison.Concession.Arg1-as-denier||||||979..1065||||||911..977|||||||||||902..910|PDTB2::wsj_0965::902..910::CHANGED|
+Explicit|987..999||||||nevertheless|Comparison.Concession.Arg2-as-denier||||||911..977||||||979..986;1000..1065|||||||||||987..999|PDTB2::wsj_0965::987..999::CHANGED|
+Explicit|1012..1016||||||also|Expansion.Conjunction||||||183..263||||||1005..1011;1017..1065|||||979..1004||||||1012..1016|PDTB2::wsj_0965::1012..1016::SAME|
+Implicit|||||||as|Contingency.Cause.Reason||||||1005..1065|||||979..1004|1067..1157|||||||||||1067|PDTB2::wsj_0965::1067::SAME|
+Explicit|1210..1213||||||but|Comparison.Concession.Arg2-as-denier||||||1082..1208||||||1214..1301|||||||||||1210..1213|PDTB3|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1210..1301||||||1303..1408|||||||||||1303|PDTB2::wsj_0965::1303::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1412..1522||||||1524..1667|||||||||||1524|PDTB2::wsj_0965::1524::SAME|
+Explicit|1669..1672||||||but|Comparison.Concession.Arg2-as-denier||||||1543..1667|||||1524..1542|1673..1744|||||||||||1669..1672|PDTB2::wsj_0965::1669..1672::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||1776..1822||||||1824..1890|||||||||||1824|PDTB2::wsj_0965::1824::SAME|
+Explicit|1892..1895||||||but|Comparison.Contrast|||||1824..1890|1776..1822||||||1896..1964|||||||||||1892..1895|PDTB2::wsj_0965::1892..1895::SAME|
+Implicit|||||||for example|Expansion.Level-of-detail.Arg2-as-detail||||||1968..1993||||||1995..2120|||||||||||1995|PDTB2::wsj_0965::1995::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1995..2120||||||2122..2159|||||||||||2122|PDTB2::wsj_0965::2122::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||2163..2197||||||2199..2334|||||||||||2199|PDTB2::wsj_0965::2199::SAME|

@@ -1,0 +1,9 @@
+Explicit|115..122|||||199..219|because|Contingency.Cause.Reason||||||9..114||||||123..197|||||||||||115..122|PDTB2::wsj_2075::115..122::SAME|
+Explicit|266..269||||||but|Comparison.Concession.Arg2-as-denier||||||223..264||||||270..442|||||||||||266..269|PDTB2::wsj_2075::266..269::CHANGED|
+Explicit|297..302||||||while|Temporal.Synchronous||||||266..296||||||303..442|||||||||||297..302|PDTB2::wsj_2075::297..302::SAME|
+EntRel||||||||||||||446..570||||||572..720|||||||||||572|PDTB2::wsj_2075::572::SAME|
+Implicit|||||||if they are|Contingency.Condition.Arg2-as-cond||||||693..699||||||700..720|||||||||ARGM-PRP|need|700|PDTB3|
+Explicit|722..725||||||but|Comparison.Concession.Arg2-as-denier||||||593..720|||||572..592|726..871|||||||||||722..725|PDTB2::wsj_2075::722..725::CHANGED|
+Explicit|996..999||||||but|Comparison.Contrast||||||893..994|||||875..892|1000..1103||||||1105..1211|||||996..999|PDTB2::wsj_2075::996..999::SAME|
+Implicit|||||||given|Contingency.Cause.Reason||||||996..1103||||||1113..1211|||||1105..1112||||ARGM-PRD|oppose|1113|PDTB3|
+AltLexC|1148..1163|||||||Contingency.Cause.Result||||||1113..1158||||||1159..1211|||||||||ARGM-MNR|enforce|1148..1163|PDTB3|

@@ -1,0 +1,10 @@
+EntRel||||||||||||||251..418||||||420..546|||||||||||420|PDTB2::wsj_1407::420::SAME|
+EntRel||||||||||||||550..735||||||737..807|||||||||||737|PDTB2::wsj_1407::737::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||737..770;795..807||||||772..794|||||||||ARGM-PNC|merge|772|PDTB3|
+Implicit|||||||furthermore|Expansion.Conjunction||||||857..987|||||811..856|989..1152|||||1154..1172||||||989|PDTB2::wsj_1407::989::SAME|
+Explicit|1181..1191||||||ultimately|Temporal.Asynchronous.Precedence||||||989..1152|||||1154..1172|1174..1180;1192..1254|||||||||||1181..1191|PDTB2::wsj_1407::1181..1191::SAME|
+Explicit|1228..1235||||||without|Expansion.Manner.Arg2-as-manner||||||1174..1227||||||1236..1254|||||||||ARGM-ADV|eliminate|1228..1235|PDTB3|
+Explicit|1289..1293||||||also|Expansion.Conjunction||||||811..987||||||1258..1288;1294..1429||||||1431..1492|||||1289..1293|PDTB2::wsj_1407::1289..1293::SAME|
+Explicit|1431..1438|||||1258..1302|because|Contingency.Cause.Reason||||||1303..1429||||||1439..1492|||||||||||1431..1438|PDTB2::wsj_1407::1431..1438::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1258..1429||||||1495..1650|||||||||||1495|PDTB2::wsj_1407::1495::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1495..1650||||||1668..1763|||||1652..1667||||||1668|PDTB2::wsj_1407::1668::CHANGED|

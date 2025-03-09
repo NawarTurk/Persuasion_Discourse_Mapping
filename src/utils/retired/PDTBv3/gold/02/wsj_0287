@@ -1,0 +1,8 @@
+Explicit|222..225||||||but|Comparison.Concession.Arg2-as-denier||||||174..220||||||226..247|||||||||||222..225|PDTB3|
+EntRel||||||||||||||167..247||||||249..346|||||||||||249|PDTB2::wsj_0287::249::SAME|
+Explicit|289..292||||||but|Comparison.Concession.Arg2-as-denier||||||249..287||||||293..346|||||||||||289..292|PDTB2::wsj_0287::289..292::CHANGED|
+EntRel||||||||||||||350..456||||||458..599|||||||||||458|PDTB2::wsj_0287::458::SAME|
+Implicit|||||||previously|Temporal.Asynchronous.Succession||||||468..533||||||535..599|||||||||||535|PDTB3|LINK1
+Explicit|535..538||||||and|Expansion.Conjunction||||||468..533||||||539..599|||||||||||535..538|PDTB3|LINK1
+Implicit|||||||subsequently|Temporal.Asynchronous.Precedence||||||535..599||||||642..758|||||627..641||||||642|PDTB2::wsj_0287::642::SAME|
+Explicit|687..694|||||601..641|because|Contingency.Cause.Reason||||||642..685||||||696..758|||||||||||687..694|PDTB2::wsj_0287::687..694::SAME|

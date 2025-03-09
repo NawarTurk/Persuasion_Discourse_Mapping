@@ -1,0 +1,10 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||325..363||||||364..399|||||||||ARGM-PRP|form|364|PDTB3|
+Explicit|401..404||||||but|Comparison.Concession.Arg2-as-denier||||||325..399||||||405..503|||||||||||401..404|PDTB2::wsj_1722::401..404::CHANGED|
+Implicit|||||||so|Contingency.Cause.Result||||||401..503||||||505..678|||||||||||505|PDTB2::wsj_1722::505::SAME|
+Explicit|505..510||||||after|Temporal.Asynchronous.Succession||||||562..678||||||511..560|||||||||||505..510|PDTB2::wsj_1722::505..510::SAME|
+Explicit|614..617||||||and|Expansion.Conjunction||||||574..613||||||618..678|||||||||||614..617|PDTB3|
+Explicit|839..843||||||also|Expansion.Conjunction||||||682..834||||||836..838;844..903|||||||||||839..843|PDTB2::wsj_1722::839..843::SAME|
+Explicit|1068..1071|||||907..983|but|Comparison.Concession.Arg2-as-denier||||||984..1066||||||1072..1125|||||||||||1068..1071|PDTB2::wsj_1722::1068..1071::CHANGED|
+EntRel||||||||||||||907..1125||||||1127..1234|||||||||||1127|PDTB2::wsj_1722::1127::SAME|
+Explicit|1205..1209|||||1127..1134|when|Temporal.Asynchronous.Succession||||||1152..1204||||||1210..1234|||||||||||1205..1209|PDTB2::wsj_1722::1205..1209::SAME|
+Explicit|1298..1301||||||and|Expansion.Conjunction||||||1252..1297||||||1302..1337|||||||||||1298..1301|PDTB3|

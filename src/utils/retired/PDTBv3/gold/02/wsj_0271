@@ -1,0 +1,41 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||228..311||||||312..328|||||||||ARGM-PRP|price|312|PDTB3|
+EntRel||||||||||||||196..328||||||330..531|||||||||||330|PDTB2::wsj_0271::330::SAME|
+Explicit|381..384||||||and|Expansion.Conjunction||||||330..380||||||385..420|||||||||||381..384|PDTB3|
+EntRel||||||||||||||535..670||||||672..749|||||||||||672|PDTB2::wsj_0271::672::SAME|
+EntRel||||||||||||||672..749||||||751..857|||||||||||751|PDTB2::wsj_0271::751::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||751..857||||||859..943|||||||||||859|PDTB2::wsj_0271::859::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||859..903||||||904..943|||||||||ARGM-PRP|reset|904|PDTB3|
+Explicit|945..952||||||however|Comparison.Concession.Arg2-as-denier||||||859..943||||||954..1015|||||||||||945..952|PDTB2::wsj_0271::945..952::CHANGED|
+Implicit|||||||while|Comparison.Contrast||||||945..1015||||||1017..1046|||||||||||1017|PDTB2::wsj_0271::1017::SAME|
+EntRel||||||||||||||1017..1046||||||1048..1223|||||||||||1048|PDTB2::wsj_0271::1048::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||1048..1156||||||1157..1223|||||||||ARGM-PRP|price|1157|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1048..1223||||||1225..1287|||||||||||1225|PDTB2::wsj_0271::1225::SAME|
+EntRel||||||||||||||1225..1287||||||1289..1354|||||||||||1289|PDTB2::wsj_0271::1289::SAME|
+Explicit|1330..1333||||||and|Expansion.Conjunction||||||1302..1329||||||1334..1354|||||||||||1330..1333|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1400..1500||||||1502..1627|||||||||||1502|PDTB3|
+EntRel||||||||||||||1502..1627||||||1629..1702|||||||||||1629|PDTB2::wsj_0271::1629::SAME|
+Explicit|1665..1668||||||and|Expansion.Conjunction||||||1657..1664||||||1669..1702|||||||||||1665..1668|PDTB3|
+Implicit|||||||by contrast|Comparison.Contrast||||||1502..1702||||||1704..1898|||||||||||1704|PDTB2::wsj_0271::1704::SAME|
+EntRel||||||||||||||1704..1821||||||1823..1898|||||||||||1823|PDTB2::wsj_0271::1823::SAME|
+EntRel||||||||||||||1823..1898||||||1900..2044|||||||||||1900|PDTB2::wsj_0271::1900::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||2101..2273||||||2274..2313|||||||||ARGM-PRP|price|2274|PDTB3|
+EntRel||||||||||||||2101..2313||||||2315..2465|||||||||||2315|PDTB2::wsj_0271::2315::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||2315..2465||||||2467..2526|||||||||||2467|PDTB2::wsj_0271::2467::SAME|
+Explicit|2489..2492||||||and|Expansion.Conjunction||||||2481..2488||||||2493..2526|||||||||||2489..2492|PDTB3|
+EntRel||||||||||||||2530..2664||||||2666..2731|||||||||||2666|PDTB2::wsj_0271::2666::SAME|
+EntRel||||||||||||||2666..2731||||||2733..2779|||||||||||2733|PDTB2::wsj_0271::2733::SAME|
+EntRel||||||||||||||2818..2934||||||2936..3033|||||||||||2936|PDTB2::wsj_0271::2936::SAME|
+EntRel||||||||||||||2936..3033||||||3035..3121|||||||||||3035|PDTB2::wsj_0271::3035::SAME|
+EntRel||||||||||||||3035..3121||||||3123..3282|||||||||||3123|PDTB2::wsj_0271::3123::SAME|
+EntRel||||||||||||||3123..3282||||||3284..3359|||||||||||3284|PDTB2::wsj_0271::3284::SAME|
+EntRel||||||||||||||3284..3359||||||3361..3550|||||||||||3361|PDTB2::wsj_0271::3361::SAME|
+Explicit|3403..3406||||||and|Expansion.Conjunction||||||3361..3401||||||3407..3550|||||||||||3403..3406|PDTB2::wsj_0271::3403..3406::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||3573..3723||||||3724..3762|||||||||ARGM-PRP|price|3724|PDTB3|
+EntRel||||||||||||||3573..3762||||||3764..3903|||||||||||3764|PDTB2::wsj_0271::3764::SAME|
+EntRel||||||||||||||3764..3903||||||3905..3988|||||||||||3905|PDTB2::wsj_0271::3905::SAME|
+EntRel||||||||||||||3905..3988||||||3990..4054|||||||||||3990|PDTB2::wsj_0271::3990::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||4101..4235||||||4237..4432|||||||||||4237|PDTB2::wsj_0271::4237::SAME|
+Explicit|4404..4408||||||when|Temporal.Synchronous||||||4322..4403||||||4409..4432|||||||||ARGM-TMP|buy|4404..4408|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||4463..4606||||||4608..4802|||||||||||4608|PDTB2::wsj_0271::4608::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||4892..4909||||||4910..4940|||||||||ARGM-PRP|price|4910|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||5250..5267||||||5268..5283|||||||||ARGM-PRP|price|5268|PDTB3|

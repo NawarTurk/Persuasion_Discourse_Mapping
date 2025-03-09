@@ -4,7 +4,7 @@ Given a paragraph, your goal is to analyze and identify the discourse relation p
 
 1. **Paragraph Analysis**: Divide the provided paragraph into two arguments, denoted as Arg1 and Arg2.
 
-2. **Level 3 Identification**: Use the definitions below to determine the specific Level 3 sub-sense relation between Arg1 and Arg2.
+2. **Level 3 Identification**: Use the definitions below to determine the specific Level 3 subsense relation between Arg1 and Arg2.
 
 3. **Level 2 Inference**: Based on your Level 3 identification, deduce the corresponding Level 2 label.
 

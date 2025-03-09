@@ -1,0 +1,13 @@
+EntRel||||||||||||||250..411||||||413..487|||||||||||413|PDTB2::wsj_1949::413::SAME|
+Explicit|617..620||||||but|Comparison.Concession.Arg2-as-denier||||||507..615|||||491..506|630..688|||||621..629||||||617..620|PDTB2::wsj_1949::617..620::CHANGED|
+Explicit|764..782||||||after|Temporal.Asynchronous.Succession||||||692..762||||||783..972|||||||||||764..782|PDTB2::wsj_1949::764..782::SAME|
+Explicit|1266..1270||||||also|Expansion.Conjunction||||||9..183||||||1248..1265;1271..1362|||||||||||1266..1270|PDTB2::wsj_1949::1266..1270::SAME|
+EntRel||||||||||||||1248..1362||||||1364..1458|||||||||||1364|PDTB2::wsj_1949::1364::SAME|
+Explicit|1499..1512||||||after|Temporal.Asynchronous.Succession||||||1462..1498||||||1513..1639|||||||||||1499..1512|PDTB2::wsj_1949::1499..1512::SAME|
+Implicit||||||1513..1524|in order|Contingency.Purpose.Arg2-as-goal||instead|Expansion.Substitution.Arg2-as-subst|||1525..1605||||||1606..1639|||||||||ARGM-PRP|resign|1606|PDTB3|
+Explicit|1733..1736|||||1643..1658|but|Comparison.Concession.Arg2-as-denier||||||1659..1731||||||1737..1817|||||||||||1733..1736|PDTB2::wsj_1949::1733..1736::CHANGED|
+Explicit|1777..1782|||||1737..1766|until|Temporal.Asynchronous.Precedence||||||1767..1776||||||1783..1817|||||||||||1777..1782|PDTB2::wsj_1949::1777..1782::SAME|
+Implicit||||||1643..1658|so|Contingency.Cause.Result||||||1659..1817||||||1820..1978|||||||||||1820|PDTB2::wsj_1949::1820::SAME|
+Explicit|1820..1822|||||1643..1658|if|Contingency.Condition.Arg2-as-cond||||||1868..1978||||||1823..1867|||||||||||1820..1822|PDTB2::wsj_1949::1820..1822::SAME|
+Implicit|||||||indeed|Expansion.Instantiation.Arg2-as-instance||||||1905..1978||||||1981..2082|||||||||||1981|PDTB2::wsj_1949::1981::CHANGED|
+AltLex|2084..2094|||||||Contingency.Cause.Reason||||||2019..2082||||||2084..2172|||||||||ARGM-PRD|rise|2084..2094|PDTB3|

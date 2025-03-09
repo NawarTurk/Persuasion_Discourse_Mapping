@@ -1,0 +1,17 @@
+Explicit|512..517||||||while|Temporal.Synchronous|Comparison.Contrast|||||410..510||||||518..557|||||||||||512..517|PDTB2::wsj_1980::512..517::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||512..557||||||559..608|||||||||||559|PDTB2::wsj_1980::559::CHANGED|
+EntRel||||||||||||||559..608||||||610..795|||||||||||610|PDTB2::wsj_1980::610::SAME|
+AltLexC|712..749|||||||Contingency.Condition.Arg2-as-cond||||||675..711||||||712..749|||||||||ARGM-ADV|take|712..749|PDTB3|
+EntRel||||||||||||||610..795||||||797..960|||||||||||797|PDTB2::wsj_1980::797::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||797..892||||||894..960|||||||||||894|PDTB2::wsj_1980::894::SAME|
+Explicit|964..975||||||in addition|Expansion.Conjunction||||||410..795||||||977..1165|||||||||||964..975|PDTB2::wsj_1980::964..975::SAME|
+Explicit|1167..1171||||||also|Expansion.Conjunction||||||964..1165||||||1172..1275|||||||||||1167..1171|PDTB2::wsj_1980::1167..1171::SAME|
+Explicit|1330..1334||||||also|Expansion.Conjunction||||||204..406||||||1279..1328;1335..1378|||||||||||1330..1334|PDTB2::wsj_1980::1330..1334::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||1279..1378||||||1380..1450|||||||||||1380|PDTB2::wsj_1980::1386..1393::CHANGED|
+AltLex|1452..1471|||||||Contingency.Cause.Result||||||1279..1450||||||1452..1560|||||||||||1452..1471|PDTB2::wsj_1980::1452..1471::SAME|
+EntRel||||||||||||||1452..1560||||||1562..1648|||||||||||1562|PDTB2::wsj_1980::1562::SAME|
+EntRel||||||||||||||1562..1648||||||1650..1833|||||||||||1650|PDTB2::wsj_1980::1650::SAME|
+Explicit|1849..1853||||||also|Expansion.Conjunction||||||204..406||||||1859..2055|||||1837..1848;1854..1858||||||1849..1853|PDTB2::wsj_1980::1849..1853::SAME|
+AltLex|2245..2267|||||||Contingency.Cause.Result||||||2176..2231||||||2233..2423|||||||||||2245..2267|PDTB2::wsj_1980::2233::CHANGED|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||2307..2423||||||2425..2515|||||||||||2425|PDTB2::wsj_1980::2425::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||2740..2823||||||2825..2897|||||||||||2825|PDTB2::wsj_1980::2825::SAME|

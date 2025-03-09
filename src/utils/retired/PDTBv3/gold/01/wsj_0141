@@ -1,0 +1,23 @@
+Implicit||||||214..303|because|Contingency.Cause.Reason||||||112..211||||||306..432|||||||||||306|PDTB2::wsj_0141::306::SAME|
+Implicit|||||||thus|Contingency.Cause.Result||||||482..532||||||534..582|||||||||ARGM-ADV|be|534|PDTB3|
+Implicit||||||437..481|by comparison|Comparison.Contrast||||||482..582||||||584..690|||||||||||584|PDTB2::wsj_0141::584::SAME|
+Explicit|620..623||||||and|Expansion.Conjunction||||||594..619||||||624..690|||||||||||620..623|PDTB3|
+EntRel||||||||||||||584..690||||||692..721|||||||||||692|PDTB2::wsj_0141::692::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||725..816||||||818..889|||||||||||818|PDTB2::wsj_0141::818::SAME|
+Explicit|893..896||||||and|Expansion.Conjunction||||||725..816||||||897..1026|||||||||||893..896|PDTB2::wsj_0141::893..896::SAME|
+Explicit|1028..1032||||||also|Expansion.Conjunction||||||893..1026||||||1034..1087|||||||||||1028..1032|PDTB2::wsj_0141::1028..1032::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1028..1087||||||1090..1124|||||||||||1090|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1090..1124||||||1127..1188|||||||||||1127|PDTB3|
+Implicit|||||||in addition|Expansion.Conjunction||||||1192..1330||||||1332..1441|||||||||||1332|PDTB2::wsj_0141::1332::SAME|
+Implicit||||||1594..1609|in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1446..1591||||||1612..1792|||||||||||1612|PDTB2::wsj_0141::1612::SAME|
+AltLex|1662..1671|||||||Contingency.Cause.Result||||||1612..1660||||||1662..1695|||||||||ARGM-ADV|continue|1662..1671|PDTB3|
+Explicit|1697..1700|||||1594..1609|and|Expansion.Conjunction||||||1612..1660||||||1701..1792|||||||||||1697..1700|PDTB2::wsj_0141::1697..1700::SAME|
+EntRel||||||||||||||1797..1827;1861..2002||||||1829..1859|||||||||ARGM-ADV|conduct|1829|PDTB3|
+EntRel||||||||||||||1797..2002||||||2004..2166|||||||||||2004|PDTB2::wsj_0141::2004::SAME|
+Explicit|2040..2044||||||with|Expansion.Level-of-detail.Arg2-as-detail||||||2004..2038||||||2045..2166|||||||||ARGM-ADV|mix|2040..2044|PDTB3|
+Explicit|2091..2094||||||and|Expansion.Conjunction||||||2040..2090||||||2095..2166|||||||||||2091..2094|PDTB2::wsj_0141::2091..2094::SAME|
+EntRel||||||||||||||2170..2226||||||2228..2282|||||||||ARGM-ADV|say|2228|PDTB3|
+Implicit|||||||by comparison|Comparison.Contrast||||||2170..2282||||||2284..2331|||||||||||2284|PDTB2::wsj_0141::2284::SAME|
+Implicit|||||||by comparison|Comparison.Contrast||||||2335..2407||||||2409..2458|||||||||||2409|PDTB2::wsj_0141::2409::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||2409..2458||||||2460..2541|||||||||||2460|PDTB2::wsj_0141::2460::SAME|
+NoRel||||||||||||||2460..2541||||||2543..2675|||||||||||2543|PDTB2::wsj_0141::2543::SAME|

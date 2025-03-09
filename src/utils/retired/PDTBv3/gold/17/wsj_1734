@@ -1,0 +1,8 @@
+EntRel||||||||||||||200..298||||||300..425|||||||||||300|PDTB2::wsj_1734::300::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||329..425|||||300..328|446..522|||||427..445||||||446|PDTB2::wsj_1734::446::SAME|
+Explicit|526..537||||||in addition|Expansion.Conjunction||||||81..196|||||9..80|539..719|||||||||||526..537|PDTB2::wsj_1734::526..537::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||845..868||||||870..969|||||||||||870|PDTB3|LINK1
+Explicit|870..873||||||but|Comparison.Concession.Arg2-as-denier||||||845..868||||||874..969|||||||||||870..873|PDTB3|LINK1
+EntRel||||||||||||||828..969||||||971..1098|||||||||||971|PDTB2::wsj_1734::971::SAME|
+Explicit|1043..1046||||||but|Comparison.Concession.Arg2-as-denier||||||996..1041||||||1047..1098|||||||||||1043..1046|PDTB3|
+Explicit|1070..1076||||||unless|Contingency.Negative-condition.Arg2-as-negCond||||||1043..1069||||||1077..1098|||||||||||1070..1076|PDTB2::wsj_1734::1070..1076::CHANGED|

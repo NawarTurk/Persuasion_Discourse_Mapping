@@ -1,0 +1,11 @@
+Explicit|231..235||||||when|Temporal.Synchronous|Contingency.Condition.Arg2-as-cond|||||83..230||||||236..247|||||||||||231..235|PDTB2::wsj_2221::231..235::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||83..247||||||249..350|||||||||||249|PDTB2::wsj_2221::249::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||249..285||||||286..307|||||||||ARGM-PRP|borrow|286|PDTB3|
+Explicit|308..311||||||and|Expansion.Conjunction||||||271..307||||||312..350|||||||||||308..311|PDTB3|
+Explicit|352..355||||||but|Comparison.Concession.Arg2-as-denier|||||249..350|83..247||||||391..478|||||||||||352..355|PDTB2::wsj_2221::352..355::CHANGED|
+EntRel||||||||||||||483..560||||||563..614|||||||||||563|PDTB2::wsj_2221::563::SAME|
+Explicit|581..588|||||526..560|because|Contingency.Cause.Reason||||||563..579||||||589..614|||||||||||581..588|PDTB2::wsj_2221::581..588::SAME|
+NoRel||||||||||||||563..614||||||617..773|||||||||||617|PDTB2::wsj_2221::617::SAME|
+Implicit||||||617..654|because of|Contingency.Cause.Reason||||||657..701||||||702..747|||||||||ARGM-ADV|be|702|PDTB3|
+Explicit|749..752|||||617..654|but|Comparison.Concession.Arg2-as-denier||||||657..747||||||753..773|||||||||||749..752|PDTB2::wsj_2221::749..752::CHANGED|
+Implicit||||||617..654|but|Comparison.Concession.Arg2-as-denier||||||749..773||||||775..812|||||||||||775|PDTB2::wsj_2221::775::CHANGED|

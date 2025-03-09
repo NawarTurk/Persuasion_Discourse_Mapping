@@ -1,0 +1,11 @@
+EntRel||||||||||||||280..382||||||384..493|||||||||ARGM-ADV|issue|384|PDTB3|
+Explicit|552..555||||||and|Expansion.Conjunction||||||521..551||||||556..619|||||||||||552..555|PDTB3|
+EntRel||||||||||||||497..619||||||621..711|||||||||||621|PDTB2::wsj_2327::621::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||497..711||||||713..843|||||||||||713|PDTB2::wsj_2327::713::SAME|
+Explicit|772..775||||||for|Contingency.Condition.Arg2-as-cond||||||728..771||||||776..843|||||||||ARGM-PNC|rise|772..775|PDTB3|
+Explicit|847..852||||||while|Comparison.Concession.Arg1-as-denier||||||927..994||||||853..925|||||||||||847..852|PDTB2::wsj_2327::847..852::SAME|
+EntRel||||||||||||||847..994||||||996..1118|||||||||||996|PDTB2::wsj_2327::996::SAME|
+Explicit|1030..1032||||||by|Expansion.Manner.Arg2-as-manner||||||996..1029||||||1033..1118|||||||||ARGM-MNR|cover|1030..1032|PDTB3|
+Explicit|1180..1187|||||1122..1134|because|Contingency.Cause.Reason||||||1135..1179||||||1188..1215;1266..1326||||||1217..1264|||||1180..1187|PDTB2::wsj_2327::1180..1187::SAME|
+Explicit|1295..1302||||||without|Comparison.Concession.Arg2-as-denier||||||1281..1294||||||1303..1326|||||||||ARGM-ADV|buy|1295..1302|PDTB3|
+Explicit|1433..1440|||||1414..1431|because|Contingency.Cause.Reason||||||1330..1412||||||1441..1544|||||||||||1433..1440|PDTB2::wsj_2327::1433..1440::SAME|

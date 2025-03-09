@@ -1,0 +1,16 @@
+Implicit|||||||but|Expansion.Conjunction||||||95..241||||||243..386|||||||||||243|PDTB2::wsj_1920::243::SAME|
+Explicit|308..311||||||but|Comparison.Contrast||||||243..306||||||312..386|||||||||||308..311|PDTB2::wsj_1920::308..311::SAME|
+Explicit|451..456|||||390..425|after|Temporal.Asynchronous.Succession||||||426..450||||||457..558|||||||||||451..456|PDTB2::wsj_1920::451..456::SAME|
+Explicit|514..517||||||and|Expansion.Conjunction||||||457..513||||||518..558|||||||||||514..517|PDTB2::wsj_1920::514..517::CHANGED|
+Implicit|||||||therefore|Contingency.Cause.Result||||||390..558||||||560..617|||||||||||560|PDTB3|LINK1
+Explicit|560..563||||||and|Expansion.Conjunction||||||390..558||||||564..617|||||||||||560..563|PDTB2::wsj_1920::560..563::SAME|LINK1
+Explicit|619..621||||||so|Contingency.Cause.Result||||||560..617||||||622..751|||||||||||619..621|PDTB2::wsj_1920::619..621::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||777..852||||||854..891|||||||||||854|PDTB2::wsj_1920::854::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||854..891||||||893..923|||||||||||893|PDTB2::wsj_1920::893::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||893..923||||||925..995|||||||||||925|PDTB2::wsj_1920::925::CHANGED|
+Explicit|997..1000||||||and|Expansion.Conjunction||||||925..995||||||1001..1026|||||||||||997..1000|PDTB3|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||1030..1127||||||1129..1256|||||||||||1129|PDTB2::wsj_1920::1129::CHANGED|
+Implicit|||||||in comparison to the fact|Comparison.Contrast||||||1162..1256|||||1129..1161|1265..1328|||||1258..1264||||ARGM-ADV|say|1265|PDTB3|
+Implicit|||||||previously|Temporal.Asynchronous.Succession||||||1332..1431||||||1433..1517|||||||||||1433|PDTB2::wsj_1920::1433::SAME|
+Explicit|1465..1468||||||but|Comparison.Concession.Arg2-as-denier||||||1433..1464||||||1469..1517|||||||||||1465..1468|PDTB2::wsj_1920::1465..1468::CHANGED|
+Explicit|1473..1478||||||until|Temporal.Asynchronous.Precedence||||||1469..1472||||||1479..1517|||||||||||1473..1478|PDTB3|

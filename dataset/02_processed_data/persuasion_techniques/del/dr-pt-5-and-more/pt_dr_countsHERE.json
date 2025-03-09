@@ -1,0 +1,43 @@
+{
+    "PT_Counts": {
+        "Doubt": 189,
+        "Appeal_to_Fear-Prejudice": 86,
+        "Appeal_to_Authority": 40,
+        "Slogans": 39,
+        "Loaded_Language": 202,
+        "Name_Calling-Labeling": 174,
+        "Causal_Oversimplification": 64,
+        "Exaggeration-Minimisation": 129,
+        "Repetition": 152,
+        "Conversation_Killer": 22,
+        "False_Dilemma-No_Choice": 38,
+        "Appeal_to_Popularity": 7,
+        "Flag_Waving": 83,
+        "Appeal_to_Hypocrisy": 12,
+        "Guilt_by_Association": 14,
+        "Obfuscation-Vagueness-Confusion": 7,
+        "Whataboutism": 7,
+        "Red_Herring": 12,
+        "Straw_Man": 4
+    },
+    "DR_Counts": {
+        "contrast": 190,
+        "concession": 138,
+        "cause": 282,
+        "conjunction": 72,
+        "cause+speechact": 82,
+        "cause+belief": 170,
+        "condition": 60,
+        "purpose": 69,
+        "instantiation": 54,
+        "similarity": 17,
+        "asynchronous": 57,
+        "level-of-detail": 26,
+        "disjunction": 16,
+        "synchronous": 12,
+        "substitution": 8,
+        "equivalence": 22,
+        "exception": 4,
+        "condition+speechact": 2
+    }
+}

@@ -1,0 +1,9 @@
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||56..82||||||83..124|||||||||ARGM-PNC|seek|83|PDTB3|
+Implicit|||||||if one is|Contingency.Condition.Arg2-as-cond||||||191..197||||||198..236|||||||||ARGM-PNC|need|198|PDTB3|
+EntRel||||||||||||||240..412||||||415..545|||||||||||415|PDTB2::wsj_1581::415::SAME|
+Explicit|448..455|||||493..545|without|Expansion.Manner.Arg2-as-manner||||||415..447||||||456..490|||||||||ARGM-MNR|support|448..455|PDTB3|
+Explicit|549..557||||||in order|Contingency.Purpose.Arg2-as-goal||||||595..763||||||558..593|||||||||ARGM-PNC|arrange|549..557|PDTB3|
+Explicit|721..727||||||before|Temporal.Asynchronous.Precedence||||||678..720||||||728..763|||||||||||721..727|PDTB2::wsj_1581::721..727::SAME|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||549..763||||||765..919|||||||||||765|PDTB2::wsj_1581::765::CHANGED|
+Explicit|840..847|||||765..778|because|Contingency.Cause.Reason||||||779..838||||||856..919|||||848..855||||||840..847|PDTB2::wsj_1581::840..847::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||923..1038||||||1047..1129|||||1040..1046||||ARGM-ADV|throw|1047|PDTB3|

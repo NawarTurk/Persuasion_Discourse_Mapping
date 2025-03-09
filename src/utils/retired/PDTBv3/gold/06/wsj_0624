@@ -1,0 +1,10 @@
+Explicit|227..229||||||as|Temporal.Synchronous||||||154..225||||||230..361|||||||||||227..229|PDTB2::wsj_0624::227..229::SAME|
+Implicit|||||||previously|Temporal.Asynchronous.Succession||||||154..361||||||363..524|||||||||||363|PDTB2::wsj_0624::363::SAME|
+Explicit|442..445||||||but|Comparison.Concession.Arg2-as-denier||||||363..440||||||446..524|||||||||||442..445|PDTB2::wsj_0624::442..445::CHANGED|
+Explicit|485..493||||||in order|Contingency.Purpose.Arg2-as-goal||||||442..484||||||494..524|||||||||ARGM-PNC|rush|485..493|PDTB3|
+EntRel||||||||||||||363..524||||||526..592|||||||||||526|PDTB2::wsj_0624::526::SAME|
+Implicit|||||||given|Contingency.Cause.Reason||||||637..711|||||596..636|721..839|||||714..720||||ARGM-PRD|call|721|PDTB3|
+Explicit|735..739|||||714..720|when|Temporal.Asynchronous.Succession|Contingency.Cause.Reason|||||721..733;753..839||||||740..751|||||||||||735..739|PDTB2::wsj_0624::735..739::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||844..1004|||||956..1004|1006..1103|||||||||||1006|PDTB2::wsj_0624::1006::SAME|
+Implicit||||||1107..1170|in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||1171..1208||||||1209..1233|||||||||ARGM-PRP|provide|1209|PDTB3|
+Explicit|1235..1238||||||and|Expansion.Conjunction||||||1107..1233||||||1239..1279|||||||||||1235..1238|PDTB2::wsj_0624::1235..1238::SAME|

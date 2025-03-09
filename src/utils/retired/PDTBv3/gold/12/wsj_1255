@@ -1,0 +1,11 @@
+Implicit|||||||therefore|Contingency.Cause.Result||||||174..288|||||291..322|324..540|||||||||||324|PDTB2::wsj_1255::324::SAME|
+Explicit|374..376||||||or|Expansion.Disjunction||||||367..373||||||377..392|||||||||||374..376|PDTB3|
+Explicit|432..437||||||until|Contingency.Condition.Arg2-as-cond||||||324..430||||||439..540|||||||||||432..437|PDTB2::wsj_1255::432..437::SAME|
+Explicit|614..619||||||after|Temporal.Asynchronous.Succession||||||544..613||||||620..723|||||||||||614..619|PDTB2::wsj_1255::614..619::SAME|
+Explicit|694..698||||||from|Contingency.Cause.Reason||||||614..693||||||699..723|||||||||ARGM-CAU|become|694..698|PDTB3|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||544..723||||||725..837|||||||||||725|PDTB2::wsj_1255::725::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||841..1003||||||1005..1081|||||||||||1005|PDTB2::wsj_1255::1005::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1085..1174||||||1176..1268|||||||||||1176|PDTB2::wsj_1255::1176::SAME|
+AltLex|1424..1431|||||1272..1317||Expansion.Conjunction||||||1346..1416||||||1417..1467|||||||||||1424..1431|PDTB2::wsj_1255::1424..1431::CHANGED|LINK1
+Explicit|1417..1420||||||and|Expansion.Conjunction||||||1346..1416||||||1421..1467|||||||||||1417..1420|PDTB3|LINK1
+Implicit|||||||so|Contingency.Cause.Result||||||1318..1467|||||1272..1317|1482..1519|||||1469..1481||||||1482|PDTB2::wsj_1255::1482::SAME|

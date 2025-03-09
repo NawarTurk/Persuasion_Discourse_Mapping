@@ -39,8 +39,8 @@ Analyze the following paragraph and identify the most suitable PDTB Level 2 disc
 
 - Purpose: This tag is used when one argument presents an action that an AGENT undertakes with the purpose of the GOAL conveyed by the other argument being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal.
   - Sub-senses:
-    - Arg1-as-Goal: is used when Arg1 describes the goal and Arg2 de- scribes the action undertaken to achieve it.
-    - Arg2-as-Goal: is used when Arg2 describes the goal and Arg1 de- scribes the action undertaken to achieve it.
+    - Arg1-as-Goal: is used when Arg1 describes the goal and Arg2 describes the action undertaken to achieve it.
+    - Arg2-as-Goal: is used when Arg2 describes the goal and Arg1 describes the action undertaken to achieve it.
 
 - Concession: This tag is used when an expected causal relation is cancelled or denied by the situation described in one of the arguments.
   - Sub-senses:
@@ -66,8 +66,8 @@ Analyze the following paragraph and identify the most suitable PDTB Level 2 disc
 
 - Instantiation: This tag is used when one argument describes a situation as holding in a set of circumstances, while the other argument describes one or more of those circumstances.
   - Sub-senses:
-    - Arg1-as-Instance: is used when Arg1 provides one or more in- stances of the circumstances described by Arg2.
-    - Arg2-as-Instance: is used when Arg2 provides one or more in- stances of the circumstances described by Arg1.
+    - Arg1-as-Instance: is used when Arg1 provides one or more instances of the circumstances described by Arg2.
+    - Arg2-as-Instance: is used when Arg2 provides one or more instances of the circumstances described by Arg1.
 
 - Level-of-Detail: This tag is used when both arguments describe the same situation, but in less or more detail.
   - Sub-senses:

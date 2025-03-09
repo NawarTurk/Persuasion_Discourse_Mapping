@@ -1,0 +1,19 @@
+Explicit|288..295|||||297..318|instead|Expansion.Substitution.Arg2-as-subst|||||203..232|104..201;234..286||||||320..424|||||||||||288..295|PDTB2::wsj_2025::288..295::SAME|
+Explicit|461..464|||||535..663|and|Expansion.Conjunction||||||429..460||||||465..532|||||||||||461..464|PDTB2::wsj_2025::461..464::SAME|
+Explicit|794..797||||||and|Expansion.Conjunction||||||767..793||||||798..849|||||||||||794..797|PDTB3|
+EntRel||||||||||||||667..849||||||852..876|||||||||||852|PDTB2::wsj_2025::852::SAME|
+Explicit|954..962||||||although|Comparison.Concession.Arg2-as-denier||||||880..952||||||963..994|||||||||||954..962|PDTB2::wsj_2025::954..962::CHANGED|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||1052..1105||||||1106..1142|||||||||||1106|PDTB3|LINK1
+Explicit|1106..1109||||||and|Expansion.Conjunction||||||1052..1105||||||1110..1142|||||||||||1106..1109|PDTB3|LINK1
+Implicit|||||||subsequently|Temporal.Asynchronous.Precedence||||||998..1142||||||1144..1223|||||||||||1144|PDTB2::wsj_2025::1144::SAME|
+Explicit|1317..1319|||||1347..1388|so|Contingency.Cause.Result||||||1228..1315||||||1320..1344|||||||||||1317..1319|PDTB2::wsj_2025::1317..1319::SAME|
+EntRel||||||||||||||1228..1388||||||1391..1421|||||||||||1391|PDTB2::wsj_2025::1391::SAME|
+Implicit||||||1347..1388|since|Contingency.Cause.Reason||||||1391..1421||||||1423..1491|||||||||||1423|PDTB2::wsj_2025::1423::SAME|
+Explicit|1579..1582||||||and|Expansion.Conjunction||||||1513..1577||||||1583..1620|||||||||||1579..1582|PDTB2::wsj_2025::1579..1582::CHANGED|
+Implicit|||||||meanwhile|Expansion.Conjunction||||||1496..1620||||||1622..1776|||||||||||1622|PDTB2::wsj_2025::1622::SAME|
+Implicit|||||||as|Contingency.Cause.Reason||||||1780..1865||||||1867..2063|||||||||||1867|PDTB2::wsj_2025::1867::SAME|
+Explicit|2067..2083||||||at the same time|Temporal.Synchronous||||||1867..2063||||||2085..2143;|||||||||||2067..2083|PDTB3|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||2067..2143||||||2145..2267|||||||||||2145|PDTB2::wsj_2025::2145::CHANGED|
+EntRel||||||||||||||2271..2396||||||2398..2520|||||||||||2398|PDTB2::wsj_2025::2398::SAME|
+Implicit|||||||additionally|Expansion.Conjunction||||||2398..2520||||||2523..2642|||||||||||2523|PDTB2::wsj_2025::2523::SAME|
+Implicit|||||||since|Contingency.Cause.Reason||||||2523..2642||||||2644..2751|||||||||||2644|PDTB2::wsj_2025::2644::SAME|

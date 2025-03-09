@@ -1,0 +1,18 @@
+EntRel||||||||||||||119..251||||||253..307|||||||||||253|PDTB2::wsj_1660::253::SAME|
+EntRel||||||||||||||311..422||||||424..472|||||||||||424|PDTB2::wsj_1660::424::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||424..472||||||474..607|||||||||||474|PDTB2::wsj_1660::474::SAME|
+Explicit|558..561||||||and|Expansion.Conjunction||||||497..557||||||562..607|||||||||||558..561|PDTB3|
+EntRel||||||||||||||611..701||||||703..840|||||||||||703|PDTB2::wsj_1660::703::SAME|
+AltLex|999..1007|||||||Temporal.Asynchronous.Precedence||||||844..896||||||976..1007|||||||||||999..1007|PDTB2::wsj_1660::999..1007::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||985..1007||||||1009..1125|||||||||||1009|PDTB3|LINK1
+Explicit|1009..1012||||||but|Comparison.Concession.Arg2-as-denier||||||985..1007||||||1013..1125|||||||||||1009..1012|PDTB3|LINK1
+Implicit||||||1164..1252|eventually|Temporal.Asynchronous.Precedence||||||1130..1161||||||1255..1308|||||||||||1255|PDTB2::wsj_1660::1255::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||1313..1350||||||1352..1493|||||||||||1352|PDTB2::wsj_1660::1352::SAME|
+Explicit|1397..1402||||||while|Comparison.Contrast||||||1352..1395||||||1403..1493|||||||||||1397..1402|PDTB2::wsj_1660::1397..1402::SAME|
+Explicit|1513..1517||||||also|Expansion.Conjunction||||||1352..1493||||||1495..1512;1518..1610|||||||||||1513..1517|PDTB2::wsj_1660::1513..1517::SAME|
+Explicit|1554..1556||||||by|Expansion.Manner.Arg2-as-manner||||||1538..1553||||||1557..1610|||||||||ARGM-MNR|reduce|1554..1556|PDTB3|
+Implicit|||||||in fact|Expansion.Conjunction||||||1495..1610||||||1613..1667|||||1670..1687||||||1613|PDTB2::wsj_1660::1613::SAME|
+Implicit||||||1856..1958|consequently|Contingency.Cause.Result||||||1786..1853|||||1691..1785|1961..2017|||||||||||1961|PDTB2::wsj_1660::1961::SAME|
+Implicit||||||1856..1958|so|Contingency.Cause.Result||||||1961..2017||||||2019..2061|||||||||||2019|PDTB2::wsj_1660::2019::SAME|
+EntRel||||||||||||||2066..2166||||||2168..2242|||||||||||2168|PDTB2::wsj_1660::2168::SAME|
+Implicit|||||||therefore|Contingency.Cause.Result||||||2201..2242|||||2183..2200|2261..2313|||||2244..2260||||||2261|PDTB2::wsj_1660::2261::SAME|

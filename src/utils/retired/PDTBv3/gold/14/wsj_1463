@@ -1,0 +1,18 @@
+Implicit|||||||therefore|Contingency.Cause.Result||||||109..147||||||148..180|||||||||||148|PDTB3|LINK1
+Explicit|148..151||||||and|Expansion.Conjunction||||||109..147||||||152..180|||||||||||148..151|PDTB3|LINK1
+Implicit|||||||by comparison|Comparison.Contrast||||||233..314|||||184..232|316..395|||||||||||316|PDTB2::wsj_1463::316::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||494..544|||||547..613|615..621;638..723|||||623..637||||||615|PDTB2::wsj_1463::615..621::CHANGED|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||638..679||||||680..723|||||||||ARGM-PRP|start|680|PDTB3|
+Implicit|||||||since|Contingency.Cause.Reason|||||817..911|727..815||||||913..1008|||||||||||913|PDTB2::wsj_1463::913::SAME|
+Explicit|1010..1013||||||but|Comparison.Concession.Arg2-as-denier||||||913..1008||||||1014..1189|||||||||||1010..1013|PDTB2::wsj_1463::1010..1013::CHANGED|
+AltLex|1301..1326|||||||Contingency.Cause.Reason||||||1193..1287||||||1289..1414|||||||||||1301..1326|PDTB2::wsj_1463::1289::CHANGED|
+Explicit|1534..1536|||||1464..1482|so|Contingency.Cause.Result||||||1419..1461||||||1537..1661|||||||||||1534..1536|PDTB2::wsj_1463::1534..1536::SAME|
+Explicit|1537..1541|||||1464..1482|when|Temporal.Synchronous||||||1534..1536;1586..1661||||||1542..1584|||||||||||1537..1541|PDTB2::wsj_1463::1537..1541::SAME|
+Explicit|1804..1807||||||and|Expansion.Conjunction|||||1747..1802|1666..1745||||||1816..1874|||||1808..1815||||||1804..1807|PDTB2::wsj_1463::1804..1807::SAME|
+Explicit|1876..1879||||||but|Comparison.Concession.Arg2-as-denier|||||1666..1802|1816..1874|||||1808..1815|1888..1925|||||1880..1887|1928..2006|||||1876..1879|PDTB2::wsj_1463::1876..1879::CHANGED|
+Explicit|1928..1943|||||1880..1887|if|Contingency.Condition.Arg2-as-cond||||||1888..1925||||||1944..2006|||||||||||1928..1943|PDTB2::wsj_1463::1928..1943::SAME|
+Explicit|1993..1995||||||by|Expansion.Manner.Arg2-as-manner||||||1928..1992||||||1996..2006|||||||||ARGM-MNR|fulfill|1993..1995|PDTB3|
+Explicit|2067..2074||||||because|Contingency.Cause.Reason||||||2010..2066||||||2075..2213|||||||||||2067..2074|PDTB2::wsj_1463::2067..2074::SAME|
+Explicit|2235..2239|||||2215..2231|also|Expansion.Conjunction||||||2010..2213||||||2232..2234;2240..2401|||||||||||2235..2239|PDTB2::wsj_1463::2235..2239::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||2527..2619||||||2621..2770|||||||||||2621|PDTB2::wsj_1463::2621::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||2774..2916||||||2918..2969|||||||||||2918|PDTB2::wsj_1463::2918::CHANGED|

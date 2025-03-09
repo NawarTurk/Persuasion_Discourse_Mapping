@@ -1,0 +1,15 @@
+Explicit|279..282||||||and|Expansion.Conjunction||||||222..278||||||283..345|||||||||||279..282|PDTB3|
+Implicit|||||||also|Expansion.Conjunction||||||706..828||||||830..1016|||||||||||830|PDTB2::wsj_0557::830::SAME|
+Explicit|913..916||||||and|Expansion.Conjunction||||||830..911||||||917..1016|||||||||||913..916|PDTB2::wsj_0557::913..916::SAME|
+Explicit|1029..1036||||||however|Comparison.Concession.Arg2-as-denier||||||913..1016||||||1018..1027;1038..1092|||||||||||1029..1036|PDTB2::wsj_0557::1029..1036::CHANGED|
+Explicit|1063..1065||||||if|Contingency.Condition.Arg2-as-cond||||||1018..1062||||||1066..1092|||||||||||1063..1065|PDTB2::wsj_0557::1063..1065::SAME|
+Explicit|1094..1098||||||thus|Contingency.Cause.Result||||||1018..1092||||||1100..1192|||||||||||1094..1098|PDTB2::wsj_0557::1094..1098::SAME|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||1196..1388||||||1391..1502|||||||||||1391|PDTB2::wsj_0557::1391::SAME|
+Explicit|1391..1396||||||since|Temporal.Asynchronous.Succession||||||1449..1502||||||1397..1447|||||||||||1391..1396|PDTB2::wsj_0557::1391..1396::SAME|
+Implicit|||||||more specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1391..1502||||||1504..1622|||||||||||1504|PDTB3|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||1531..1622|||||1504..1530|1625..1709|||||1712..1736||||||1625|PDTB2::wsj_0557::1625::SAME|
+Explicit|1829..1832||||||but|Comparison.Concession.Arg2-as-denier||||||1740..1826||||||1833..1903|||||||||||1829..1832|PDTB2::wsj_0557::1829..1832::CHANGED|
+Implicit|||||||by comparison|Comparison.Contrast||||||1740..1903||||||1905..2085|||||||||||1905|PDTB2::wsj_0557::1905::SAME|
+Implicit||||||2155..2233|in short|Expansion.Level-of-detail.Arg1-as-detail||||||2090..2152||||||2236..2273|||||||||||2236|PDTB2::wsj_0557::2236::SAME|
+Implicit||||||2155..2233|because|Contingency.Cause.Reason||||||2236..2273||||||2275..2363|||||||||||2275|PDTB2::wsj_0557::2275::SAME|
+EntRel||||||||||||||2275..2363||||||2365..2407|||||||||||2365|PDTB2::wsj_0557::2365::SAME|

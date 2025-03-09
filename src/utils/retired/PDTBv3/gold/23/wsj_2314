@@ -1,0 +1,90 @@
+Explicit|9..13||||||when|Temporal.Synchronous||||||54..100||||||14..52|||||||||||9..13|PDTB2::wsj_2314::9..13::SAME|
+Explicit|215..222||||||because|Contingency.Cause.Reason||||||104..213||||||223..275|||||||||||215..222|PDTB2::wsj_2314::215..222::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||104..275||||||277..371|||||||||||277|PDTB2::wsj_2314::277::SAME|
+Explicit|328..330||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||277..327||||||331..371|||||||||||328..330|PDTB2::wsj_2314::328..330::SAME|
+EntRel||||||||||||||277..371||||||373..461|||||||||||373|PDTB2::wsj_2314::373::SAME|
+Explicit|466..469||||||but|Comparison.Contrast||||||9..100||||||470..531|||||||||||466..469|PDTB2::wsj_2314::466..469::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||474..496||||||497..531|||||||||||497|PDTB3|LINK1
+Explicit|497..500||||||and|Expansion.Conjunction||||||474..496||||||501..531|||||||||||497..500|PDTB2::wsj_2314::497..500::CHANGED|LINK1
+Implicit|||||||consequently|Contingency.Cause.Result||||||466..531||||||533..646|||||||||||533|PDTB2::wsj_2314::533::SAME|
+EntRel||||||||||||||533..744||||||746..903|||||||||||746|PDTB2::wsj_2314::746::SAME|
+Implicit|||||||after|Temporal.Asynchronous.Succession||||||746..755;814..903||||||757..812|||||||||ARGM-ADV|close|757|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||907..1045||||||1047..1171|||||||||||1047|PDTB2::wsj_2314::1047::SAME|
+Implicit|||||||after|Temporal.Asynchronous.Succession||||||1127..1171||||||1047..1125|||||||||ARGM-ADV|see|1047|PDTB3|
+Explicit|1243..1246||||||and|Contingency.Cause.Result|Expansion.Conjunction|||||1175..1241||||||1247..1354|||||||||||1243..1246|PDTB2::wsj_2314::1243..1246::SAME|
+Implicit|||||||in other words|Expansion.Equivalence||||||1243..1354||||||1357..1395;1450..1485|||||1398..1447||||||1357|PDTB2::wsj_2314::1357::CHANGED|
+Implicit||||||1398..1447|but|Comparison.Contrast||||||1357..1395||||||1450..1485|||||||||||1450|PDTB2::wsj_2314::1450::SAME|
+EntRel||||||||||||||1654..1806||||||1602..1652|||||||||ARGM-ADV|exit|1602|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||1490..1500;1530..1600||||||1654..1806|||||||||||1654|PDTB2::wsj_2314::1654::SAME|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||1666..1702||||||1703..1749|||||||||||1703|PDTB3|LINK2
+Explicit|1703..1706||||||and|Expansion.Conjunction||||||1666..1702||||||1707..1749|||||||||||1703..1706|PDTB3|LINK2
+Explicit|1750..1755||||||after|Temporal.Asynchronous.Succession||||||1654..1749||||||1756..1806|||||||||||1750..1755|PDTB2::wsj_2314::1750..1755::SAME|
+EntRel||||||||||||||1602..1806||||||1808..2048|||||||||||1808|PDTB2::wsj_2314::1808::SAME|
+Explicit|1880..1883||||||but|Comparison.Concession.Arg2-as-denier||||||1808..1878||||||1884..2048|||||||||||1880..1883|PDTB2::wsj_2314::1880..1883::CHANGED|
+EntRel||||||||||||||2052..2196||||||2198..2279|||||||||||2198|PDTB2::wsj_2314::2198::SAME|
+Explicit|2281..2284||||||but|Comparison.Contrast||||||2052..2102||||||2285..2414|||||||||||2281..2284|PDTB2::wsj_2314::2281..2284::SAME|
+Explicit|2419..2421||||||so|Contingency.Cause.Result||||||2378..2414||||||2415..2418;2422..2463|||||||||||2419..2421|PDTB2::wsj_2314::2419..2421::CHANGED|LINK3
+Explicit|2415..2418||||||and|Expansion.Conjunction||||||2378..2414||||||2419..2463|||||||||||2415..2418|PDTB3|LINK3
+Explicit|2467..2471||||||when|Contingency.Condition.Arg2-as-cond||||||2526..2628||||||2472..2524|||||||||||2467..2471|PDTB2::wsj_2314::2467..2471::SAME|
+AltLex|2588..2596|||||||Contingency.Condition.Arg2-as-cond||||||2467..2586||||||2588..2628|||||||||ARGM-ADV|fluctuate|2588..2596|PDTB3|
+EntRel||||||||||||||2467..2628||||||2630..2739|||||||||||2630|PDTB2::wsj_2314::2630::SAME|
+Implicit|||||||for example|Expansion.Instantiation.Arg2-as-instance||||||2630..2739||||||2741..2866|||||||||||2741|PDTB2::wsj_2314::2741::CHANGED|
+Explicit|2870..2879||||||meanwhile|Temporal.Synchronous|||||2741..2866|2630..2739||||||2881..2978|||||||||||2870..2879|PDTB2::wsj_2314::2870..2879::SAME|
+EntRel||||||||||||||2870..2978||||||2980..3084|||||||||||2980|PDTB2::wsj_2314::2980::SAME|
+Explicit|3018..3025||||||because|Contingency.Cause.Reason||||||2980..3016||||||3026..3084|||||||||||3018..3025|PDTB2::wsj_2314::3018..3025::SAME|
+Implicit|||||||first|Expansion.Level-of-detail.Arg2-as-detail||||||3088..3180||||||3182..3265|||||||||||3182|PDTB2::wsj_2314::3182::SAME|
+Implicit|||||||as a result of|Contingency.Cause.Reason||||||3345..3457||||||3267..3343|||||||||ARGM-ADV|bet|3267|PDTB3|
+Explicit|3358..3362||||||then|Temporal.Asynchronous.Precedence|||||3189..3243|3182..3187;3245..3265||||||3345..3357;3363..3389||||||3267..3343|||||3358..3362|PDTB2::wsj_2314::3358..3362::SAME|
+Explicit|3394..3396||||||so|Contingency.Cause.Result||||||3363..3389||||||3390..3393;3397..3457|||||||||||3394..3396|PDTB2::wsj_2314::3394..3396::CHANGED|LINK4
+Explicit|3390..3393||||||and|Expansion.Conjunction||||||3363..3389||||||3394..3457|||||||||||3390..3393|PDTB3|LINK4
+Explicit|3428..3439||||||rather than|Expansion.Substitution.Arg1-as-subst||||||3406..3427||||||3440..3457|||||||||||3428..3439|PDTB3|
+Explicit|3626..3628|||||3550..3558|as|Temporal.Synchronous|Contingency.Cause.Reason|||||3559..3625||||||3629..3647|||||||||||3626..3628|PDTB2::wsj_2314::3626..3628::SAME|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||3550..3647||||||3650..3680|||||3683..3690||||||3650|PDTB2::wsj_2314::3650::SAME|
+EntRel||||||||||||||3694..3735||||||3737..3834|||||||||||3737|PDTB2::wsj_2314::3737::SAME|
+Explicit|3850..3857||||||however|Comparison.Concession.Arg2-as-denier|||||3794..3834|3737..3793||||||3836..3848;3859..3944|||||||||||3850..3857|PDTB2::wsj_2314::3850..3857::CHANGED|
+Explicit|3900..3904|||||3836..3848|once|Temporal.Asynchronous.Succession||||||3859..3899||||||3905..3944|||||||||||3900..3904|PDTB2::wsj_2314::3900..3904::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||3948..4054||||||4056..4183|||||||||||4056|PDTB2::wsj_2314::4056::SAME|
+Implicit|||||||while|Temporal.Synchronous||||||4123..4183||||||4056..4121|||||||||ARGM-ADV|remark|4056|PDTB3|
+Implicit||||||4123..4133|while|Comparison.Contrast||||||4136..4152||||||4154..4171|||||||||||4154|PDTB2::wsj_2314::4154::SAME|
+Implicit||||||4123..4133|but|Comparison.Contrast||||||4154..4171||||||4173..4183|||||||||||4173|PDTB2::wsj_2314::4173::SAME|
+Implicit|||||||because|Contingency.Cause+Belief.Reason+Belief||||||4173..4183|||||4123..4133|4196..4295|||||4186..4195||||||4196|PDTB2::wsj_2314::4196::SAME|
+Explicit|4340..4347||||||because|Contingency.Cause.Reason||||||4299..4339||||||4348..4382|||||||||||4340..4347|PDTB2::wsj_2314::4340..4347::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||4299..4382||||||4384..4487|||||||||||4384|PDTB2::wsj_2314::4384::SAME|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||4384..4487||||||4489..4694|||||||||||4489|PDTB3|LINK5
+Explicit|4489..4505||||||at the same time|Temporal.Synchronous||||||4384..4487||||||4507..4694|||||||||||4489..4505|PDTB3|LINK5
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||4630..4638||||||4639..4694|||||||||ARGM-PRP|take|4639|PDTB3|
+Explicit|4794..4801||||||because|Contingency.Cause.Reason||||||4698..4792||||||4802..4861|||||||||||4794..4801|PDTB2::wsj_2314::4794..4801::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||4698..4861||||||4863..4941|||||||||||4863|PDTB2::wsj_2314::4863::CHANGED|
+Explicit|4906..4910|||||4863..4905|also|Expansion.Conjunction||||||4748..4792|||||4698..4747|4911..4941|||||||||||4906..4910|PDTB2::wsj_2314::4906..4910::SAME|
+Explicit|5138..5143||||||since|Temporal.Asynchronous.Succession|Contingency.Cause.Reason|||||4945..5031;5081..5137||||||5144..5220|||||||||||5138..5143|PDTB2::wsj_2314::5138..5143::SAME|
+EntRel||||||||||||||5224..5248;5308..5362||||||5252..5304|||||||||||5252|PDTB3|
+Explicit|5364..5367||||||but|Comparison.Contrast|||||5252..5304|5224..5248;5308..5362||||||5368..5475|||||||||||5364..5367|PDTB2::wsj_2314::5364..5367::SAME|
+EntRel||||||||||||||5364..5475||||||5477..5577|||||||||||5477|PDTB2::wsj_2314::5477::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||5581..5664||||||5666..5900|||||||||||5666|PDTB2::wsj_2314::5666::SAME|
+Explicit|5666..5671||||||after|Temporal.Asynchronous.Succession||||||5710..5817||||||5672..5708|||||||||||5666..5671|PDTB2::wsj_2314::5666..5671::SAME|
+Explicit|5819..5823||||||then|Temporal.Asynchronous.Precedence|||||5666..5708|5710..5817||||||5824..5851|||||||||||5819..5823|PDTB2::wsj_2314::5819..5823::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||5819..5851||||||5853..5900|||||||||||5853|PDTB2::wsj_2314::5853::SAME|
+Explicit|5870..5873||||||and|Expansion.Conjunction||||||5853..5869||||||5874..5900|||||||||||5870..5873|PDTB2::wsj_2314::5870..5873::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||5904..5998||||||6000..6114|||||||||||6000|PDTB2::wsj_2314::6000::SAME|
+Explicit|6074..6077||||||and|Expansion.Conjunction||||||6038..6073||||||6078..6114|||||||||||6074..6077|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||6118..6227||||||6229..6501|||||||||||6229|PDTB2::wsj_2314::6229::SAME|
+Explicit|6229..6233||||||when|Temporal.Synchronous|Contingency.Condition.Arg2-as-cond|||||6289..6385||||||6234..6287|||||||||||6229..6233|PDTB2::wsj_2314::6229..6233::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||6229..6272||||||6273..6287|||||||||ARGM-PRP|run|6273|PDTB3|
+Explicit|6387..6390||||||but|Comparison.Concession.Arg2-as-denier||||||6229..6385||||||6391..6501|||||||||||6387..6390|PDTB2::wsj_2314::6387..6390::CHANGED|
+Explicit|6478..6482||||||when|Temporal.Synchronous||||||6387..6474||||||6483..6501|||||||||||6478..6482|PDTB2::wsj_2314::6478..6482::SAME|
+Explicit|6733..6737|||||6518..6647|then|Temporal.Asynchronous.Precedence||||||6506..6581||||||6729..6732;6738..6765|||||||||||6733..6737|PDTB2::wsj_2314::6733..6737::SAME|LINK6
+Explicit|6729..6732|||||6584..6647|and|Expansion.Conjunction||||||6506..6581||||||6733..6765|||||||||||6729..6732|PDTB2::wsj_2314::6729..6732::SAME|LINK6
+EntRel||||||||||||||6770..6892||||||6894..7007|||||||||||6894|PDTB2::wsj_2314::6894::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||7011..7048||||||7050..7193|||||||||||7050|PDTB2::wsj_2314::7050::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||7050..7193||||||7195..7289|||||||||||7195|PDTB2::wsj_2314::7195::SAME|
+Explicit|7195..7197||||||by|Contingency.Cause.Reason|Expansion.Manner.Arg2-as-manner|||||7227..7289||||||7198..7225|||||||||ARGM-MNR|lower|7195..7197|PDTB3|
+Explicit|7246..7250||||||also|Expansion.Conjunction||||||7050..7135||||||7227..7245;7251..7289|||||||||||7246..7250|PDTB2::wsj_2314::7246..7250::SAME|
+Explicit|7304..7308||||||also|Expansion.Conjunction||||||7227..7289||||||7293..7303;7309..7391|||||||||||7304..7308|PDTB2::wsj_2314::7304..7308::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||7293..7391||||||7393..7560|||||||||||7393|PDTB2::wsj_2314::7393::SAME|
+EntRel||||||||||||||7393..7560||||||7562..7624|||||||||||7562|PDTB2::wsj_2314::7562::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||7562..7624||||||7626..7685|||||||||||7626|PDTB2::wsj_2314::7626::SAME|
+Explicit|7689..7694||||||still|Comparison.Contrast||||||7011..7048||||||7696..7738|||||||||||7689..7694|PDTB2::wsj_2314::7689..7694::SAME|
+Implicit|||||||as|Contingency.Cause+Belief.Reason+Belief||||||7689..7738||||||7764..7808|||||7740..7763||||||7764|PDTB2::wsj_2314::7764::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||7764..7808||||||7810..7862|||||||||||7810|PDTB2::wsj_2314::7810::SAME|
+Implicit|||||||when|Temporal.Asynchronous.Succession||||||7963..8082||||||7932..7961|||||||||ARGM-ADV|say|7932|PDTB3|
+Explicit|8043..8046|||||7963..7982|and|Expansion.Conjunction||||||7985..8041||||||8055..8082|||||8047..8054||||||8043..8046|PDTB2::wsj_2314::8043..8046::SAME|

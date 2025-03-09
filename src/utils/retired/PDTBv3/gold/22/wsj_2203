@@ -1,0 +1,17 @@
+Implicit|||||||because of|Contingency.Cause.Reason||||||9..66||||||75..138|||||68..74||||ARGM-ADV|report|75|PDTB3|
+Explicit|248..251||||||but|Comparison.Contrast||||||142..210|||||212..246|252..320|||||||||||248..251|PDTB2::wsj_2203::248..251::SAME|
+Explicit|322..324||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||248..320||||||325..370|||||||||||322..324|PDTB2::wsj_2203::322..324::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||248..370||||||372..440|||||||||||372|PDTB2::wsj_2203::372::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||372..440||||||442..493|||||||||||442|PDTB2::wsj_2203::442::SAME|
+Explicit|572..576||||||also|Expansion.Conjunction||||||9..138||||||497..515;577..729|||||||||||572..576|PDTB2::wsj_2203::572..576::SAME|
+Explicit|683..686||||||and|Expansion.Conjunction||||||633..682||||||687..729|||||||||||683..686|PDTB3|
+AltLex|790..800|||||733..741||Contingency.Cause.Reason||||||742..788||||||790..847|||||||||ARGM-ADV|decline|790..800|PDTB3|
+Explicit|862..869|||||849..860;871..875|however|Comparison.Contrast|||||790..847|742..788|||||733..741|876..940|||||||||||862..869|PDTB2::wsj_2203::862..869::SAME|
+EntRel||||||||||||||849..940||||||942..1070|||||||||||942|PDTB2::wsj_2203::942::SAME|
+EntRel||||||||||||||942..985||||||987..1070|||||||||ARGM-ADV|estimate|987|PDTB3|
+Explicit|1212..1216||||||also|Expansion.Conjunction||||||742..847|||||733..741|1133..1136;1209..1211;1217..1320|||||1323..1385||||||1212..1216|PDTB2::wsj_2203::1212..1216::SAME|
+EntRel||||||||||||||1389..1499||||||1501..1615|||||||||||1501|PDTB2::wsj_2203::1501::SAME|
+Implicit|||||||similarly|Expansion.Conjunction||||||1619..1717||||||1719..1787|||||||||||1719|PDTB2::wsj_2203::1719::SAME|
+Implicit|||||||by comparison|Comparison.Contrast||||||1638..1787|||||1619..1637|1789..1883|||||||||||1789|PDTB2::wsj_2203::1789::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||1887..2013||||||2015..2071|||||||||||2015|PDTB2::wsj_2203::2015::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||2075..2155||||||2156..2171|||||||||ARGM-ADV|fall|2156|PDTB3|

@@ -1,0 +1,20 @@
+Explicit|301..306||||||after|Temporal.Asynchronous.Succession||||||244..300||||||307..360|||||||||||301..306|PDTB2::wsj_1334::301..306::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||215..408||||||418..509|||||410..417||||||418|PDTB2::wsj_1334::418::CHANGED|
+Explicit|446..453|||||410..417|only if|Contingency.Condition.Arg2-as-cond||||||418..445||||||454..509|||||||||||446..453|PDTB2::wsj_1334::446..453::SAME|
+Explicit|514..518||||||also|Expansion.Conjunction||||||215..242;362..408||||||511..513;519..579|||||||||||514..518|PDTB2::wsj_1334::514..518::SAME|
+Explicit|583..587||||||also|Expansion.Conjunction||||||106..211|||||9..105|589..695|||||||||||583..587|PDTB2::wsj_1334::583..587::SAME|
+Implicit|||||||previously|Temporal.Asynchronous.Succession||||||583..695||||||697..807|||||||||||697|PDTB2::wsj_1334::697::SAME|
+EntRel||||||||||||||697..807||||||809..925|||||||||||809|PDTB2::wsj_1334::809::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||1302..1505||||||1507..1596|||||||||||1507|PDTB2::wsj_1334::1507::SAME|
+Explicit|1507..1509||||||if|Contingency.Condition.Arg2-as-cond||||||1545..1596||||||1510..1543|||||||||||1507..1509|PDTB2::wsj_1334::1507..1509::SAME|
+Explicit|1680..1683||||||and|Expansion.Conjunction||||||1624..1678|||||1600..1618|1684..1827|||||||||||1680..1683|PDTB2::wsj_1334::1680..1683::CHANGED|
+Explicit|1762..1764|||||1600..1618|if|Contingency.Condition.Arg2-as-cond||||||1712..1761||||||1765..1827|||||||||||1762..1764|PDTB2::wsj_1334::1762..1764::SAME|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||1831..1899||||||1901..2013|||||||||||1901|PDTB2::wsj_1334::1901::CHANGED|
+Explicit|1901..1903||||||if|Contingency.Condition.Arg2-as-cond||||||1933..1977||||||1904..1931|||||||||||1901..1903|PDTB2::wsj_1334::1901..1903::SAME|
+Explicit|1979..1989||||||even while|Temporal.Synchronous|Comparison.Concession.Arg1-as-denier|||||1933..1977||||||1990..2013|||||||||||1979..1989|PDTB2::wsj_1334::1979..1989::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||1901..2013||||||2015..2122|||||||||||2015|PDTB2::wsj_1334::2015::SAME|
+Explicit|2015..2017||||||if|Contingency.Condition.Arg2-as-cond||||||2035..2122||||||2018..2033|||||||||||2015..2017|PDTB2::wsj_1334::2015..2017::SAME|
+Explicit|2194..2198||||||when|Temporal.Synchronous|Contingency.Cause.Reason|||||2126..2171;2182..2192||||||2172..2181;2199..2260|||||||||ARGM-TMP|work|2194..2198|PDTB3|
+EntRel||||||||||||||2126..2260||||||2263..2411|||||||||||2263|PDTB2::wsj_1334::2263::SAME|
+Explicit|2448..2453||||||after|Temporal.Asynchronous.Succession||||||2415..2447||||||2454..2471|||||||||||2448..2453|PDTB2::wsj_1334::2448..2453::SAME|
+Implicit|||||||earlier|Temporal.Asynchronous.Succession||||||2415..2471||||||2473..2568|||||||||||2473|PDTB2::wsj_1334::2473::SAME|

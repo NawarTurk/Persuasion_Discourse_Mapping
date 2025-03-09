@@ -1,0 +1,10 @@
+Explicit|127..137||||||separately|Expansion.Conjunction||||||9..123||||||139..316|||||||||||127..137|PDTB2::wsj_1658::127..137::SAME|
+Explicit|225..228||||||and|Expansion.Conjunction||||||205..224||||||229..245|||||||||||225..228|PDTB3|
+Explicit|430..434|||||374..403|when|Temporal.Synchronous||||||404..429||||||435..486|||||||||||430..434|PDTB2::wsj_1658::430..434::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||490..620||||||622..867|||||||||||622|PDTB2::wsj_1658::622::SAME|
+EntRel||||||||||||||871..993||||||995..1148|||||||||||995|PDTB2::wsj_1658::995::SAME|
+Implicit|||||||while|Expansion.Conjunction||||||1225..1354||||||1356..1412|||||||||||1356|PDTB2::wsj_1658::1356::SAME|
+Implicit|||||||so|Contingency.Cause+Belief.Reason+Belief||||||1416..1497||||||1499..1577|||||||||||1499|PDTB2::wsj_1658::1499..1508::CHANGED|
+Implicit||||||1581..1593|in order|Contingency.Purpose.Arg2-as-goal||||||1594..1633;1685..1730||||||1634..1684|||||||||ARGM-PRP|retain|1634|PDTB3|
+EntRel||||||||||||||1581..1730||||||1732..2020|||||||||||1732|PDTB2::wsj_1658::1732::SAME|
+Explicit|2060..2064|||||2024..2036|also|Expansion.Conjunction||||||1732..2020||||||2037..2059;2065..2204|||||||||||2060..2064|PDTB2::wsj_1658::2060..2064::SAME|

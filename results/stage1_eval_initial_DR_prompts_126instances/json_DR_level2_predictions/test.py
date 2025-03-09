@@ -42,5 +42,6 @@ for parser_key, value in DR_lists.items():
 
 # Convert to DataFrame
 discrepancy_df = pd.DataFrame(discrepancy_list, columns=['Parser', 'Agreement (%)'])
+discrepancy_df['prompt_id', 'model']
 discrepancy_df.to_excel('parser_discrepancy.xlsx', index=False)
 

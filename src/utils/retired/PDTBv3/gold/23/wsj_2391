@@ -1,0 +1,9 @@
+Hypophora||||||||||||||9..15||||||17..28|||||||||||17|PDTB3|
+Explicit|277..280||||||and|Expansion.Conjunction||||||184..275||||||281..369|||||||||||277..280|PDTB2::wsj_2391::277..280::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||277..369||||||371..522|||||||||||371|PDTB2::wsj_2391::371::SAME|
+Implicit|||||||for example|Expansion.Instantiation.Arg2-as-instance||||||526..575||||||577..721|||||||||||577|PDTB2::wsj_2391::577::CHANGED|
+Implicit|||||||ultimately|Temporal.Asynchronous.Precedence||||||577..721||||||723..754|||||||||||723|PDTB2::wsj_2391::723::CHANGED|
+NoRel||||||||||||||723..754||||||756..908|||||||||||756|PDTB2::wsj_2391::756::SAME|
+Explicit|912..921||||||meanwhile|Temporal.Synchronous||||||32..180;526..575||||||923..1043|||||||||||912..921|PDTB2::wsj_2391::912..921::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||912..1043||||||1045..1276|||||||||||1045|PDTB2::wsj_2391::1045::SAME|
+Explicit|1158..1161||||||and|Expansion.Conjunction||||||1045..1157||||||1162..1276|||||||||||1158..1161|PDTB3|

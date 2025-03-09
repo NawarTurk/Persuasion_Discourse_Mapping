@@ -1,0 +1,15 @@
+EntRel||||||||||||||137..273||||||275..463|||||||||||275|PDTB2::wsj_2453::275::SAME|
+Explicit|473..477||||||also|Expansion.Conjunction||||||275..463||||||465..472;478..543|||||||||||473..477|PDTB2::wsj_2453::473..477::SAME|
+Implicit|||||||meanwhile|Expansion.Conjunction||||||465..543||||||545..608|||||||||||545|PDTB2::wsj_2453::545::SAME|
+Explicit|673..675||||||as|Contingency.Cause.Reason||||||612..671||||||676..923|||||||||||673..675|PDTB2::wsj_2453::673..675::SAME|
+Explicit|850..853|||||673..703|and|Expansion.Conjunction||||||704..848||||||854..923|||||||||||850..853|PDTB2::wsj_2453::850..853::SAME|
+Explicit|935..940||||||later|Temporal.Asynchronous.Precedence||||||612..923||||||925..934;941..1011|||||||||||935..940|PDTB2::wsj_2453::935..940::SAME|LINK1
+Explicit|925..928||||||but|Comparison.Concession.Arg2-as-denier||||||612..671||||||929..1011|||||||||||925..928|PDTB2::wsj_2453::925..928::CHANGED|LINK1
+Implicit|||||||indeed|Expansion.Level-of-detail.Arg2-as-detail||||||925..979||||||981..1011|||||||||ARGM-ADV|succumb|981|PDTB3|
+Implicit||||||1330..1406|for instance|Expansion.Instantiation.Arg2-as-instance||||||1408..1434||||||1436..1517|||||||||||1436|PDTB2::wsj_2453::1436::CHANGED|
+Explicit|1458..1460|||||1330..1406|as|Temporal.Synchronous||||||1436..1457||||||1461..1483|||||||||||1458..1460|PDTB2::wsj_2453::1458..1460::SAME|
+Implicit||||||1330..1406|in particular|Expansion.Instantiation.Arg2-as-instance||||||1436..1483||||||1484..1517|||||||||||1484|PDTB3|LINK2
+Explicit|1484..1487|||||1330..1406|and|Expansion.Conjunction||||||1436..1483||||||1488..1517|||||||||||1484..1487|PDTB2::wsj_2453::1484..1487::SAME|LINK2
+Implicit|||||||overall|Expansion.Level-of-detail.Arg2-as-detail||||||1436..1517||||||1519..1632|||||||||||1519|PDTB2::wsj_2453::1519::SAME|
+Explicit|1593..1596|||||1330..1406|and|Expansion.Conjunction||||||1541..1591||||||1597..1632|||||||||||1593..1596|PDTB2::wsj_2453::1593..1596::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||1637..1766||||||1768..1833|||||||||||1768|PDTB2::wsj_2453::1768::SAME|

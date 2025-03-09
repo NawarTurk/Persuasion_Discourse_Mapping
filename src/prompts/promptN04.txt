@@ -31,7 +31,7 @@ Negative-Condition: This tag is used when one argument (the antecedent) describe
 Negative-Condition+SpeechAct: This tag is used when the consequent is an implicit speech act. While none of the tokens in the PDTB-3 have been annotated with this sense, it is included in the hierarchy for completeness.
    - Note: While not annotated in PDTB-3, it could be: "Unless you clear this up, I don't think he will respond."
 
-Purpose: This tag is used when one argument presents an action that an AGENT un- dertakes with the purpose of the GOAL conveyed by the other argument being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal.
+Purpose: This tag is used when one argument presents an action that an AGENT undertakes with the purpose of the GOAL conveyed by the other argument being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal.
     - Example: "She saved money to buy a new car."
 
 Concession: This tag is used when an expected causal relation is cancelled or denied by the situation described in one of the arguments.
@@ -49,10 +49,10 @@ Similarity: This tag is used when one or more similarities between Arg1 and Arg2
 Conjunction: This tag is used when both arguments bear the same relation to some other situation evoked in the discourse. It indicates that the two arguments make the same contribution with respect to that situation, or contribute to it together. It differs from most other relations in that the arguments don’t directly relate to each other, but to this other situation.
     - Example: "She went to the store, and he cleaned the house."
 
-Disjunction: This tag is used when the two arguments are pre- sented as alternatives, with either one or both holding. As with Conjunction, Disjunction is used when both its arguments bear the same relation to some other situation evoked in the discourse, making a similar contribution with respect to that situation. While the arguments also relate to each other as alternatives (with one or both holding), they also both relate in the same way to this other situation.
+Disjunction: This tag is used when the two arguments are presented as alternatives, with either one or both holding. As with Conjunction, Disjunction is used when both its arguments bear the same relation to some other situation evoked in the discourse, making a similar contribution with respect to that situation. While the arguments also relate to each other as alternatives (with one or both holding), they also both relate in the same way to this other situation.
     - Example: "You can either go for a walk or stay at home."
 
-Equivalence: This tag is used when both arguments are taken to describe the same situa- tion, but from different perspectives
+Equivalence: This tag is used when both arguments are taken to describe the same situation, but from different perspectives
     - Example: "His refusal was no different from hers."
 
 Exception: This tag is used when one argument evokes a set of circumstances in which the described situation holds, and the other argument indicates one or more instances where it doesn’t.

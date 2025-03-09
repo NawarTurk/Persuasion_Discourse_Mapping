@@ -1,0 +1,21 @@
+EntRel||||||||||||||9..110||||||112..145|||||||||||112|PDTB2::wsj_1138::112::SAME|
+Implicit|||||||thereby|Expansion.Manner.Arg1-as-manner||||||149..259||||||261..354|||||||||||261|PDTB3|LINK1
+Explicit|261..269||||||in order|Contingency.Purpose.Arg2-as-goal||||||149..259||||||270..354|||||||||ARGM-PNC|seek|261..269|PDTB3|LINK1
+Explicit|305..310||||||until|Temporal.Asynchronous.Precedence||||||261..304||||||311..354|||||||||||305..310|PDTB2::wsj_1138::305..310::SAME|
+Explicit|334..337||||||and|Expansion.Conjunction||||||311..333||||||338..354|||||||||||334..337|PDTB2::wsj_1138::334..337::CHANGED|
+EntRel||||||||||||||149..354||||||356..532|||||||||||356|PDTB2::wsj_1138::356::SAME|
+Implicit|||||||accordingly|Expansion.Conjunction||||||356..532||||||534..643|||||||||||534|PDTB2::wsj_1138::534::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||534..761||||||763..950|||||||||||763|PDTB2::wsj_1138::763::SAME|
+Explicit|763..771||||||in order|Contingency.Purpose.Arg2-as-goal||||||839..950||||||772..837|||||||||ARGM-PNC|institute|763..771|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||839..902||||||903..950|||||||||ARGM-PNC|institute|903|PDTB3|
+Implicit|||||||in addition|Expansion.Conjunction||||||763..950||||||953..1093|||||||||||953|PDTB2::wsj_1138::953::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1102..1270||||||1272..1423|||||||||||1272|PDTB2::wsj_1138::1272::SAME|
+Explicit|1430..1432||||||in|Contingency.Condition.Arg2-as-cond||||||1460..1641||||||1433..1458|||||||||ARGM-TMP|articulate|1430..1432|PDTB3|
+Explicit|1648..1650||||||in|Temporal.Synchronous||||||1715..1779||||||1651..1713|||||||||ARGM-ADV|consider|1648..1650|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||1648..1779||||||1781..1941|||||||||||1781|PDTB2::wsj_1138::1781::SAME|
+Explicit|1948..1952||||||when|Temporal.Synchronous|Contingency.Condition.Arg2-as-cond||||2189..2710|1981..2185||||||1953..1979|||||||||||1948..1952|PDTB2::wsj_1138::1948..1952::SAME|
+Explicit|2189..2196||||||that is|Expansion.Level-of-detail.Arg2-as-detail||||||2066..2185||||||2198..2710|||||||||||2189..2196|PDTB3|
+Explicit|2198..2200||||||in|Temporal.Synchronous||||||2189..2196;2221..2320||||||2201..2219|||||||||ARGM-MNR|seek|2198..2200|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||2236..2320||||||2322..2444|||||||||||2322|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||2322..2444||||||2446..2553|||||||||||2446|PDTB3|
+Explicit|2555..2558||||||and|Expansion.Conjunction||||||2446..2553||||||2559..2710|||||||||||2555..2558|PDTB3|

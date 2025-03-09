@@ -1,0 +1,11 @@
+Implicit||||||146..164|so|Contingency.Cause.Result||||||165..214;239..255||||||257..334|||||||||||257|PDTB3|LINK1
+Explicit|257..260|||||146..164|and|Expansion.Conjunction|||||217..237|165..214;239..255||||||261..334|||||||||||257..260|PDTB2::wsj_2246::257..260::SAME|LINK1
+Implicit|||||||if it is|Contingency.Condition.Arg2-as-cond||||||257..283||||||284..334|||||||||ARGM-PRP|need|284|PDTB3|
+EntRel||||||||||||||146..334||||||336..528|||||||||||336|PDTB2::wsj_2246::336::SAME|
+Explicit|377..379|||||355..366|if|Contingency.Condition.Arg2-as-cond||||||367..375;391..528||||||380..389|||||||||||377..379|PDTB2::wsj_2246::377..379::SAME|
+EntRel||||||||||||||336..528||||||530..604|||||||||||530|PDTB2::wsj_2246::530::SAME|
+Explicit|695..699||||||also|Expansion.Conjunction||||||608..690||||||692..694;700..799|||||||||||695..699|PDTB2::wsj_2246::695..699::SAME|
+Implicit||||||692..704|if it is|Contingency.Condition.Arg2-as-cond||||||705..764||||||765..799|||||||||ARGM-PRP|extend|765|PDTB3|
+EntRel||||||||||||||692..799||||||801..915|||||||||||801|PDTB2::wsj_2246::801::SAME|
+EntRel||||||||||||||919..974||||||976..1136|||||||||||976|PDTB2::wsj_2246::976::SAME|
+EntRel||||||||||||||976..1136||||||1138..1271|||||||||||1138|PDTB2::wsj_2246::1138::SAME|

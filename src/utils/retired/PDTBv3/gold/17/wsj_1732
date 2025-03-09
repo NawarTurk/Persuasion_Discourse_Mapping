@@ -1,0 +1,6 @@
+EntRel||||||||||||||204..371||||||373..438|||||||||||373|PDTB2::wsj_1732::373::SAME|
+Explicit|520..525||||||while|Temporal.Synchronous|Comparison.Contrast|||||442..518||||||526..602|||||||||||520..525|PDTB2::wsj_1732::520..525::CHANGED|
+Explicit|714..719||||||after|Temporal.Asynchronous.Succession||||||758..915||||||720..756|||||||||||714..719|PDTB2::wsj_1732::714..719::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||720..739||||||740..756|||||||||||740|PDTB3|LINK1
+Explicit|740..743||||||and|Expansion.Conjunction||||||720..739||||||744..756|||||||||||740..743|PDTB3|LINK1
+EntRel||||||||||||||714..915||||||917..1037|||||||||||917|PDTB2::wsj_1732::917::SAME|

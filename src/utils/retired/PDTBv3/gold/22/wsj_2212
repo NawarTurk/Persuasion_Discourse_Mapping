@@ -1,0 +1,8 @@
+Explicit|137..140||||||and|Expansion.Conjunction||||||40..136||||||141..181|||||||||||137..140|PDTB3|
+Implicit|||||||further|Expansion.Conjunction||||||185..305||||||307..533|||||||||||307|PDTB2::wsj_2212::307::SAME|
+Implicit|||||||meanwhile|Expansion.Conjunction||||||537..692||||||694..823|||||||||||694|PDTB2::wsj_2212::694::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||847..988|||||828..846|990..1082|||||1085..1103||||||990|PDTB2::wsj_2212::990::SAME|
+Explicit|1027..1030|||||1085..1103|and|Expansion.Conjunction||||||990..1026||||||1031..1082|||||||||||1027..1030|PDTB2::wsj_2212::1027..1030::SAME|
+Implicit|||||||furthermore|Expansion.Conjunction||||||990..1082|||||1085..1103|1121..1326|||||1105..1120||||||1121|PDTB2::wsj_2212::1121::SAME|
+Explicit|1186..1195|||||1105..1120|therefore|Contingency.Cause.Result||||||1132..1173||||||1174..1183;1197..1326|||||||||||1186..1195|PDTB2::wsj_2212::1186..1195::CHANGED|LINK1
+Explicit|1174..1177||||||and|Expansion.Conjunction||||||1132..1173||||||1178..1326|||||||||||1174..1177|PDTB3|LINK1

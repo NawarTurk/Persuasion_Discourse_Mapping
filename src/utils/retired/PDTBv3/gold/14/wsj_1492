@@ -1,0 +1,18 @@
+Implicit|||||||in|Expansion.Level-of-detail.Arg1-as-detail||||||9..30;99..201||||||32..97|||||||||ARGM-ADV|report|32|PDTB3|
+Explicit|60..65||||||while|Temporal.Synchronous|Comparison.Contrast|||||32..59||||||66..97|||||||||||60..65|PDTB2::wsj_1492::60..65::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||205..291||||||293..341|||||||||||293|PDTB2::wsj_1492::293::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||345..470||||||472..525|||||||||||472|PDTB2::wsj_1492::472::SAME|
+Explicit|588..591||||||and|Expansion.Conjunction||||||536..587||||||592..667|||||||||||588..591|PDTB3|
+Implicit|||||||in addition|Expansion.Conjunction||||||529..667||||||669..845|||||||||||669|PDTB2::wsj_1492::669::SAME|
+Explicit|1002..1004||||||by|Contingency.Purpose.Arg1-as-goal|Expansion.Manner.Arg2-as-manner|||||887..1000||||||1005..1106|||||||||ARGM-MNR|outflank|1002..1004|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||849..1106||||||1108..1214|||||||||||1108|PDTB2::wsj_1492::1108::SAME|
+Implicit||||||1261..1332|therefore|Contingency.Cause.Result||||||1108..1214||||||1216..1258|||||||||||1216|PDTB3|
+Explicit|1343..1347||||||also|Expansion.Conjunction||||||1002..1106||||||1336..1342;1348..1426|||||||||||1343..1347|PDTB2::wsj_1492::1343..1347::SAME|
+EntRel||||||||||||||1336..1426||||||1428..1581|||||||||||1428|PDTB2::wsj_1492::1428::SAME|
+Explicit|1476..1479||||||but|Comparison.Concession.Arg2-as-denier||||||1428..1474||||||1480..1581|||||||||||1476..1479|PDTB2::wsj_1492::1476..1479::CHANGED|
+Explicit|1534..1536||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||1476..1533||||||1537..1581|||||||||||1534..1536|PDTB2::wsj_1492::1534..1536::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1428..1581||||||1583..1658;1677..1755|||||1660..1675||||||1583|PDTB2::wsj_1492::1583::CHANGED|
+Implicit|||||||instead|Expansion.Substitution.Arg2-as-subst||||||1583..1658|||||1660..1675|1684..1755|||||1677..1683||||ARGM-ADV|say|1684|PDTB3|
+EntRel||||||||||||||1760..1784||||||1788..1822|||||||||||1788|PDTB3|
+Explicit|1788..1792|||||1825..1832|once|Temporal.Asynchronous.Succession||||||1805..1822||||||1793..1803|||||||||||1788..1792|PDTB2::wsj_1492::1788..1792::SAME|
+Explicit|1835..1838|||||1825..1832|but|Comparison.Contrast||||||1760..1822||||||1839..1869|||||||||||1835..1838|PDTB2::wsj_1492::1835..1838::SAME|

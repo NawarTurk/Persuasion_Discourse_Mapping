@@ -1,0 +1,17 @@
+Explicit|190..194||||||also|Expansion.Conjunction||||||85..176||||||178..189;195..245|||||||||||190..194|PDTB2::wsj_1551::190..194::SAME|
+Explicit|327..330||||||and|Expansion.Conjunction||||||295..326||||||331..368|||||||||||327..330|PDTB3|
+Implicit||||||431..473|and|Expansion.Conjunction||||||373..428||||||476..599|||||||||||476|PDTB2::wsj_1551::476::SAME|
+Explicit|523..526||||||and|Expansion.Conjunction||||||484..522||||||527..556|||||||||||523..526|PDTB3|
+Explicit|557..564||||||without|Comparison.Concession.Arg2-as-denier||||||476..556||||||565..599|||||||||ARGM-MNR|invest|557..564|PDTB3|
+EntRel||||||||||||||476..599||||||601..710|||||||||||601|PDTB2::wsj_1551::601::SAME|
+Explicit|821..824||||||and|Expansion.Conjunction||||||715..819||||||825..884|||||||||||821..824|PDTB2::wsj_1551::821..824::SAME|
+Implicit|||||||meanwhile|Temporal.Synchronous||||||715..883||||||886..949|||||||||||886|PDTB2::wsj_1551::886::SAME|
+EntRel||||||||||||||886..949||||||951..1059|||||||||||951|PDTB2::wsj_1551::951::SAME|
+Explicit|1139..1142||||||and|Expansion.Conjunction||||||1117..1138||||||1143..1185|||||||||||1139..1142|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||1063..1203||||||1205..1334|||||||||||1205|PDTB2::wsj_1551::1205::SAME|
+Explicit|1285..1289||||||also|Expansion.Conjunction||||||1246..1280||||||1281..1284;1290..1320|||||||||||1285..1289|PDTB2::wsj_1551::1285..1289::SAME|LINK1
+Explicit|1281..1284||||||and|Expansion.Conjunction||||||1246..1280||||||1285..1320|||||||||||1281..1284|PDTB3|LINK1
+Implicit|||||||and|Expansion.Conjunction||||||1205..1334||||||1336..1446|||||||||||1336|PDTB2::wsj_1551::1336::CHANGED|
+Explicit|1460..1464||||||also|Expansion.Conjunction||||||9..81||||||1450..1459;1465..1590|||||||||||1460..1464|PDTB2::wsj_1551::1460..1464::SAME|
+Explicit|1537..1540||||||and|Expansion.Conjunction||||||1465..1536||||||1541..1590|||||||||||1537..1540|PDTB3|
+Implicit|||||||in addition|Expansion.Conjunction||||||1450..1590||||||1592..1696|||||||||||1592|PDTB2::wsj_1551::1592::SAME|

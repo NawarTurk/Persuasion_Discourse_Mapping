@@ -1,0 +1,8 @@
+Explicit|283..285||||||by|Expansion.Manner.Arg2-as-manner||||||251..282||||||286..382||||||384..434|||ARGM-MNR|throw|283..285|PDTB3|
+EntRel||||||||||||||438..574||||||576..744|||||||||||576|PDTB2::wsj_1814::576::SAME|
+Explicit|688..690||||||by|Contingency.Purpose.Arg1-as-goal|Expansion.Manner.Arg2-as-manner|||||616..687||||||691..744|||||||||ARGM-MNR|add|688..690|PDTB3|
+Explicit|776..778|||||749..770|if|Contingency.Condition.Arg2-as-cond||||||771..775;828..870||||||779..827|||||||||||776..778|PDTB2::wsj_1814::776..778::SAME|
+Implicit|||||||so|Contingency.Cause.Result||||||749..870||||||872..969|||||||||||872|PDTB2::wsj_1814::872::CHANGED|
+Explicit|912..919||||||because|Contingency.Cause.Reason||||||872..911||||||920..969|||||||||||912..919|PDTB2::wsj_1814::912..919::SAME|
+Explicit|971..978||||||however|Comparison.Concession.Arg2-as-denier||||||872..969||||||980..1060|||||||||||971..978|PDTB2::wsj_1814::971..978::CHANGED|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||1064..1188||||||1190..1255|||||||||||1190|PDTB2::wsj_1814::1190::SAME|

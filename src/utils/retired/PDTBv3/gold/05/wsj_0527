@@ -1,0 +1,15 @@
+Explicit|50..55||||||after|Temporal.Asynchronous.Succession|Contingency.Cause.Reason||||152..235|9..49||||||56..151|||||||||||50..55|PDTB2::wsj_0527::50..55::SAME|
+Explicit|152..159||||||because|Contingency.Cause.Reason||||||50..151||||||160..235|||||||||||152..159|PDTB2::wsj_0527::152..159::SAME|
+Explicit|435..442|||||356..372|because|Contingency.Cause.Reason||||||373..434||||||444..642|||||||||||435..442|PDTB2::wsj_0527::435..442::SAME|
+Implicit|||||||furthermore|Expansion.Level-of-detail.Arg2-as-detail||||||356..642||||||644..757|||||||||||644|PDTB2::wsj_0527::644::SAME|
+Implicit|||||||although|Comparison.Concession.Arg2-as-denier||||||776..887|||||761..775|889..921|||||||||||889|PDTB2::wsj_0527::889::CHANGED|
+Explicit|925..937||||||additionally|Expansion.Conjunction||||||9..352||||||939..1015|||||||||||925..937|PDTB2::wsj_0527::925..937::SAME|
+Implicit|||||||although|Comparison.Concession.Arg2-as-denier||||||925..1088||||||1090..1179|||||||||||1090|PDTB2::wsj_0527::1090::CHANGED|
+Explicit|1287..1299|||||1183..1201|consequently|Contingency.Cause.Result||||||1248..1281||||||1282..1285;1301..1360|||||||||||1287..1299|PDTB2::wsj_0527::1287..1299::SAME|LINK1
+Explicit|1282..1285||||||and|Expansion.Conjunction||||||1248..1281||||||1287..1360|||||||||||1282..1285|PDTB3|LINK1
+Implicit|||||||furthermore|Expansion.Conjunction||||||1202..1360|||||1183..1201|1362..1449|||||||||||1362|PDTB2::wsj_0527::1362::SAME|
+Explicit|1552..1559||||||however|Temporal.Synchronous|Comparison.Contrast|||||1453..1550||||||1561..1619|||||||||||1552..1559|PDTB2::wsj_0527::1552..1559::CHANGED|
+Implicit|||||||and|Expansion.Conjunction||||||1453..1619||||||1621..1711|||||||||||1621|PDTB2::wsj_0527::1621::SAME|
+Explicit|1821..1824||||||and|Expansion.Conjunction||||||1739..1820||||||1825..1880|||||||||||1821..1824|PDTB3|
+Explicit|1885..1889||||||also|Expansion.Conjunction||||||1715..1880||||||1882..1884;1890..2094|||||||||||1885..1889|PDTB2::wsj_0527::1885..1889::SAME|
+Implicit|||||||consequently|Contingency.Cause.Result||||||1882..2094||||||2096..2134|||||||||||2096|PDTB2::wsj_0527::2096::SAME|

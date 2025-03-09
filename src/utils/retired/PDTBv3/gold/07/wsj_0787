@@ -1,0 +1,32 @@
+Implicit|||||||because|Contingency.Cause.Reason||||||321..373|||||288..320|397..526|||||375..396||||||397|PDTB2::wsj_0787::397::SAME|
+Explicit|458..460|||||375..396|if|Contingency.Condition.Arg2-as-cond||||||397..457||||||461..526|||||||||||458..460|PDTB2::wsj_0787::458..460::SAME|
+Implicit|||||||also|Expansion.Conjunction||||||397..526|||||375..396|537..614|||||528..536||||||537|PDTB2::wsj_0787::537::SAME|
+Explicit|618..621||||||but|Comparison.Contrast||||||375..614||||||622..783|||||||||||618..621|PDTB2::wsj_0787::618..621::SAME|
+Explicit|787..797||||||separately|Expansion.Conjunction||||||9..171||||||799..910|||||||||||787..797|PDTB2::wsj_0787::787..797::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||814..910|||||787..813|921..1020|||||912..920||||||921|PDTB2::wsj_0787::921::SAME|
+Explicit|1125..1128||||||and|Expansion.Conjunction||||||1047..1124||||||1129..1165|||||||||||1125..1128|PDTB2::wsj_0787::1125..1128::SAME|
+EntRel||||||||||||||1025..1182||||||1184..1277|||||||||||1184|PDTB2::wsj_0787::1184::SAME|
+Implicit|||||||if s/he is|Contingency.Condition.Arg2-as-cond||thereby|Expansion.Manner.Arg1-as-manner|||1234..1243||||||1244..1277|||||||||ARGM-PRP|need|1244|PDTB3|
+EntRel||||||||||||||1184..1277||||||1279..1375|||||||||||1279|PDTB2::wsj_0787::1279::SAME|
+Implicit|||||||but|Comparison.Contrast||||||1379..1556||||||1558..1606|||||||||||1558|PDTB3|
+EntRel||||||||||||||1610..1690||||||1692..1905|||||||||||1692|PDTB2::wsj_0787::1692::SAME|
+Explicit|1851..1854||||||and|Expansion.Conjunction||||||1826..1850||||||1855..1905|||||||||||1851..1854|PDTB3|
+Explicit|1919..1923||||||also|Expansion.Conjunction||||||1025..1182||||||1909..1918;1924..2003|||||||||||1919..1923|PDTB2::wsj_0787::1919..1923::SAME|
+Implicit|||||||then|Temporal.Asynchronous.Precedence||||||1909..2003||||||2006..2190|||||||||||2006|PDTB2::wsj_0787::2006::SAME|
+Implicit|||||||when|Temporal.Asynchronous.Succession||||||2079..2190||||||2006..2077|||||||||ARGM-PRD|respond|2006|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||2038..2056||||||2057..2077|||||||||ARGM-PRP|do|2057|PDTB3|
+Explicit|2130..2135|||||2101..2108|while|Comparison.Concession.Arg2-as-denier||||||2109..2127;2163..2190||||||2137..2161|||||||||||2130..2135|PDTB2::wsj_0787::2130..2135::SAME|
+Implicit|||||||in addition|Expansion.Conjunction||||||2006..2190||||||2193..2286|||||||||||2193|PDTB2::wsj_0787::2193::SAME|
+Explicit|2193..2199|||||2219..2239|before|Temporal.Asynchronous.Precedence||||||2240..2286||||||2200..2217|||||||||||2193..2199|PDTB2::wsj_0787::2193..2199::SAME|
+Explicit|2301..2305||||||also|Expansion.Conjunction||||||9..171;787..910;1909..2003||||||2291..2300;2306..2461|||||||||||2301..2305|PDTB2::wsj_0787::2301..2305::SAME|
+Explicit|2375..2378||||||and|Expansion.Conjunction||||||2306..2373||||||2379..2461|||||||||||2375..2378|PDTB3|
+Explicit|2463..2466||||||but|Comparison.Concession.Arg2-as-denier||||||2396..2461||||||2476..2587|||||||||||2463..2466|PDTB2::wsj_0787::2463..2466::CHANGED|
+Explicit|2769..2772||||||and|Expansion.Conjunction||||||2706..2768||||||2773..2828|||||||||||2769..2772|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||2591..2698||||||2831..2929|||||||||||2831|PDTB2::wsj_0787::2831::SAME|
+Explicit|2933..2936||||||but|Comparison.Concession.Arg2-as-denier||||||2831..2919|||||2922..2929|2937..3047||||||3049..3329|||||2933..2936|PDTB2::wsj_0787::2933..2936::SAME|
+EntRel||||||||||||||2933..3047||||||3049..3329|||||||||||3049|PDTB2::wsj_0787::3049::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||3097..3183||||||3185..3244|||||||||||3185|PDTB3|
+Explicit|3246..3249||||||and|Expansion.Conjunction||||||3185..3244||||||3250..3329|||||||||||3246..3249|PDTB3|
+Explicit|3342..3346||||||also|Expansion.Conjunction||||||3049..3058;3091..3329||||||3333..3341;3347..3478|||||||||||3342..3346|PDTB2::wsj_0787::3342..3346::SAME|
+Explicit|3455..3458||||||but|Comparison.Contrast||||||3416..3454||||||3459..3478|||||||||||3455..3458|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||3520..3558||||||3559..3588|||||||||ARGM-PRP|meet|3559|PDTB3|

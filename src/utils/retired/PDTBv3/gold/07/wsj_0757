@@ -1,0 +1,9 @@
+Implicit|||||||as a result of being|Contingency.Cause.Reason||||||37..87||||||9..34|||||||||ARGM-ADV|lift|9|PDTB3|
+Explicit|62..66||||||when|Contingency.Condition.Arg2-as-cond||||||37..59||||||67..87|||||||||||62..66|PDTB2::wsj_0757::62..66::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||37..87||||||91..147|||||||||||91|PDTB3|
+Explicit|91..93||||||if|Contingency.Condition.Arg2-as-cond||||||123..147||||||94..120|||||||||||91..93|PDTB2::wsj_0757::91..93::SAME|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||37..147||||||162..205|||||151..161||||||162|PDTB2::wsj_0757::162::SAME|
+Explicit|209..212||||||but|Comparison.Concession.Arg2-as-denier||||||151..205||||||213..271|||||||||||209..212|PDTB2::wsj_0757::209..212::CHANGED|
+Explicit|223..227||||||when|Contingency.Condition+SpeechAct||||||209..222||||||228..271|||||||||||223..227|PDTB2::wsj_0757::223..227::SAME|
+Implicit|||||||because|Contingency.Cause.Reason||||||440..451||||||453..519|||||||||||453|PDTB3|
+Explicit|479..489||||||as long as|Contingency.Condition.Arg2-as-cond||||||453..478||||||490..519|||||||||||479..489|PDTB2::wsj_0757::479..489::SAME|

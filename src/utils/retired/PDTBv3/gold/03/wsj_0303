@@ -1,0 +1,8 @@
+Explicit|156..163|||||9..103|only if|Contingency.Condition.Arg2-as-cond||||||105..150||||||152..155;164..225|||||||||||156..163|PDTB2::wsj_0303::156..163::SAME|
+Implicit|||||||subsequently|Temporal.Asynchronous.Precedence||but|Comparison.Contrast|||9..225||||||227..305|||||||||||227|PDTB2::wsj_0303::227::CHANGED|
+Implicit|||||||while|Expansion.Conjunction||||||227..305||||||307..387|||||||||||307|PDTB2::wsj_0303::307::SAME|
+EntRel||||||||||||||307..387||||||389..474|||||||||||389|PDTB2::wsj_0303::389::SAME|
+Explicit|440..443||||||but|Comparison.Concession.Arg2-as-denier||||||405..439||||||444..474|||||||||||440..443|PDTB3|
+Implicit|||||||so|Contingency.Cause.Result||||||389..474||||||476..633|||||||||||476|PDTB2::wsj_0303::476::SAME|
+Implicit|||||||in sum|Expansion.Level-of-detail.Arg1-as-detail||||||476..633||||||635..814|||||||||||635|PDTB2::wsj_0303::635::SAME|
+Explicit|707..709|||||666..701|if|Contingency.Condition.Arg2-as-cond||||||702..706;739..814||||||710..737|||||||||||707..709|PDTB2::wsj_0303::707..709::SAME|

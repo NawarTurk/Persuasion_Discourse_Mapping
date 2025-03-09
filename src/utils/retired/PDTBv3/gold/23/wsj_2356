@@ -1,0 +1,32 @@
+Implicit|||||||with|Temporal.Synchronous||||||84..107;175..287||||||109..173|||||||||ARGM-ADV|give|109|PDTB3|
+EntRel||||||||||||||84..287||||||289..346|||||||||||289|PDTB2::wsj_2356::289::SAME|
+EntRel||||||||||||||289..346||||||348..537|||||||||||348|PDTB2::wsj_2356::348::SAME|
+EntRel||||||||||||||348..537||||||539..651|||||||||||539|PDTB2::wsj_2356::539::SAME|
+Explicit|732..735||||||but|Comparison.Concession.Arg2-as-denier||||||655..730||||||736..793|||||||||||732..735|PDTB2::wsj_2356::732..735::CHANGED|
+Implicit|||||||so as|Contingency.Condition.Arg2-as-cond||||||855..861||||||862..908|||||||||ARGM-PNC|need|862|PDTB3|
+Explicit|949..952|||||797..822|and|Expansion.Conjunction||||||828..947||||||953..1040|||||||||||949..952|PDTB2::wsj_2356::949..952::CHANGED|
+AltLex|1068..1078|||||797..822||Contingency.Cause.Reason||||||823..1040||||||1042..1078|||||||||||1068..1078|PDTB2::wsj_2356::1068..1078::SAME|
+Implicit|||||||consequently|Contingency.Cause+Belief.Result+Belief||||||1042..1078||||||1080..1125|||||||||||1080|PDTB3|LINK1
+Explicit|1080..1083||||||and|Expansion.Conjunction||||||1042..1078||||||1084..1125|||||||||||1080..1083|PDTB2::wsj_2356::1080..1083::SAME|LINK1
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1130..1281||||||1283..1363|||||||||||1283|PDTB2::wsj_2356::1283::SAME|
+Explicit|1329..1332||||||but|Comparison.Concession.Arg2-as-denier||||||1286..1327||||||1333..1363|||||||||||1329..1332|PDTB3|
+Explicit|1409..1413||||||also|Expansion.Conjunction||||||1283..1363||||||1365..1407;1414..1463|||||||||||1409..1413|PDTB2::wsj_2356::1409..1413::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||1467..1561||||||1563..1706|||||||||||1563|PDTB2::wsj_2356::1563::SAME|
+Explicit|1739..1748||||||meanwhile|Temporal.Synchronous||||||1467..1706||||||1708..1737;1750..1809|||||||||||1739..1748|PDTB2::wsj_2356::1739..1748::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||1846..1966|||||1813..1845|2011..2135|||||1968..2010||||||2011|PDTB2::wsj_2356::2011::CHANGED|
+EntRel||||||||||||||2139..2291||||||2293..2316|||||||||||2293|PDTB2::wsj_2356::2293::SAME|
+EntRel||||||||||||||2293..2316||||||2318..2427|||||||||||2318|PDTB2::wsj_2356::2318::SAME|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||2431..2500||||||2565..2568;2648..2736|||||||||||2565|PDTB2::wsj_2356::2565::SAME|
+Explicit|2678..2681||||||and|Expansion.Conjunction||||||2648..2677||||||2682..2736|||||||||||2678..2681|PDTB3|
+AltLex|2893..2905;2952..2966|||||||Contingency.Cause.Result||||||2740..2862||||||2893..2905;2952..3051|||||||||||2893..2966|PDTB2::wsj_2356::2893..2905;2952..2966::SAME|
+AltLex|3117..3125|||||||Contingency.Cause.Result||||||3055..3115||||||3117..3211|||||||||ARGM-ADV|flock|3117..3125|PDTB3|
+Implicit|||||||meanwhile|Temporal.Synchronous||||||3055..3211||||||3213..3292|||||||||||3213|PDTB2::wsj_2356::3213::CHANGED|
+Implicit|||||||meanwhile|Temporal.Synchronous||||||3213..3292||||||3294..3375|||||||||||3294|PDTB2::wsj_2356::3294::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||3379..3539||||||3541..3561;3615..3632|||||||||||3541|PDTB2::wsj_2356::3541::CHANGED|
+EntRel||||||||||||||3636..3750||||||3752..3801|||||||||||3752|PDTB2::wsj_2356::3752::SAME|
+EntRel||||||||||||||3752..3801||||||3803..3976|||||||||||3803|PDTB2::wsj_2356::3803::SAME|
+Explicit|3925..3927||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||3803..3924||||||3928..3976|||||||||||3925..3927|PDTB2::wsj_2356::3925..3927::SAME|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||3980..4141||||||4143..4311|||||||||||4143|PDTB2::wsj_2356::4143::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||4342..4387||||||4388..4422|||||||||ARGM-PNC|combine|4388|PDTB3|
+Implicit|||||||as a result|Contingency.Cause.Result||||||4315..4422||||||4424..4556|||||||||||4424|PDTB2::wsj_2356::4424::SAME|
+Explicit|4491..4493||||||as|Temporal.Synchronous|Contingency.Cause.Reason|||||4424..4490||||||4494..4556|||||||||||4491..4493|PDTB2::wsj_2356::4491..4493::SAME|

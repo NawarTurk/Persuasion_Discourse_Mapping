@@ -1,0 +1,15 @@
+Explicit|95..99||||||with|Expansion.Level-of-detail.Arg2-as-detail||||||9..93||||||100..211|||||182..211||||ARGM-MNR|climb|95..99|PDTB3|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||215..356||||||358..448|||||||||||358|PDTB2::wsj_0440::358::SAME|
+Explicit|408..413||||||while|Temporal.Synchronous|Comparison.Contrast|||||358..406||||||414..448|||||||||||408..413|PDTB2::wsj_0440::408..413::SAME|
+Implicit|||||||while|Temporal.Synchronous||in contrast|Comparison.Contrast|||358..448||||||450..495|||||||||||450|PDTB2::wsj_0440::450::CHANGED|
+Explicit|569..571|||||662..785|if|Contingency.Condition.Arg2-as-cond||||||499..568||||||572..660|||||||||||569..571|PDTB2::wsj_0440::569..571::SAME|
+EntRel||||||||||||||789..898||||||900..936|||||||||||900|PDTB2::wsj_0440::900::SAME|
+Explicit|1032..1047||||||because|Contingency.Cause.Reason||||||940..1030||||||1048..1102|||||||||||1032..1047|PDTB2::wsj_0440::1032..1047::SAME|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||1107..1245|||||1248..1265|1267..1339|||||||||||1267|PDTB2::wsj_0440::1267::SAME|
+Explicit|1298..1301||||||and|Expansion.Conjunction||||||1284..1297||||||1302..1339|||||||||||1298..1301|PDTB3|
+Implicit|||||||in particular|Expansion.Level-of-detail.Arg2-as-detail||||||1343..1438||||||1440..1577|||||||||||1440|PDTB2::wsj_0440::1440::SAME|
+Implicit|||||||in contrast|Comparison.Contrast||||||1440..1577||||||1579..1680|||||||||||1579|PDTB2::wsj_0440::1579::SAME|
+Explicit|1684..1692||||||although|Comparison.Concession.Arg1-as-denier||||||1771..1872||||||1693..1769|||||||||||1684..1692|PDTB2::wsj_0440::1684..1692::SAME|
+Explicit|1991..1994||||||but|Comparison.Concession.Arg2-as-denier||||||1876..1989||||||1995..2064|||||||||||1991..1994|PDTB2::wsj_0440::1991..1994::CHANGED|
+Explicit|2208..2214|||||2235..2309|before|Temporal.Asynchronous.Precedence||||||2141..2206||||||2215..2232|||||||||||2208..2214|PDTB2::wsj_0440::2208..2214::SAME|
+EntRel||||||||||||||2208..2252||||||2254..2309|||||||||ARGM-ADV|say|2254|PDTB3|

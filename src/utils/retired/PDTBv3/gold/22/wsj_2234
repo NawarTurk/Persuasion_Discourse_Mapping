@@ -1,0 +1,30 @@
+Explicit|272..275||||||and|Expansion.Conjunction||||||214..270||||||276..362|||||||||||272..275|PDTB3|
+EntRel||||||||||||||191..362||||||364..612|||||||||||364|PDTB2::wsj_2234::364::SAME|
+Explicit|731..734||||||but|Comparison.Concession.Arg2-as-denier||||||616..729||||||735..803|||||||||||731..734|PDTB2::wsj_2234::731..734::CHANGED|
+Implicit|||||||however|Comparison.Concession.Arg2-as-denier||||||731..803||||||805..1016|||||||||||805|PDTB2::wsj_2234::805::CHANGED|
+Explicit|883..885||||||as|Contingency.Cause.Reason||||||805..882||||||886..915|||||||||||883..885|PDTB2::wsj_2234::883..885::SAME|
+Explicit|917..920||||||but|Comparison.Concession.Arg2-as-denier|||||883..915|805..882||||||921..1016|||||||||||917..920|PDTB2::wsj_2234::917..920::CHANGED|
+Implicit|||||||consequently|Contingency.Cause.Result||||||1020..1222||||||1224..1506|||||||||||1224|PDTB2::wsj_2234::1224::SAME|
+Explicit|1347..1350||||||and|Expansion.Conjunction||||||1224..1345||||||1351..1506|||||||||||1347..1350|PDTB2::wsj_2234::1347..1350::SAME|
+Explicit|1598..1601||||||but|Comparison.Concession.Arg2-as-denier||||||1510..1596||||||1602..1717|||||||||||1598..1601|PDTB2::wsj_2234::1598..1601::CHANGED|
+Implicit|||||||for instance|Expansion.Instantiation.Arg2-as-instance||||||1598..1717||||||1719..1827|||||||||||1719|PDTB2::wsj_2234::1719::CHANGED|
+Implicit|||||||thus|Contingency.Cause.Result||||||1719..1827||||||1829..1936|||||||||||1829|PDTB3|LINK1
+Explicit|1829..1832||||||and|Expansion.Conjunction||||||1719..1827||||||1833..1936|||||||||||1829..1832|PDTB2::wsj_2234::1829..1832::SAME|LINK1
+Explicit|1940..1948||||||although|Comparison.Concession.Arg1-as-denier||||||2011..2189||||||1949..2009|||||||||||1940..1948|PDTB2::wsj_2234::1940..1948::CHANGED|
+Implicit|||||||in fact|Expansion.Level-of-detail.Arg2-as-detail||||||2011..2189||||||2191..2365|||||||||||2191|PDTB2::wsj_2234::2191::SAME|
+Implicit||||||2462..2526|in other words|Expansion.Equivalence||||||2191..2427||||||2430..2459;2529..2588|||||||||||2430|PDTB2::wsj_2234::2430::CHANGED|
+Explicit|2529..2532|||||2462..2526|but|Comparison.Concession.Arg2-as-denier||||||2430..2459||||||2533..2588|||||||||||2529..2532|PDTB2::wsj_2234::2529..2532::CHANGED|
+Explicit|2533..2535|||||2462..2526|if|Contingency.Condition.Arg2-as-cond||||||2529..2532;2556..2588||||||2536..2554|||||||||||2533..2535|PDTB2::wsj_2234::2533..2535::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||2637..2742||||||2744..2792|||||||||||2744|PDTB3|LINK2
+Explicit|2744..2747||||||and|Expansion.Conjunction||||||2637..2742||||||2748..2807|||||||||||2744..2747|PDTB2::wsj_2234::2744..2747::CHANGED|LINK2
+AltLex|2809..2840|||||||Expansion.Level-of-detail.Arg2-as-detail||||||2593..2742||||||2809..2887|||||||||||2809..2840|PDTB2::wsj_2234::2809..2840::SAME|
+Explicit|2889..2892||||||and|Expansion.Conjunction||||||2809..2887||||||2893..3095|||||||||||2889..2892|PDTB2::wsj_2234::2889..2892::SAME|
+Implicit|||||||as a result of being|Contingency.Cause.Reason||||||3154..3219||||||3099..3153|||||||||ARGM-PRD|seek|3099|PDTB3|
+EntRel||||||||||||||3223..3328||||||3330..3488|||||||||||3330|PDTB2::wsj_2234::3330::SAME|
+Explicit|3417..3422|||||3350..3370|until|Temporal.Asynchronous.Precedence||||||3371..3416||||||3423..3488|||||||||||3417..3422|PDTB2::wsj_2234::3417..3422::SAME|
+Explicit|3490..3493||||||but|Comparison.Concession.Arg2-as-denier||||||3371..3488|||||3350..3370|3494..3623||||||3625..3658|||||3490..3493|PDTB2::wsj_2234::3490..3493::CHANGED|
+Implicit|||||||but|Comparison.Concession.Arg2-as-denier||||||3662..3829||||||3831..4024|||||||||||3831|PDTB2::wsj_2234::3831::CHANGED|
+Explicit|3904..3907||||||but|Comparison.Concession.Arg2-as-denier||||||3831..3902||||||3908..4024|||||||||||3904..3907|PDTB2::wsj_2234::3904..3907::CHANGED|
+EntRel||||||||||||||3904..4024||||||4026..4072|||||||||||4026|PDTB3|
+EntRel||||||||||||||4026..4072||||||4074..4232|||||||||||4074|PDTB2::wsj_2234::4074::SAME|
+Explicit|4365..4368||||||and|Expansion.Conjunction||||||4236..4363||||||4369..4497|||||||||||4365..4368|PDTB2::wsj_2234::4365..4368::SAME|

@@ -1,0 +1,11 @@
+Implicit|||||||because of|Contingency.Cause.Reason||||||9..67||||||76..128|||||69..75||||ARGM-ADV|report|76|PDTB3|
+Implicit|||||||by contrast|Comparison.Contrast||||||176..256|||||132..175|258..330|||||||||||258|PDTB2::wsj_0325::258::SAME|
+EntRel||||||||||||||258..330||||||332..409|||||||||||332|PDTB2::wsj_0325::332::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||thereby|Expansion.Manner.Arg1-as-manner|||332..371||||||372..409|||||||||ARGM-PRP|restate|372|PDTB3|
+Implicit|||||||specifically|Expansion.Level-of-detail.Arg2-as-detail||||||413..499||||||501..673|||||||||||501|PDTB2::wsj_0325::501::SAME|
+Implicit|||||||and|Expansion.Conjunction||||||513..562||||||564..603|||||||||||564|PDTB3|
+Explicit|604..607||||||and|Expansion.Conjunction||||||564..603||||||608..673|||||||||||604..607|PDTB3|
+Explicit|758..760||||||in|Expansion.Level-of-detail.Arg1-as-detail||||||677..757||||||761..778|||||||||ARGM-ADV|charge|758..760|PDTB3|
+Implicit|||||||and|Expansion.Conjunction||||||715..778||||||780..831|||||||||||780|PDTB3|
+Explicit|832..835||||||and|Expansion.Conjunction||||||780..831||||||836..903|||||||||||832..835|PDTB3|
+Implicit|||||||as a result|Contingency.Cause.Result||||||677..903||||||922..1006|||||905..921||||||922|PDTB2::wsj_0325::922::CHANGED|

@@ -1,0 +1,8 @@
+AltLex|87..99|||||||Contingency.Cause.Reason||||||36..85||||||87..155|||||||||ARGM-CAU|rise|87..99|PDTB3|
+AltLex|160..170|||||||Contingency.Cause.Reason||||||9..85||||||156..214|||||||||ARGM-CAU|rise|160..170|PDTB3|
+Explicit|156..159||||||and|Expansion.Conjunction||||||87..155||||||160..214|||||||||||156..159|PDTB3|
+Implicit||||||218..241|while|Temporal.Synchronous||||||242..337||||||339..392|||||||||||339|PDTB2::wsj_0904::339::CHANGED|
+Explicit|424..431||||||however|Comparison.Concession.Arg2-as-denier||||||242..392|||||218..241|394..422;433..660|||||||||||424..431|PDTB2::wsj_0904::424..431::CHANGED|
+Implicit|||||||while|Temporal.Synchronous||||||664..782||||||784..832|||||||||||784|PDTB2::wsj_0904::784::CHANGED|
+Explicit|871..875||||||also|Expansion.Conjunction||||||664..782||||||834..870;876..976|||||||||||871..875|PDTB2::wsj_0904::871..875::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||1493..1559||||||1578..1682|||||1561..1577||||||1578|PDTB2::wsj_0904::1578::SAME|

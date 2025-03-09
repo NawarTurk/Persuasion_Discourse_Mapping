@@ -1,0 +1,12 @@
+EntRel||||||||||||||9..129||||||131..235|||||||||ARGM-ADV|say|131|PDTB3|
+Explicit|243..253||||||previously|Temporal.Asynchronous.Succession|||||131..235|9..129||||||239..242;254..380|||||||||||243..253|PDTB2::wsj_0289::243..253::SAME|
+Implicit|||||||as a result|Contingency.Cause.Result||||||263..380|||||239..262|382..584|||||||||||382|PDTB2::wsj_0289::382::SAME|
+Explicit|592..596||||||also|Expansion.Conjunction||||||382..584||||||588..591;597..802|||||||||||592..596|PDTB2::wsj_0289::592..596::SAME|
+Explicit|742..744||||||or|Expansion.Disjunction||||||732..741||||||745..758|||||||||||742..744|PDTB3|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||711..758||||||759..802|||||||||ARGM-PNC|take|759|PDTB3|
+Implicit|||||||because|Contingency.Cause.Reason||||||602..802|||||588..601|804..884|||||||||||804|PDTB2::wsj_0289::804::SAME|
+Explicit|904..908||||||also|Expansion.Conjunction||||||804..884||||||886..903;909..1070|||||||||||904..908|PDTB2::wsj_0289::904..908::SAME|
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||921..949||||||950..994|||||||||ARGM-PNC|shore|950|PDTB3|
+Implicit|||||||as a result|Contingency.Cause.Result||||||886..994||||||996..1070|||||||||||996|PDTB3|LINK1
+Explicit|996..999||||||and|Expansion.Conjunction||||||886..994||||||1000..1070|||||||||||996..999|PDTB2::wsj_0289::996..999::SAME|LINK1
+Implicit|||||||in order|Contingency.Purpose.Arg2-as-goal||||||1105..1143||||||1144..1186|||||||||ARGM-PNC|plan|1144|PDTB3|
